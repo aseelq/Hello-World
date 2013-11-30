@@ -1,0 +1,86 @@
+/* Font Type */
+@font-face {
+	font-family: "JannaLT-Regular";
+	src: url("../fonts/fonts/JannaLT-Regular.eot");
+	src: url("../fonts/fonts/JannaLT-Regular.eot?#iefix") format("embedded-opentype"), 
+	url("../fonts/fonts/JannaLT-Regular.woff") format("woff"), 
+	url("../fonts/fonts/JannaLT-Regular.ttf") format("truetype"), 
+	url("../fonts/fonts/JannaLT-Regular.svg#JannaLT-Regular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "JannaLT-Bold";
+	src: url("../fonts/fonts/JannaLT-Bold.eot");
+	src: url("../fonts/fonts/JannaLT-Bold.eot?#iefix") format("embedded-opentype"), 
+	url("../fonts/fonts/JannaLT-Bold.woff") format("woff"), 
+	url("../fonts/fonts/JannaLT-Bold.ttf") format("truetype"), 
+	url("../fonts/fonts/JannaLT-Bold.svg#JannaLT-Bold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+/* /Font Type */
+body{ direction:rtl; text-align:right; font:normal 12px 'JannaLT-Regular', Arial, Helvetica, sans-serif}
+
+.header_wrap{ clear:both; height:100%; width:100%; margin:0 auto; padding:0;}
+
+.waseet_hdrtop{ height:65px; background: url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/bg.jpg) repeat;}
+.waseet_hdrtop .logo{ display:inline-block; clear:none; float:right; padding:10px 0; margin:0;}
+
+.waseet_nav{ display:inline-block; padding:0; margin:0; clear:none; float:left; font-size:15px; line-height:100%;}
+.waseet_nav ul>li, .waseet_nav ul>li:hover{ padding:10px 5px; height:62px; float:right; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/separator-v.png) left center no-repeat}
+.waseet_nav ul>li.last{ background:none;}
+
+.waseet_nav .navbar-nav>li>a{ display:inline-block; padding:0; margin:0;}
+.waseet_nav ul li li, .waseet_nav ul li li:hover{ height:auto; padding:0; margin:0; float:none; display:block; background:none;}
+
+.waseet_nav .navbar-nav>li>a.country, .navbar-nav>li>a.country:hover, .navbar-nav>li>a.country:focus{ display:inline-block; padding:0; color:#696969; background:none;}
+.waseet_nav .navbar-nav>li>a .city{ display:inline-block; font-size:12px; color:#9C9C9C;}
+.waseet_nav .navbar-nav>li>.callerHeaderLnk{display:inline-block; padding:5px 0; font-size:20px; line-height:100%; vertical-align:top; cursor:default; color:#292626;}
+
+.waseet_menu{height:43px; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/menu-bar-bg.png) 0 0 repeat-x;}
+.waseet_menu .navbar-nav{ float:right; padding:0; margin:0}
+.waseet_menu .navbar-nav > li, .waseet_menu .navbar-nav > li:hover, .waseet_menu .navbar-nav > li.active{ padding:0; margin:0; float:right; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/menu-sep.png) 0 0 repeat-y}
+
+.waseet_menu .navbar-nav > li > a{ padding:0 0 0 10px; margin:0 0 0 2px; font-size:18px; height:43px; display:inline-block; color:#fcfcfc;}
+.waseet_menu .navbar-nav > li.active > a, .waseet_menu .navbar-nav > li > a:hover, .waseet_menu .navbar-nav > li > a:focus{ background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/menu-hover.png) 0 0 repeat-x}
+.waseet_menu .other_btn{ direction:ltr; float:left; clear:none; display:inline-block; padding:0; margin:0;}
+
+.waseet_submenu{ height:33px; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/light-gray-menu-bar.png) repeat-x;}
+.waseet_submenu .navbar-nav{ float:right; padding:0; margin:0}
+.waseet_submenu .navbar-nav > li{ padding:0; margin:0;}
+.waseet_submenu .navbar-nav > li > a{ font-size:16px; padding:6px 6px 6px 20px; margin:0; color:#cecece}
+.waseet_submenu .navbar-nav > li > a:hover, .waseet_submenu .navbar-nav > li > a:focus{ background:none; color:#696969}
+
+
+.waseet_search{padding-bottom:30px; background:#eaeaea url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/cars-slider-bg.png) repeat;}
+
+
+/* General Classes */
+.bold-label{ font-family:'JannaLT-Bold';}
+.grylight{color:#9C9C9C;}
+.icn_call, .flg_uae{ vertical-align:middle; display:inline-block; padding:0; margin:0; width:21px; height:33px; background:url(../images/Caller.png) 0 0 no-repeat;}
+.flg_uae{ vertical-align:top; width:26px; height:32px; background:url(../images/ae-flag.png) 0 0 no-repeat}
+
+
+.icn_property, .icn_cars, .icn_jobs, .icn_classifieds, .icn_market{ vertical-align:middle; display:inline-block; padding:0; margin:0; 
+width:32px; height:43px; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/menu-sprite.png);}
+
+.icn_property{ background-position:-101px 3px;}
+a:hover .icn_property, a:focus .icn_property, li.active > a .icn_property{ background-position:-101px -50px;}
+
+.icn_cars{ background-position:-57px 3px}
+a:hover .icn_cars, a:focus .icn_cars, li.active > a .icn_cars{ background-position:-57px -49px}
+
+.icn_jobs{ background-position:-133px 3px}
+a:hover .icn_jobs, a:focus .icn_jobs, li.active > a .icn_jobs{ background-position:-133px -49px}
+
+.icn_classifieds{ background-position:-1px 3px}
+a:hover .icn_classifieds, a:focus .icn_classifieds, li.active > a .icn_classifieds{ background-position:-1px -49px}
+
+.icn_market{ background-position:-169px 3px}
+a:hover .icn_market, a:focus .icn_market, li.active > a .icn_market{ background-position:-169px -49px}
+
+.btn_pdfitem, .btn_addcars{ vertical-align:middle; display:inline-block; padding:0; margin:9px 0 0; 
+width:135px; height:21px; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/pdf-button-new.png);}
+.btn_addcars{margin-top:4px;height:32px; width:142px; background:url(http://d2vpr50zexy5mb.cloudfront.net/sites/all/themes/alwaseet/images/add-sprite.png)
