@@ -66,6 +66,7 @@ a, a:link, a:hover{ text-decoration:none}
 .content_wrap .post .img_article .icn_share{ width:25px; height:25px;}
 
 
+.content_wrap .post h2{ width:100%}
 .content_wrap .post .post_date, .content_wrap .post .post_user{ display:inline-block; width:100%; margin:0 auto 8px; text-align:center; font-size:10px; font-style:normal; color:#1d1d1d}
 .content_wrap .post .post_detail{ padding:0 10px 2px; margin:15px 0 0}
 .content_wrap .post .post_detail p{ padding-bottom:15px;}
