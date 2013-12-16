@@ -57,13 +57,28 @@ a, a:link, a:hover{ text-decoration:none}
 
 
 .content_wrap h2{ display:inline-block; font:bold 18px/150% 'JannaLT-Regular', Arial, Helvetica, sans-serif; text-align:center; margin-bottom:10px; color:#9e1f63}
-.content_wrap h3{ display:inline-block; font:normal 13px/120% 'JannaLT-Bold', Arial, Helvetica, sans-serif; margin:0 0 8px; color:#9e1f63}
+.content_wrap h3{ font:normal 13px/120% 'JannaLT-Bold', Arial, Helvetica, sans-serif; margin:0 0 8px; color:#9e1f63}
 
 .content_wrap .banner{ display:inline-block; width:100%; margin:0 auto 5px; text-align:center}
 .content_wrap .post{ margin:0 auto}
-.content_wrap .post .img_article{ position:relative; display:inline-block; width:100%; margin:0 auto 15px; padding:1px 0; text-align:center; border:1px solid #d5d5d5; border-width:1px 0}
-.content_wrap .post .img_article .pstion_icn{ position:absolute; bottom:-12px; right:48%;}
+.content_wrap .post .img_article{ position:relative; display:inline-block; width:100%; margin:0 auto 15px; 
+padding:1px 0; text-align:center; border:1px solid #d5d5d5; border-width:1px 0}
+.content_wrap .post .img_article .pstn2_icn{ position:absolute; bottom:-12px; right:48%;}
 .content_wrap .post .img_article .icn_share{ width:25px; height:25px;}
+
+
+.content_wrap .post .vdo_article{position:relative; display:block; width:auto; margin:0 -10px 15px; text-align:center;}
+.content_wrap .post .img_article .pstn1_icn, .content_wrap .post .vdo_article .pstn1_icn{ display:inline-block; position:absolute; top:35%; right:46.7%; width:48px; height:48px; background:#9e1f63;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+.img_article .pstn1_icn .icn_play, .vdo_article .pstn1_icn .icn_play{font-size:50px; text-align:center; position:relative; right:-1px; top:-5px; display:inline-block; 
+color:#ffffff;}
+.content_wrap .post .vdo_article .media-object{ display:inline-block; overflow:inherit}
 
 
 .content_wrap .post h2{ width:100%}
@@ -109,7 +124,7 @@ border-radius:22px 0 0 22px;
 }
 .content_wrap .post_pager .previous a:hover em, .content_wrap .post_pager .next a:hover em{ background:#c63f83}
 
-.content_wrap .newsletter{border:13px solid transparent; height:40px; font-size:13px; margin:0 10px 20px;
+.content_wrap .newsletter{border:13px solid transparent; min-height:40px; font-size:13px; margin:0 10px 20px;
 background-color:#fcfcfc;
 -webkit-border-image:url(../images/grd_newsletter.png) 13 13 round; /* Safari 5 */
 -o-border-image:url(../images/grd_newsletter.png) 13 13 round; /* Opera */
@@ -206,7 +221,26 @@ box-shadow: 0 2px 1px #f8f8f8, inset 1px 2px 1px #9a9a9b;
 .carousel_mdify .carousel-indicators .active{ width:8px; height:8px; margin:1px; background:#cc006f; border:none}
 .carousel_mdify .carousel-control{ height:94%}
 
+menu{ padding:0; margin:0;}
+.menu_wrap ul.left_menu, .menu_wrap ul.left_menu li{ border-radius:0; box-shadow:none}
+.menu_wrap ul.left_menu li{ padding:0; border-left:2px solid #9e1f63; border-right:1px solid #aaaaaa}
+.menu_wrap ul.left_menu li .arrow-right{ visibility:hidden}
+.menu_wrap ul.left_menu li a{ display:inline-block; padding:12px 0; width:100%; font:normal 14px/100% 'JannaLT-Bold', Arial, Helvetica, sans-serif; 
+color:#1d1d1d; border-right:2px solid #ffffff}
+.menu_wrap ul.left_menu li:hover, .menu_wrap .list-group-item.active, .menu_wrap .list-group-item.active:hover, 
+.menu_wrap .list-group-item.active:focus{ background:#9e1f63; border-top-color:#aaaaaa;}
+.menu_wrap ul.left_menu li:hover .arrow-right, .menu_wrap .list-group-item.active .arrow-right, .menu_wrap .list-group-item.active:hover .arrow-right, 
+.menu_wrap .list-group-item.active:focus .arrow-right{ visibility:visible}
 
+.menu_wrap ul.left_menu li:hover a, .menu_wrap .list-group-item.active a, .menu_wrap .list-group-item.active:hover a, .menu_wrap .list-group-item.active:focus a{ text-shadow:none; color:#fcfcfc; border-right:2px solid #ffffff}
+
+.arrow-right{ display:inline-block; margin-left:6px;
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #ffffff;
+}
 
 /* General Classes */
 .bold-label{ font-family:'JannaLT-Bold';}
