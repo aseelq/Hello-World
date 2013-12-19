@@ -2,27 +2,27 @@
 @import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=5841ddea-2803-4e49-8ea9-946160b6ab09");
 @font-face{
 font-family:"HelveticaNeueL-Light";
-src:url("../fonts/fonts/ab7f002d-5f09-4a65-b7ad-9f01ec5bfaf0.eot?#iefix");
-src:url("../fonts/fonts/ab7f002d-5f09-4a65-b7ad-9f01ec5bfaf0.eot?#iefix") format("eot"),
-url("../fonts/fonts/b8ee7e47-48e4-4b5b-8a74-cf02708fb54a.woff") format("woff"),
-url("../fonts/fonts/074fa346-a8c5-4331-9d93-7a06123af067.ttf") format("truetype"),
-url("../fonts/fonts/e953f49c-15a9-4394-97dd-a3f230e12e0b.svg#e953f49c-15a9-4394-97dd-a3f230e12e0b") format("svg");
+src:url("../fonts/helvetica/light/ab7f002d-5f09-4a65-b7ad-9f01ec5bfaf0.eot?#iefix");
+src:url("../fonts/helvetica/light/ab7f002d-5f09-4a65-b7ad-9f01ec5bfaf0.eot?#iefix") format("eot"),
+url("../fonts/helvetica/light/b8ee7e47-48e4-4b5b-8a74-cf02708fb54a.woff") format("woff"),
+url("../fonts/helvetica/light/074fa346-a8c5-4331-9d93-7a06123af067.ttf") format("truetype"),
+url("../fonts/helvetica/light/e953f49c-15a9-4394-97dd-a3f230e12e0b.svg#e953f49c-15a9-4394-97dd-a3f230e12e0b") format("svg");
 }
 @font-face{
 font-family:"HelveticaNeueL-Mid";
-src:url("../fonts/fonts/13e78e12-2750-44d8-bc69-b572c5b3168a.eot?#iefix");
-src:url("../fonts/fonts/13e78e12-2750-44d8-bc69-b572c5b3168a.eot?#iefix") format("eot"),
-url("../fonts/fonts/00c272cd-cca1-4737-be37-73168f7c7f27.woff") format("woff"),
-url("../fonts/fonts/9669fcdb-a6a6-4b2b-8214-0ae85ba732c7.ttf") format("truetype"),
-url("../fonts/fonts/88820c1d-bb1c-4797-ae48-3d3a36fb5c10.svg#88820c1d-bb1c-4797-ae48-3d3a36fb5c10") format("svg");
+src:url("../fonts/helvetica/mid/13e78e12-2750-44d8-bc69-b572c5b3168a.eot?#iefix");
+src:url("../fonts/helvetica/mid/13e78e12-2750-44d8-bc69-b572c5b3168a.eot?#iefix") format("eot"),
+url("../fonts/helvetica/mid/00c272cd-cca1-4737-be37-73168f7c7f27.woff") format("woff"),
+url("../fonts/helvetica/mid/9669fcdb-a6a6-4b2b-8214-0ae85ba732c7.ttf") format("truetype"),
+url("../fonts/helvetica/mid/88820c1d-bb1c-4797-ae48-3d3a36fb5c10.svg#88820c1d-bb1c-4797-ae48-3d3a36fb5c10") format("svg");
 }
 @font-face{
 font-family:"HelveticaNeueL-Bold";
-src:url("../fonts/fonts/045ca244-a42a-4d4f-bc08-b0f4f54df3cc.eot?#iefix");
-src:url("../fonts/fonts/045ca244-a42a-4d4f-bc08-b0f4f54df3cc.eot?#iefix") format("eot"),
-url("../fonts/fonts/929f7332-2da4-4512-8f53-a056ed366167.woff") format("woff"),
-url("../fonts/fonts/a9fc3a1c-4466-47f7-b408-5bcf52129409.ttf") format("truetype"),
-url("../fonts/fonts/27d196fc-66d6-4630-a928-d8127601c243.svg#27d196fc-66d6-4630-a928-d8127601c243") format("svg");
+src:url("../fonts/helvetica/bold/045ca244-a42a-4d4f-bc08-b0f4f54df3cc.eot?#iefix");
+src:url("../fonts/helvetica/bold/045ca244-a42a-4d4f-bc08-b0f4f54df3cc.eot?#iefix") format("eot"),
+url("../fonts/helvetica/bold/929f7332-2da4-4512-8f53-a056ed366167.woff") format("woff"),
+url("../fonts/helvetica/bold/a9fc3a1c-4466-47f7-b408-5bcf52129409.ttf") format("truetype"),
+url("../fonts/helvetica/bold/27d196fc-66d6-4630-a928-d8127601c243.svg#27d196fc-66d6-4630-a928-d8127601c243") format("svg");
 }
 /* /Font Type */
 
@@ -46,7 +46,7 @@ legend{color:#000000;}
 input,button,textarea,select,optgroup,option{font-family:'HelveticaNeueL-Light', Arial, Helvetica, sans-serif; font-size:inherit; font-style:inherit; 
 font-weight:inherit;}
 input,button,textarea,select{font-size:100%;} 
-a, a:link, a:hover{ text-decoration:none}
+a, a:link, a:hover{ text-decoration:none; outline:none}
 /* /Style Reset */
 
 .content, .container{max-width:970px; margin:0 auto; padding:0 10px}
@@ -241,7 +241,7 @@ background: -ms-linear-gradient(top,  rgba(224,64,79,1) 0%,rgba(215,30,47,1) 1%,
 background: linear-gradient(to bottom,  rgba(224,64,79,1) 0%,rgba(215,30,47,1) 1%,rgba(176,24,39,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0404f', endColorstr='#b01827',GradientType=0 ); /* IE6-9 */
 }
-
+.waseet_menu .search_box .scrch_btn .glyphicon-search{ width:auto; font-size:15px; font-weight:normal; display:inline-block; padding:1px 4px 7px 3px}
 .deal_category{ padding:25px 0 0; margin:0; width:100%; background:#e8eae9;}
 .deal_category .sortby p{ font-weight:bold; font-size:14px; color:#696969}
 .deal_category .sortby ul, .deal_category .sortby li, .deal_category .sortby a{ padding:0; margin:0;}
@@ -251,7 +251,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0404f', end
 -moz-border-radius: 4px;
 border-radius: 4px;
 }
-.deal_category .sortby li a{ padding:2px 8px; font-size:14px; color:#0099cc; border-left:1px solid #c8ccce; border-radius: 0;
+.deal_category .sortby li a{ padding:0 8px 5px; font-size:14px; color:#0099cc; border-left:1px solid #c8ccce; border-radius: 0;
 
 background: rgb(244,244,244); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(232,233,234,1) 100%); /* FF3.6+ */
@@ -325,8 +325,8 @@ box-shadow: inset 0 1px 5px #b3b3b3;
 -moz-border-radius:3px;
 border-radius:3px;
 }
-.content_wrap .deal_banners .bnner_nmber .small{ font-size:12px; font-weight:normal}
-.content_wrap .deal_banners .bnner_nmber a{font-size:16px; font-weight:bold; padding:7px; display:inline-block; height:100%; width:100%; color:#696969; background:none; border-bottom:1px solid #fcfcfc;
+.content_wrap .deal_banners .bnner_nmber .small{ font-size:12px; font-weight:normal;}
+.content_wrap .deal_banners .bnner_nmber a{font-size:16px; font-weight:bold; padding:0 7px 10px; display:inline-block; height:100%; width:100%; color:#696969; background:none; border-bottom:1px solid #fcfcfc;
 -webkit-border-radius:0 0 3px 3px;
 -moz-border-radius:0 0 3px 3px;
 border-radius:0 0 3px 3px;
@@ -334,11 +334,11 @@ border-radius:0 0 3px 3px;
 
 .btn_catgry{ width:auto; padding:0; margin:-5px 0 0; font-size:24px; line-height:100%; color:#696969; background:none; 
 border:none; box-shadow:none; border-radius:0;}
+.btn_catgry .fa-caret-square-o-down{ font-size:17px;}
 .btn_catgry:hover, .btn_catgry:active, .btn_catgry:focus{ outline:none; background:none; box-shadow:none;}
 
 .content_wrap .deal_banners .col-xs-6{ text-align:center;}
-.content_wrap .deal_banners .row .col-xs-6:first-child .thumbnail{ float:right}
-.content_wrap .deal_banners .row .col-xs-6:last-child .thumbnail{ float:left}
+.content_wrap .deal_banners .row{ margin:0 -10px}
 
 
 .deal_popupbox .modal-dialog{ padding:15px 15px 0; margin:100px auto 10px; background:#000000; color:#fcfcfc}
@@ -356,6 +356,12 @@ border:none; box-shadow:none; border-radius:0;}
 .deal_popupbox .deal_item .thumbnail:hover .label-default{display:inline-block; position:absolute; top:5px; right:5px; padding:2px 5px 5px; margin:0; font-size:12px; font-weight:normal; background:#101010; color:#fcfcfc; border:1px solid #3c3c3c;opacity:0.7; filter: alpha(opacity=7);}
 .deal_popupbox .close{ position:absolute; top:-12px; left:-12px; z-index:10; text-shadow:none; 
 opacity:1; filter: alpha(opacity=10);}
+.deal_popupbox .close .fa-times{ padding:2px 0 0; width:30px; height:30px; font-size:20px; color:#ffffff; background:#a80125; border:2px solid #ffffff;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;
+
+}
 .deal_popupbox .deals_t3{ padding:5px 0 0}
 .deal_popupbox .deals_t3 .thumbnail{ margin:10px 0}
 
@@ -371,6 +377,29 @@ opacity:1; filter: alpha(opacity=10);}
 font-weight:normal; background:#dd1f15;}
 .deal_popupbox .modal-share .pull-left .lable_share .icn{position:absolute; top:-7px; left:-3px; vertical-align:middle}
 .deal_popupbox .modal-share .icn{ display:inline-block; text-indent:-10000px}
+
+.deal_popupbox .modal-share .pull-right .fa{padding:6px 6px 0 0; width:35px; height:35px; font-size:20px; color:#fcfcfc; border:2px solid #ffffff;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;}
+.deal_popupbox .modal-share .fa.fa-print{ background:#a80125;}
+.deal_popupbox .modal-share .fa.fa-twitter{ background:#1dcaff;}
+.deal_popupbox .modal-share .fa.fa-facebook{ padding:6px 11px 0 0; background:#3c599d;}
+.deal_popupbox .modal-share .fa.fa-google-plus{ background:#ba3526;}
+
+
+.deal_popupbox .modal-share .pull-left .fa{padding:5px 2px 0 0; width:35px; height:35px; font-size:20px; position:absolute; top:-7px; left:-3px; vertical-align:middle; color:#fcfcfc; border:2px solid #ffffff;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;
+
+-moz-box-shadow: inset 0 4px 2px #ea544c;
+-webkit-box-shadow: inset 0 4px 2px #ea544c;
+box-shadow: inset 0 4px 2px #ea544c;
+}
+.deal_popupbox .modal-share .fa.fa-envelope{ background:#e42016;}
+.deal_popupbox .modal-share .fa.fa-phone{ padding:6px 0 0; background:#e42016;}
+.deal_popupbox .modal-share .fa.fa-link{ padding:6px 0 0; background:#e42016;}
 
 
 .icn{ display:inline-block; width:21px; height:20px; padding:0; margin:0; background:url(../images/icon_saerch.png) 0 0 no-repeat;}
@@ -388,37 +417,7 @@ font-weight:normal; background:#dd1f15;}
 .icn_link{ width:50px; height:36px; background-position:0 -96px;}
 
 
-/* Media Screen 
-@media screen and (max-width: 320px){
-	.header_wrap .waseet_nav{ display:none}
-	.deal_category .deal_menu dl{ width:145px}
-}
-@media screen and (max-width: 480px){}
-@media screen and (max-width: 600px){}
-@media screen and (max-width: 768px){
-.deal_popupbox .modal-dialog{ width:970px;}
-}
-@media screen and (max-width: 800px){ 
-	.deal_category .deal_menu dl{ width:154px}
-}*/
-
-
-/* Smartphones (portrait and landscape) ----------- 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){
-	.header_wrap .waseet_nav{ display:none}
-	.deal_category .deal_menu dl{ width:145px}
-}*/
-
-/* Smartphones (landscape) ----------- 
-@media only screen
-and (min-width : 321px) {
-	.header_wrap .waseet_nav{ display:none}
-	.deal_category .deal_menu dl{ width:145px}
-}*/
-
-/* Smartphones (portrait and landscape) */
+/* Media Screen */
 @media only screen and 
 (min-width : 320px) and (max-width : 800px){
 	.header_wrap .waseet_nav{ display:none}
@@ -430,6 +429,7 @@ and (min-width : 321px) {
 	.ftr_lnks dl{ width:140px}
 	.ftr_lnks ul li{ margin-left:0}
 	.deal_popupbox .close{ display:none}
+	.content_wrap .deal_banners .col-xs-6{ text-align:inherit}
 }
 
 @media only screen and 
@@ -439,7 +439,7 @@ and (min-width : 321px) {
 	.deal_popupbox .modal-dialog{ margin-top:20px}
 	.deal_popupbox .modal-share .pull-left{ float:right !important;}
 	.deal_popupbox .modal-share{padding:0 0 15px}
-	.content_wrap .deal_banners .row .col-xs-6:last-child .thumbnail{ float:right}
+	.content_wrap .deal_banners .row{ margin:0}
 }
 
 @media only screen and 

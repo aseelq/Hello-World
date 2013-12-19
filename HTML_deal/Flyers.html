@@ -10,6 +10,7 @@
 <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/waseet_styles.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -84,7 +85,7 @@
                       <div class="form-group">
                         <input type="text" class="form-control" placeholder="ابحث عن عروض الوسيط">
                       </div>
-                      <button type="submit" class="btn btn-default scrch_btn"><em class="icn icn_search"></em></button>
+                      <button type="submit" class="btn btn-default scrch_btn"><em class="glyphicon glyphicon-search"></em></button>
 					</form>
                 </div>
             </div>
@@ -96,7 +97,7 @@
         	<div class="pull-right">
               <a href="#" id="category_tooltip" class="btn btn-default btn-sm btn_catgry" data-toggle="tooltip" data-original-title="انقر هنا للمشاركة">
                   جميع العروض 
-                  <span class="icn icn_arwbtn"></span>
+                  <span class="fa fa-caret-square-o-down"></span>
               </a>
             </div>
             
@@ -191,58 +192,56 @@
     </div>
 </div>
 
-
 <div class="content_wrap">
 	<div class="container deal_banners">
       <div class="row">
           <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
+            <a href="#" class="thumbnail onBanner">
               <img src="images/banner05.jpg" data-src="holder.js/100%x226" alt="276x226">
             </a>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
+            <a href="#" class="thumbnail onBanner">
               <img src="images/banner06.jpg" data-src="holder.js/100%x226" alt="276x226">
             </a>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
+            <a href="#" class="thumbnail onBanner">
               <img src="images/banner05.jpg" data-src="holder.js/100%x226" alt="276x226">
+            </a>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-6 col-md-4">
+            <a href="#" class="thumbnail onBanner">
+              <img src="images/banner06.jpg" data-src="holder.js/100%x226" alt="276x226">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <a href="#" class="thumbnail onBanner">
+              <img src="images/banner05.jpg" data-src="holder.js/100%x226" alt="276x226">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <a href="#" class="thumbnail onBanner">
+              <img src="images/banner06.jpg" data-src="holder.js/100%x226" alt="276x226">
             </a>
           </div>
       </div>
       
       <div class="row">
           <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="images/banner06.jpg" data-src="holder.js/100%x226" alt="276x226">
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
+            <a href="#" class="thumbnail onBanner">
               <img src="images/banner05.jpg" data-src="holder.js/100%x226" alt="276x226">
             </a>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="images/banner06.jpg" data-src="holder.js/100%x226" alt="276x226">
-            </a>
-          </div>
-      </div>
-      
-      <div class="row">
-          <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="images/banner05.jpg" data-src="holder.js/100%x226" alt="276x226">
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
+            <a href="#" class="thumbnail onBanner">
               <img src="images/banner06.jpg" data-src="holder.js/100%x226" alt="276x226">
             </a>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
+            <a href="#" class="thumbnail onBanner">
               <img src="images/banner05.jpg" data-src="holder.js/100%x226" alt="276x226">
             </a>
           </div>
@@ -261,7 +260,6 @@
       </div>
     </div>
 </div>
-
 
 <div class="footer_wrap">
 	<div class="ftr_lnks">
@@ -352,6 +350,83 @@
     </div>
 </div>
 
+<div id="dealLightbox" class="modal fade deal_popupbox" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><em class="fa fa-times"></em></button>
+        <div class="modal-content deal_item deals_t1 show">
+            <a href="#" class="thumbnail">
+                <span class="label label-default"><em class="glyphicon glyphicon-eye-open"></em> 371 مشاهد</span>
+                <img src="images/banner08.jpg" data-src="holder.js/100%x487" alt="940x487">
+            </a> 
+        </div>
+        
+        <div class="modal-content deal_item deals_t2 hide">
+            <a href="#" class="thumbnail">
+                <span class="label label-default"><em class="glyphicon glyphicon-eye-open"></em> 371 مشاهد</span>
+                <img src="images/banner07.jpg" data-src="holder.js/100%x487" alt="585x487">
+            </a> 
+        </div>
+        
+        <div class="modal-content deal_item deals_t3 hide">
+            <a href="#" class="thumbnail">
+                <span class="label label-default"><em class="glyphicon glyphicon-eye-open"></em> 371 مشاهد</span>
+                <img src="images/banner09.jpg" data-src="holder.js/100%x90" alt="728x90">
+            </a>
+            <a href="#" class="thumbnail">
+                <span class="label label-default"><em class="glyphicon glyphicon-eye-open"></em> 371 مشاهد</span>
+                <img src="images/banner10.jpg" data-src="holder.js/100%x230" alt="470x230">
+            </a>
+            <a href="#" class="thumbnail">
+                <span class="label label-default"><em class="glyphicon glyphicon-eye-open"></em> 371 مشاهد</span>
+                <img src="images/banner11.jpg" data-src="holder.js/100%x90" alt="728x90">
+            </a>
+        </div>
+        
+        <div class="modal-share">
+        	<div class="pull-right">
+                <ul>
+                    <li><a href="#"><em class="fa fa-print"></em></a></li>
+                    <li>
+                        <a href="#"><em class="fa fa-twitter"></em></a>
+                        <a href="#"><em class="fa fa-facebook"></em></a>
+                        <a href="#"><em class="fa fa-google-plus"></em></a>
+                    </li>
+                    <li><p><a href="#">شاهد المزيد في دليل الخدمات</a></p></li>
+                </ul>
+            </div>
+            
+            <div class="pull-left">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="label label-default lable_share">
+                                almishw@waseet.com 
+                                <em class="fa fa-envelope"></em>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="label label-default lable_share">
+                                0127 00000
+                                <em class="fa fa-phone"></em>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="label label-default lable_share">
+                                www.alwaseet.net
+                                <em class="fa fa-link"></em>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
@@ -359,15 +434,21 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 
 <script>
-/* Toggle Layalina Search */
+/* Toggle Deal Categories */
 $(".btn_catgry").click(function() {
 	$(".deal_menu").slideToggle(200);
 });
-/* /Toggle Layalina Search */
+/* /Toggle Deal Categories */
 
-
-
+/* Tooltip Deal Categories */
 $('#category_tooltip').tooltip({placement:'left'});
+/* /Tooltip Deal Categories */
+
+/* Toggle Deal Banner box */
+$('.onBanner').click(function() {
+	$('#dealLightbox').modal('show');
+});
+/* /Toggle Deal Banner box */
 </script>
 </body>
 </html>
