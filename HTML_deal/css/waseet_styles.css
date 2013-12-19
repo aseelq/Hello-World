@@ -113,7 +113,7 @@ border-radius: 3px;}
 .footer_wrap .copy_right ul li{ padding:0 0 0 5px; margin:0; clear:none; float:right}
 .footer_wrap .copy_right ul li:after{ content:"."}
 .footer_wrap .copy_right ul li.last{ margin:0;}
-.footer_wrap .copy_right ul li a{ padding-left:10px; color:#9c9c9c;}
+.footer_wrap .copy_right ul li a{ line-height:normal; padding-left:10px; color:#9c9c9c;}
 .footer_wrap .copy_right ul li a:hover {color:#696969;}
 .footer_wrap .copy_right p{ text-align:center}
 
@@ -355,7 +355,7 @@ border:none; box-shadow:none; border-radius:0;}
 .deal_popupbox .deal_item .thumbnail .label-default{ display:none}
 .deal_popupbox .deal_item .thumbnail:hover .label-default{display:inline-block; position:absolute; top:5px; right:5px; padding:2px 5px 5px; margin:0; font-size:12px; font-weight:normal; background:#101010; color:#fcfcfc; border:1px solid #3c3c3c;opacity:0.7; filter: alpha(opacity=7);}
 .deal_popupbox .close{ position:absolute; top:-12px; left:-12px; z-index:10; text-shadow:none; 
-opacity:1; filter: alpha(opacity=10);}
+opacity:1.0; filter: alpha(opacity=100);}
 .deal_popupbox .close .fa-times{ padding:2px 0 0; width:30px; height:30px; font-size:20px; color:#ffffff; background:#a80125; border:2px solid #ffffff;
 -webkit-border-radius:30px;
 -moz-border-radius:30px;
@@ -375,8 +375,7 @@ border-radius:30px;
 .deal_popupbox .modal-share .pull-left ul li:last-child{margin-left:5px; padding-left:0;}
 .deal_popupbox .modal-share .pull-left .lable_share{ padding:5px 5px 5px 37px; position:relative; display:inline-block; height:100%; 
 font-weight:normal; background:#dd1f15;}
-.deal_popupbox .modal-share .pull-left .lable_share .icn{position:absolute; top:-7px; left:-3px; vertical-align:middle}
-.deal_popupbox .modal-share .icn{ display:inline-block; text-indent:-10000px}
+
 
 .deal_popupbox .modal-share .pull-right .fa{padding:6px 6px 0 0; width:35px; height:35px; font-size:20px; color:#fcfcfc; border:2px solid #ffffff;
 -webkit-border-radius:30px;
@@ -401,20 +400,6 @@ box-shadow: inset 0 4px 2px #ea544c;
 .deal_popupbox .modal-share .fa.fa-phone{ padding:6px 0 0; background:#e42016;}
 .deal_popupbox .modal-share .fa.fa-link{ padding:6px 0 0; background:#e42016;}
 
-
-.icn{ display:inline-block; width:21px; height:20px; padding:0; margin:0; background:url(../images/icon_saerch.png) 0 0 no-repeat;}
-.icn_search{width:21px; height:20px;}
-.icn_arwbtn{ vertical-align:middle; width:16px; height:16px; background-position:0 -31px}
-.icn_close{ width:30px; height:30px; background-position:0 -56px;}
-
-.icn_print{ width:36px; height:35px; background-position:0 -370px;}
-.icn_twter{ width:36px; height:35px; background-position:0 -325px;}
-.icn_fcbook{ width:36px; height:35px; background-position:0 -279px;}
-.icn_gplus{ width:36px; height:35px; background-position:0 -233px;}
-
-.icn_mail{  width:50px; height:36px; background-position:0 -187px;}
-.icn_phone{ width:50px; height:36px; background-position:0 -141px;}
-.icn_link{ width:50px; height:36px; background-position:0 -96px;}
 
 
 /* Media Screen */
