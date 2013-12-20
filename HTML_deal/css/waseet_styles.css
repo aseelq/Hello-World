@@ -55,21 +55,31 @@ a, a:link, a:hover{ text-decoration:none; outline:none}
 
 .header_wrap{ clear:both; height:100%; width:100%; margin:0 auto 25px; padding:0;}
 .header_wrap .navbar-collapse{ padding:0;}
-.header_wrap .waseet_hdrtop{ height:65px; background: url(../images/bg.jpg) repeat;}
+.header_wrap .waseet_hdrtop{background: url(../images/bg.jpg) repeat;}
+.header_wrap .waseet_hdrtop .navbar-default{ margin-bottom:0; background:none; border:none; border-radius:0; box-shadow:none}
 .waseet_hdrtop .logo{ display:inline-block; clear:none; float:right; padding:10px 0; margin:0;}
 
-.header_wrap .waseet_nav{ display:inline-block; padding:0; margin:0; clear:none; float:left; font-size:15px; line-height:100%;}
+.header_wrap .waseet_nav{ /*display:inline-block;*/ clear:none; padding:0; margin:0;  float:left; font-size:15px; line-height:100%;}
 .waseet_nav ul>li, .waseet_nav ul>li:hover{ padding:10px 5px; height:62px; float:right; background:url(../images/separator-v.png) left center no-repeat}
 .waseet_nav ul>li.last{ background:none;}
 .waseet_nav ul li li, .waseet_nav ul li li:hover{ height:auto; padding:0; margin:0; float:none; display:block; background:none;}
 .waseet_nav ul li li.divider, .waseet_nav ul li li.divider:hover{height: 1px; margin: 9px 1px; overflow: hidden; background: #e5e5e5;}
 
 .waseet_nav .navbar-nav>li>a{ display:inline-block; padding:0; margin:0;}
-.waseet_nav .navbar-nav>li>a.country, .navbar-nav>li>a.country:hover, .navbar-nav>li>a.country:focus{ display:inline-block; padding:0; color:#696969; background:none;}
+.waseet_nav .navbar-nav>.open>a.country, .navbar-nav>.open>a.country:hover, .navbar-nav>.open>a.country:focus{ display:inline-block; padding:0; color:#696969; background:none;}
 .waseet_nav .navbar-nav>li>a .city{ display:inline-block; font-size:12px; color:#9C9C9C;}
 .waseet_nav .navbar-nav>li>.callerHeaderLnk{display:inline-block; padding:5px 0; font-size:20px; line-height:100%; vertical-align:top; cursor:default; color:#292626;}
 
-.header_wrap .waseet_menu{height:43px; background:url(../images/menu-bar-bg.png) 0 0 repeat-x;}
+.header_wrap .waseet_menu{height:43px; 
+background: #2e2d2d; /* Old browsers */
+background: -moz-linear-gradient(top,  #2e2d2d 0%, #1b1b1b 50%, #010101 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e2d2d), color-stop(50%,#1b1b1b), color-stop(100%,#010101)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2e2d2d 0%,#1b1b1b 50%,#010101 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2e2d2d 0%,#1b1b1b 50%,#010101 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2e2d2d 0%,#1b1b1b 50%,#010101 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #2e2d2d 0%,#1b1b1b 50%,#010101 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2d2d', endColorstr='#010101',GradientType=0 ); /* IE6-9 */
+}
 .waseet_menu .navbar-nav{ float:right; padding:0; margin:0}
 .waseet_menu .navbar-nav > li, .waseet_menu .navbar-nav > li:hover, .waseet_menu .navbar-nav > li.active{ padding:0; margin:0; float:right; background:url(../images/menu-sep.png) 0 0 repeat-y}
 
@@ -405,7 +415,13 @@ box-shadow: inset 0 4px 2px #ea544c;
 /* Media Screen */
 @media only screen and 
 (min-width : 320px) and (max-width : 800px){
-	.header_wrap .waseet_nav{ display:none}
+	.header_wrap .waseet_nav{ margin:0; width:100%}
+	.header_wrap .waseet_nav ul{width:100%; z-index:100; background:#E8EAE9}
+	.header_wrap .waseet_nav ul li{ width:100%; display:block; border-bottom:1px solid #BFC1C0}
+	.header_wrap .waseet_nav .navbar-nav{ margin:0}
+	.header_wrap .waseet_nav .navbar-nav .open .dropdown-menu{ display:none}
+	
+	
 	.deal_category .deal_menu dl{ width:145px}
 	.btn_catgry{ margin-bottom:10px;}
 	.header_wrap .waseet_menu .collapse{ display:inline-block}
@@ -419,6 +435,9 @@ box-shadow: inset 0 4px 2px #ea544c;
 
 @media only screen and 
 (min-width : 320px) and (max-width : 1024px){
+	.header_wrap .waseet_hdrtop .container{ padding:0}
+	.header_wrap .waseet_hdrtop .navbar-header{ padding:0 10px}
+	
 	.ftr_lnks .waseet_follws{ float:right; width:50%}
 	.deal_category .deal_menu dl{width: 140px;}
 	.deal_popupbox .modal-dialog{ margin-top:20px}
@@ -430,4 +449,13 @@ box-shadow: inset 0 4px 2px #ea544c;
 @media only screen and 
 (min-width: 1024px){
 .deal_popupbox .modal-dialog{ width:970px;}
+}
+
+@media only screen and 
+(min-width: 768px) and  (max-width: 800px){
+	.header_wrap .waseet_nav{ width:inherit}
+	.header_wrap .waseet_nav ul{width:inherit; background:none}
+	.header_wrap .waseet_nav .dropdown-menu{ background:#ffffff}
+	.header_wrap .waseet_nav ul li{ width:inherit; border-bottom:none}
+	.header_wrap .waseet_nav .navbar-nav .open .dropdown-menu{ display:block}
 }
