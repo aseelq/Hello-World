@@ -37,7 +37,7 @@
                            <em class="glyphicon glyphicon-search"></em>
                         </button>
                         
-                        <div class="dropdown-search">
+                        <div id="dropdownSearch" class="dropdown-search">
                         	<div class="input-group">
                               <input type="text" class="form-control input-sm" placeholder="نانسي عجرم">
                               <span class="input-group-btn">
@@ -94,13 +94,15 @@
                                    <span class="fa fa-filter"></span>
                                 </button>
                                 
-                                <div class="dropdown-filter">
+                                <div id="dropdownFilter" class="dropdown-filter">
                                     <div class="row checkfield">
                                         <div class="radio-inline">
-                                          <label><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> عربي</label>
+                                        	<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>  
+                                            <label for="optionsRadios1">عربي</label>  
                                         </div>
                                         <div class="radio-inline">
-                                          <label><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">عالمي</label>
+                                         	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">  
+                                            <label for="optionsRadios2">عالمي</label> 
                                         </div>
                                     </div>
                                     
@@ -108,10 +110,10 @@
                                         <div class="input-group col-xs-4">
                                           <input type="text" class="form-control input-lg" placeholder="المصمم">
                                           <div class="input-group-btn">
-                                            <button type="button" class="btn btn-default dropdown-toggle country_btn" id="dropdownMenu2" data-toggle="dropdown">
+                                            <button type="button" class="btn btn-default dropdown-toggle country_btn" id="dropdownMenu4" data-toggle="dropdown">
                                                 <span class="fa fa-chevron-down"></span>
                                             </button>
-                                            <ul class="dropdown-menu" id="menu2" role="menu" aria-labelledby="dropdownMenu2">
+                                            <ul class="dropdown-menu" id="menu4" role="menu" aria-labelledby="dropdownMenu4">
                                                 <li><a href="#">كل الموقع</a></li>
                                                 <li><a href="#">Another action</a></li>
                                                 <li><a href="#">Something else here</a></li>
@@ -142,10 +144,10 @@
                                         <div class="input-group col-xs-4">
                                           <input type="text" class="form-control input-sm" placeholder="السنة">
                                           <div class="input-group-btn">
-                                            <button type="button" class="btn btn-default dropdown-toggle hrscope_btn" id="dropdownMenu2" data-toggle="dropdown">
+                                            <button type="button" class="btn btn-default dropdown-toggle hrscope_btn" id="dropdownMenu3" data-toggle="dropdown">
                                                 <span class="fa fa-chevron-down"></span>
                                             </button>
-                                            <ul class="dropdown-menu" id="menu2" role="menu" aria-labelledby="dropdownMenu2">
+                                            <ul class="dropdown-menu" id="menu3" role="menu" aria-labelledby="dropdownMenu3">
                                                 <li><a href="#">كل الموقع</a></li>
                                                 <li><a href="#">Another action</a></li>
                                                 <li><a href="#">Something else here</a></li>
@@ -349,6 +351,34 @@ $('.carousel').carousel({
   interval: 2000
 })
 // end Carousel Options
+
+/* Toggle Layalina Search */
+$(".search_btn").click(function() {
+	$("#dropdownSearch").slideToggle(200);
+	$(".search_box").addClass("active"); 	
+});
+/* /Toggle Layalina Search */
+
+/* Toggle Layalina Filter */
+$(".filter_btn").click(function() {
+	$("#dropdownFilter").slideToggle(200);
+	$(".filter_box").addClass("active");
+});
+
+/*
+$(document).ready( function(){
+	$(".filter_btn").click(function() {
+		$("#dropdownFilter").slideToggle(200);
+		$(".filter_box").addClass("active");
+		event.stopPropagation();
+	});
+	
+	$(document).click( function(){
+		$("#dropdownFilter").hide();
+		$(".filter_box").removeClass("active");
+	});
+});*/
+/* /Toggle Layalina Filter */
 </script>
 </body>
 </html>

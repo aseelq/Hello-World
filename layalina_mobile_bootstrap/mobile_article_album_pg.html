@@ -37,7 +37,7 @@
                            <em class="glyphicon glyphicon-search"></em>
                         </button>
                         
-                        <div class="dropdown-search">
+                        <div id="dropdownSearch" class="dropdown-search">
                         	<div class="input-group">
                               <input type="text" class="form-control input-sm" placeholder="نانسي عجرم">
                               <span class="input-group-btn">
@@ -259,6 +259,12 @@
 /* Tooltip Album */
 $('#album_tooltip').tooltip({placement:'bottom'});
 /* /Tooltip Album */
+
+/* Toggle Layalina Search */
+$(".search_btn").click(function() {
+	$("#dropdownSearch").slideToggle(200);
+});
+/* /Toggle Layalina Search */
 </script>
 </body>
 </html>

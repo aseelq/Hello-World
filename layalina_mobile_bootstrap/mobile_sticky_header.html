@@ -14,7 +14,6 @@
 <link href="css/layalina_mobile.css" rel="stylesheet">
 
 
-
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -26,9 +25,9 @@
 <!--<script type="text/javascript" src="http://fast.fonts.com/jsapi/a2ea2a35-ef25-4798-8813-6bdf75fc7eda.js"></script>-->
 </head>
 
-<body>
+<body class="body_hdrsticky">
 <header>
-    <div class="navbar navbar-default header_wrap header" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top header_wrap header hide" role="navigation">
         <div class="container">
             <div class="search_wrap">
             	<div class="input-group">
@@ -62,7 +61,61 @@
             </div>
          </div>
     </div>
+    
+    <div class="navbar navbar-default navbar-fixed-top header_wrap header" role="navigation">
+        <div class="container">
+        	<div class="search_wrap">
+            	<div class="input-group">
+                    <div class="input-group-btn search_box">
+                        <button type="button" class="btn btn-defaulta search_btn">
+                           <em class="glyphicon glyphicon-search"></em>
+                        </button>
+                        
+                        <div id="dropdownSearch02" class="dropdown-search">
+                        	<div class="input-group">
+                              <input type="text" class="form-control input-sm" placeholder="نانسي عجرم">
+                              <span class="input-group-btn">
+                                <button class="btn btn-default rmove_btn" type="button">
+                                	<em class="glyphicon glyphicon-remove"></em>
+                                </button>
+                              </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hdr_rside">
+            	<button type="button" class="btn btn-defaulta rsize_btn">
+                   <em class="icn_rsize"></em>
+                </button>
+            </div>
+            
+            <div class="hdr_center">
+                <a href="#" class="share_btn hide">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="share_btn hide">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#" class="plus_btn">
+                    <i class="fa fa-plus"></i>
+                </a>
+            </div>
+            
+            <div class="hdr_lside">
+            	<button type="button" class="btn btn-defaulta rmove_btn">
+                   <em class="glyphicon glyphicon-remove"></em>
+                </button>
+            </div>
+            
+            <div class="hdr_lside">
+            	<div class="logo_lft"><a href="#"><img src="images/logo_layalina.png" alt="" /></a></div>
+            </div>
+         </div>
+    </div>
 </header>
+
 
 <section>
     <div class="content_wrap section">
@@ -251,6 +304,9 @@
 /* Toggle Layalina Search */
 $(".search_btn").click(function() {
 	$("#dropdownSearch").slideToggle(200);
+});
+$(".search_btn").click(function() {
+	$("#dropdownSearch02").slideToggle(200);
 });
 /* /Toggle Layalina Search */
 </script>
