@@ -313,12 +313,12 @@ border-radius:3px 0 0 3px;
 .filter_wrap .input-group .pstion_box .dropdown-menu{ width:100%; float:right; right:auto; left:0}
 
 
-.filter_wrap .filter_btn, .filter_wrap .input-group-btn:last-child>.btn.filter_btn{margin-right:4px; background:#ffffff; color:#9e1f63; border:none; box-shadow:none;
+.filter_wrap .filter_btn, .filter_wrap .input-group-btn:last-child>.btn.filter_btn{outline:none; margin-right:4px; background:#ffffff; color:#9e1f63; border:none; box-shadow:none;
 -webkit-border-radius:3px;
 -moz-border-radius:3px;
 border-radius:3px}
 .filter_wrap .input-group .filter_box .filter_btn:hover{background:#781447; color:#fcfcfc;}
-.filter_wrap .active:last-child>.btn.filter_btn ,.filter_wrap .input-group .filter_box .filter_btn:active, .filter_wrap .input-group .filter_box .filter_btn:focus{ background:#781447; color:#fcfcfc;
+.filter_wrap .active:last-child>.btn.filter_btn ,.filter_wrap .input-group .filter_box .filter_btn:active{ background:#781447; color:#fcfcfc;
 -webkit-border-radius:3px 3px 0 0;
 -moz-border-radius:3px 3px 0 0;
 border-radius:3px 3px 0 0;
@@ -371,12 +371,12 @@ box-shadow: inset 0 0 10px 5px #781447;
 
 
 
-.search_wrap .search_btn, .search_wrap .input-group-btn:first-child>.btn.search_btn, .menu_lstbtn .mnu_btn, .hdr_lside .rmove_btn, .hdr_rside .rsize_btn{ font-size:17px; padding-bottom:3px; margin:0; color:#fcfcfc; background:none; 
+.search_wrap .search_btn, .search_wrap .input-group-btn:first-child>.btn.search_btn, .menu_lstbtn .mnu_btn, .hdr_lside .rmove_btn, .hdr_rside .rsize_btn{outline:none; font-size:17px; padding-bottom:3px; margin:0; color:#fcfcfc; background:none; 
 -webkit-border-radius:0;
 -moz-border-radius:0;
 border-radius:0;}
 .search_wrap .input-group .search_box .search_btn:hover, .menu_lstbtn .mnu_btn:hover, .hdr_lside .rmove_btn:hover, .hdr_rside .rsize_btn:hover{background:#77174b; color:#d2b3c4;}
-.search_wrap .active:first-child>.btn.search_btn, .search_wrap btn.active, .search_wrap .input-group .search_box .search_btn:active, .search_wrap .input-group .search_box .search_btn:focus, .menu_lstbtn .mnu_btn:active, .menu_lstbtn .mnu_btn:focus, .hdr_lside .rmove_btn:active, .hdr_lside .rmove_btn:focus, .hdr_rside .rsize_btn:active, .hdr_rside .rsize_btn:focus{ outline:none; background:#781447; color:#fcfcfc;
+.search_wrap .active:first-child>.btn.search_btn, .search_wrap btn.active, .search_wrap .input-group .search_box .search_btn:active, .menu_lstbtn .mnu_btn:active, .menu_lstbtn .mnu_btn:focus, .hdr_lside .rmove_btn:active, .hdr_lside .rmove_btn:focus, .hdr_rside .rsize_btn:active, .hdr_rside .rsize_btn:focus{ background:#781447; color:#fcfcfc;
 -webkit-border-radius:0;
 -moz-border-radius:0;
 border-radius:0;

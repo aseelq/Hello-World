@@ -263,6 +263,12 @@ $('#album_tooltip').tooltip({placement:'bottom'});
 /* Toggle Layalina Search */
 $(".search_btn").click(function() {
 	$("#dropdownSearch").slideToggle(200);
+	if($(".search_box").hasClass("active")){
+		$(".search_box").removeClass("active");
+	}
+	else if(!$('.search_box').hasClass("active")){
+		$(".search_box").addClass("active");
+	} 	
 });
 /* /Toggle Layalina Search */
 </script>

@@ -355,29 +355,26 @@ $('.carousel').carousel({
 /* Toggle Layalina Search */
 $(".search_btn").click(function() {
 	$("#dropdownSearch").slideToggle(200);
-	$(".search_box").addClass("active"); 	
+	if($(".search_box").hasClass("active")){
+		$(".search_box").removeClass("active");
+	}
+	else if(!$('.search_box').hasClass("active")){
+		$(".search_box").addClass("active");
+	} 	
 });
 /* /Toggle Layalina Search */
 
 /* Toggle Layalina Filter */
 $(".filter_btn").click(function() {
 	$("#dropdownFilter").slideToggle(200);
-	$(".filter_box").addClass("active");
-});
-
-/*
-$(document).ready( function(){
-	$(".filter_btn").click(function() {
-		$("#dropdownFilter").slideToggle(200);
-		$(".filter_box").addClass("active");
-		event.stopPropagation();
-	});
 	
-	$(document).click( function(){
-		$("#dropdownFilter").hide();
+	if($(".filter_box").hasClass("active")){
 		$(".filter_box").removeClass("active");
-	});
-});*/
+	}
+	else if(!$('.filter_box').hasClass("active")){
+		$(".filter_box").addClass("active");
+	}
+});
 /* /Toggle Layalina Filter */
 </script>
 </body>
