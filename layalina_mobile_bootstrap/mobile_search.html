@@ -64,19 +64,35 @@
     </div>
 </header>
 
+
 <section>
     <div class="content_wrap section">
-    	<div class="container">
-        	<div class="album_pg">
+        <div class="container">
+            <div class="search_pg">
+            	<div class="no_rsult hide">
+                	<p>نأسف! لا يوجد أي نتائج لعملية البحث التي أجريتها جرب البحث عن كلمات أخرى.</p>
+                </div>
+                
                 <div class="post_list">
-                    <div class="btns_div">
-                        <button type="button" class="btn btn-default center-block rpeat_btn">
-                            <em class="fa fa-repeat"></em><span class="txt">إعادة عرض الصور</span>
-                        </button>
+                    <div class="filter_wrap">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="كل الموقع">
+                            <div class="input-group-btn pstion_box">
+                                <button type="button" class="btn btn-default dropdown-toggle pstion_btn" id="dropdownMenu1" data-toggle="dropdown">
+                                   <span class="fa fa-chevron-down"></span>
+                                </button>
+                                <ul class="dropdown-menu" id="menu1" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">كل الموقع</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="post_group">
-                        <h3>ألبومات ذات صلة</h3>
                         <ul class="media-list post_item">
                           <li class="media">
                             <span class="pull-right">
@@ -121,12 +137,18 @@
         </div>
     </div>
 </section>
-
-
+     
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script>
+// Carousel Options
+$('.carousel').carousel({
+  interval: 2000
+})
+// end Carousel Options
+</script>
 </body>
 </html>
