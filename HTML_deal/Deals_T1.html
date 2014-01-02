@@ -281,22 +281,22 @@
 		</div>
         
       <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner03.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner04.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner03.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner04.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
@@ -304,22 +304,22 @@
         </div>
         
 	  <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner03.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner04.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner03.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-3">
+          <div class="col-xs-4 col-md-3 col-sm-3">
             <a href="#" class="thumbnail onBanner">
               <img src="images/banner04.jpg" data-src="holder.js/100%x96" alt="196x96">
             </a>
@@ -549,6 +549,28 @@ $('.clickContact').mouseleave(function() {
 	$(this).removeClass('full_rsize');
 });
 /* /click to Expand Share Label */
+
+/* support placeholder IE9 */
+$(function() {
+	if(!$.support.placeholder) { 
+		var active = document.activeElement;
+		$(':text').focus(function () {
+			if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+				$(this).val('').removeClass('hasPlaceholder');
+			}
+		}).blur(function () {
+			if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+				$(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+			}
+		});
+		$(':text').blur();
+		$(active).focus();
+		$('form').submit(function () {
+			$(this).find('.hasPlaceholder').each(function() { $(this).val(''); });
+		});
+	}
+});
+/* /support placeholder IE9 */
 </script>
 </body>
 </html>
