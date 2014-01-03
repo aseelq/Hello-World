@@ -554,6 +554,7 @@ filter: FlipH;
 
 /* Just Mobile Portrait */
 @media only screen and (max-width: 479px) {
+	.deal_category{ padding-top:55px;}
 	.waseet_menu .search_box{position:relative;}
 	.waseet_menu .search_box .form-group{display:inline-block; float:right; left:-10px; position:absolute; top:42px; min-width:320px; background:#333333;}
 	.waseet_menu .search_box .form-control{margin:8px 20px 8px 0; width:90%;}
