@@ -41,7 +41,7 @@ legend{color:#000000;}
 input,button,textarea,select,optgroup,option{font-family:'JannaLT-Regular', Arial, Helvetica, sans-serif; font-size:inherit; font-style:inherit; 
 font-weight:inherit;}
 input,button,textarea,select{font-size:100%;} 
-a, a:link, a:hover{ text-decoration:none}
+a, a:link, a:hover{ text-decoration:none; outline:none;}
 /* /Style Reset */
 
 .content, .container{max-width:970px; margin:0 auto; padding:0}
@@ -455,6 +455,13 @@ border-radius: 5px;
 .newslter_popupbox .newsletter .nws_thnx .nwspnk{ font-size:18px; color:#9d1f66}
 
 
+.share_popupIcns{ position:absolute; z-index:20}
+.share_popupIcns .fa-facebook, .share_popupIcns .fa-twitter{padding:8px 14px 0 0; width:35px; height:35px; font-size:22px; color:#fcfcfc; 
+background:#00539F; border:none;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;}
+.share_popupIcns .fa-twitter{padding:8px 8px 0 0; background:#61a8de}
 
 
 
