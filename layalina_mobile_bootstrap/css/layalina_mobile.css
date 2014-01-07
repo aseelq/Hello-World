@@ -25,7 +25,7 @@
 html{color:#000000; background:#FFFFFF;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0; padding:0; 
 font-family:'JannaLT-Regular', Arial, Helvetica, sans-serif}
-body{ direction:rtl; text-align:right;  background:url(../images/bg.jpg) 0 0 repeat}
+body{ direction:rtl; text-align:right;}
 table{border-collapse:collapse; border-spacing:0;}
 fieldset,img{border:0;}
 address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;}
@@ -272,9 +272,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc0068', end
 
 menu{ padding:0; margin:0;}
 .menu_wrap ul.left_menu, .menu_wrap ul.left_menu li{ border-radius:0; box-shadow:none}
-.menu_wrap ul.left_menu li{ padding:0; border-left:2px solid #9e1f63; border-right:1px solid #aaaaaa}
+.menu_wrap ul.left_menu li{ padding:0; border-left:2px solid #9e1f63; border-right:none /*1px solid #aaaaaa*/}
 .menu_wrap ul.left_menu li .arrow-right{ visibility:hidden}
-.menu_wrap ul.left_menu li a{ display:inline-block; padding:12px 0; width:100%; font:normal 14px/100% 'JannaLT-Bold', Arial, Helvetica, sans-serif; 
+.menu_wrap ul.left_menu li a{ display:inline-block; padding:11px 0; width:100%; font:normal 14px/100% 'JannaLT-Bold', Arial, Helvetica, sans-serif; 
 color:#1d1d1d; border-right:2px solid #ffffff}
 .menu_wrap ul.left_menu li:hover, .menu_wrap .list-group-item.active, .menu_wrap .list-group-item.active:hover, 
 .menu_wrap .list-group-item.active:focus{ background:#9e1f63; border-top-color:#aaaaaa;}
@@ -463,7 +463,16 @@ background:#00539F; border:none;
 border-radius:30px;}
 .share_popupIcns .fa-twitter{padding:8px 8px 0 0; background:#61a8de}
 
-
+/* JQuery Menu changes */
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{ border:1px solid #aaaaaa; border-width:0 0 1px 0}
+.list-group-item{ border-width:0 0 1px 0}
+.mm-ismenu{ background:#ffffff}
+.mm-menu > .mm-panel{ padding:0 20px}
+.mm-list > li > a, .mm-list > li > span{ overflow:inherit}
+.mm-menu .mm-list > li:after{ border:none}
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-noresults)::after{ border:none}
+html.mm-opened .mm-page{ box-shadow:none}
+html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker{ border-left:1px solid #aaaaaa}
 
 
 /* General Classes */
