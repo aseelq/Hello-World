@@ -473,6 +473,7 @@ border-radius:30px;}
 .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-noresults)::after{ border:none}
 html.mm-opened .mm-page{ box-shadow:none}
 html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker{ border-left:1px solid #aaaaaa}
+.mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span{ background:none}
 
 
 /* General Classes */
