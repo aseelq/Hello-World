@@ -277,7 +277,7 @@ menu{ padding:0; margin:0;}
 .menu_wrap ul.left_menu li a{ display:inline-block; padding:11px 0; width:100%; font:normal 14px/100% 'JannaLT-Bold', Arial, Helvetica, sans-serif; 
 color:#1d1d1d; border-right:2px solid #ffffff}
 .menu_wrap ul.left_menu li:hover, .menu_wrap .list-group-item.active, .menu_wrap .list-group-item.active:hover, 
-.menu_wrap .list-group-item.active:focus{ background:#9e1f63; border-top-color:#aaaaaa;}
+.menu_wrap .list-group-item.active:focus{ background:#9e1f63; filter:none; border-top-color:#aaaaaa;}
 .menu_wrap ul.left_menu li:hover .arrow-right, .menu_wrap .list-group-item.active .arrow-right, .menu_wrap .list-group-item.active:hover .arrow-right, 
 .menu_wrap .list-group-item.active:focus .arrow-right{ visibility:visible}
 
