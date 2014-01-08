@@ -69,6 +69,7 @@ border-radius:30px;
 -moz-border-radius:30px;
 border-radius:30px;}
 
+.header_wrap .hdr_rside{ position:relative}
 .header_wrap .hdr_rside .rsize_btn{ float:right; clear:none; display:inline-block;}
 .header_wrap .hdr_rside .rsize_btn .icn_rsize{ display:inline-block; width:18px; height:16px; background:url(../images/icn_resize.png) 0 0 no-repeat}
 .header_wrap .hdr_lside .rmove_btn{float:left; font-size:12px; padding:8px 12px;}
@@ -474,6 +475,32 @@ border-radius:30px;}
 html.mm-opened .mm-page{ box-shadow:none}
 html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker{ border-left:1px solid #aaaaaa}
 .mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span{ background:none}
+
+/*  JQuery Slider Font Resize */
+.slider_font{ display:none; position:absolute; top:42px; right:40px; width:32px; margin:0 auto; padding:10px 0; text-align:center; border:1px solid #c1c1c1; 
+background:#ffffff}
+.slider_font:before, .slider_font:after {
+content: ""; z-index:9;
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-color: transparent;
+border-top: 0;}
+.slider_font:before {top:-6px; right: 9px; border-bottom-color:#c1c1c1; border-width:6px; /* Stroke */}
+.slider_font:after {top:-5px; right: 10px; border-bottom-color:#ffffff; border-width:5px; /* Fill */}
+
+.slider_font .ui-widget-header{ background:none;}
+.slider_font .ui-slider-vertical .ui-slider-handle{left: -.5em;  background:#bb1f68; border:2px solid #ffffff;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;}
+.slider_font .ui-widget-content{ background:#404040}
+.slider_font .ui-slider-vertical{ width:0.2em; margin:0 auto; height:70px;}
+
+
+
+
 
 
 /* General Classes */
