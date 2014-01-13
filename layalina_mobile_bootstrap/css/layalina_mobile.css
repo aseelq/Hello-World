@@ -456,13 +456,7 @@ border-radius: 5px;
 .newslter_popupbox .newsletter .nws_thnx .nwspnk{ font-size:18px; color:#9d1f66}
 
 
-.share_popupIcns{ position:absolute; z-index:20}
-.share_popupIcns .fa-facebook, .share_popupIcns .fa-twitter{padding:8px 14px 0 0; width:35px; height:35px; font-size:22px; color:#fcfcfc; 
-background:#00539F; border:none;
--webkit-border-radius:30px;
--moz-border-radius:30px;
-border-radius:30px;}
-.share_popupIcns .fa-twitter{padding:8px 8px 0 0; background:#61a8de}
+
 
 /* JQuery Menu changes */
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{ border:1px solid #aaaaaa; border-width:0 0 1px 0}
@@ -498,9 +492,31 @@ border-radius:30px;}
 .slider_font .ui-widget-content{ background:#404040}
 .slider_font .ui-slider-vertical{ width:0.2em; margin:0 auto; height:70px;}
 
+/*  JQuery Share Buttons */
+.share_popupIcns { font-size:21px; width:25px; height:25px; text-align:center; vertical-align:middle; display:block; 
+background:#ffffff; color:#9e1f63;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
 
+position: absolute; 
+z-index:20; 
+top: 20px;
+right: -8px;
+}
 
+.share_popupIcns li, .content_wrap .post_list ul.media-list .share_popupIcns li{position:absolute; background:none; border:0; box-shadow:none;
+ padding:0; margin:0;}
+.share_popupIcns ul.reset, .share_popupIcns ul.reset li{ display:block; list-style:none; padding:0; margin:0; }
+.share_popupIcns ul.reset li a{ outline:none;}
 
+.share_popupIcns .fa-facebook, .share_popupIcns .fa-twitter{padding:8px 0 0; margin:-5px 0 0 -5px; width:35px; height:35px; font-size:22px; 
+color:#fcfcfc; background:#00539F; border:none;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;}
+.share_popupIcns .fa-twitter{padding:8px 0 0; background:#61a8de}
+.pstion01{position:absolute; bottom:-12px; top:inherit; right:48%;}
 
 
 /* General Classes */
@@ -515,7 +531,8 @@ border-radius:30px;}
 .has-error :-ms-input-placeholder{color:#eb232e;}
 .has-error ::-webkit-input-placeholder{color:#eb232e;}
 
-.pstn1_icn .fa-caret-right, .pstn1_icn .fa-clipboard{ padding:0 0 0 6px; width:50px; height:50px; font-size:50px; color:#ffffff; background:#9e1f63; border:2px solid #ffffff;
+.pstn1_icn .fa-caret-right, .pstn1_icn .fa-clipboard{ padding:0 0 0 6px; width:50px; height:50px; font-size:50px; color:#ffffff; background:#9e1f63;
+border:2px solid #ffffff;
 -webkit-border-radius:30px;
 -moz-border-radius:30px;
 border-radius:30px;
