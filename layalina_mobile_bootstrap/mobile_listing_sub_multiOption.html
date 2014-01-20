@@ -11,6 +11,7 @@
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="css/select.min.css" rel="stylesheet">
 <link href="css/layalina_mobile.css" rel="stylesheet">
 
 
@@ -345,6 +346,11 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Selecet Picker -->
+<script src="js/bootstrap-select.js"></script>
+<!-- end Selecet Picker -->
+
 <script>
 // Carousel Options
 $('.carousel').carousel({
@@ -376,6 +382,13 @@ $(".filter_btn").click(function() {
 	}
 });
 /* /Toggle Layalina Filter */
+
+/* Selecet Picker */
+window.onload=function(){
+	$('.selectpicker').selectpicker();
+	$('.selectpicker.dropdown-menu').css({"height":"100px"}); 
+}
+/* /Selecet Picker */
 </script>
 </body>
 </html>

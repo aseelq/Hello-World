@@ -11,8 +11,9 @@
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link href="css/layalina_mobile.css" rel="stylesheet">
+<link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
 
+<link href="css/layalina_mobile.css" rel="stylesheet">
 
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,14 +31,14 @@
 <header>
     <div class="navbar navbar-default header_wrap header" role="navigation">
         <div class="container">
-            <div class="search_wrap">
+        	<div class="search_wrap">
             	<div class="input-group">
                     <div class="input-group-btn search_box">
                         <button type="button" class="btn btn-defaulta search_btn">
                            <em class="glyphicon glyphicon-search"></em>
                         </button>
                         
-                        <div id="dropdownSearch" class="dropdown-search">
+                        <div id="dropdownSearch02" class="dropdown-search">
                         	<div class="input-group">
                               <input type="text" class="form-control input-sm" placeholder="نانسي عجرم">
                               <span class="input-group-btn">
@@ -51,18 +52,40 @@
                 </div>
             </div>
             
-            <div class="logo">
-                <h1><a href="#"><img src="images/logo_layalina.png" alt="" /></a></h1>
+            <div class="hdr_rside">
+            	<button type="button" class="btn btn-defaulta rsize_btn">
+                   <em class="icn_rsize"></em>
+                </button>
+                <div class="slider_font">
+                    <div id="slider-vertical"></div>
+                </div>
             </div>
             
-            <div class="menu_lstbtn">
-            	<button type="button" class="btn btn-defaulta mnu_btn">
-                   <em class="glyphicon glyphicon-list"></em>
+            <div class="hdr_center">
+                <a href="#" class="share_btn hide">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="share_btn hide">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#" class="plus_btn">
+                    <i class="glyphicon glyphicon-plus"></i>
+                </a>
+            </div>
+            
+            <div class="hdr_lside">
+            	<button type="button" class="btn btn-defaulta rmove_btn">
+                   <em class="glyphicon glyphicon-remove"></em>
                 </button>
+            </div>
+            
+            <div class="hdr_lside">
+            	<div class="logo_lft"><a href="#"><img src="images/logo_layalina.png" alt="" /></a></div>
             </div>
          </div>
     </div>
 </header>
+
 
 <section>
     <div class="content_wrap section">
@@ -242,50 +265,20 @@
 
 
 
-<div id="newslterLightbox" class="modal fade newslter_popupbox" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog newsletter">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <div class="nws_form">
-            <h4>اشترك لتصلك آخر الأخبار و المقالات</h4>
-            <form role="form">
-                <div class="form-group has-error">
-                  <label for="username01">الاسم</label>
-                  <input type="text" class="form-control" id="username01" placeholder="ادخل الاسم">
-                </div>
-                <div class="form-group has-error">
-                  <label for="emailAddress01">البريد الإلكتروني</label>
-                  <input type="email" class="form-control" id="emailAddress01" placeholder="ادخل البريد الإلكتروني">
-                </div>
-                <button type="submit" class="btn btn-sm btn_sbcribe">اشترك</button>
-             </form>
-         </div>
-         
-         <div class="nws_thnx hide">
-         	<p>
-                <span class="nwspnk">شكراً لك!</span>
-            </p>
-            <p>
-                ستصلك الآن رسالة على بريدك الإلكتروني لتؤكد اشتراكك
-            </p>
-         </div>
-    </div>
-</div>    
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-<script>
-/* Toggle newsletter popupBox */
-$('.btn_sbcribe').click(function() {
-	$('#newslterLightbox').modal('show');
-});
-/* /Toggle newsletter popupBox */
+<!-- Slider bar -->
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
+
+<script>
 /* Toggle Layalina Search */
 $(".search_btn").click(function() {
 	$("#dropdownSearch").slideToggle(200);
+	$("#dropdownSearch02").slideToggle(200);
+	
 	if($(".search_box").hasClass("active")){
 		$(".search_box").removeClass("active");
 	}
@@ -294,6 +287,27 @@ $(".search_btn").click(function() {
 	} 	
 });
 /* /Toggle Layalina Search */
+
+
+/* Resize Font Setting */
+$(function() {
+    $( "#slider-vertical" ).slider({
+        orientation: "vertical",
+        range: "min",
+        min: 14,
+        max: 20,
+        value: 0,
+        slide: function( event, ui ) {
+			console.log(ui);
+            $('.article').css('font-size',ui.value+'px');
+        }
+    });
+});
+
+$(".rsize_btn").click(function() {
+	$(".slider_font").slideToggle(200);
+});
+/* /Resize Font Setting */
 </script>
 </body>
 </html>
