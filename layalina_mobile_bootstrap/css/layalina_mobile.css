@@ -125,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .content_wrap .post_pager{ padding:0; margin:10px 0 15px; color:#ba106b}
-.content_wrap .post_pager a{ padding:0; margin:0; color:#ba106b; border:none; border-radius:0; font:normal 13px/120% 'Janna LT W20 Bold', Verdana, Arial, Helvetica, sans-serif;}
+.content_wrap .post_pager a{ padding:0; margin:0; color:#ba106b; border:none; border-radius:0; font:normal 13px/120% 'Janna LT W20 Bold', Verdana, Arial, Helvetica, sans-serif; white-space:nowrap}
 .content_wrap .post_pager a:hover{color:#c63f83}
 .content_wrap .post_pager a:hover, .content_wrap .post_pager a:active, .content_wrap .post_pager a:focus{ background:none;}
 .content_wrap .post_pager .previous em{ padding:10px 8px 10px 17px; margin-right:4px;
