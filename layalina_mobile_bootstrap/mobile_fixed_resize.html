@@ -12,6 +12,7 @@
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
 
 <link href="css/layalina_mobile.css" rel="stylesheet">
 
@@ -270,7 +271,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <!-- Slider bar -->
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="js/bootstrap-slider.js"></script>
 
 
 <script>
@@ -291,16 +292,17 @@ $(".search_btn").click(function() {
 
 /* Resize Font Setting */
 $(function() {
-    $( "#slider-vertical" ).slider({
+    $( "#slider-vertical" ).slider({ 
         orientation: "vertical",
         range: "min",
         min: 14,
         max: 20,
         value: 0,
-        slide: function( event, ui ) {
-			console.log(ui);
-            $('.article').css('font-size',ui.value+'px');
-        }
+		step:2 ,
+    });
+	$( "#slider-vertical" ).on('slide', function(ev){ 
+		console.log(ev.value);		
+		$('.article').css('font-size',ev.value+'px');
     });
 });
 
