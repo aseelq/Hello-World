@@ -100,10 +100,14 @@ color:#ffffff;}
 
 
 .content_wrap .post h2{ width:100%; padding:0 5px}
-.content_wrap .post .post_date, .content_wrap .post .post_user{ display:inline-block; width:100%; margin:0 auto 8px; text-align:center; font-size:10px; font-style:normal; color:#1d1d1d}
+.content_wrap .post .post_date, .content_wrap .post .post_user, .content_wrap .post .post_abuse{ display:inline-block; width:100%; margin:0 auto 8px; text-align:center; font-size:10px; font-style:normal; color:#1d1d1d}
 .content_wrap .post .post_detail{ padding:0 10px 2px; margin:15px 0 0}
 .content_wrap .post .post_detail p{ padding-bottom:15px;}
 .content_wrap .post .post_user{ text-align:left;}
+.content_wrap .post .post_abuse{ font-size:11px; float:left; max-width:87px; padding:3px 5px; color:#fcfcfc; background:#b2b2b2; text-shadow:none; 
+border:none;}
+.content_wrap .post .post_abuse:focus{ border:none; outline:none;}
+.content_wrap .post .post_abuse .fa-exclamation-triangle{ vertical-align:middle; color:#fcfcfc; font-size:14px;}
 .content_wrap .post .row{ padding-top:10px;}
 .content_wrap .post .tags{ padding:8px 10px 0; margin-bottom:18px;}
 .content_wrap .post .tags a{ font-size:10px; font-weight:normal; padding:5px 10px; margin:0 0 3px 3px;
@@ -254,7 +258,10 @@ border-radius:5px;}
 .content_wrap .album_pg .carousel_mdify .carousel-control.right, .content_wrap .album_pg .carousel_mdify .carousel-control.left{ background-image:none; opacity:1.0; filter:alpha(opacity=100);}
 .content_wrap .album_pg .carousel_mdify .carousel-control:hover, .content_wrap .album_pg .carousel_mdify .carousel-control:focus{ opacity:0.4; 
 filter:alpha(opacity=40);}
-.content_wrap .album_pg .pic_num{ font-size:12px; display:inline-block; padding:0; margin:0; z-index:9; position:absolute; top:15px; right:10px; color:#fcfcfc}
+.content_wrap .album_pg .pic_num{ font-size:12px; display:inline-block; padding:0; margin:0; z-index:9; position:absolute; top:15px; right:10px; 
+color:#fcfcfc}
+.content_wrap .album_pg .pic_abuse{font-size:15px; display:inline-block; padding:0; margin:0; z-index:9; position:absolute; top:15px; left:10px; 
+color:#fcfcfc}
 .content_wrap .album_pg .post_list{ background:#000000; padding:5px 0; border-top:none}
 .content_wrap .album_pg .post_list h3{ color:#fcfcfc}
 .album_pg .rpeat_div{ margin:10px 0 15px;}
