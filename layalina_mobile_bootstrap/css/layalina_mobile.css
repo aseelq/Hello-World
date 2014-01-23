@@ -328,7 +328,7 @@ border-radius:3px 0 0 3px;
 .filter_wrap .pstion_box .btn-group{ margin:0;}
 
 .filter_wrap .pstion_box .btn-default, .filter_wrap .pstion_box .input-sm, .filter_wrap .pstion_box .input-lg{ font-size:12px; padding:0 8px 0; height:32px; border:none; box-shadow:none; text-shadow:none; background:#ffffff; 
-color:#999999;
+color:#333333;
 
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
