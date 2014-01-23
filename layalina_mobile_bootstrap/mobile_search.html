@@ -11,6 +11,7 @@
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="css/select.min.css" rel="stylesheet">
 <link href="css/layalina_mobile.css" rel="stylesheet">
 
 
@@ -76,18 +77,16 @@
                 <div class="post_list">
                     <div class="filter_wrap">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="كل الموقع">
-                            <div class="input-group-btn pstion_box">
-                                <button type="button" class="btn btn-default dropdown-toggle pstion_btn" id="dropdownMenu1" data-toggle="dropdown">
-                                   <span class="fa fa-chevron-down"></span>
-                                </button>
-                                <ul class="dropdown-menu" id="menu1" role="menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">كل الموقع</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
+                        	<div class="input-group-btn pstion_box albm_slect">
+                                <select class="selectpicker">
+                                    <option value="كل الموقع" selected="selected">كل الموقع</option>
+                                    <option value="كمبوند">كمبوند</option>
+                                    <option value="وحدات متعددة">وحدات متعددة</option>
+                                    <option value="شاليه">شاليه</option>
+                                    <option value="كمبوند">كمبوند</option>
+                                    <option value="شاليه">شاليه</option>
+                                    <option value="كمبوند">كمبوند</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -143,6 +142,11 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Selecet Picker -->
+<script src="js/bootstrap-select.js"></script>
+<!-- end Selecet Picker -->
+
 <script>
 // Carousel Options
 $('.carousel').carousel({
@@ -161,6 +165,13 @@ $(".search_btn").click(function() {
 	} 	
 });
 /* /Toggle Layalina Search */
+
+/* Selecet Picker */
+window.onload=function(){
+	$('.selectpicker').selectpicker();
+	$('.selectpicker.dropdown-menu').css({"height":"100px"}); 
+}
+/* /Selecet Picker */
 </script>
 </body>
 </html>

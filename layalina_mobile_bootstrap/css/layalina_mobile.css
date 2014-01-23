@@ -317,7 +317,33 @@ border-radius:3px 0 0 3px;
 .filter_wrap .input-group-btn .country_btn, .filter_wrap .input-group-btn .hrscope_btn{ padding:2px 5px 3px; margin-left:5px;}
 .filter_wrap .txtfield .input-lg{ height:25px; min-width:234px; padding:5px 10px;}
 .filter_wrap .txtfield .input-sm{ height:25px; min-width:105px; padding:5px 10px;}
+
+
 .filter_wrap .input-group .pstion_box .dropdown-menu{ width:100%; float:right; right:auto; left:0}
+.filter_wrap .input-group .input-group{margin-left:5px}
+.filter_wrap .pstion_box .dropdown-menu>li>a{ padding:3px 5px}
+.filter_wrap .pstion_box{ width:100%}
+.filter_wrap .albm_slect{ width:1%}
+.filter_wrap .pstion_box .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]){ width:100%;}
+.filter_wrap .pstion_box .btn-group{ margin:0;}
+
+.filter_wrap .pstion_box .btn-default, .filter_wrap .pstion_box .input-sm, .filter_wrap .pstion_box .input-lg{ font-size:12px; padding:0 8px 0; height:32px; border:none; box-shadow:none; text-shadow:none; background:#ffffff; 
+color:#999999;
+
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.filter_wrap .pstion_box .btn-default:focus{ text-shadow:none; outline:none;}
+.filter_wrap .pstion_box .dropup .caret{ border-bottom-color:#9e1f63;}
+
+.filter_wrap .pstion_box .input-lg{ height:25px; min-width:234px; padding:5px 10px;}
+.filter_wrap .pstion_box .input-sm{ height:25px; min-width:115px; padding:5px 10px;}
+
+.filter_wrap .pstion_box .btn-default .caret, .filter_wrap .pstion_box .input-sm .caret, .filter_wrap .pstion_box .input-lg .caret{ border-top-color:#9e1f63; margin-top:-1px; right:auto; left:10px}
+.filter_wrap .pstion_box .btn-default .filter-option.pull-left, .filter_wrap .pstion_box .input-sm .filter-option.pull-left, .filter_wrap .pstion_box .input-lg .filter-option.pull-left{ left:auto; right:auto;}
+
 
 
 .filter_wrap .filter_btn, .filter_wrap .input-group-btn:last-child>.btn.filter_btn{outline:none; margin-right:4px; background:#ffffff; color:#9e1f63; border:none; box-shadow:none;
