@@ -636,7 +636,7 @@ input,button,textarea,select{font-size:100%;}
 
 .menu_wrap ul.left_menu li a{ font:normal 14px/100% 'Janna LT W20 Bold', Helvetica, Arial, Verdan, sans-serif;}
 .filter_wrap .fa-chevron-down{ font-family:'Janna LT W20 Bold', Helvetica, Arial, Verdan, sans-serif; font-size:10px;}
-.filter_wrap .fa-filter{ font-family:'Janna LT W20 Bold', Helvetica, Arial, Verdan, sans-serif; font-size:15px;}
+.filter_wrap .fa-filter{ font-size:15px;}
 .filter_wrap .input-group .form-control{font-size:12px;}
 
 .filter_wrap .input-group .input-group{ /*font-size:81%12px;*/}
