@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Sport360 {{page.title}}</title>
+
+<!--<link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Roboto" />-->
+
+{{#file page.slider}}
+<link rel="stylesheet" href="../js/libs/owl.carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="../js/libs/owl.carousel/owl.theme.default.min.css">
+<!--<link rel="stylesheet" href="../js/libs/animate/animate.css"> -->
+{{/file}}
+
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/common.css">
+{{#file page.file}}
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{page.file}}.css">
+{{else}}
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{basename}}.css">
+{{/file}}

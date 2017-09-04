@@ -1,0 +1,15 @@
+<script type="text/javascript" src="../js/libs/jquery/dist/jquery.min.js"></script>
+<script src="../js/libs/tether/tether.min.js"></script>
+<script type="text/javascript" src="../js/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/libs/slick-carousel/slick/slick.min.js"></script>
+<script src="../js/libs/sticky-kit.min.js"></script>
+{{#file page.slider}}
+<script src="../js/libs/owl.carousel/owl.carousel.min.js"></script>
+{{/file}}
+<script src="../js/libs/tether/tether.min.js"></script>
+<script type="text/javascript" src="../js/app.js"></script>
+{{#file page.file}}
+<script type="text/javascript" src="../js/{{page.file}}.js"></script>
+{{else}}
+<script type="text/javascript" src="../js/{{basename}}.js"></script>
+{{/file}}
