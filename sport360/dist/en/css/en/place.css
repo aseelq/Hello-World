@@ -1130,7 +1130,10 @@ h2.relatedmaintitle {
 .loader .dot,
 .loader .dot:nth-child(3){ margin:0 !important; position:static}
 
-ul.stories .story{ margin-bottom:15px;}
+ul.stories .story h4{ margin-left: 134px;}
+ul.stories .story h4 a{ margin: 0 0 4px; display:block}
+ul.stories .story{ margin-bottom:17px;}
+
 .starter{ color:#1f1f1f}
 .ads{ margin:30px auto 20px; text-align:center; max-width:100%; overflow:hidden}
 .ads_side{ text-align:center; margin:0 auto; max-width:100%; overflow:hidden }
@@ -1139,11 +1142,11 @@ ul.stories .story{ margin-bottom:15px;}
 .hdr_page p{ font-size:14px; padding:0; margin:0}
 
 .share_block > *{ float:left !important; padding:0; margin:0}
-.share_block a{ display:inline-block; padding:0; margin:0 5px 0 0}
+.share_block a{ display:inline-block; padding:0; margin:0 4px 0 0}
 .pic .label{ display:inline-block; padding:7px 15px; margin:0; position:absolute; left:0; right:auto; bottom:0; background:#ee1d25; color:#f7f7f7; text-transform:uppercase; font-style:normal; font-size:14px; line-height:100%; min-width:70px;}
 
 .post_block{ padding:20px 0 30px; margin-bottom:17px; color:#1f1f1f}
-.post_block .time_block{ list-style:none; padding:0 20px 18px; margin:0 auto 20px; font-size:16px; border-bottom:1px solid #b7b7b7}
+.post_block .time_block{ list-style:none; padding:0 20px 18px; margin:0 auto 20px; font-size:14px; border-bottom:1px solid #b7b7b7}
 .post_block .time_block > li{ margin:0 0 2px; padding:0}
 .post_block .time_block i{ display:inline-block; width:18px; text-align:center; color:#a8a8a8; margin:0 5px 0 0; padding:0; font-size:18px;}
 
@@ -1220,6 +1223,7 @@ border-radius: 4px;}
 	.mobbanner{ margin:34px auto 20px}
 	.relatednews .related{ padding:0 0 0 10px}
 	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
+	
 	.post_collapse .panel-body{ padding:18px 12px}
 	
 	.comment_block .col-md-1{ max-width:18% !important}
