@@ -1141,6 +1141,7 @@ ul.stories .story{ margin-bottom:17px;}
 .hdr_page{ margin:0 auto 20px;}
 .hdr_page p{ font-size:14px; padding:0; margin:0}
 
+.share_block .show_icon{ display:none}
 .share_block > *{ float:left !important; padding:0; margin:0}
 .share_block a{ display:inline-block; padding:0; margin:0 4px 0 0}
 .pic .label{ display:inline-block; padding:7px 15px; margin:0; position:absolute; left:0; right:auto; bottom:0; background:#ee1d25; color:#f7f7f7; text-transform:uppercase; font-style:normal; font-size:14px; line-height:100%; min-width:70px;}
