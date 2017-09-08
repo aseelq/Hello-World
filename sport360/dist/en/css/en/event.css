@@ -1195,8 +1195,8 @@ border-radius: 4px;}
 @media only screen and (max-width: 959px){
 	.main-container,
 	.row,
-	[class^="col-"], [class*=" col-"],
-	.container{ margin-left:0; margin-right:0; padding-left:0; padding-right:0}
+	[class^="col-"], [class*=" col-"]{ margin-left:0; margin-right:0; padding-left:0; padding-right:0}
+	.container{ margin:40px auto 0}
 	
 	.mobbanner{ margin:45px auto 12px}
 	.share_block .hidden-sm-down{ display:none !important}
