@@ -360,13 +360,14 @@ font-weight: bold; font-size: 18px; line-height:80%}
   color: #bcbcbc;
 }
 
-.video-content {
+.video-content, .pic {
   padding: 10px;
   padding-bottom: 35px;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   margin-bottom: 23px;
 }
+.pic{ margin:0 auto; box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2); padding:20px 20px 5px}
 
 .smGlobalBtn {
   /* global button class */
@@ -902,7 +903,7 @@ h2.relatedmaintitle {
 .commenter { padding:0 0 0 5px}
 
 .main_img {
-  width: 640px;
+  width:inherit;
 }
 
 /** tablet **/
@@ -1141,7 +1142,9 @@ border-radius: 4px;}
 
 .subscribe_block ul{ list-style:none; margin:0 auto; padding:0}
 .subscribe_block ul > li .form-group{ margin:0 20px; min-height:105px} /* between input form block */
-.subscribe_block ul > li .form-group input{ border-color:#acacac; height:37px;}
+.subscribe_block ul > li .form-group input{ border-color:#acacac; height:37px; max-width:300px}
+.subscribe_block ul > li:nth-child(2n) .form-group{ float:right; min-width:300px}
+
 .subscribe_block ul > li label{ margin:0}
 .subscribe_block ul > li .radio{ margin:0 auto 7px}
 .subscribe_block ul > li:last-child .radio{ margin:0 auto}
@@ -1160,7 +1163,7 @@ border-radius: 4px;}
 .subscribe_block .option_box.has-error cite{ position:absolute; bottom:-35px; left:0}
 
 .subscribe_block .approve_box{ margin:0 auto 50px; font-size:16px; line-height:100%; position:relative}
-.subscribe_block .approve_box.has-error label{ color:#1f1f1f}
+.subscribe_block .approve_box.has-error label{ color:#1f1f1f; line-height:120%}
 .subscribe_block .approve_box.has-error cite{ position:absolute; bottom:-35px; left:0}
 
 .subscribe_block .approve_box label input,
@@ -1304,6 +1307,9 @@ border-radius: 4px;}
 	.comment_block .col-xs-11{ max-width:82% !important}
 	.comment_block .sub-row{ margin:15px auto}
 	.comment_block .row.verticalLine{ margin: 20px 0 0 17%;}
+	
+	.subscribe_block ul > li .form-group input,
+	.subscribe_block ul > li:nth-child(2n) .form-group{ float:none; max-width:none; min-width:inherit}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
