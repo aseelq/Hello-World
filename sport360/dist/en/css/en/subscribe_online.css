@@ -1125,29 +1125,23 @@ h2.relatedmaintitle {
 }
 
 /* new classes */
-.bootstrap .col-xs-6, .bootstrap .col-sm-6, .bootstrap .col-md-6, .bootstrap .col-lg-6, 
-.bootstrap .col-xs-12, .bootstrap .col-sm-12, .bootstrap .col-md-12, .bootstrap .col-lg-12{ position:relative; min-height:1px; padding:0; float:left;}
-
-.bootstrap .col-xs-6, .bootstrap .col-sm-6, .bootstrap .col-md-6, .bootstrap .col-lg-6{ width:50%}
-.bootstrap .col-xs-12, .bootstrap .col-sm-12, .bootstrap .col-md-12, .bootstrap .col-lg-12{width:100%;}
-
-
 .subscribe_block{ font-size:18px; margin:30px auto 0}
 .subscribe_block .headline{ margin:0 auto; padding:21px 25px; text-align:center; display:block; max-width:330px; border:1px solid #252525; text-transform:uppercase;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
 border-radius: 4px;}
 
-.subscribe_block dl, .subscribe_block dt, .subscribe_block dd{ overflow:hidden; clear:both; display:block}
+.subscribe_block dl, .subscribe_block dt, .subscribe_block dd{ clear:both; display:block}
 .subscribe_block dl{ margin:30px auto 0}
 .subscribe_block dt{ font-size:20px; line-height:100%; font-weight:bold; padding:0; margin:0 auto 20px} /* between title form block */
 .subscribe_block dd{ margin:0 auto 40px} /* between section form block */
 
-.subscribe_block ul{ list-style:none; margin:0 auto -5px; padding:0}
-.subscribe_block ul.list-inline{ margin:-30px auto 5px}
+.subscribe_block ul{ list-style:none; margin:0 auto; padding:0}
+.subscribe_block ul.list-inline{ margin:0 -20px -20px}
+.subscribe_block ul.list-inline > li{ float:left; padding:0}
 .subscribe_block ul.list-inline > li label{ margin:0 0 5px} /* between label input form block */
 
-.subscribe_block ul > li .form-group{ margin:30px 40px 0 0} /* between input form block */
+.subscribe_block ul > li .form-group{ margin:0 20px; min-height:97px} /* between input form block */
 .subscribe_block ul > li .form-group input{ border-color:#acacac; height:37px;}
 .subscribe_block ul > li label{ margin:0}
 .subscribe_block ul > li .radio{ margin:0 auto 7px}
@@ -1155,12 +1149,39 @@ border-radius: 4px;}
 
 .subscribe_block .captcha_box{ margin:0 auto 10px; padding:0}
 .subscribe_block .captcha_box label{ margin:0}
-.subscribe_block .captcha_box input{ max-width:25%; display:inline-block; border:0; border-bottom:1px solid #707070;}
-.subscribe_block .approve_box{ margin:0 auto 50px}
+.subscribe_block .captcha_box input{ max-width:25%; display:inline-block; border:0; border-bottom:1px solid #707070; box-shadow:none}
+
+.subscribe_block .approve_box{ margin:0 auto 50px; font-size:16px; line-height:100%;}
+.subscribe_block .approve_box.has-error label{ color:#1f1f1f}
+
+.subscribe_block .approve_box label input,
+.subscribe_block .option_box label input{ vertical-align:middle; margin:-2px 5px 0 0}
+.subscribe_block .approve_box.has-error,
+.subscribe_block .option_box.has-error{ border:1px solid #fb0606; padding:8px 8px 0; color:#1f1f1f}
+.subscribe_block .option_box.has-error{  padding:8px 8px 5px}
+
 .subscribe_block .btn_submit{ background:#ed111b; color:#fcfcfc; display:block; margin:0 auto 50px; height:57px; width:100%; max-width:258px; font-size:20px; font-weight:bold; 
 -webkit-border-radius: 2px;
 -moz-border-radius: 2px;
 border-radius: 2px;}
+
+/* Form Field has Error */
+.subscribe_block .has-error .help-block,
+.subscribe_block .has-error .control-label,
+.subscribe_block .has-error .radio,
+.subscribe_block .has-error .checkbox,
+.subscribe_block .has-error .radio-inline,
+.subscribe_block .has-error .checkbox-inline,
+.subscribe_block .has-error label,
+.subscribe_block .has-error cite{ color: #fb0606;}
+
+.subscribe_block .has-error .form-control{ border-color: #fb0606;}
+.subscribe_block .has-error .form-control:focus{ border-color: #fb0606;}
+.subscribe_block .has-error .input-group-addon{ color: #fb0606; background-color: #fb0606; border-color: #fb0606;}
+.subscribe_block .has-error .form-control-feedback{ color: #fb0606;}
+.subscribe_block .has-error cite{ font-style:normal; font-size:14px; line-height:100%}
+/* /Form Field has Error */
+
 
 
 .loader{ padding:5px 0; text-align:center}

@@ -619,9 +619,10 @@
                                         <dd>
                                           <ul class="clearfix list-inline">
                                                 <li class="col-md-6">
-                                                    <div class="form-group">
+                                                    <div class="form-group has-error">
                                                         <label for="inputFirstName">First Name: *</label>
                                                         <input type="text" class="form-control" id="inputFirstName" placeholder="">
+                                                        <cite>The data you entered is incorrect.</cite>
                                                     </div>
                                                 </li>
                                                 <li class="col-md-6">
@@ -645,7 +646,7 @@
                                                 </li>
                                                 
                                                 <li class="col-md-6">
-                                                    <div class="form-group">
+                                                    <div class="form-group has-error">
                                                         <label for="inputTelephone">Telephone: *</label>
                                                         <input type="number" class="form-control" id="inputTelephone" placeholder="">
                                                     </div>
@@ -712,7 +713,7 @@
                                         
                                         <dt>How would you like to pay:</dt>
                                         <dd>
-                                          <ul class="clearfix">
+                                          <ul class="clearfix option_box has-error">
                                             <li>
                                                 <div class="radio">
                                                   <label>
@@ -734,7 +735,7 @@
                                         
                                         <dt>What code is is the image? *</dt>
                                         <dd>
-                                          <div class="form-group captcha_box">
+                                          <div class="form-group captcha_box has-error">
                                           	<!-- Write Your Code Here ... -->
                                             <label for="inputImage"><img src="images/image_04.jpg" alt="" /></label>
                                             <input type="text" class="form-control" id="inputImage" placeholder="">
@@ -743,7 +744,7 @@
                                         </dd>
                                     </dl>
                                     
-                                	<div class="checkbox approve_box">
+                                	<div class="checkbox approve_box has-error">
                                         <label><input type="checkbox"> I have read and agree to Terms &amp; Conditions.</label>
                                     </div>
                                 	<button type="submit" class="btn btn_submit">Submit</button>
