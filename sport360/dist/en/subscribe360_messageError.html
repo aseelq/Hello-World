@@ -649,6 +649,7 @@
                                                     <div class="form-group has-error">
                                                         <label for="inputTelephone">Telephone: *</label>
                                                         <input type="number" class="form-control" id="inputTelephone" placeholder="">
+                                                        <cite>The data you entered is incorrect.</cite>
                                                     </div>
                                                 </li>
                                           </ul>
@@ -713,24 +714,27 @@
                                         
                                         <dt>How would you like to pay:</dt>
                                         <dd>
-                                          <ul class="clearfix option_box has-error">
-                                            <li>
-                                                <div class="radio">
-                                                  <label>
-                                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                                    Cash or cheque
-                                                  </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="radio">
-                                                  <label>
-                                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                                    Credit or debit card
-                                                  </label>
-                                                </div>
-                                            </li>
-                                          </ul>
+                                          <div class="option_box has-error">
+                                              <ul class="clearfix">
+                                                <li>
+                                                    <div class="radio">
+                                                      <label>
+                                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                        Cash or cheque
+                                                      </label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="radio">
+                                                      <label>
+                                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                                        Credit or debit card
+                                                      </label>
+                                                    </div>
+                                                </li>
+                                              </ul>
+                                              <cite>You need to choose payment method</cite>
+                                          </div>
                                         </dd>
                                         
                                         <dt>What code is is the image? *</dt>
@@ -740,12 +744,15 @@
                                             <label for="inputImage"><img src="images/image_04.jpg" alt="" /></label>
                                             <input type="text" class="form-control" id="inputImage" placeholder="">
                                           	<!-- /Write Your Code Here ... -->
+                                            
+                                            <cite>Wrong Code</cite>
                                           </div>
                                         </dd>
                                     </dl>
                                     
                                 	<div class="checkbox approve_box has-error">
                                         <label><input type="checkbox"> I have read and agree to Terms &amp; Conditions.</label>
+                                        <cite>You've to approve the conditions</cite>
                                     </div>
                                 	<button type="submit" class="btn btn_submit">Submit</button>
                                 </form>

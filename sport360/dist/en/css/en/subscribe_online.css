@@ -1126,6 +1126,7 @@ h2.relatedmaintitle {
 
 /* new classes */
 .subscribe_block{ font-size:18px; margin:30px auto 0}
+.subscribe_block cite{ display:none}
 .subscribe_block .headline{ margin:0 auto; padding:21px 25px; text-align:center; display:block; max-width:330px; border:1px solid #252525; text-transform:uppercase;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
@@ -1137,22 +1138,28 @@ border-radius: 4px;}
 .subscribe_block dd{ margin:0 auto 40px} /* between section form block */
 
 .subscribe_block ul{ list-style:none; margin:0 auto; padding:0}
-.subscribe_block ul.list-inline{ margin:0 -20px -20px}
-.subscribe_block ul.list-inline > li{ float:left; padding:0}
-.subscribe_block ul.list-inline > li label{ margin:0 0 5px} /* between label input form block */
-
-.subscribe_block ul > li .form-group{ margin:0 20px; min-height:97px} /* between input form block */
+.subscribe_block ul > li .form-group{ margin:0 20px; min-height:105px} /* between input form block */
 .subscribe_block ul > li .form-group input{ border-color:#acacac; height:37px;}
 .subscribe_block ul > li label{ margin:0}
 .subscribe_block ul > li .radio{ margin:0 auto 7px}
 .subscribe_block ul > li:last-child .radio{ margin:0 auto}
 
-.subscribe_block .captcha_box{ margin:0 auto 10px; padding:0}
+.subscribe_block ul.list-inline{ margin:0 -20px -28px}
+.subscribe_block ul.list-inline > li{ float:left; padding:0}
+.subscribe_block ul.list-inline > li label{ margin:0 0 5px} /* between label input form block */
+
+
+.subscribe_block .captcha_box{ margin:0 auto 10px; padding:0;}
 .subscribe_block .captcha_box label{ margin:0}
 .subscribe_block .captcha_box input{ max-width:25%; display:inline-block; border:0; border-bottom:1px solid #707070; box-shadow:none}
+.subscribe_block .captcha_box.has-error cite{ margin:10px 0 0}
 
-.subscribe_block .approve_box{ margin:0 auto 50px; font-size:16px; line-height:100%;}
+.subscribe_block .option_box{ position:relative}
+.subscribe_block .option_box.has-error cite{ position:absolute; bottom:-35px; left:0}
+
+.subscribe_block .approve_box{ margin:0 auto 50px; font-size:16px; line-height:100%; position:relative}
 .subscribe_block .approve_box.has-error label{ color:#1f1f1f}
+.subscribe_block .approve_box.has-error cite{ position:absolute; bottom:-35px; left:0}
 
 .subscribe_block .approve_box label input,
 .subscribe_block .option_box label input{ vertical-align:middle; margin:-2px 5px 0 0}
@@ -1179,7 +1186,7 @@ border-radius: 2px;}
 .subscribe_block .has-error .form-control:focus{ border-color: #fb0606;}
 .subscribe_block .has-error .input-group-addon{ color: #fb0606; background-color: #fb0606; border-color: #fb0606;}
 .subscribe_block .has-error .form-control-feedback{ color: #fb0606;}
-.subscribe_block .has-error cite{ font-style:normal; font-size:14px; line-height:100%}
+.subscribe_block .has-error cite{ font-style:normal; font-size:14px; line-height:100%; display:block; padding:10px 0}
 /* /Form Field has Error */
 
 
