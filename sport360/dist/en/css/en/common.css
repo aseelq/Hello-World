@@ -11210,9 +11210,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   margin-top: 40px;
 }
 
+/* remove it, because it makes an issue and hide scroll on chrome browse !
 ::-webkit-scrollbar {
   display: none;
-}
+}*/
 
 a,
 a:hover {
