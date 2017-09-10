@@ -1189,7 +1189,7 @@ border-radius: 2px;}
 .subscribe_block .has-error .form-control:focus{ border-color: #fb0606;}
 .subscribe_block .has-error .input-group-addon{ color: #fb0606; background-color: #fb0606; border-color: #fb0606;}
 .subscribe_block .has-error .form-control-feedback{ color: #fb0606;}
-.subscribe_block .has-error cite{ font-style:normal; font-size:14px; line-height:100%; display:block; padding:10px 0}
+.subscribe_block .has-error cite{ font-style:normal; font-size:14px; line-height:100%; display:block; padding:10px 0 0}
 /* /Form Field has Error */
 
 
