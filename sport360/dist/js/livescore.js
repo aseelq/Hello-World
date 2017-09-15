@@ -80,7 +80,7 @@ $(document).ready(function () {
         $(".tag").css('background-color', '#f1f1f1');
     });
 	
-	console.log('hi');
+	
 	$(".btn-select").each(function (e) {
         var value = $(this).find("ul li.selected").html();
         if (value != undefined) {

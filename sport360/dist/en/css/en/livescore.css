@@ -1207,37 +1207,108 @@ h2.relatedmaintitle {
 }
 
 /* new classes */
-/* Livescore Componenets Styles */
-.page_livescore .result_block{ padding:15px 0 0; margin:0 auto}
-.page_livescore .result_block .results{ width:100%;}
-.page_livescore .result_block .results > .result{ border-bottom:1px solid #c2c2c2; padding:10px 15px 22px; margin:0 auto}
-.page_livescore .result_block .results > .result:first-child{ padding-top:0}
+/* Nav Tabs 
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px; display:inline-block;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fcfcfc;
+  cursor: default;
+  background-color: #ee1d25;
+  border: 1px solid #ee1d25;
+  border-bottom-color: transparent;
+}
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified > .active > a,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
 
-.result_block .goals > *{ display:block; text-align:center;}
-.result_block .goals em{ margin:0 auto; text-transform:uppercase}
-.result_block .club{ min-height:100px; line-height:100px; font-size:14px;}
-.result_block .club > *{ display:inline-block; padding:0 5px;}
-.result_block .club cite{ line-height:normal; font-style:normal; max-width:55%; vertical-align:middle}
-
-.result_block .matchdetils{ padding:12px 0 0; margin:20px auto 0; overflow:hidden; clear:both; height:100%}
-.result_block .datetime i, 
-.result_block .schedule i{ font-style:normal; font-size:12px; color:#252525; display:block; text-align:left;}
-.result_block .datetime .fa,
-.result_block .schedule .fa{ color:#a8a8a8; display:inline-block; min-width:12px; text-align:center;}
-
-.result_block .schedule{ float:right; display:inline-block; text-align:right}
-.result_block .schedule i{ text-align:right; margin-bottom:3px;}
-
-.result_block .schedule .detilslink{ border-color:#b7b7b7; padding: 4px 10px;}
-.result_block .schedule .detilslink .fa{ color:#252525; font-size:15px; line-height:normal; vertical-align:middle}
-
-.result_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0}
-/* Livescore Componenets Styles */
-
-
+.nav-tabs-justified {
+  border-bottom: 0;
+}
+.nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}*/
+/* /Nav Tabs */
 
 .hide{ display:none}
-
 .gallery_inlbox{ margin:0 auto -1px; position: relative; background-color:#ffffff;
 -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.2);
 -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.2);
@@ -1319,7 +1390,7 @@ display:inline-block; width:100%; max-width:310px; height:308px; overflow:hidden
 
 
 
-.loader{ padding:5px 0; text-align:center}
+.loader{ padding:5px 0 10px; text-align:center}
 .loader .dot{ width:12px; height:12px}
 .loader .dot,
 .loader .dot:nth-child(3){ margin:0 !important; position:static}
@@ -1388,6 +1459,60 @@ border-radius: 4px;}
 .comment_block .col-md-1{ width:100%; max-width:12% !important;}
 .comment_block .col-md-11,
 .comment_block .col-xs-11{ width:100%; max-width:88% !important; padding:0}
+
+
+/* Livescore Componenets Styles */
+.page_livescore .main-container .hdr_page{ padding:0; margin:0 auto 15px}
+.page_livescore .main-container .form-group{ border-top:1px solid #cccccc; padding:14px 0 0}
+.page_livescore .main-container .btn-select{ width:auto}
+.page_livescore .main-container h2.relatedmaintitle{ font-size:26px; margin:0 auto}
+
+.page_livescore .main-container .lst_block{ margin:23px auto 30px}
+.page_livescore .main-container .v-item{ margin-bottom:0}
+.page_livescore .main-container .v-item h3{ margin:7px auto 0}
+.page_livescore .main-container .v-item h3 em{ font-size:12px;}
+
+/* Tabs Block */
+.page_livescore .alltabs_block{ margin:0 auto; padding:0}
+
+.page_livescore .nav-tabs{ display:table; width:100%; height:44px; padding:0; margin:0 auto; border:1px solid #b7b7b7; border-width:1px 0; background:#ffffff; color:#1f1f1f}
+.page_livescore .nav-tabs > li{ margin-bottom: -1px; display:table-cell; vertical-align:middle; width:25%; text-align:center; border-right:1px solid #b7b7b7; font-size:16px;}
+.page_livescore .nav-tabs > li:first-child{ border-left:1px solid #b7b7b7}
+
+.page_livescore .nav-tabs > li > a{ margin-right: 2px; line-height:44px; display:block; width:100%; height:100%; color:#1f1f1f; text-decoration:none;}
+.page_livescore .nav-tabs > li > a:hover{ color:#fcfcfc; background-color:#ee1d25}
+.page_livescore .nav-tabs > li.active > a,
+.page_livescore .nav-tabs > li.active > a:hover,
+.page_livescore .nav-tabs > li.active > a:focus{ cursor: default; color:#fcfcfc; background-color:#ee1d25}
+/* /Tabs Block */
+
+/* Matches Result Block */
+.page_livescore .result_block{ padding:15px 0 0; margin:0 auto}
+.page_livescore .result_block .results{ width:100%;}
+.page_livescore .result_block .results > .result{ border-bottom:1px solid #c2c2c2; padding:10px 15px 22px; margin:0 auto}
+.page_livescore .result_block .results > .result:first-child{ padding-top:0}
+
+.result_block .goals > *{ display:block; text-align:center;}
+.result_block .goals em{ margin:0 auto; text-transform:uppercase}
+.result_block .club{ min-height:100px; line-height:100px; font-size:14px;}
+.result_block .club > *{ display:inline-block; padding:0 5px;}
+.result_block .club cite{ line-height:normal; font-style:normal; max-width:55%; vertical-align:middle}
+
+.result_block .matchdetils{ padding:12px 0 0; margin:20px auto 0; overflow:hidden; clear:both; height:100%}
+.result_block .datetime i, 
+.result_block .schedule i{ font-style:normal; font-size:12px; color:#252525; display:block; text-align:left;}
+.result_block .datetime .fa,
+.result_block .schedule .fa{ color:#a8a8a8; display:inline-block; min-width:12px; text-align:center;}
+
+.result_block .schedule{ float:right; display:inline-block; text-align:right}
+.result_block .schedule i{ text-align:right; margin-bottom:3px;}
+
+.result_block .schedule .detilslink{ border-color:#b7b7b7; padding: 4px 10px;}
+.result_block .schedule .detilslink .fa{ color:#252525; font-size:15px; line-height:normal; vertical-align:middle}
+.result_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0}
+/* /Matches Result Block */
+/* Livescore Componenets Styles */
+
 
 /* Smaller than standard 1050 (devices and browsers) */
 @media only screen and (max-width: 1050px){
