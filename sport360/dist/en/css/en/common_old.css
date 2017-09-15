@@ -11339,31 +11339,6 @@ h3.most {
   color: #202020;
 }
 
-a.video-link {
-  color: #ffffff;
-}
-
-a.video-link:hover {
-  color: #cc1f27;
-  text-decoration: none;
-}
-
-a.video-link.title {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 900;
-  line-height: 36px;
-  position: absolute;
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
-  margin: 0;
-  width: 100%;
-  bottom: 0;
-  text-shadow: 0px 0px 0px black, 0 0 100px black, 0px 0px 100px black;
-}
-
 h3.title {
   position: absolute;
   padding-top: 24px;
@@ -11572,7 +11547,6 @@ li .img-pic img {
   color: #202020;
   font-weight: 700;
   line-height: 20px;
-  display: inline-block;
 }
 
 .v-item h3 a:hover {
@@ -11888,17 +11862,13 @@ li.subscribe > div a:hover {
   color: #000;
 }
 
-a.subscribe-btn:hover {
-  background: #f74253 !important;
-}
-
 .subscribe-btn {
   background-color: #ec1a2e;
   color: #ffffff;
 }
 
 .subscribe-btn:hover {
-  color: #ffffff !important;
+  color: #f74253 !important;
 }
 
 .subscribe-btn > img > span {
@@ -12243,6 +12213,7 @@ a.subscribe-btn:hover {
 }
 
 .owl-carousel .owl-item .club img {
+  width: 50%;
   margin: 10px auto;
 }
 
@@ -12374,7 +12345,7 @@ a.subscribe-btn:hover {
   border: solid 1px #000;
   border-radius: 5px;
   padding: 5px 15px;
-  margin-left: 77px;
+  margin-left: 70px;
   font-size: 12px;
   font-weight: 700;
   color: #252525;
@@ -12524,50 +12495,33 @@ div.level > ul > li {
 }
 
 .loader .dot:first-child {
-  animation: loadingC .6s .1s linear infinite;
-  /*animation: move 1s ease-in-out infinite alternate;*/
+  animation: move 1s ease-in-out infinite alternate;
   background: #313131;
   margin-left: 0;
 }
 
 .loader .dot:nth-child(2) {
-  animation: loadingC .6s .2s linear infinite;
-  /* animation: move 1s ease-in-out -0.25s infinite alternate;*/
+  animation: move 1s ease-in-out -0.25s infinite alternate;
   margin-left: 35px;
   background: #313131;
 }
 
 .loader .dot:nth-child(3) {
-  animation: loadingC .6s .3s linear infinite;
-  /* animation: move 1s ease-in-out -0.5s infinite alternate;*/
+  animation: move 1s ease-in-out -0.5s infinite alternate;
   margin-left: 70px;
   background: #313131;
 }
 
 .loader .dot:nth-child(4) {
-  animation: loadingC .6s .4s linear infinite;
-  /*animation: move 1s ease-in-out -0.75s infinite alternate;*/
+  animation: move 1s ease-in-out -0.75s infinite alternate;
   margin-left: 105px;
   background: #313131;
 }
 
 .loader .dot:nth-child(5) {
-  animation: loadingC .6s .5s linear infinite;
-  /* animation: move 1s ease-in-out -0.75s infinite alternate;*/
+  animation: move 1s ease-in-out -0.75s infinite alternate;
   margin-left: 140px;
   background: #313131;
-}
-
-@keyframes loadingC {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, 15px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
 }
 
 @-moz-keyframes move {

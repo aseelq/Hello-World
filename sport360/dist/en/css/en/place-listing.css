@@ -136,7 +136,7 @@ border-radius: 5px}
 .lst_block > div[class^="col-"], 
 .lst_block > div[class*=" col-"]{ margin:0 auto 20px}
 .lst_block .v-item{ height:auto; color:#1f1f1f; font-size:14px; padding:0 0 10px; min-height:300px; width:100%; max-width:310px; margin:0 auto}
-.lst_block .v-item h3{ font-size:18px; line-height:128%; padding:15px 15px 5px; margin:0 auto 2px; max-height:63px; overflow:hidden}
+.lst_block .v-item h3{ font-size:18px; line-height:128%; padding:15px 15px 5px; margin:0 auto 2px; max-height:57px; overflow:hidden}
 .lst_block .v-item h3 a{ font-size:18px;}
 .lst_block .v-item .time_block{ list-style:none; padding:0; margin:0 15px 0; font-size:14px; border-bottom:none; max-height:40px; overflow:hidden}
 .lst_block .v-item .time_block > li{ margin:0 0 2px; padding:0}
