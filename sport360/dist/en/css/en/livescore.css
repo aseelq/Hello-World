@@ -1473,9 +1473,11 @@ border-radius: 4px;}
 .page_livescore .main-container .v-item h3 em{ font-size:12px;}
 
 /* Tabs Block */
-.page_livescore .alltabs_block{ margin:0 auto; padding:0}
-
-.page_livescore .nav-tabs{ display:table; width:100%; height:44px; padding:0; margin:0 auto; border:1px solid #b7b7b7; border-width:1px 0; background:#ffffff; color:#1f1f1f}
+.page_livescore .alltabs_block{ margin:35px auto 30px; padding:0}
+.page_livescore .nav-tabs{ display:table; width:100%; height:44px; padding:0; margin:0 auto; border:1px solid #b7b7b7; border-width:1px 0; background:#ffffff; color:#1f1f1f;
+-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 .page_livescore .nav-tabs > li{ margin-bottom: -1px; display:table-cell; vertical-align:middle; width:25%; text-align:center; border-right:1px solid #b7b7b7; font-size:16px;}
 .page_livescore .nav-tabs > li:first-child{ border-left:1px solid #b7b7b7}
 
