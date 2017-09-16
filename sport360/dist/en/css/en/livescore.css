@@ -1513,9 +1513,11 @@ border-radius: 4px;}
 /* /Matches Result Block */
 
 /* Fixtures Block */
-.fixtures_block .hdr_item{ border:1px solid #c2c2c2; border-width:1px 0; padding:20px 0 0; margin:18px auto 10px; color:#202020;  min-height:58px;}
+.fixtures_block{ position:relative}
+.fixtures_block .hdr_item{ border:1px solid #c2c2c2; border-width:1px 0; padding:20px 0 0; margin:18px auto 10px; color:#202020; min-height:58px; width:auto}
 .fixtures_block .hdr_item a{ text-decoration:none}
-.fixtures_block .hdr_item > h3{ font-size:16px; margin:0 auto}
+.fixtures_block .hdr_item h3{ font-size:16px; margin:0 auto; max-width:220px}
+.fixtures_block .hdr_item cite{ font-style:normal;}
 .fixtures_block .hdr_item .fa{ vertical-align:middle; width:20px; height:20px; color:#fcfcfc; font-size:11px; background:#d7d7d7; text-align:center; padding:5px 0 0; 
 display:inline-block; margin:-4px 5px 0;
 -webkit-border-radius:50%;
@@ -1535,10 +1537,11 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
 .fixtures_block .owl-carousel .owl-item{ border:0;}
 .fixtures_block .owl-carousel .owl-item img{ display:inline-block}
-.fixtures_block .owl-carousel .owl-nav{ top:2px; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
+.fixtures_block .owl-carousel .owl-nav{ top:0; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
 .fixtures_block .owl-carousel .owl-nav > *{ top:30px;}
-.fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{}
-.fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before{}
+.fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px;}
+.fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
+.fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before{ content:""}
 /* /Fixtures Block */
 /* Livescore Componenets Styles */
 

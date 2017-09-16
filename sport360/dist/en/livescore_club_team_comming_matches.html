@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../js/libs/owl.carousel/owl.theme.default.min.css">
 <!--<link rel="stylesheet" href="../js/libs/animate/animate.css"> -->
 
+<link rel="stylesheet" type="text/css" href="css/en/bootstrap-datepicker3.css">
 <link rel="stylesheet" type="text/css" href="css/en/common.css">
 <link rel="stylesheet" type="text/css" href="css/en/livescore.css">
 </head>
@@ -857,7 +858,10 @@
                     <div class="owl-carousel">
                         <div class="item">
                             <div class="hdr_item">
-                            	<h3>12 July 2017 <a href="#" class="fa fa-pencil"></a></h3>
+                            	<h3 class="datepickerClick" id='datetimepicker01'>
+                                    <cite>14 July 2017</cite>
+                                    <i class="fa fa-pencil"></i>
+                                </h3>
                             </div>
                             
                             <!-- Collapse Block -->
@@ -1003,13 +1007,84 @@
                         
                         
                         <div class="item">
-                          <div class="hdr_item">
-                            	<h3>20 July 2017 <a href="#" class="fa fa-pencil"></a></h3>
-                          </div>
-                          <img src="..." alt="...">
-                          <div class="carousel-caption">
-                            ...
-                          </div>
+                            <div class="hdr_item">
+                            	<h3 class="datepickerClick" id='datetimepicker02'>
+                                    <cite>20 October 2017</cite> 
+                                    <i class="fa fa-pencil"></i>
+                                </h3>
+                            </div>
+                            
+                            <!-- Collapse Block -->
+                            <div class="panel-group post_collapse" id="accordion01">
+                              <div class="panel panel-default">
+                                <a href="#collapse011" class="panel-title" role="button" data-toggle="collapse" data-parent="#accordion01">
+                                Egyptian Premier League <i class="fa fa-chevron-down"></i></a>
+                                
+                                <div id="collapse011" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                  		<!-- Item Result -->
+                                        <div class="result_block">
+                                            <div class="results">
+                                                <div class="clearfix result">
+                                                    <span class="club"><cite>Real Madrid Aseelco</cite> <img src="images/logo_01.png" alt="" /></span>
+                                                    <span class="goals"><b> - <span>:</span> -</b><em>Half Time</em></span>
+                                                    <span class="club"><img src="images/logo_02.png" alt="" /> <cite>FC Barchelona</cite></span>
+                                                    <div class="clearfix"></div>
+                                                    
+                                                    <div class="matchdetils">
+                                                        <span class="datetime">
+                                                            <i><b class="fa fa-map-marker"></b> San Mames Stadium</i>
+                                                            <i><b class="fa fa-clock-o"></b> 18:00, 12.05.2017</i>
+                                                        </span>
+                                                        
+                                                        <span class="schedule">
+                                                            <i><b class="fa fa-calendar-check-o"></b> Week 37</i>
+                                                            <a href="#e" class="detilslink">Match details<i class="fa fa-caret-right arr"></i></a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /Item Result -->
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="panel panel-default">
+                                <a href="#collapse022" class="panel-title" role="button" data-toggle="collapse" data-parent="#accordion01">
+                                Egypt Cup <i class="fa fa-chevron-down"></i></a>
+                                
+                                <div id="collapse022" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                  		<!-- Item Result -->
+                                        <div class="result_block">
+                                            <div class="results">
+                                                <div class="clearfix result">
+                                                    <span class="club"><cite>Real Madrid Aseelco</cite> <img src="images/logo_01.png" alt="" /></span>
+                                                    <span class="goals"><b> - <span>:</span> -</b><em>Half Time</em></span>
+                                                    <span class="club"><img src="images/logo_02.png" alt="" /> <cite>FC Barchelona</cite></span>
+                                                    <div class="clearfix"></div>
+                                                    
+                                                    <div class="matchdetils">
+                                                        <span class="datetime">
+                                                            <i><b class="fa fa-map-marker"></b> San Mames Stadium</i>
+                                                            <i><b class="fa fa-clock-o"></b> 18:00, 12.05.2017</i>
+                                                        </span>
+                                                        
+                                                        <span class="schedule">
+                                                            <i><b class="fa fa-calendar-check-o"></b> Week 37</i>
+                                                            <a href="#e" class="detilslink">Match details<i class="fa fa-caret-right arr"></i></a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /Item Result -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /Collapse Block -->
                         </div>
                     </div>
                 </div>
@@ -1129,6 +1204,8 @@
 <script type="text/javascript" src="../js/libs/jquery/dist/jquery.min.js"></script>
 <script src="../js/libs/tether/tether.min.js"></script>
 <script type="text/javascript" src="../js/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/libs/bootstrap/dist/js/bootstrap-datepicker.min.js"></script>
+
 <script type="text/javascript" src="../js/libs/slick-carousel/slick/slick.min.js"></script>
 <script src="../js/libs/sticky-kit.min.js"></script>
 
@@ -1169,7 +1246,14 @@ $('.fixtures_block .owl-carousel').owlCarousel({
     loop:false,
     margin:0,
 	nav:true,
-    items:1
+    items:1,
+});
+
+// Select Date Calender
+$(function (){
+	$('.datepickerClick').datepicker({
+	   container: '.fixtures_block'
+	});
 });
 </script>
 <!-- /Script Lines -->
