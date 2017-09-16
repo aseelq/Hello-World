@@ -1463,14 +1463,23 @@ border-radius: 4px;}
 
 /* Livescore Componenets Styles */
 .page_livescore .main-container .hdr_page{ padding:0; margin:0 auto 15px}
+.page_livescore .main-container .hdr_page .articlemaintitle{ padding:0 0 5px}
 .page_livescore .main-container .form-group{ border-top:1px solid #cccccc; padding:14px 0 0}
 .page_livescore .main-container .btn-select{ width:auto}
-.page_livescore .main-container h2.relatedmaintitle{ font-size:26px; margin:0 auto}
+.page_livescore .main-container h2.relatedmaintitle{ font-size:26px; margin:0 auto; padding:0 0 15px}
 
-.page_livescore .main-container .lst_block{ margin:23px auto 30px}
-.page_livescore .main-container .v-item{ margin-bottom:0}
+.page_livescore .main-container .lst_block{ margin:40px auto 20px}
+.page_livescore .main-container .v-item{ margin:0 0 15px}
 .page_livescore .main-container .v-item h3{ margin:7px auto 0}
 .page_livescore .main-container .v-item h3 em{ font-size:12px;}
+.page_livescore .main-container .relatednews{ margin:38px auto 0}
+
+
+/* Clubs Responsive View */
+.page_livescore .main-container .clublogos{ margin:22px auto 0}
+.page_livescore .main-container .clublogos .clubslist .owl-item img{ width:auto; margin:7px auto 0}
+.page_livescore .main-container .clublogos .clubslist .owl-item .club > a{ display:block;}
+/* /Clubs Responsive View */
 
 /* Tabs Block */
 .page_livescore .alltabs_block{ margin:35px auto 30px; padding:0}
@@ -1515,8 +1524,8 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 /* /Matches Result Block */
 
 /* Fixtures Block */
-.fixtures_block{ position:relative}
-.fixtures_block .hdr_item{ border:1px solid #c2c2c2; border-width:1px 0; padding:20px 0 0; margin:18px auto 10px; color:#202020; min-height:58px; width:auto}
+.fixtures_block{ position:relative; margin:38px auto 0}
+.fixtures_block .hdr_item{ border:1px solid #c2c2c2; border-width:1px 0; padding:20px 0 0; margin:0 auto 10px; color:#202020; min-height:58px; width:auto}
 .fixtures_block .hdr_item a{ text-decoration:none}
 .fixtures_block .hdr_item h3{ font-size:16px; margin:0 auto; max-width:220px}
 .fixtures_block .hdr_item cite{ font-style:normal;}
@@ -1540,8 +1549,8 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel .owl-item{ border:0;}
 .fixtures_block .owl-carousel .owl-item img{ display:inline-block}
 .fixtures_block .owl-carousel .owl-nav{ top:0; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
-.fixtures_block .owl-carousel .owl-nav > *{ top:30px;}
-.fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px;}
+.fixtures_block .owl-carousel .owl-nav > *{ top:12px;}
+.fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px; display:inline-block !important}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before{ content:""}
 /* /Fixtures Block */
