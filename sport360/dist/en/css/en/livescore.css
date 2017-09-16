@@ -1608,7 +1608,8 @@ min-height:40px; padding:8px 15px 0}
 	.page_livescore .clubnews .v-item:after{ display:table; content: " ";}
 	.page_livescore .clubnews .v-item:after{ clear:both}
 	
-	.page_livescore .clubnews .col-sm-6{ max-width:50%; flex: 0 0 50%;}
+	.page_livescore .clubnews .col-sm-6{ max-width:50%; flex: 0 0 50%; padding:0 0 0 8px}
+	.page_livescore .clubnews .col-sm-6:first-child{ padding:0 8px 0 0}
 	.page_livescore .clubnews .col-sm-12{ max-width:100%; flex: 0 0 100%;}
 	
 	.page_livescore .clubnews .col-sm-6 .v-item{ position:relative; height:auto; margin:0 auto 15px; padding:0; padding:0; background:none;}
@@ -1677,7 +1678,11 @@ min-height:40px; padding:8px 15px 0}
 	.gallery_modal .gallery_repeated .v-item .dtail{ max-width:50%}
 	
 	/* Livescore Componenets Styles */
-	.page_livescore .clubnews .col-xs-12{ max-width:100%; flex: 0 0 100%;}
+	.result_block .club{ margin:0 auto; text-align:center}
+	.result_block .club cite{ display:block; max-width:100%; font-size:14px;}
+	.result_block .club img{ display:block; margin:0 auto; text-align:center; max-width:100%}
+	
+	.page_livescore .clubnews .col-xs-12{ max-width:100%; flex: 0 0 100%; padding:0 !important}
 	.page_livescore .clubnews .col-xs-12 .v-item{ height:auto; margin:0 auto 15px; background:#ffffff;
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
@@ -1687,9 +1692,11 @@ min-height:40px; padding:8px 15px 0}
 	.page_livescore .clubnews .col-xs-12 .v-item .pic img{ max-width:134px;}
 	.page_livescore .clubnews .col-xs-12 .v-item > *{ display:inline-block; float:left; }
 	
-	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:50%; font-size:15px; margin:5px 0 0!important; padding:0 5px !important; position:static; color:#2b2b2b}
+	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#2b2b2b}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#2b2b2b; overflow:hidden; max-height:50px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
+	
+	
 	/* /Livescore Componenets Styles */
 }
 
@@ -1699,5 +1706,8 @@ min-height:40px; padding:8px 15px 0}
 	.relatednews .related .most-mobile{ padding:0 10px 0 0 !important}
 	
 	.gallery_modal .modal-header{ padding:0}
+	
+	.page_livescore .nav-tabs > li > a{ font-size:14px; margin:0 auto; padding:0 8px}
+	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:50%;}
 }
 /* /new classes */
