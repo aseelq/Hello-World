@@ -1487,10 +1487,10 @@ border-radius: 4px;}
 /* /Tabs Block */
 
 /* Matches Result Block */
-.page_livescore .result_block{ padding:15px 0 0; margin:0 auto}
-.page_livescore .result_block .results{ width:100%;}
-.page_livescore .result_block .results > .result{ border-bottom:1px solid #c2c2c2; padding:10px 15px 22px; margin:0 auto}
-.page_livescore .result_block .results > .result:first-child{ padding-top:0}
+.result_block{ padding:15px 0 0; margin:0 auto}
+.result_block .results{ width:100%;}
+.result_block .results > .result{ border-bottom:1px solid #c2c2c2; padding:10px 15px 22px; margin:0 auto}
+.result_block .results > .result:first-child{ padding-top:0}
 
 .result_block .goals > *{ display:block; text-align:center;}
 .result_block .goals em{ margin:0 auto; text-transform:uppercase}
@@ -1511,6 +1511,35 @@ border-radius: 4px;}
 .result_block .schedule .detilslink .fa{ color:#252525; font-size:15px; line-height:normal; vertical-align:middle}
 .result_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0}
 /* /Matches Result Block */
+
+/* Fixtures Block */
+.fixtures_block .hdr_item{ border:1px solid #c2c2c2; border-width:1px 0; padding:20px 0 0; margin:18px auto 10px; color:#202020;  min-height:58px;}
+.fixtures_block .hdr_item a{ text-decoration:none}
+.fixtures_block .hdr_item > h3{ font-size:16px; margin:0 auto}
+.fixtures_block .hdr_item .fa{ vertical-align:middle; width:20px; height:20px; color:#fcfcfc; font-size:11px; background:#d7d7d7; text-align:center; padding:5px 0 0; 
+display:inline-block; margin:-4px 5px 0;
+-webkit-border-radius:50%;
+-moz-border-radius: 50%;
+border-radius:50%;}
+
+.fixtures_block .post_collapse .panel-default{ margin:0 auto 12px}
+.fixtures_block .post_collapse .panel-body{ padding:0 18px}
+.fixtures_block .panel-collapse{ border:1px solid #cccccc; border-width:0 1px 1px; background:#ffffff}
+.fixtures_block .post_collapse .panel-title{ font-weight:bold; text-align:left; background:#ebebeb; border:1px solid #cccccc; color:#424242; 
+min-height:40px; padding:8px 15px 0}
+.fixtures_block .post_collapse .panel-title i{ color:#282828}
+
+.fixtures_block .result_block{ padding:0}
+.fixtures_block .result_block .results > .result{ border:0; padding:10px 0 22px}
+
+.fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
+.fixtures_block .owl-carousel .owl-item{ border:0;}
+.fixtures_block .owl-carousel .owl-item img{ display:inline-block}
+.fixtures_block .owl-carousel .owl-nav{ top:2px; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
+.fixtures_block .owl-carousel .owl-nav > *{ top:30px;}
+.fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before
+.fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before
+/* /Fixtures Block */
 /* Livescore Componenets Styles */
 
 
