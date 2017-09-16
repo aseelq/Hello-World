@@ -1554,7 +1554,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before{ content:""}
 /* /Fixtures Block */
-/* Livescore Componenets Styles */
+/* /Livescore Componenets Styles */
 
 
 /* Smaller than standard 1050 (devices and browsers) */
@@ -1601,6 +1601,40 @@ min-height:40px; padding:8px 15px 0}
 	.gallery_modal .gallery_repeated .v-item .pic{ float:left; max-width:230px; margin:0 10px 0 0; display:inline-block}
 	.gallery_modal .gallery_repeated .v-item h5{ max-height:55px; overflow:hidden; font-size:16px;}
 	.gallery_modal .gallery_repeated .v-item .dtail{ float:left; display:inline-block; max-width:65%}
+	
+	/* Livescore Componenets Styles */
+	.page_livescore .clubnews .v-item .pic figure{ margin:0 !important}
+	.page_livescore .clubnews .v-item:before,
+	.page_livescore .clubnews .v-item:after{ display:table; content: " ";}
+	.page_livescore .clubnews .v-item:after{ clear:both}
+	
+	.page_livescore .clubnews .col-sm-6{ max-width:50%; flex: 0 0 50%;}
+	.page_livescore .clubnews .col-sm-12{ max-width:100%; flex: 0 0 100%;}
+	
+	.page_livescore .clubnews .col-sm-6 .v-item{ position:relative; height:auto; margin:0 auto 15px; padding:0; padding:0; background:none;}
+	.page_livescore .clubnews .col-sm-6 .v-item .pic img{ width:100%;}
+	.page_livescore .clubnews .col-sm-6 .v-item .pic{ position:relative}
+	.page_livescore .clubnews .col-sm-6 .v-item .pic:after{ content:''; display:block; padding:0; margin:auto; position:absolute; top:0; bottom:0; left:0; right:0; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */}
+	
+	.page_livescore .clubnews .col-sm-6 .v-item h3{ position:absolute; left:0; right:0; bottom:0; color:#fcfcfc; margin:15px auto}
+	.page_livescore .clubnews .col-sm-6 .v-item h3 a{  font-size:18px; color:#fcfcfc; line-height:normal}
+	.page_livescore .clubnews .col-sm-6 .v-item h3 em{ font-size:14px; color:#bbbbbb}
+	
+	.page_livescore .clubnews .col-sm-12 .v-item{ height:auto; margin:0 auto 15px;
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;}
+	.page_livescore .clubnews .col-sm-12 .v-item .pic img{ max-width:230px;}
+	.page_livescore .clubnews .col-sm-12 .v-item > *{ display:inline-block; float:left; }
+	.page_livescore .clubnews .col-sm-12 .v-item h3{ max-width:55%; font-size:16px; margin:12px 0; padding:0 5px !important}
+	.page_livescore .clubnews .col-sm-12 .v-item h3 a{ font-size:16px; line-height:normal}
+	.page_livescore .clubnews .col-sm-12 .v-item h3 em{ font-size:14px; color:#727272}
+	/* /Livescore Componenets Styles */
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -1641,6 +1675,22 @@ min-height:40px; padding:8px 15px 0}
 	.gallery_modal .gallery_repeated .v-item .pic{ float:left; max-width:134px; margin:0 10px 0 0}
 	.gallery_modal .gallery_repeated .v-item h5{ max-height:55px; overflow:hidden; font-size:15px; margin-bottom: 2px;}
 	.gallery_modal .gallery_repeated .v-item .dtail{ max-width:50%}
+	
+	/* Livescore Componenets Styles */
+	.page_livescore .clubnews .col-xs-12{ max-width:100%; flex: 0 0 100%;}
+	.page_livescore .clubnews .col-xs-12 .v-item{ height:auto; margin:0 auto 15px; background:#ffffff;
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;}
+	
+	.page_livescore .clubnews .col-xs-12 .v-item .pic:after{ display:none}
+	.page_livescore .clubnews .col-xs-12 .v-item .pic img{ max-width:134px;}
+	.page_livescore .clubnews .col-xs-12 .v-item > *{ display:inline-block; float:left; }
+	
+	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:50%; font-size:15px; margin:5px 0 0!important; padding:0 5px !important; position:static; color:#2b2b2b}
+	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#2b2b2b; overflow:hidden; max-height:50px}
+	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
+	/* /Livescore Componenets Styles */
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
