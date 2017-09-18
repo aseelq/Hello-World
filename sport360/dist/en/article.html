@@ -1013,7 +1013,7 @@
                         </div>
                     </div> -->
                     <div class="OUTBRAIN" data-src="http://sport360.com/article/other/boxing-mma/245947/reputations-on-the-line-in-las-vegas-and-not-just-that-of-floyd-mayweather-and-conor-mcgregors" data-widget-id="AR_2" data-ob-template="Sport360-EN" ></div>
-                    <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+                    <script type="text/javascript" async src="http://widgets.outbrain.com/outbrain.js"></script>
                 </div>
 
                 <!-- for all devices -->
@@ -1225,7 +1225,20 @@
 	<div class="footer">
 		<p class="text-center"></p>
 	</div>
-	<script type="text/javascript" src="../js/libs/jquery/dist/jquery.min.js"></script>
+    
+    
+<!-- Next Article Sticky Box -->
+<div class="article_sticky">
+	<div class="pic"><img src="images/image_14.jpg" alt="" /></div>
+    <div class="dscription">
+    	<h4>Gatland, Barretts among winners from from All Blacks and British &amp; Irish Lions draw</h4>
+        <a href="#">Next Article <i class="fa fa-caret-right"></i></a>
+    </div>
+</div>
+<!-- /Next Article Sticky Box -->
+
+
+<script type="text/javascript" src="../js/libs/jquery/dist/jquery.min.js"></script>
 <script src="../js/libs/tether/tether.min.js"></script>
 <script type="text/javascript" src="../js/libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/libs/slick-carousel/slick/slick.min.js"></script>
@@ -1238,6 +1251,15 @@
 
 <script type="text/javascript" src="../js/article.js"></script>
 
-
+<script>
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 800) {
+    $('.article_sticky').fadeIn();
+  } else {
+    $('.article_sticky').fadeOut();
+  }
+});
+</script>
 </body>
 </html>

@@ -12558,6 +12558,11 @@ div.level > ul > li {
   background: #313131;
 }
 
+.video-content img{
+  width:auto !important;
+  height:auto !important;
+}
+
 @keyframes loadingC {
   0% {
     transform: translate(0, 0);

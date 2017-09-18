@@ -521,28 +521,7 @@
   background: #ec1a2e;
   border: none;
   color: white;
-  margin:10px auto;
 }
-/* New and Modified */
-.btn_wrap { position: relative; z-index: 100;}
-.btn_wrap:before {
-  display: block;
-  content: "";
-  position: absolute;
-  top: -45px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 100%;
-  height: 50px;
-  z-index: 100;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
-/* /New and Modified */
 
 #paragraph-seemore-pointer {
   position: relative;
@@ -596,7 +575,7 @@
   height: 270px;
   margin-top: 15px;
   margin-bottom: 6px;
-  margin-left: 20px !important;
+  margin-left: 0px !important;
 }
 
 .v-item h3 {
@@ -609,27 +588,11 @@
   font-size: 14px;
   color: black;
   font-weight: 600;
-  text-align: left;
 }
 
-.v-item em {
-  text-align: left;
-}
-
-#myDIV {
-  display: none;
-}
-
-.fadown {
+.fa-caret-down {
   padding-right: 10px;
   font-size: 14px;
-  display: inline-block;
-}
-
-.faup {
-  padding-right: 10px;
-  font-size: 14px;
-  display: none;
 }
 
 .no-padding {
@@ -810,10 +773,6 @@ h2.maintitle {
   padding-bottom: 20px;
 }
 
-.related input {
-  cursor: pointer !important;
-}
-
 .inlineads {
   margin-top: 10px;
 }
@@ -941,29 +900,8 @@ h2.relatedmaintitle {
   width: 640px;
 }
 
-
-/* New Classes Added */
-.article_sticky{ position:fixed; padding:0; margin:0; max-width:318px; right:10px; bottom:10px; background:#ffffff; color:#212121; text-align:center; z-index:100; display:none;
--moz-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
--webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
-box-shadow: 0 4px 12px rgba(0,0,0,0.36);}
-.article_sticky .dscription{ padding:15px 15px 20px}
-.article_sticky h4{ font-size:16px; font-weight:bold; text-align:left; margin:0 0 20px; color:#e32522; line-height:120%}
-.article_sticky a{ background:#e32522; color:#fcfcfc; font-size:16px; text-transform:uppercase; display:inline-block; padding:12px; min-width:205px;
-
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
-border-radius: 2px;
-}
-.article_sticky .fa{ display:inline-block; margin:0 0 0 15px}
-/* /New Classes Added */
-
-
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
-  .owl-carousel.clubslist {
-    height: 328px !important;
-  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
@@ -991,27 +929,16 @@ border-radius: 2px;
     height: 270px;
     margin-top: 15px;
     margin-bottom: 6px;
-    margin-left: 20px !important;
-  }
-  .v-item h3 {
     margin-left: 0px !important;
-    margin-right: 10px !important;
-    padding: 10px !important;
   }
   .relatednews .related {
-    /*  height: 328px;
-        width: 670px;
-        margin-left: 25px;*/
     height: 328px;
-    width: 720px;
-    margin-left: 0px;
+    width: 670px;
+    margin-left: 25px;
   }
 }
 
 @media only screen and (max-width: 420px) {
-  .owl-carousel.clubslist {
-    height: 272px !important;
-  }
   .detilslink {
     display: inline-block;
     border: solid 1px #000;
@@ -1044,9 +971,6 @@ border-radius: 2px;
     color: #727272;
     line-height: 1.2;
   }
-  .related_img {
-    width: 250px !important;
-  }
   .v-item {
     background: #fff;
     box-shadow: 0 0px 0px transparent !important;
@@ -1055,10 +979,10 @@ border-radius: 2px;
     margin-bottom: 6px;
     margin-left: 0px !important;
   }
-  /*.relatednews .related {
-        padding-top: 0px;
-        height: 270px;
-    }*/
+  .relatednews .related {
+    padding-top: 0px;
+    height: 270px;
+  }
   .most-mobile {
     padding-left: 4px !important;
     padding-right: 4px !important;
@@ -1066,13 +990,13 @@ border-radius: 2px;
   .v-item h3 {
     margin-left: 0px !important;
     margin-right: 10px !important;
-    padding: 15px !important;
+    padding: 0px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 10px;
   }
   .no-padding {
     padding: 15px;
@@ -1080,9 +1004,6 @@ border-radius: 2px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
-  .owl-carousel.clubslist {
-    height: 272px !important;
-  }
   h2.relatedmaintitle {
     font-family: 'Roboto';
     font-weight: 700;
@@ -1106,13 +1027,6 @@ border-radius: 2px;
     color: #727272;
     line-height: 1.2;
   }
-  .related_img {
-    width: 250px !important;
-  }
-  /*.relatednews .related {
-        padding-top: 0px;
-        height: 270px;
-    }*/
   .v-item {
     background: #fff;
     box-shadow: 0 0px 0px transparent !important;
@@ -1124,22 +1038,22 @@ border-radius: 2px;
   .v-item h3 {
     margin-left: 0px !important;
     margin-right: 10px !important;
-    padding: 15px !important;
+    padding: 0px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 10px;
   }
   .most-mobile {
     padding-left: 4px !important;
     padding-right: 4px !important;
   }
-  /* .relatednews .related {
-        padding-top: 0px;
-        height: 270px;
-    }*/
+  .relatednews .related {
+    padding-top: 0px;
+    height: 270px;
+  }
   .no-padding {
     padding: 15px;
   }
