@@ -1611,6 +1611,39 @@ white-space: nowrap; vertical-align: middle; background-color:#252525; font-styl
 border-radius:50%;}
 .clubteam_block .list-group .badge.lgray{ background:#c2c2c2}
 /* /Club Team Block */
+
+/* Scorers Block */
+.scorers_block{ padding:0 0 35px; margin:0 auto; overflow:hidden; height:100%}
+.scorers_block a{ color:#727272;}
+.scorers_block .hdr_block{ margin:0 auto 25px;}
+.scorers_block .hdr_block .clearfix{ padding:15px 0 0}
+.scorers_block .hdr_block h2,
+.scorers_block .hdr_block h3{ background:#363636; color:#fcfcfc; text-align:center; padding:15px; margin:0 auto; font-size:20px; display:block}
+
+.scorers_block .hdr_block .pic_player{ float:left; display:inline-block; clear:none; min-width:140px; margin:0 auto; text-align:center; padding:0}
+.scorers_block .hdr_block .pic_player > img{ max-width:118px;}
+
+.scorers_block .hdr_block .dtail{ float:left; padding:0; margin:0; width:75.7%}
+.scorers_block .hdr_block .dtail ul{ padding:0; margin:0 0}
+.scorers_block .hdr_block .dtail ul > li{ display:table; clear:both; font-style:normal; width:100%; margin:0; border-bottom:1px solid #cccccc}
+.scorers_block .hdr_block .dtail ul > li > *{ display:table-cell; overflow:hidden; vertical-align:top; padding:5px 0; margin:0} 
+
+.scorers_block .hdr_block .dtail ul > li > h4,
+.scorers_block .hdr_block .dtail ul > li > h4 a{ color:#202020; font-size:22px; font-weight:bold; line-height:100%}
+.scorers_block .hdr_block .dtail ul > li > h4{ padding:7px 0 10px; height:40px}
+
+.scorers_block .hdr_block .dtail .label{ color:#202020; font-style:normal; font-size:14px; font-weight:bold; width:100px;}
+.scorers_block .hdr_block .dtail p{ text-align:left; color:#727272; font-size:14px}
+.scorers_block .hdr_block .dtail .score{ font-size:14px; color:#f51818; font-weight:bold}
+
+.scorers_block .list-inline > li{ float:left;}
+.scorers_block .list-inline .item_block{ margin-bottom:10px; overflow:hidden; clear:both; height:100%}
+.scorers_block .list-inline .item_block .pic{ float:left}
+.scorers_block .list-inline .item_block .dtail{ float:left; padding:0 0 0 7px}
+.scorers_block .list-inline .item_block .dtail > *{ display:block; clear:both; padding:0; margin:0; font-style:normal; font-size:16px; color:#727272}
+
+.scorers_block .list-inline .item_block .dtail .name,
+.scorers_block .list-inline .item_block .dtail .name a{ color:#202020; font-weight:bold}
 /* /Livescore Componenets Styles */
 
 
