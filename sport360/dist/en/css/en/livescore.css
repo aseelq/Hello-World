@@ -1468,15 +1468,16 @@ border-radius: 4px;}
 .page_livescore .main-container .btn-select{ width:auto}
 .page_livescore .main-container h2.relatedmaintitle{ font-size:26px; margin:0 auto; padding:0 0 15px}
 
-.page_livescore .main-container .lst_block{ margin:40px auto 20px}
+.page_livescore .main-container .lst_block{ margin:0 auto 30px}
 .page_livescore .main-container .v-item{ margin:0 0 15px}
 .page_livescore .main-container .v-item h3{ margin:7px auto 0}
 .page_livescore .main-container .v-item h3 em{ font-size:12px;}
-.page_livescore .main-container .relatednews{ margin:38px auto 0}
+.page_livescore .main-container .relatednews{ margin:0 auto 30px}
 
 
 /* Clubs Responsive View */
-.page_livescore .main-container .clublogos{ margin:22px auto 0}
+.page_livescore .main-container .clublogos{ margin:0 auto 30px}
+.page_livescore .main-container .clublogos h2.maintitle{ padding-top:0}
 .page_livescore .main-container .clublogos .clubslist .owl-item img{ width:auto; margin:7px auto 0}
 .page_livescore .main-container .clublogos .clubslist .owl-item .club > a{ display:block;}
 /* /Clubs Responsive View */
@@ -1500,7 +1501,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 /* Matches Result Block */
 .alltabel_block{ margin:0 auto 30px}
 .page_livescore .alltabel_block .form-group{ border:0; padding:0}
-.result_block{ padding:15px 0 0; margin:0 auto}
+.result_block{ padding:15px 0 0; margin:0 auto 30px}
 .result_block .results{ width:100%;}
 .result_block .results > .result{ border-bottom:1px solid #c2c2c2; padding:10px 15px 22px; margin:0 auto}
 .result_block .results > .result:first-child{ padding-top:0}
@@ -1522,11 +1523,12 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 
 .result_block .schedule .detilslink{ border-color:#b7b7b7; padding: 4px 10px;}
 .result_block .schedule .detilslink .fa{ color:#252525; font-size:15px; line-height:normal; vertical-align:middle}
+.result_block .toggle-container{ cursor:pointer}
 .result_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0}
 /* /Matches Result Block */
 
 /* Fixtures Block */
-.fixtures_block{ position:relative; margin:38px auto 0}
+.fixtures_block{ position:relative; margin:0 auto 30px}
 .fixtures_block .hdr_item{ border:1px solid #c2c2c2; border-width:1px 0; padding:20px 0 0; margin:0 auto 10px; color:#202020; min-height:58px; width:auto}
 .fixtures_block .hdr_item a{ text-decoration:none}
 .fixtures_block .hdr_item h3{ font-size:16px; margin:0 auto; max-width:220px}
@@ -1558,9 +1560,10 @@ min-height:40px; padding:8px 15px 0}
 /* /Fixtures Block */
 
 /* Club Information Block */
-.club_block{ padding:0; margin:0 auto 35px}
+.club_block{ padding:0; margin:0 auto 30px}
 .club_block img{ cursor:default}
 .club_block .pic{ margin:0 auto; position:relative; padding:0;}
+.club_block .pic > img{ width:100%}
 .club_block .pic .logo_player{ position:absolute; left:0; right:0; margin:0 auto; padding:15px; bottom:-88px; display:inline-block; text-align:center; background:#ffffff;
 max-width:170px; 
 -webkit-border-radius:20px;
@@ -1580,9 +1583,9 @@ border-radius:20px;}
 /* Club Team Block */
 .clubteam_block{ padding:0; margin:0 auto 35px}
 .clubteam_block .hdr_block{ clear:both; overflow:hidden; padding:0; margin:0}
-.clubteam_block .hdr_block .logo_player{ float:left; display:inline-block; clear:none; min-width:155px; margin:0 auto; text-align:center; padding:22px 10px 0}
+.clubteam_block .hdr_block .logo_player{ float:left; display:inline-block; clear:none; min-width:155px; margin:0 auto; text-align:center; padding:22px 0 0 10px}
 .clubteam_block .hdr_block .logo_player > img{ max-width:75px;}
-.clubteam_block .hdr_block .dtail{ float:left; padding:0; margin:0; width:75.7%}
+.clubteam_block .hdr_block .dtail{ float:right; padding:0; margin:0; width:75%}
 .clubteam_block .hdr_block .dtail > *{ display:block; clear:both; font-style:normal; width:100%; margin:0}
 
 .clubteam_block .hdr_block .dtail h2,
@@ -1647,18 +1650,16 @@ border-radius:50%;}
 /* /Scorers Block */
 
 /* Data Entries Table */
+.databel_block{ margin:0 auto 30px;}
 .databel_block .dtail{ margin:0 auto 7px;}
 .databel_block .dtail tabel{ font-size:14px; }
 .databel_block .dtail th{ background:#252525; color:#f3f3f3; padding:5px; font-weight:normal; font-size:12px; text-align:center; border:1px solid #d7d7d7; border-width:0 1px 0 0;}
-.databel_block .dtail th.nobrd{ border-right:0;}
+.databel_block .dtail .nobrd{ border-right:0;}
+.databel_block .dtail .nogrd{ background:none; border:0}
 .databel_block .dtail td{ padding:5px; font-size:12px; border:1px solid #d7d7d7; border-width:0 1px 1px 0; text-align:center; background:#ffffff}
 .databel_block .dtail td:last-child{ border-right:0}
-.databel_block .toggle-container{ border:1px solid #cccccc; background:#ebebeb}
-.databel_block .toggle-container .fa {
-    color: #282828;
-    font-size: 20px;
-    margin: 8px auto 0;
-}
+.databel_block .toggle-container{ border:1px solid #cccccc; background:#ebebeb; cursor:pointer}
+.databel_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0;}
 /* /Data Entries Table */
 /* /Livescore Componenets Styles */
 
@@ -1802,7 +1803,16 @@ border-radius:50%;}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#2b2b2b; overflow:hidden; max-height:50px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
 	
+	.scorers_block .hdr_block .dtail ul > li > h4, 
+	.scorers_block .hdr_block .dtail ul > li > h4 a{ font-size:18px;}
+	.scorers_block .hdr_block .dtail{ width: 54%;}
+	.scorers_block .hdr_block .pic_player{ min-width: 128px;}
+	.scorers_block .hdr_block .dtail .label{ width: 70px;}
+	.scorers_block .list-inline .item_block{ padding:0 5px;}
 	
+	.clubteam_block .hdr_block .logo_player,
+	.clubteam_block .hdr_block .dtail{ display:block; float:none; width:100%}
+	.clubteam_block .hdr_block .logo_player{ padding:18px 10px}
 	/* /Livescore Componenets Styles */
 }
 
