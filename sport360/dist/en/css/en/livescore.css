@@ -1644,6 +1644,15 @@ border-radius:50%;}
 
 .scorers_block .list-inline .item_block .dtail .name,
 .scorers_block .list-inline .item_block .dtail .name a{ color:#202020; font-weight:bold}
+/* /Scorers Block */
+
+/* Data Entries Table */
+.databel_block .dtail tabel{ font-size:14px; }
+.databel_block .dtail th{ background:#252525; color:#f3f3f3; padding:5px; font-weight:normal; font-size:12px; text-align:center; border:1px solid #d7d7d7; border-width:0 1px 0 0;}
+.databel_block .dtail th.nobrd{ border-right:0;}
+.databel_block .dtail td{ padding:5px; font-size:12px; border:1px solid #d7d7d7; border-width:0 1px 1px 0; text-align:center; background:#ffffff}
+.databel_block .dtail td:last-child{ border-right:0}
+/* /Data Entries Table */
 /* /Livescore Componenets Styles */
 
 
