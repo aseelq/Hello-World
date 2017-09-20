@@ -1474,6 +1474,8 @@ border-radius: 4px;}
 .page_livescore .main-container .v-item h3 em{ font-size:12px;}
 .page_livescore .main-container .relatednews{ margin:0 auto 30px}
 
+.page_livescore .alltabel_block{ margin:0 auto 30px}
+.page_livescore .alltabel_block .form-group{ border:0; padding:0}
 
 /* Clubs Responsive View */
 .page_livescore .main-container .clublogos{ margin:0 auto 30px}
@@ -1499,8 +1501,6 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 /* /Tabs Block */
 
 /* Matches Result Block */
-.alltabel_block{ margin:0 auto 30px}
-.page_livescore .alltabel_block .form-group{ border:0; padding:0}
 .result_block{ padding:15px 0 0; margin:0 auto 30px}
 .result_block .results{ width:100%;}
 .result_block .results > .result{ border-bottom:1px solid #c2c2c2; padding:10px 15px 22px; margin:0 auto}
@@ -1616,7 +1616,8 @@ border-radius:50%;}
 /* /Club Team Block */
 
 /* Scorers Block */
-.scorers_block{ padding:0 0 35px; margin:0 auto; overflow:hidden; height:100%}
+.scorers_block{ padding:0; margin:0 auto 30px; overflow:hidden; clear:both}
+.alltabel_block .scorers_block{ padding:0 0 35px; margin:0 auto;}
 .scorers_block a{ color:#727272;}
 .scorers_block .hdr_block{ margin:0 auto 25px;}
 .scorers_block .hdr_block .clearfix{ padding:15px 0 0}
@@ -1683,6 +1684,17 @@ border-radius:50%;}
 .league_block .btn-select{ display:inline-block; float:right; padding:0; margin:0; color:#727272}
 .league_block .btn-select{ color:#424242}
 /* /League Block */
+
+/* Competitions Block */
+.competitions_block{ padding:20px 0 0; margin:0 auto 30px}
+.competitions_block a{ color:#252525;}
+.competitions_block ul{ clear:both; overflow:hidden; height:100%; padding:0; margin:0}
+.competitions_block ul > li{ display:table; width:50%; vertical-align:middle; padding:0 10px; margin:0 auto 20px; float:left;}
+.competitions_block ul > li > *{ overflow:hidden; display:table-cell; vertical-align:middle; padding:0; margin:0; text-align:left; line-height:120%}
+
+.competitions_block .logo_comption{ width:50px;}
+.competitions_block cite{ font-size:18px; color:#252525; font-style:normal; padding-left:25px !important}
+/* /Competitions Block */
 /* /Livescore Componenets Styles */
 
 
@@ -1764,6 +1776,9 @@ border-radius:50%;}
 	.page_livescore .clubnews .col-sm-12 .v-item h3{ max-width:55%; font-size:16px; margin:12px 0; padding:0 5px !important}
 	.page_livescore .clubnews .col-sm-12 .v-item h3 a{ font-size:16px; line-height:normal}
 	.page_livescore .clubnews .col-sm-12 .v-item h3 em{ font-size:14px; color:#727272}
+	
+	.competitions_block ul > li{ width:100%; max-width:100%; float:none; margin:0 auto 10px; text-align:left}
+	.competitions_block cite{ font-size:16px;}
 	/* /Livescore Componenets Styles */
 }
 
@@ -1835,6 +1850,8 @@ border-radius:50%;}
 	.clubteam_block .hdr_block .logo_player,
 	.clubteam_block .hdr_block .dtail{ display:block; float:none; width:100%}
 	.clubteam_block .hdr_block .logo_player{ padding:18px 10px}
+	
+	.clublogos .clubslist .owl-item .club{ height:170px; display:inline-block; overflow:hidden}
 	/* /Livescore Componenets Styles */
 }
 
