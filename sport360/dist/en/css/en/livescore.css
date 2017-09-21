@@ -1512,7 +1512,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 .result_block .club > *{ display:inline-block; padding:0 5px;}
 .result_block .club cite{ line-height:normal; font-style:normal; max-width:55%; vertical-align:middle}
 
-.result_block .matchdetils{ padding:12px 0 0; margin:20px auto 0; overflow:hidden; clear:both; height:100%}
+.result_block .matchdetils{ padding:12px 0 0; margin:20px auto 0; overflow:hidden; clear:both; height:100%; border-color:#d7d7d7}
 .result_block .datetime i, 
 .result_block .schedule i{ font-style:normal; font-size:12px; color:#252525; display:block; text-align:left;}
 .result_block .datetime .fa,
@@ -1540,14 +1540,15 @@ display:inline-block; margin:-4px 5px 0;
 border-radius:50%;}
 
 .fixtures_block .post_collapse .panel-default{ margin:0 auto 12px}
-.fixtures_block .post_collapse .panel-body{ padding:0 18px}
+.fixtures_block .post_collapse .panel-body{ padding:0}
 .fixtures_block .panel-collapse{ border:1px solid #cccccc; border-width:0 1px 1px; background:#ffffff}
 .fixtures_block .post_collapse .panel-title{ font-weight:bold; text-align:left; background:#ebebeb; border:1px solid #cccccc; color:#424242; 
 min-height:40px; padding:8px 15px 0}
 .fixtures_block .post_collapse .panel-title i{ color:#282828}
 
-.fixtures_block .result_block{ padding:0}
-.fixtures_block .result_block .results > .result{ border:0; padding:10px 0 22px}
+.fixtures_block .result_block{ padding:0 18px; margin:0 auto}
+.fixtures_block .result_block:not(:last-child){ border-bottom:1px solid #c2c2c2}
+.fixtures_block .result_block .results > .result{ border:0; padding:10px 0 20px}
 
 .fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
 .fixtures_block .owl-carousel .owl-item{ border:0;}
@@ -1557,6 +1558,13 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px; display:inline-block !important}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before{ content:""}
+
+.fixtures_block .filter_block{ margin:0 auto 15px; text-align:left; font-size:14px; width:100%}
+.fixtures_block .filter_block .form-group{ width:100%; border:none; margin:0; padding:0; vertical-align:middle}
+
+.fixtures_block .filter_block label{ padding:8px 10px 0 0;}
+.fixtures_block .filter_block .btn-select{ float:left; font-size:14px; min-width:225px}
+.fixtures_block .filter_block .btn-select .btn-select-value{ padding:9px 12px 8px}
 /* /Fixtures Block */
 
 /* Club Information Block */
@@ -1916,6 +1924,9 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 	.player_block .hdr_block .pic_player,
 	.player_block .hdr_block .dtail{ float:none; margin:0 auto; clear:both; display:block; width:100%}
 	.player_block .hdr_block .pic_player{ margin:0 auto 15px;}
+	
+	.fixtures_block .filter_block{ border-bottom:1px solid #cccccc; padding-bottom:15px;}
+	.fixtures_block .filter_block label{ margin:0 0 5px; padding:0; width:100%; display:block}
 	/* /Livescore Componenets Styles */
 }
 
