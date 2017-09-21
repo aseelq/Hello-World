@@ -1695,6 +1695,64 @@ border-radius:50%;}
 .competitions_block .logo_comption{ width:50px;}
 .competitions_block cite{ font-size:18px; color:#252525; font-style:normal; padding-left:25px !important}
 /* /Competitions Block */
+
+
+/* Player Block */
+.player_block{ margin:0 auto 30px; padding:0; background:none; box-shadow:none; border:0;}
+.player_block a{ color:#727272;}
+.player_block .hdr_block{ margin:0 auto;}
+.player_block .hdr_block .clearfix{ padding:0}
+.player_block .hdr_block h2,
+.player_block .hdr_block h3{ background:#363636; color:#fcfcfc; text-align:center; padding:15px; margin:0 auto; font-size:20px; display:block}
+
+.player_block .hdr_block .pic_player{ float:left; display:inline-block; clear:none; min-width:170px; margin:0 auto; text-align:center; padding:0}
+.player_block .hdr_block .pic_player > img{ max-width:166px;}
+
+.player_block .hdr_block .dtail{ float:right; padding:0; margin:52px 0 0; width:70%;
+background:#ffffff;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
+.player_block .hdr_block .dtail ul{ padding:0; margin:0 0}
+.player_block .hdr_block .dtail ul > li{ display:table; clear:both; font-style:normal; width:100%; margin:0; padding:0 10px; border-bottom:1px solid #cccccc}
+.player_block .hdr_block .dtail ul > li > *{ display:table-cell; overflow:hidden; vertical-align:top; padding:7px 0; margin:0} 
+.player_block .hdr_block .dtail ul > li:last-child{ padding:5px 10px}
+
+.player_block .hdr_block .dtail ul > li > h4,
+.player_block .hdr_block .dtail ul > li > h4 a{ color:#202020; font-size:22px; font-weight:bold; line-height:100%}
+.player_block .hdr_block .dtail ul > li > h4{ padding:7px 0 10px; height:40px}
+
+.player_block .hdr_block .dtail ul > li:last-child .label{ padding:12px 0 0}
+.player_block .hdr_block .dtail .label{ color:#202020; font-style:normal; font-size:14px; font-weight:bold; width:100px;}
+.player_block .hdr_block .dtail p{ text-align:left; color:#727272; font-size:14px}
+
+.player_block .social_icons .btn{ padding:5px 0 0; margin:0 8px 0 0; border:0; box-shadow:none; width:35px; height:35px; color:#fcfcfc; background:#d7d7d7; font-size:22px;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+border-radius:50%;}
+
+.player_block .social_icons .btn_twitter{ background:#55acee}
+.player_block .social_icons .btn_facebook{ background:#3b5998}
+.player_block .social_icons .btn_instagram{ background:#6a453b}
+/* /Player Block */
+
+/* Clubs Scores Block */
+.clubscores_block{ margin:0 auto 30px;}
+.clubscores_block .alltabel_block{ margin:0 auto;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
+.clubscores_block .alltabel_block .hdr,
+.clubscores_block .alltabel_block .dtail{ margin:0 auto}
+
+.clubscores_block ul{ display:table; width:100%; table-layout:fixed; font-size:14px;}
+.clubscores_block ul > li{ display:table-cell; padding:10px 2px; margin:0; vertical-align:middle; overflow:hidden; width:20%; text-align:center; border-right:1px solid #cccccc; word-break:break-word}
+.clubscores_block ul > li.clubname,
+.clubscores_block ul > li.leaguename{ width:27%}
+
+.clubscores_block ul.hdr{ background:#252525; color:#fcfcfc}
+.clubscores_block ul.dtail{ background:#ffffff; color:#727272}
+/* /Clubs Scores Block */
 /* /Livescore Componenets Styles */
 
 
@@ -1852,6 +1910,11 @@ border-radius:50%;}
 	.clubteam_block .hdr_block .logo_player{ padding:18px 10px}
 	
 	.clublogos .clubslist .owl-item .club{ height:170px; display:inline-block; overflow:hidden}
+	
+	.player_block .articlemaintitle{ margin:0 auto; padding:0 0 15px; text-align:center}
+	.player_block .hdr_block .pic_player,
+	.player_block .hdr_block .dtail{ float:none; margin:0 auto; clear:both; display:block; width:100%}
+	.player_block .hdr_block .pic_player{ margin:0 auto 15px;}
 	/* /Livescore Componenets Styles */
 }
 
@@ -1864,5 +1927,6 @@ border-radius:50%;}
 	
 	.page_livescore .nav-tabs > li > a{ font-size:14px; margin:0 auto; padding:0 8px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:50%;}
+	.clubscores_block ul{ font-size:12px;}
 }
 /* /new classes */
