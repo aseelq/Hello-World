@@ -1752,6 +1752,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 
 .clubscores_block ul.hdr{ background:#252525; color:#fcfcfc}
 .clubscores_block ul.dtail{ background:#ffffff; color:#727272}
+.clubscores_block ul.dtail:not(:last-child){ border-bottom:1px solid #cccccc}
 /* /Clubs Scores Block */
 /* /Livescore Componenets Styles */
 
