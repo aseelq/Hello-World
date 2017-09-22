@@ -596,11 +596,6 @@ font-weight: bold; font-size: 18px; line-height:80%}
   font-weight: 600;
 }
 
-.fa-caret-down {
-  padding-right: 10px;
-  font-size: 14px;
-}
-
 .no-padding {
   padding: 0px;
 }
@@ -1197,7 +1192,7 @@ border-radius: 2px;}
 
 
 
-.loader{ padding:5px 0; text-align:center}
+.loader{ padding:5px 0 10px; text-align:center}
 .loader .dot{ width:12px; height:12px}
 .loader .dot,
 .loader .dot:nth-child(3){ margin:0 !important; position:static}
