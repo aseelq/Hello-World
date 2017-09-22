@@ -1142,6 +1142,9 @@ vertical-align:middle}
 .gallery_inlbox .owl-thumbs{ margin:25px auto 10px; padding:0 20px; width:100%; max-width:640px; overflow:hidden; overflow-x:scroll; white-space:nowrap; position: relative;}
 .gallery_inlbox .owl-thumb-item{ border:0; background:none; padding:0; margin:0 15px 0 0; display:inline-block; width:105px; height:105px;}
 
+.gallery_inlbox .owl-nav{ position:absolute; top:0; bottom:0; left:0; right:0; max-width:88%; max-height:10%; margin:auto}
+.gallery_inlbox .owl-nav > *{ top:0; text-shadow: 1px 1px 0 rgba(255,255, 255, 0.5);}
+
 /* Gallery Modal */
 .gallery_modal{ background:#252525; color:#fcfcfc; z-index:5000010}
 .gallery_modal .modal-header{ border-radius:0; box-shadow:none; border:0; padding:0; display:block}
