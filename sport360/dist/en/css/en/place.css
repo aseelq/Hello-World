@@ -1140,6 +1140,7 @@ ul.stories .story{ margin-bottom:17px;}
 .share_block .show_icon{ display:none}
 .share_block > *{ float:left !important; padding:0; margin:0}
 .share_block a{ display:inline-block; padding:0; margin:0 4px 0 0}
+.share_block a.show_icon_inside{ display:none}
 .pic .label{ display:inline-block; padding:7px 15px; margin:0; position:absolute; left:0; right:auto; bottom:0; background:#ee1d25; color:#f7f7f7; text-transform:uppercase; font-style:normal; font-size:14px; line-height:100%; min-width:70px;}
 
 .post_block{ padding:20px 0 30px; margin-bottom:17px; color:#1f1f1f}
@@ -1213,6 +1214,8 @@ border-radius: 4px;}
 	.relatednews .related .v-item h3{ padding:0; margin:0 !important}
 	.relatednews .related .v-item h3 a{ font-size:18px; line-height:120%; max-height:63px; overflow:hidden; display:block; margin:0 auto 7px}
 	
+	.relatednews{ margin:50px auto 35px}
+	.post_more{ margin: 70px auto 0;}
 }
 
 /* All Mobile Sizes (devices and browser) */

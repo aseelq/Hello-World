@@ -1318,6 +1318,9 @@ border-radius: 4px;}
 	.gallery_modal .gallery_repeated .v-item .pic{ float:left; max-width:230px; margin:0 10px 0 0; display:inline-block}
 	.gallery_modal .gallery_repeated .v-item h5{ max-height:55px; overflow:hidden; font-size:16px;}
 	.gallery_modal .gallery_repeated .v-item .dtail{ float:left; display:inline-block; max-width:65%}
+	
+	.relatednews{ margin:50px auto 35px}
+	.post_more{ margin: 70px auto 0;}
 }
 
 /* All Mobile Sizes (devices and browser) */
