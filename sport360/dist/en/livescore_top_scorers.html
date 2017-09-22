@@ -1272,6 +1272,18 @@ $(function (){
 	   container: '.fixtures_block'
 	});
 });
+
+
+/* Collapse Change Arrow Direction */
+$('.panel-collapse').on('shown.bs.collapse', function () {
+    $(this).prev().find(".fa").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+});
+
+//The reverse
+$('.panel-collapse').on('hidden.bs.collapse', function () {
+    $(this).prev().find(".fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+});
+/* /Collapse Change Arrow Direction */
 </script>
 <!-- /Script Lines -->
 </body>
