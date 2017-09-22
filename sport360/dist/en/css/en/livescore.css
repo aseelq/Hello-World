@@ -1782,7 +1782,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 .mmatch_block .matchdetils li > *{ font-size:14px; font-style:normal;}
 .mmatch_block .matchdetils li .fa{ color:#a8a8a8; display:inline-block; width:25px; text-align:center}
 
-.mmatch_block .matchdetils li:first-child{ padding:8px 5px}
+.mmatch_block .matchdetils li:first-child{ padding:8px 10px 8px 5px}
 .mmatch_block .matchdetils li:last-child{ border-bottom:0}
 .mmatch_block .matchdetils li:not(:first-child) > *{ display:table-cell; vertical-align:middle; padding:8px 5px; margin:0; overflow:hidden; text-align:left; table-layout:fixed}
 .mmatch_block .matchdetils li:not(:first-child) .label{ width:35%; border-right:1px solid #e1e1e1}
@@ -1994,8 +1994,8 @@ word-break:break-word}
 	.goals_block ul.dtail.no_goals li{ font-size:18px;}
 	
 	.mmatch_block .matchdetils li > *{ font-size:12px;}
-	.mmatch_block .matchdetils li:first-child,
-	.mmatch_block .matchdetils li:not(:first-child) > *{  padding:5px 7px}
+	.mmatch_block .matchdetils li:first-child{ padding:5px 10px 5px 7px}
+	.mmatch_block .matchdetils li:not(:first-child) > *{ padding:5px 7px}
 	.mmatch_block .matchdetils li:not(:first-child) .label{ width:57%}
 	.mmatch_block .matchdetils li .fa{ width:15px}
 	/* /Livescore Componenets Styles */
