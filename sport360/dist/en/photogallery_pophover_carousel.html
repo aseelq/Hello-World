@@ -1075,7 +1075,7 @@
         </div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icn_close"></i></button>
         
-        <p><a href="#" class="btn btn_repeat"><i class="fa fa-refresh"></i> Restart gallery</a></p>
+        <p class="hide"><a href="#" class="btn btn_repeat"><i class="fa fa-refresh"></i> Restart gallery</a></p>
       </div>
       
       <div class="modal-body">
@@ -1268,12 +1268,36 @@ $('.related .owl-carousel').owlCarousel({
 })
 
 
-// Gallery Inline Post Carousel, and outline Modal box
+/* Gallery Inline Post Carousel, and outline Modal box */
+// General Carousel Setting
 $(".gallery_inlbox .owl-carousel, .gallery_outbox .owl-carousel").owlCarousel({
 	items: 1,
 	thumbs: true,
     thumbsPrerendered: true
 });
+
+// Display repaet view at outline Modal box when carousel at last slide
+$('.gallery_outbox .owl-carousel').on('change.owl.carousel', function(e) {
+	if (e.namespace && e.property.name === 'position' 
+		&& e.relatedTarget.relative(e.property.value) === e.relatedTarget.items().length - 1) {
+		
+		$('.gallery_outbox').addClass('hide').hide();
+		$('.gallery_repeated').removeClass('hide').show();
+		$('.btn_repeat').parent('p').removeClass('hide');
+
+	}
+});
+
+// Show Carousel when click on Repeat button 
+$('.btn_repeat').on('click', function () {
+	$('.gallery_outbox').removeClass('hide').show();
+	$('.gallery_repeated').addClass('hide').hide();
+	
+	$(".gallery_outbox .owl-carousel").trigger('to.owl.carousel', 0);
+	$('.btn_repeat').parent('p').addClass('hide');
+});
+/* /Gallery Inline Post Carousel, and outline Modal box */
+
 
 /* my Tries to add dragmove Thumbnail carousel
 jQuery(".owl-thumbs").draggable({ 
