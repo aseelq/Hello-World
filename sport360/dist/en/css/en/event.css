@@ -1121,6 +1121,12 @@ h2.relatedmaintitle {
   height: auto !important;
 }
 
+.faup {
+  padding-right: 10px;
+  font-size: 14px;
+  display: none;
+}
+
 /* new classes */
 .loader{ padding:5px 0 10px; text-align:center}
 .loader .dot{ width:12px; height:12px}
@@ -1184,7 +1190,8 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);}
 .btn_gneral{ width: 100%; height: 50px; background: white; border: 1px solid #c2c2c2; font:bold 18px "Roboto", Arial, Helvetica, sans-serif; cursor:pointer;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
-border-radius: 4px;}
+border-radius: 4px;
+display: block; margin: 0 auto; text-align: center; color: #1f1f1f; line-height: 45px;}
 .btn_gneral > i{ display:inline-block; vertical-align:middle;}
 
 .comment_block .sub-row > .row{ margin:0 auto}
