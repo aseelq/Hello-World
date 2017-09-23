@@ -989,5 +989,17 @@
 <script type="text/javascript" src="../js/app.js"></script>
 
 <script type="text/javascript" src="../js/listing.js"></script>
+
+<script>
+/* Hide Open Menu Dropdown list when click out of it */
+$(document).click(function(event) { 
+    if(!$(event.target).closest('.btn-select').length) {
+        if($('.btn-select ul').is(":visible")) {
+            $('.btn-select ul').hide();
+        }
+    }        
+});
+/* /Hide Open Menu Dropdown list when click out of it */
+</script>
 </body>
 </html>
