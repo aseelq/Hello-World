@@ -1477,7 +1477,7 @@ border-radius: 4px;}
 .page_livescore .main-container .clublogos{ margin:0 auto 30px}
 .page_livescore .main-container .clublogos h2.maintitle{ padding-top:0}
 .page_livescore .main-container .clublogos .clubslist .owl-item img{ width:auto; margin:7px auto 0}
-.page_livescore .main-container .clublogos .clubslist .owl-item .club > a{ display:block;}
+.page_livescore .main-container .clublogos .clubslist .owl-item .club > a{ display:block; max-width:none}
 /* /Clubs Responsive View */
 
 /* Tabs Block */
