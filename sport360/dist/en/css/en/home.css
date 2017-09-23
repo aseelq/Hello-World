@@ -346,6 +346,8 @@ a.seeall:hover {
 
 .videos h3.title {
   font-size: 28px;
+  font-weight: 900;
+  line-height: 36px;
 }
 
 .Centerer {
@@ -418,6 +420,15 @@ a.seeall:hover {
 
 .owl-carousel.clubslist {
   height: 195px;
+}
+
+.owl-carousel .owl-item .club img {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.owl-carousel.clubslist .owl-item .club img {
+  height: 87px;
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
