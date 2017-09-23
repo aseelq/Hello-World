@@ -703,6 +703,7 @@
   padding: 3px 10px;
   border-color: #d7d7d7;
   margin: 5px 5px;
+  white-space:normal;
 }
 
 .more-tag-button {
