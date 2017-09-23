@@ -45,7 +45,7 @@
   position: absolute;
   left: -1px;
   right: -1px;
-  top: 33px;
+  top: 36px;
   z-index: 999;
 }
 
@@ -139,7 +139,7 @@ margin:0 5px 10px 0;
 border-radius: 5px}
 
 .lst_block > div[class^="col-"], 
-.lst_block > div[class*=" col-"]{ margin:0 auto 20px}
+.lst_block > div[class*=" col-"]{ margin:0 0 20px}
 .lst_block .v-item{ height:auto; color:#1f1f1f; font-size:14px; padding:0 0 10px; min-height:300px; width:100%; max-width:310px; margin:0 auto}
 .lst_block .v-item h3{ font-size:18px; line-height:128%; padding:15px 15px 5px; margin:0 auto 2px; max-height:57px; overflow:hidden}
 .lst_block .v-item h3 a{ font-size:18px;}
@@ -273,6 +273,9 @@ display: block; margin: 0 auto; text-align: center; color: #1f1f1f; line-height:
 	.filter_block ul.list-inline > li,
 	.filter_block ul.list-inline > li:last-child{ padding:0 2px 0 0}
 	
+	
+	.lst_block > div[class^="col-"], 
+	.lst_block > div[class*=" col-"]{ margin:0 0 20px}
 	.lst_block .v-item{ max-width:300px}
 	.lst_block .col-sm-6{ flex: 0 0 50%; max-width: 50%;}
 	.lst_block .killermain{ margin:0 auto}
