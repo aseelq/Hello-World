@@ -470,6 +470,8 @@ border-radius: 2px;
 .article_sticky .fa{ display:inline-block; margin:0 0 0 15px}
 /* /Sticky Article Popup */
 
+.btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
+
 @media only screen and (width: 412px) {
   .v-item img {
     width: 412px;

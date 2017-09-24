@@ -502,6 +502,8 @@ border-radius: 2px;
 .article_sticky .fa{ display:inline-block; margin:0 0 0 15px}
 /* /Sticky Article Popup */
 
+.btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
+
 /* Default End */
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {

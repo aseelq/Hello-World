@@ -1327,6 +1327,7 @@ border-radius: 2px;
 .article_sticky .fa{ display:inline-block; margin:0 0 0 15px}
 /* /Sticky Article Popup */
 
+.btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
 .hide{ display:none !important}
 .gallery_inlbox{ margin:0 auto -1px; position: relative; background-color:#ffffff;
 -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.2);
