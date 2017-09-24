@@ -1131,6 +1131,22 @@ h2.relatedmaintitle {
 }
 
 /* new classes */
+/* Sticky Article Popup */
+.article_sticky{ position:fixed; padding:0; margin:0; max-width:318px; right:10px; bottom:10px; background:#ffffff; color:#212121; text-align:center; z-index:100; display:none;
+-moz-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+-webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+box-shadow: 0 4px 12px rgba(0,0,0,0.36);}
+.article_sticky .dscription{ padding:15px 15px 20px}
+.article_sticky h4{ font-size:16px; font-weight:bold; text-align:left; margin:0 0 20px; color:#e32522; line-height:120%}
+.article_sticky a{ background:#e32522; color:#fcfcfc; font-size:16px; text-transform:uppercase; display:inline-block; padding:12px; min-width:205px;
+
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+.article_sticky .fa{ display:inline-block; margin:0 0 0 15px}
+/* /Sticky Article Popup */
+
 .hide{ display:none !important}
 
 .gallery_inlbox{ margin:0 auto -1px; position: relative; background-color:#ffffff;
@@ -1155,14 +1171,14 @@ vertical-align:middle}
 
 /* Gallery Modal */
 .gallery_modal{ background:#252525; color:#fcfcfc; z-index:5000010}
-.gallery_modal .modal-header{ border-radius:0; box-shadow:none; border:0; padding:0; display:block}
+.gallery_modal .modal-header{ border-radius:0; box-shadow:none; border:0; padding:0 20px; display:block}
 .gallery_modal .modal-header .share_block{ margin:0; display:inline-block}
 .gallery_modal .modal-header .close{opacity:1; filter: alpha(opacity=100);}
 .gallery_modal .modal-header .icn_close{ background:url(../../images/icn_close.png) 0 0 no-repeat; width:29px; height:29px; display:inline-block; vertical-align:middle; 
 text-align:center; }
 
 .gallery_modal .modal-dialog, .gallery_modal .modal-content{ max-width:100%; background:#252525; border-radius:0; box-shadow:none; border:0;}
-.gallery_modal .modal-content{ max-width:1040px; margin:0 auto; padding:0}
+.gallery_modal .modal-content{ max-width:100%; margin:0 auto; padding:0}
 .gallery_modal .modal-body{ padding:0}
 .gallery_modal .modal-body h4{ font-size:22px; line-height:120%; margin:0 auto 30px; max-width:900px;}
 
@@ -1209,7 +1225,7 @@ display:inline-block; width:100%; max-width:310px; height:308px; overflow:hidden
 .gallery_modal .gallery_repeated .v-item h5{ display:block; color:#ececec; font-size:16px; font-weight:700px; color:#fcfcfc; line-height:120%}
 .gallery_modal .gallery_repeated .v-item cite{ display:block; font-style:normal; color:#999999; font-size:14px}
 
-.gallery_modal .modal-header p{ text-align:right; padding:0; margin:0}
+.gallery_modal .modal-header p{ text-align:right; padding:0; margin:0 auto; max-width:990px}
 .gallery_modal .modal-header .btn_repeat{ display:inline-block; text-align:right; padding:0; margin:0; font-size:15px; color:#ececec; clear:both; outline:none; box-shadow:none}
 .gallery_modal .modal-header .btn_repeat > i{ font-size:30px; vertical-align:middle; display:inline-block; padding:0; margin:0 14px 0 0; color:#fcfcfc}
 /* /Repeated View Block */

@@ -811,6 +811,22 @@ h2.relatedmaintitle {
   font-size: 14px;
 }
 
+/* Sticky Article Popup */
+.article_sticky{ position:fixed; padding:0; margin:0; max-width:318px; right:10px; bottom:10px; background:#ffffff; color:#212121; text-align:center; z-index:100; display:none;
+-moz-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+-webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+box-shadow: 0 4px 12px rgba(0,0,0,0.36);}
+.article_sticky .dscription{ padding:15px 15px 20px}
+.article_sticky h4{ font-size:16px; font-weight:bold; text-align:left; margin:0 0 20px; color:#e32522; line-height:120%}
+.article_sticky a{ background:#e32522; color:#fcfcfc; font-size:16px; text-transform:uppercase; display:inline-block; padding:12px; min-width:205px;
+
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+.article_sticky .fa{ display:inline-block; margin:0 0 0 15px}
+/* /Sticky Article Popup */
+
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .owl-carousel.clubslist {
     height: 328px !important;
