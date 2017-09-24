@@ -837,6 +837,7 @@ h2.relatedmaintitle {
   }
   .main_img {
     width: 720px;
+	cursor:default;
   }
   .related_img {
     width: 360px !important;
