@@ -240,6 +240,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);}
 -moz-border-radius: 4px;
 border-radius: 4px;
 display: block; margin: 0 auto; text-align: center; color: #1f1f1f; line-height: 45px;}
+.btn_gneral:hover{ color: #d7262c}
 .btn_gneral > i{ display:inline-block; vertical-align:middle;}
 
 .comment_block .sub-row > .row{ margin:0 auto}
