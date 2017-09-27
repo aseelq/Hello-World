@@ -47,11 +47,15 @@ $(document).ready(function () {
             }
         }
     });
+	
+	
+	/* You have remove the general class and use only ID for any new carousel at page */
     $('.owl-carousel').owlCarousel({
         rtl: !url,
         loop: true,
         autoplay: true,
-        responsive: {
+        
+		responsive: {
             0: {
                 items: 3,
                 nav: true
@@ -67,7 +71,23 @@ $(document).ready(function () {
             }
         }
     });
-
+	/* /You have remove the general class and use only ID for any new carousel at page */
+	
+	$('#inlineCarousel').owlCarousel({
+		rtl: !url,
+		loop: true,
+		autoplay: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			959:{
+				items:3,
+				nav: true
+			}
+		}
+	});
+	
     if (url) {
         $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
         $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
