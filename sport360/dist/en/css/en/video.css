@@ -855,7 +855,7 @@ border-radius: 2px;
   }
   .main_img {
     width: 720px;
-	cursor:default;
+	cursor:inherit;
   }
   .related_img {
     width: 360px !important;

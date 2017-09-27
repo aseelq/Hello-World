@@ -900,7 +900,7 @@ h2.relatedmaintitle {
 
 .main_img {
   width:inherit;
-  cursor:default;
+  cursor:inherit;
 }
 
 /** tablet **/

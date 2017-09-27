@@ -899,7 +899,7 @@ h2.relatedmaintitle {
 
 .main_img {
   width: 640px;
-  cursor:default;
+  cursor:inherit;
 }
 
 /* Sticky Article Popup */
