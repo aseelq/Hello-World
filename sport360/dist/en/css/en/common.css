@@ -12579,7 +12579,7 @@ div.level > ul > li {
 
 /* New Added */
 /* Editor Changes, only used for article post block */
-.blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important}
+.blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
 .blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000}
 /* /Editor Changes, only used for article post block */
 /* /New Added */
