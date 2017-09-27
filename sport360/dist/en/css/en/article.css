@@ -941,11 +941,6 @@ border-radius: 2px;
 .btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
 
 
-/* Editor Changes, only used for article post block */
-.blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important}
-.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000}
-/* /Editor Changes, only used for article post block */
-
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .owl-carousel.clubslist {
