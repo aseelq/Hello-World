@@ -943,6 +943,7 @@ border-radius: 2px;
 
 /* Editor Changes, only used for article post block */
 .blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important}
+.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000}
 /* /Editor Changes, only used for article post block */
 
 /** tablet **/
