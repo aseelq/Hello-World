@@ -330,8 +330,8 @@ body {
 
 .v-item h3 {
   padding-top: 15px;
-  padding-left: 0px;
-  padding-right: 10px;
+  padding-right: 0px;
+  padding-left: 10px;
   line-height: 16px;
 }
 
@@ -412,9 +412,9 @@ body {
   background-color: #453D3D !important;
   color: white;
   padding: 8px 12px 7px;
-  -webkit-border-radius: 5px 0 0 5px;
-  -moz-border-radius: 5px 0 0 5px;
-  border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
   display: block;
   position: absolute;
   right: 0;
@@ -446,7 +446,7 @@ body {
   position: absolute;
   right: -1px;
   left: -1px;
-  top: 33px;
+  top: 36px;
   z-index: 999;
 }
 
@@ -486,6 +486,24 @@ body {
   border-radius: 5px;
 }
 
+/* Sticky Article Popup */
+.article_sticky{ position:fixed; padding:0; margin:0; max-width:318px; left:10px; bottom:10px; background:#ffffff; color:#212121; text-align:center; z-index:100; display:none;
+-moz-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+-webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+box-shadow: 0 4px 12px rgba(0,0,0,0.36);}
+.article_sticky .dscription{ padding:15px 15px 20px}
+.article_sticky h4{ font-size:16px; font-weight:bold; text-align:right; margin:0 0 20px; color:#e32522; line-height:120%}
+.article_sticky a{ background:#e32522; color:#fcfcfc; font-size:16px; text-transform:uppercase; display:inline-block; padding:12px; min-width:205px;
+
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+.article_sticky .fa{ display:inline-block; margin:0 15px 0 0}
+/* /Sticky Article Popup */
+
+.btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
+
 /* Default End */
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
@@ -495,15 +513,15 @@ body {
     color: #ffffff;
     position: absolute;
     padding-top: 0px;
-    padding-right: 0px;
+    padding-left: 0px;
     padding-bottom: 15px;
-    padding-left: 20px;
+    padding-right: 20px;
     margin: 0;
     width: 100%;
     line-height: 24px;
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+    background: -moz-linear-gradient(top, transparent 100%, rgba(0, 0, 0, 0.2) 100%);
   }
   .video_title {
     color: white;
@@ -512,8 +530,8 @@ body {
   }
   .mobbanner {
     max-width: 90%;
-    margin-left: 120px;
-    margin-right: 183px;
+    margin-right: 120px;
+    margin-left: 183px;
     margin-top: 50px;
     margin-bottom: 10px;
   }

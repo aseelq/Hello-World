@@ -333,6 +333,10 @@
 /*[class^="col-"], [class*=" col-"] {
      padding: 0 10px; 
 }*/
+.related input {
+  cursor: pointer !important;
+}
+
 .club-title .separator {
   font-size: 15px;
   font-family: "Roboto";
@@ -512,8 +516,8 @@ ul.stories .story {
 }
 
 .relatednews .row {
-  margin-right: -7.5px;
   margin-left: -7.5px;
+  margin-right: -7.5px;
 }
 
 h2.relatedmaintitle {
@@ -532,19 +536,40 @@ h2.relatedmaintitle {
   height: 270px;
   margin-top: 15px;
   margin-bottom: 6px;
-  margin-right: 0px !important;
+  margin-right: 20px !important;
 }
 
 .v-item h3 {
   margin-right: 10px !important;
   margin-left: 10px !important;
   padding: 0px !important;
+  text-align: right;
 }
 
 .v-item h3 a {
   font-size: 14px;
   color: black;
   font-weight: 600;
+}
+
+.v-item em {
+  text-align: right;
+}
+
+#myDIV {
+  display: none;
+}
+
+.fadown {
+  padding-left: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.faup {
+  padding-left: 10px;
+  font-size: 14px;
+  display: none;
 }
 
 .separator {
@@ -642,6 +667,7 @@ h2.relatedmaintitle {
   padding: 3px 10px;
   border-color: #d7d7d7;
   margin: 5px 5px;
+  white-space:normal;
 }
 
 .main-button {
@@ -744,11 +770,11 @@ h2.relatedmaintitle {
   position: absolute;
 }
 
-.inner.pull-right {
+.inner.pull-left {
   margin-top: 105px;
 }
 
-.pull-right {
+.pull-left {
   margin-top: 10px;
   margin-right: 10px;
 }
@@ -771,9 +797,9 @@ h2.relatedmaintitle {
   margin-right: 10px;
 }
 
-/*.pull-left {
-    float: left;
-    padding-left: 15px;
+/*.pull-right {
+    float: right;
+    padding-right: 15px;
 }*/
 /** tablet **/
 .mainkiller {
@@ -781,15 +807,36 @@ h2.relatedmaintitle {
 }
 
 .fa-caret-down {
-  padding-right: 10px;
+  padding-left: 10px;
   font-size: 14px;
 }
 
+/* Sticky Article Popup */
+.article_sticky{ position:fixed; padding:0; margin:0; max-width:318px; left:10px; bottom:10px; background:#ffffff; color:#212121; text-align:center; z-index:100; display:none;
+-moz-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+-webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
+box-shadow: 0 4px 12px rgba(0,0,0,0.36);}
+.article_sticky .dscription{ padding:15px 15px 20px}
+.article_sticky h4{ font-size:16px; font-weight:bold; text-align:right; margin:0 0 20px; color:#e32522; line-height:120%}
+.article_sticky a{ background:#e32522; color:#fcfcfc; font-size:16px; text-transform:uppercase; display:inline-block; padding:12px; min-width:205px;
+
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+.article_sticky .fa{ display:inline-block; margin:0 15px 0 0}
+/* /Sticky Article Popup */
+
+.btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
+
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .owl-carousel.clubslist {
+    height: 328px !important;
+  }
   .pic {
     position: relative;
     display: block;
-    margin-left: 0px;
+    margin-right: 0px;
   }
   .articlemaintitle {
     font-family: 'Roboto';
@@ -808,9 +855,10 @@ h2.relatedmaintitle {
   }
   .main_img {
     width: 720px;
+	cursor:inherit;
   }
   .related_img {
-    width: 360px;
+    width: 360px !important;
   }
   .v-item {
     background: #fff;
@@ -818,7 +866,12 @@ h2.relatedmaintitle {
     height: 270px;
     margin-top: 15px;
     margin-bottom: 6px;
+    margin-right: 20px !important;
+  }
+  .v-item h3 {
     margin-right: 0px !important;
+    margin-left: 10px !important;
+    padding: 10px !important;
   }
   .relatednews .related {
     height: 328px;
@@ -828,13 +881,16 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (max-width: 420px) {
+  .owl-carousel.clubslist {
+    height: 272px !important;
+  }
   h2.relatedmaintitle {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
-    margin-left: 0px;
+    margin-right: 0px;
   }
   .videomaintitle {
     font-family: 'Roboto';
@@ -859,6 +915,9 @@ h2.relatedmaintitle {
     margin-bottom: 6px;
     margin-right: 0px !important;
   }
+  .related_img {
+    width: 270px !important;
+  }
   .relatednews .related {
     padding-top: 0px;
     height: 270px;
@@ -870,13 +929,13 @@ h2.relatedmaintitle {
   .v-item h3 {
     margin-right: 0px !important;
     margin-left: 10px !important;
-    padding: 0px !important;
+    padding: 15px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 18px;
   }
   .no-padding {
     padding: 15px;
@@ -884,13 +943,16 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .owl-carousel.clubslist {
+    height: 272px !important;
+  }
   h2.relatedmaintitle {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
-    margin-left: 0px;
+    margin-right: 0px;
   }
   .videomaintitle {
     font-family: 'Roboto';
@@ -919,6 +981,9 @@ h2.relatedmaintitle {
     padding-right: 4px !important;
     padding-left: 4px !important;
   }
+  .related_img {
+    width: 270px !important;
+  }
   .relatednews .related {
     padding-top: 0px;
     height: 270px;
@@ -926,13 +991,13 @@ h2.relatedmaintitle {
   .v-item h3 {
     margin-right: 0px !important;
     margin-left: 10px !important;
-    padding: 0px !important;
+    padding: 15px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 18px;
   }
   .no-padding {
     padding: 15px;
@@ -942,7 +1007,7 @@ h2.relatedmaintitle {
 .ob-widget-items-container {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-right: -10px !important;
+  margin-left: -10px !important;
   margin-right: -10px !important;
   box-sizing: inherit !important;
 }
@@ -979,7 +1044,7 @@ h2.relatedmaintitle {
   text-align: right;
   margin: 5px 0 0 !important;
   margin-right: 10px !important;
-  margin-right: 10px !important;
+  margin-left: 10px !important;
   padding: 0px !important;
   color: #000 !important;
 }
@@ -990,7 +1055,7 @@ h2.relatedmaintitle {
 
 .ob-rec-description {
   margin-right: 10px !important;
-  margin-right: 10px !important;
+  margin-left: 10px !important;
   padding: 0px !important;
   color: #727272 !important;
 }
