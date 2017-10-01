@@ -23,7 +23,7 @@
 .owl-carousel.clubslist .club a:last-child,
 .owl-carousel.clubslist .club a.name{ display:block; max-width:55%; margin:0 auto}
 .fa {
-  display: inline-block;
+  display: inline-block; vertical-align:middle;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -12582,6 +12582,15 @@ div.level > ul > li {
 .blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
 .blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000}
 /* /Editor Changes, only used for article post block */
+
+/* Banner Side Column */
+.starter  .ads_side {
+    text-align: center;
+    margin: 0 auto 23px;
+    max-width: 100%;
+    overflow: hidden;
+}
+/* /Banner Side Column */
 /* /New Added */
 
 

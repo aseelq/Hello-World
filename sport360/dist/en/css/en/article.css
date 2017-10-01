@@ -550,7 +550,7 @@
   text-align: center;
   color: #bcbcbc;
   padding: 0px;
-  padding-top: 5px;
+  padding-top: 8px !important;
 }
 
 .sub-row {
