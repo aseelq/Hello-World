@@ -3393,7 +3393,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #292b2c;
+  color: #202020;
   background-color: #fff;
 }
 
@@ -11416,9 +11416,9 @@ h3.title em {
 }
 
 h3 em {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
-  color: #727272;
+  color: #bbbbbb;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -11451,7 +11451,7 @@ h4.title a:hover {
 h4.title em {
   font-size: 14px;
   font-weight: 400;
-  color: #727272;
+  color: #bbbbbb;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -11460,9 +11460,9 @@ h4.title em {
 }
 
 h4 em {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
-  color: #727272;
+  color: #bbbbbb;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -13250,9 +13250,9 @@ div.level > ul > li {
     box-shadow: inset -12px 0 5px -4px transparent;
   }
   h4 em {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
-    color: #727272;
+    color: #bbbbbb;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13489,9 +13489,9 @@ div.level > ul > li {
     height: 100%;
   }
   h4 em {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
-    color: #727272;
+    color: #bbbbbb;
     text-decoration: none;
     font-style: normal;
     display: block;

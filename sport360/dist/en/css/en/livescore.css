@@ -344,10 +344,10 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .articlemaintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 38px;
-  color: #2b2b2b;
+  color: #202020;
   padding-bottom:5px;
   margin-bottom:0;
   padding-top: 15px;
@@ -763,7 +763,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 h2.maintitle {
   font-family: "Roboto", Arial, Helvetica, sans-serif;;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 26px;
   color: #202020;
   padding-bottom: 10px;
   padding-top: 15px;
@@ -991,14 +991,14 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
-    color: black;
+    color: #202020;
     padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
+    color: #bbbbbb;
     line-height: 1.2;
   }
   .main_img {
@@ -1045,14 +1045,14 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: black;
+    color: #202020;
     padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
+    color: #bbbbbb;
     line-height: 1.2;
   }
   .v-item {
@@ -1101,14 +1101,14 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: black;
+    color: #202020;
     padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
+    color: #bbbbbb;
     line-height: 1.2;
   }
   .v-item {
@@ -1196,7 +1196,7 @@ h2.relatedmaintitle {
   margin-left: 10px !important;
   margin-right: 10px !important;
   padding: 0px !important;
-  color: #727272 !important;
+  color: #bbbbbb !important;
 }
 
 .owl-stage-outer {
@@ -1607,8 +1607,8 @@ border-radius:20px;}
 .club_block .dtail .row > *{ display:table-cell; vertical-align:top; overflow:hidden; margin:0; padding:0}
 
 .club_block .dtail .label{ color:#202020; font-style:normal; font-size:14px; font-weight:bold; width:140px;}
-.club_block .dtail p{ text-align:left; color:#727272; font-size:14px}
-.club_block .dtail p a{ color:#727272;}
+.club_block .dtail p{ text-align:left; color:#bbbbbb; font-size:14px}
+.club_block .dtail p a{ color:#bbbbbb;}
 /* /Club Information Block */
 
 /* Club Team Block */
@@ -1621,14 +1621,14 @@ border-radius:20px;}
 
 .clubteam_block .hdr_block .dtail h2,
 .clubteam_block .hdr_block .dtail h3{ font-size:18px; color:#fcfcfc; background:#363636; padding:15px}
-.clubteam_block .hdr_block .dtail .position{ font-size:14px; background:#ebebeb; color:#727272; padding:7px 15px}
+.clubteam_block .hdr_block .dtail .position{ font-size:14px; background:#ebebeb; color:#bbbbbb; padding:7px 15px}
 .clubteam_block .hdr_block .dtail .name{ padding:7px 15px}
 
 
 .clubteam_block .list-group dt,
 .clubteam_block .list-group dd{ clear:both; display:block; padding:5px 25px 5px 7px; margin:0; border:0; font-style:normal; font-size:14px;}
 
-.clubteam_block .list-group dt{ text-transform:uppercase; border-bottom:1px solid #ebebeb; background:#ebebeb; color:#727272; font-weight:normal}
+.clubteam_block .list-group dt{ text-transform:uppercase; border-bottom:1px solid #ebebeb; background:#ebebeb; color:#bbbbbb; font-weight:normal}
 .clubteam_block .list-group dd{ border-bottom:1px solid #e1e1e1; display:table; width:100%;}
 .clubteam_block .list-group dd:last-child{ border:0}
 .clubteam_block .list-group dd > *{ display:table-cell; vertical-align:middle; overflow:hidden; padding:0; margin:0; font-style:normal; font-size:14px; text-align:left}
@@ -1649,7 +1649,7 @@ border-radius:50%;}
 /* Scorers Block */
 .scorers_block{ padding:0; margin:0 auto 30px; overflow:hidden; clear:both}
 .alltabel_block .scorers_block{ padding:0 0 35px; margin:0 auto;}
-.scorers_block a{ color:#727272;}
+.scorers_block a{ color:#bbbbbb;}
 .scorers_block .hdr_block{ margin:0 auto 25px;}
 .scorers_block .hdr_block .clearfix{ padding:15px 0 0}
 .scorers_block .hdr_block h2,
@@ -1668,14 +1668,14 @@ border-radius:50%;}
 .scorers_block .hdr_block .dtail ul > li > h4{ padding:7px 0 10px; height:40px}
 
 .scorers_block .hdr_block .dtail .label{ color:#202020; font-style:normal; font-size:14px; font-weight:bold; width:100px;}
-.scorers_block .hdr_block .dtail p{ text-align:left; color:#727272; font-size:14px}
+.scorers_block .hdr_block .dtail p{ text-align:left; color:#bbbbbb; font-size:14px}
 .scorers_block .hdr_block .dtail .score{ font-size:14px; color:#f51818; font-weight:bold}
 
 .scorers_block .list-inline > li{ float:left;}
 .scorers_block .list-inline .item_block{ margin-bottom:10px; overflow:hidden; clear:both; height:100%}
 .scorers_block .list-inline .item_block .pic{ float:left}
 .scorers_block .list-inline .item_block .dtail{ float:left; padding:0 0 0 7px}
-.scorers_block .list-inline .item_block .dtail > *{ display:block; clear:both; padding:0; margin:0; font-style:normal; font-size:16px; color:#727272}
+.scorers_block .list-inline .item_block .dtail > *{ display:block; clear:both; padding:0; margin:0; font-style:normal; font-size:16px; color:#bbbbbb}
 
 .scorers_block .list-inline .item_block .dtail .name,
 .scorers_block .list-inline .item_block .dtail .name a{ color:#202020; font-weight:bold}
@@ -1712,7 +1712,7 @@ border-radius:50%;}
 
 .league_block .label{ font-style:normal; font-size:16px; color:#202020; font-weight:bold; float:left; display:inline-block;}
 .league_block p,
-.league_block .btn-select{ display:inline-block; float:right; padding:0; margin:0; color:#727272}
+.league_block .btn-select{ display:inline-block; float:right; padding:0; margin:0; color:#bbbbbb}
 .league_block .btn-select{ color:#424242}
 /* /League Block */
 
@@ -1730,7 +1730,7 @@ border-radius:50%;}
 
 /* Player Block */
 .player_block{ margin:0 auto 30px; padding:0; background:none; box-shadow:none; border:0;}
-.player_block a{ color:#727272;}
+.player_block a{ color:#bbbbbb;}
 .player_block .hdr_block{ margin:0 auto;}
 .player_block .hdr_block .clearfix{ padding:0}
 .player_block .hdr_block h2,
@@ -1755,7 +1755,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 
 .player_block .hdr_block .dtail ul > li:last-child .label{ padding:12px 0 0}
 .player_block .hdr_block .dtail .label{ color:#202020; font-style:normal; font-size:14px; font-weight:bold; width:100px;}
-.player_block .hdr_block .dtail p{ text-align:left; color:#727272; font-size:14px}
+.player_block .hdr_block .dtail p{ text-align:left; color:#bbbbbb; font-size:14px}
 
 .player_block .social_icons .btn{ padding:5px 0 0; margin:0 8px 0 0; border:0; box-shadow:none; width:35px; height:35px; color:#fcfcfc; background:#d7d7d7; font-size:22px;
 -webkit-border-radius:50%;
@@ -1782,7 +1782,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 .clubscores_block ul > li.leaguename{ width:27%}
 
 .clubscores_block ul.hdr{ background:#252525; color:#fcfcfc}
-.clubscores_block ul.dtail{ background:#ffffff; color:#727272}
+.clubscores_block ul.dtail{ background:#ffffff; color:#bbbbbb}
 .clubscores_block ul.dtail:not(:last-child){ border-bottom:1px solid #cccccc}
 /* /Clubs Scores Block */
 
@@ -1809,7 +1809,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 .mmatch_block .matchdetils li:last-child{ border-bottom:0}
 .mmatch_block .matchdetils li:not(:first-child) > *{ display:table-cell; vertical-align:middle; padding:8px 5px; margin:0; overflow:hidden; text-align:left; table-layout:fixed}
 .mmatch_block .matchdetils li:not(:first-child) .label{ width:35%; border-right:1px solid #e1e1e1}
-.mmatch_block .matchdetils li:not(:first-child) i{ padding:8px 10px; color:#727272}
+.mmatch_block .matchdetils li:not(:first-child) i{ padding:8px 10px; color:#bbbbbb}
 /* /Main Match Block */
 
 /* Goals Block */
@@ -1988,7 +1988,7 @@ padding:10px 15px 0;}
 	.page_livescore .clubnews .col-sm-12 .v-item > *{ display:inline-block; float:left; }
 	.page_livescore .clubnews .col-sm-12 .v-item h3{ max-width:55%; font-size:16px; margin:12px 0; padding:0 5px !important}
 	.page_livescore .clubnews .col-sm-12 .v-item h3 a{ font-size:16px; line-height:normal}
-	.page_livescore .clubnews .col-sm-12 .v-item h3 em{ font-size:14px; color:#727272}
+	.page_livescore .clubnews .col-sm-12 .v-item h3 em{ font-size:14px; color:#bbbbbb}
 	
 	.competitions_block ul > li{ width:100%; max-width:100%; float:none; margin:0 auto 10px; text-align:left}
 	.competitions_block cite{ font-size:16px;}
@@ -2051,9 +2051,9 @@ padding:10px 15px 0;}
 	.page_livescore .clubnews .col-xs-12 .v-item .pic img{ max-width:134px;}
 	.page_livescore .clubnews .col-xs-12 .v-item > *{ display:inline-block; float:left; }
 	
-	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#2b2b2b}
-	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#2b2b2b; overflow:hidden; max-height:50px}
-	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
+	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#202020}
+	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#202020; overflow:hidden; max-height:50px}
+	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#bbbbbb; margin:0}
 	
 	.scorers_block .hdr_block .dtail ul > li > h4, 
 	.scorers_block .hdr_block .dtail ul > li > h4 a{ font-size:18px;}
