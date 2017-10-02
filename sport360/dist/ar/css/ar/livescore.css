@@ -288,12 +288,12 @@
 .club-title span {
   font-size: 15px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #737373;
+  color: #bbbbbb;
   line-height: 1.2;
   position:relative;
   padding:0 0 0 20px;
   margin:0 0 0 10px;
-  display:inline-block
+  display:inline-block; text-transform:uppercase;
 }
 .club-title span:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; left:0; right:auto; top:0; bottom:0; color:#090909; 
 font-weight: bold; font-size: 18px; line-height:80%}
@@ -314,7 +314,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .time {
-  color: #bcbcbc;
+  color: #8e8e8e;
   font-size: 13px;
   font-weight: normal;
   font-family: "Roboto",  Arial, Helvetica, sans-serif;
@@ -344,20 +344,20 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .articlemaintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 38px;
-  color: #2b2b2b;
+  color: #202020;
   padding-bottom:5px;
   margin-bottom:0;
   padding-top: 15px;
 }
 
 .article-head {
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 30px;
   margin: auto 10px;
-  color: #bcbcbc;
+  color: #8e8e8e;
 }
 
 .video-content {
@@ -553,7 +553,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
   font-size: 12px;
   font-weight: 500;
   text-align: center;
-  color: #bcbcbc;
+  color: #8e8e8e;
   padding: 0px;
   padding-top: 8px !important;
 }
@@ -763,7 +763,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 h2.maintitle {
   font-family: "Roboto", Arial, Helvetica, sans-serif;;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 26px;
   color: #202020;
   padding-bottom: 10px;
   padding-top: 15px;
@@ -991,15 +991,15 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
-    color: black;
+    color: #202020;
     padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
-    line-height: 1.2;
+    color: #bbbbbb;
+    line-height: 1.2; text-transform:uppercase;
   }
   .main_img {
     width: 750px;
@@ -1045,15 +1045,15 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: black;
+    color: #202020;
     padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
-    line-height: 1.2;
+    color: #bbbbbb;
+    line-height: 1.2; text-transform:uppercase;
   }
   .v-item {
     background: #fff;
@@ -1101,15 +1101,15 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: black;
+    color: #202020;
     padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
-    line-height: 1.2;
+    color: #bbbbbb;
+    line-height: 1.2; text-transform:uppercase;
   }
   .v-item {
     background: #fff;
@@ -1196,7 +1196,7 @@ h2.relatedmaintitle {
   margin-right: 10px !important;
   margin-left: 10px !important;
   padding: 0px !important;
-  color: #727272 !important;
+  color: #bbbbbb !important;
 }
 
 .owl-stage-outer {
@@ -1979,7 +1979,7 @@ padding:10px 15px 0;}
 	
 	.page_livescore .clubnews .col-sm-6 .v-item h3{ position:absolute; right:0; left:0; bottom:0; color:#fcfcfc; margin:15px auto}
 	.page_livescore .clubnews .col-sm-6 .v-item h3 a{  font-size:18px; color:#fcfcfc; line-height:normal}
-	.page_livescore .clubnews .col-sm-6 .v-item h3 em{ font-size:14px; color:#bbbbbb}
+	.page_livescore .clubnews .col-sm-6 .v-item h3 em{ font-size:14px; color:#727272}
 	
 	.page_livescore .clubnews .col-sm-12 .v-item{ height:auto; margin:0 auto 15px;
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
@@ -2052,8 +2052,8 @@ padding:10px 15px 0;}
 	.page_livescore .clubnews .col-xs-12 .v-item .pic img{ max-width:134px;}
 	.page_livescore .clubnews .col-xs-12 .v-item > *{ display:inline-block; float:right; }
 	
-	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#2b2b2b}
-	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#2b2b2b; overflow:hidden; max-height:50px}
+	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#202020}
+	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#202020; overflow:hidden; max-height:50px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
 	
 	.scorers_block .hdr_block .dtail ul > li > h4, 

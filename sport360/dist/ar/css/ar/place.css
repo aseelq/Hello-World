@@ -288,12 +288,12 @@
 .club-title span {
   font-size: 15px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #737373;
+  color: #bbbbbb;
   line-height: 1.2;
   position:relative;
   padding:0 0 0 20px;
   margin:0 0 0 10px;
-  display:inline-block
+  display:inline-block; text-transform:uppercase;
 }
 .club-title span:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; left:0; right:auto; top:0; bottom:0; color:#090909; 
 font-weight: bold; font-size: 18px; line-height:80%}
@@ -314,7 +314,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .time {
-  color: #bcbcbc;
+  color: #8e8e8e;
   font-size: 13px;
   font-weight: normal;
   font-family: "Roboto",  Arial, Helvetica, sans-serif;
@@ -347,17 +347,17 @@ font-weight: bold; font-size: 18px; line-height:80%}
   font-family: "Roboto", Arial, Helvetica, sans-serif;;
   font-weight: 700;
   font-size: 38px;
-  color: #2b2b2b;
-  padding-bottom:5px;
+  color: #202020;
+  padding-bottom:20px;
   margin-bottom:0;
   padding-top: 15px;
 }
 
 .article-head {
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 30px;
   margin: auto 10px;
-  color: #bcbcbc;
+  color: #8e8e8e;
 }
 
 .video-content {
@@ -553,7 +553,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
   font-size: 12px;
   font-weight: 500;
   text-align: center;
-  color: #bcbcbc;
+  color: #8e8e8e;
   padding: 0px;
   padding-top: 8px !important;
 }
@@ -762,7 +762,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 h2.maintitle {
   font-family: "Roboto", Arial, Helvetica, sans-serif;;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 26px;
   color: #202020;
   padding-bottom: 10px;
   padding-top: 15px;
@@ -910,15 +910,15 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
-    color: black;
-    padding-bottom: 10px;
+    color: #202020;
+    padding-bottom: 20px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
-    line-height: 1.2;
+    color: #bbbbbb;
+    line-height: 1.2; text-transform:uppercase;
   }
   .main_img {
     width: 750px;
@@ -964,15 +964,15 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: black;
-    padding-bottom: 10px;
+    color: #202020;
+    padding-bottom: 20px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
-    line-height: 1.2;
+    color: #bbbbbb;
+    line-height: 1.2; text-transform:uppercase;
   }
   .v-item {
     background: #fff;
@@ -1020,15 +1020,15 @@ h2.relatedmaintitle {
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: black;
-    padding-bottom: 10px;
+    color: #202020;
+    padding-bottom: 20px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
-    color: #727272;
-    line-height: 1.2;
+    color: #bbbbbb;
+    line-height: 1.2; text-transform:uppercase;
   }
   .v-item {
     background: #fff;
@@ -1115,7 +1115,7 @@ h2.relatedmaintitle {
   margin-right: 10px !important;
   margin-left: 10px !important;
   padding: 0px !important;
-  color: #727272 !important;
+  color: #bbbbbb !important;
 }
 
 .owl-stage-outer {
@@ -1159,7 +1159,7 @@ ul.stories .story{ margin-bottom:17px;}
 .ads{ margin:30px auto 20px; text-align:center; max-width:100%; overflow:hidden}
 .ads_side{ text-align:center; margin:0 auto; max-width:100%; overflow:hidden }
 
-.hdr_page{ margin:0 auto 20px;}
+.hdr_page{ margin:0 auto 5px;}
 .hdr_page p{ font-size:14px; padding:0; margin:0}
 
 .post_block article .share_block > *{ float:right}

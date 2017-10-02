@@ -83,12 +83,12 @@
 .club-title span {
   font-size: 15px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #737373;
+  color: #727272;
   line-height: 1.2;
   position:relative;
   padding:0 0 0 20px;
   margin:0 0 0 10px;
-  display:inline-block
+  display:inline-block; text-transform:uppercase;
 }
 .club-title span:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; left:0; right:auto; top:0; bottom:0; color:#090909; 
 font-weight: bold; font-size: 18px; line-height:80%}
@@ -194,7 +194,7 @@ ul.stories .story{ margin-bottom:17px;}
 .ads_side{ text-align:center; margin:0 auto; max-width:100%; overflow:hidden }
 
 .hdr_page{ margin:7px auto 8px;}
-.hdr_page h2.articlemaintitle{ font-size:15px; color:#737373; font-weight:normal; text-transform:uppercase}
+.hdr_page h2.articlemaintitle{ font-size:15px; color:#727272; font-weight:normal; text-transform:uppercase}
 .hdr_page p{ font-size:14px; padding:0; margin:0}
 
 .share_block .show_icon{ display:none}
