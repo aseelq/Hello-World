@@ -319,7 +319,7 @@
   font-family: "Roboto";
   color: #dfdfdf;
   line-height: 1.2;
-  margin-right: 12px;
+  margin-right: 12px; text-transform:uppercase;
 }
 
 .social-icons a {
@@ -340,7 +340,7 @@
 .club-title .separator {
   font-size: 15px;
   font-family: "Roboto";
-  color: #737373;
+  color: #727272;
   line-height: 1.2;
 }
 
@@ -354,7 +354,7 @@
 }
 
 .time {
-  color: #bcbcbc;
+  color: #8e8e8e;
   font-size: 14px;
   font-weight: normal;
   font-family: "Roboto";
@@ -430,7 +430,7 @@ ul.stories .story {
   font-size: 12px;
   font-family: 'roboto';
   text-align: center;
-  color: #bcbcbc;
+  color: #8e8e8e;
   padding: 0px;
   padding-top: 8px !important;
 }
@@ -466,12 +466,12 @@ ul.stories .story {
 }
 
 .article-head {
-  font-size: 14px;
+  font-size: 13px;
   padding-top: 0px;
   margin-left: 18px;
   margin-bottom: 30px;
   font-family: 'roboto';
-  color: #bcbcbc;
+  color: #8e8e8e;
 }
 
 .secondimg {
@@ -851,7 +851,7 @@ border-radius: 2px;
     font-size: 14px;
     font-family: "Roboto";
     color: #dfdfdf;
-    line-height: 1.2;
+    line-height: 1.2; text-transform:uppercase;
   }
   .main_img {
     width: 720px;
@@ -905,7 +905,7 @@ border-radius: 2px;
     font-size: 14px;
     font-family: "Roboto";
     color: #dfdfdf;
-    line-height: 1.2;
+    line-height: 1.2; text-transform:uppercase;
   }
   .v-item {
     background: #fff;
@@ -967,7 +967,7 @@ border-radius: 2px;
     font-size: 14px;
     font-family: "Roboto";
     color: #dfdfdf;
-    line-height: 1.2;
+    line-height: 1.2; text-transform:uppercase;
   }
   .v-item {
     background: #fff;

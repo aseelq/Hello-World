@@ -12319,7 +12319,7 @@ a.subscribe-btn:hover {
   float: left;
   width: 33%;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   color: #252525;
 }
@@ -12896,7 +12896,7 @@ div.level > ul > li {
     width: 33%;
     height: 40%;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     color: #252525;
   }
@@ -12965,7 +12965,7 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #bcbcbc;
+    color: #8e8e8e;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13188,7 +13188,7 @@ div.level > ul > li {
     float: left;
     width: 33%;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     color: #252525;
   }
@@ -13279,7 +13279,7 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #bcbcbc;
+    color: #8e8e8e;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13452,7 +13452,7 @@ div.level > ul > li {
   .v {
     font-size: 16px;
     font-weight: normal;
-    color: #bcbcbc;
+    color: #8e8e8e;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13515,3 +13515,39 @@ div.level > ul > li {
     columns: 3;
   }
 }
+
+/* Smaller than standard 1050 (devices and browsers) */
+@media only screen and (max-width: 1050px){
+	
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px){
+	.articlemaintitle{ font-size:28px !important}
+	.paragraph,
+	.firstparagraph,
+	.club,
+	.post_block,
+	.post_block *{ font-size:16px !important}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px){
+	.articlemaintitle{ font-size:22px !important}
+	.paragraph,
+	.firstparagraph,
+	.club,
+	.post_block,
+	.post_block *{ font-size:14px !important}
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.articlemaintitle{ font-size:22px !important}
+	.paragraph,
+	.firstparagraph,
+	.club,
+	.post_block,
+	.post_block *{ font-size:14px !important}
+}
+
+
+
+
