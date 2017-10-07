@@ -868,7 +868,7 @@ h2.relatedmaintitle {
 }
 
 .tags-area {
-  display: inline-block;
+  display:block;
 }
 
 .tag {
@@ -1196,13 +1196,13 @@ border-radius: 4px;}
 .subscribe_block .option_box.has-error cite{ position:absolute; bottom:-35px; left:0}
 
 .subscribe_block .approve_box{ margin:0 auto 50px; font-size:16px; line-height:100%; position:relative}
-.subscribe_block .approve_box.has-error label{ color:#1f1f1f}
+.subscribe_block .approve_box.has-error label{ color:#202020}
 .subscribe_block .approve_box.has-error cite{ position:absolute; bottom:-35px; left:0}
 
 .subscribe_block .approve_box label input,
 .subscribe_block .option_box label input{ vertical-align:middle; margin:-2px 5px 0 0}
 .subscribe_block .approve_box.has-error,
-.subscribe_block .option_box.has-error{ border:1px solid #fb0606; padding:8px 8px 0; color:#1f1f1f}
+.subscribe_block .option_box.has-error{ border:1px solid #fb0606; padding:8px 8px 0; color:#202020}
 .subscribe_block .option_box.has-error{  padding:8px 8px 5px}
 
 .subscribe_block .btn[type="submit"]{ background:#ed111b; color:#fcfcfc; display:block; margin:0 auto 50px; height:57px; width:100%; max-width:258px; font-size:20px; 
@@ -1239,7 +1239,7 @@ ul.stories .story h4{ margin-left: 134px;}
 ul.stories .story h4 a{ margin: 0 0 4px; display:block}
 ul.stories .story{ margin-bottom:17px;}
 
-.starter{ color:#1f1f1f}
+.starter{ color:#202020}
 .ads{ margin:30px auto 20px; text-align:center; max-width:100%; overflow:hidden}
 .ads_side{ text-align:center; margin:0 auto; max-width:100%; overflow:hidden }
 
@@ -1254,7 +1254,7 @@ ul.stories .story{ margin-bottom:17px;}
 .share_block a.show_icon_inside{ display:none}
 .pic .label{ display:inline-block; padding:7px 15px; margin:0; position:absolute; left:0; right:auto; bottom:0; background:#ee1d25; color:#f7f7f7; text-transform:uppercase; font-style:normal; font-size:14px; line-height:100%; min-width:70px;}
 
-.post_block{ padding:20px 0 30px; margin-bottom:17px; color:#1f1f1f}
+.post_block{ padding:20px 0 30px; margin-bottom:17px; color:#202020}
 .post_block .time_block{ list-style:none; padding:0 20px 18px; margin:0 auto 20px; font-size:16px; border-bottom:1px solid #b7b7b7}
 .post_block .time_block > li{ margin:0 0 2px; padding:0}
 .post_block .time_block i{ display:inline-block; width:18px; text-align:center; color:#a8a8a8; margin:0 5px 0 0; padding:0; font-size:18px;}
@@ -1262,10 +1262,10 @@ ul.stories .story{ margin-bottom:17px;}
 .post_block article{ padding:0 20px}
 .post_block .inner.pull-left{ margin:0 auto}
 
-.post_collapse .panel-title{ font-size:16px; color:#1f1f1f; min-height:50px; padding:15px 15px 0; border-bottom:1px solid #ebebeb; position:relative; display:block; 
+.post_collapse .panel-title{ font-size:16px; color:#202020; min-height:50px; padding:15px 15px 0; border-bottom:1px solid #ebebeb; position:relative; display:block; 
 text-decoration:none;}
 .post_collapse .panel-title i{ display:inline-block; position:absolute; right:15px; left:auto; top:0; bottom:0; margin:auto 0; color:#858585; font-size:14px; height:15px;}
-.post_collapse .panel-title a{ color:#1f1f1f;}
+.post_collapse .panel-title a{ color:#202020;}
 
 .post_collapse .panel-default{ margin:0 auto 10px;
 -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
@@ -1274,7 +1274,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);}
 .post_collapse .panel-body{ padding:18px}
 
 .post_more{ margin:15px auto 0; font-size:14px;}
-.post_more a{ color:#1f1f1f;}
+.post_more a{ color:#202020;}
 .post_more h4{ font-size:14px; font-weight:700; margin:0 auto 2px;}
 .post_more p{ padding:0; margin:0}
 
@@ -1290,7 +1290,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);}
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
 border-radius: 4px;
-display: block; margin: 0 auto; text-align: center; color: #1f1f1f; line-height: 45px;}
+display: block; margin: 0 auto; text-align: center; color: #202020; line-height: 45px;}
 .btn_gneral:hover{ color: #d7262c}
 .btn_gneral > i{ display:inline-block; vertical-align:middle;}
 

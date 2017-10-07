@@ -887,7 +887,7 @@ h2.relatedmaintitle {
 }
 
 .tags-area {
-  display: inline-block;
+  display: block;
 }
 
 .tag {

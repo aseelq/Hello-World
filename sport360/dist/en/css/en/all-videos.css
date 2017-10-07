@@ -302,6 +302,7 @@ body {
   color: white;
   font-weight: 900;
   font-size: 38px;
+  line-height:42px;
 }
 
 .seperate {
@@ -527,6 +528,7 @@ border-radius: 2px;
     color: white;
     font-weight: 900;
     font-size: 30px;
+	line-height:42px;
   }
   .mobbanner {
     max-width: 90%;
@@ -568,6 +570,7 @@ border-radius: 2px;
     color: white;
     font-weight: 900;
     font-size: 22px;
+	line-height:42px;
   }
   hr {
     margin-top: 5px;
@@ -608,6 +611,7 @@ border-radius: 2px;
     color: white;
     font-weight: 900;
     font-size: 22px;
+	line-height:42px;
   }
   hr {
     margin-top: 5px;

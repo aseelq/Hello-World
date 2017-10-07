@@ -415,7 +415,7 @@ a.seeall:hover {
 
 .clubslist .result {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom:0 /*25px*/;
 }
 
 .owl-carousel.clubslist {

@@ -21,7 +21,16 @@
 
 .owl-carousel.clubslist .club a{ color:#252525}
 .owl-carousel.clubslist .club a:last-child,
-.owl-carousel.clubslist .club a.name{ display:block; max-width:55%; margin:0 auto}
+.owl-carousel.clubslist .club a.name{ display:block; max-width:80%; margin:0 auto}
+.owl-carousel.clubslist .club a.name{ height:48px; overflow:hidden;}
+.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}
+
+.owl-carousel.results .owl-item{ position:relative}
+.owl-carousel.results .owl-item img{ height:72px;}
+.owl-carousel.results a.name{ height:48px; overflow:hidden; display:block; margin:0 auto; color:#202020}
+.owl-carousel.results .matchdetils{ margin-top:0}
+.owl-carousel.results .alllivesection{ margin:75px auto 0}
+
 .fa {
   display: inline-block; vertical-align:middle;
   font: normal normal normal 14px/1 FontAwesome;
@@ -13530,6 +13539,8 @@ div.level > ul > li {
 	.club,
 	.post_block,
 	.post_block *{ font-size:16px !important}
+	
+	.owl-carousel.results .alllivesection{ margin:42px auto !important}
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px){
@@ -13538,7 +13549,7 @@ div.level > ul > li {
 	.firstparagraph,
 	.club,
 	.post_block,
-	.post_block *{ font-size:14px !important}
+	.post_block *{ font-size:14px !important}		
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
