@@ -307,7 +307,7 @@
 
 .ads {
   margin-top: 34px;
-  margin-bottom: 22px;
+  margin-bottom: 40px;
 }
 
 .offset-1 {
@@ -319,7 +319,7 @@
   font-family: "Roboto";
   color: #dfdfdf;
   line-height: 1.2;
-  margin-left: 12px; text-transform:uppercase;
+  margin-left: 12px;
 }
 
 .social-icons a {
@@ -333,14 +333,10 @@
 /*[class^="col-"], [class*=" col-"] {
      padding: 0 10px; 
 }*/
-.related input {
-  cursor: pointer !important;
-}
-
 .club-title .separator {
   font-size: 15px;
   font-family: "Roboto";
-  color: #727272;
+  color: #737373;
   line-height: 1.2;
 }
 
@@ -354,7 +350,7 @@
 }
 
 .time {
-  color: #8e8e8e;
+  color: #bcbcbc;
   font-size: 14px;
   font-weight: normal;
   font-family: "Roboto";
@@ -379,22 +375,22 @@
   font-weight: 700;
   font-size: 38px;
   color: white;
-  padding-bottom: 20px;
-  padding-top: 15px;
+  padding-bottom: 33px;
+  padding-top: 29px;
   margin: 0;
 }
 
 h2.maintitle {
   font-family: 'Roboto';
   font-weight: 700;
-  font-size: 26px;
+  font-size: 34px;
   color: #202020;
   padding-bottom: 16px;
   margin: 0;
 }
 
 .mostpop {
-  margin-top: 38px;
+  margin-top: 47px;
 }
 
 ul.stories .story {
@@ -430,9 +426,9 @@ ul.stories .story {
   font-size: 12px;
   font-family: 'roboto';
   text-align: center;
-  color: #8e8e8e;
+  color: #bcbcbc;
   padding: 0px;
-  padding-top: 8px !important;
+  padding-top: 5px;
 }
 
 .continue {
@@ -466,12 +462,12 @@ ul.stories .story {
 }
 
 .article-head {
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 0px;
   margin-right: 18px;
   margin-bottom: 30px;
   font-family: 'roboto';
-  color: #8e8e8e;
+  color: #bcbcbc;
 }
 
 .secondimg {
@@ -516,8 +512,8 @@ ul.stories .story {
 }
 
 .relatednews .row {
-  margin-left: -7.5px;
   margin-right: -7.5px;
+  margin-left: -7.5px;
 }
 
 h2.relatedmaintitle {
@@ -536,40 +532,19 @@ h2.relatedmaintitle {
   height: 270px;
   margin-top: 15px;
   margin-bottom: 6px;
-  margin-right: 20px !important;
+  margin-right: 0px !important;
 }
 
 .v-item h3 {
   margin-right: 10px !important;
   margin-left: 10px !important;
   padding: 0px !important;
-  text-align: right;
 }
 
 .v-item h3 a {
   font-size: 14px;
   color: black;
   font-weight: 600;
-}
-
-.v-item em {
-  text-align: right;
-}
-
-#myDIV {
-  display: none;
-}
-
-.fadown {
-  padding-left: 10px;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.faup {
-  padding-left: 10px;
-  font-size: 14px;
-  display: none;
 }
 
 .separator {
@@ -667,7 +642,6 @@ h2.relatedmaintitle {
   padding: 3px 10px;
   border-color: #d7d7d7;
   margin: 5px 5px;
-  white-space:normal;
 }
 
 .main-button {
@@ -683,7 +657,7 @@ h2.relatedmaintitle {
 }
 
 .tags-area {
-  display:block;
+  display: inline-block;
 }
 
 .tag {
@@ -740,7 +714,7 @@ h2.relatedmaintitle {
 }
 
 .club-title {
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .under_line {
@@ -770,11 +744,11 @@ h2.relatedmaintitle {
   position: absolute;
 }
 
-.inner.pull-left {
+.inner.pull-right {
   margin-top: 105px;
 }
 
-.pull-left {
+.pull-right {
   margin-top: 10px;
   margin-right: 10px;
 }
@@ -797,9 +771,9 @@ h2.relatedmaintitle {
   margin-right: 10px;
 }
 
-/*.pull-right {
-    float: right;
-    padding-right: 15px;
+/*.pull-left {
+    float: left;
+    padding-left: 15px;
 }*/
 /** tablet **/
 .mainkiller {
@@ -807,57 +781,36 @@ h2.relatedmaintitle {
 }
 
 .fa-caret-down {
-  padding-left: 10px;
+  padding-right: 10px;
   font-size: 14px;
 }
 
-/* Sticky Article Popup */
-.article_sticky{ position:fixed; padding:0; margin:0; max-width:318px; left:10px; bottom:10px; background:#ffffff; color:#212121; text-align:center; z-index:100; display:none;
--moz-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
--webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.36);
-box-shadow: 0 4px 12px rgba(0,0,0,0.36);}
-.article_sticky .dscription{ padding:15px 15px 20px}
-.article_sticky h4{ font-size:16px; font-weight:bold; text-align:right; margin:0 0 20px; color:#e32522; line-height:120%}
-.article_sticky a{ background:#e32522; color:#fcfcfc; font-size:16px; text-transform:uppercase; display:inline-block; padding:12px; min-width:205px;
-
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
-border-radius: 2px;
-}
-.article_sticky .fa{ display:inline-block; margin:0 15px 0 0}
-/* /Sticky Article Popup */
-
-.btn-select.btn-default ul{ max-height:300px; overflow-y:scroll}
-
 @media only screen and (min-width: 620px) and (max-width: 991px) {
-  .owl-carousel.clubslist {
-    height: 328px !important;
-  }
   .pic {
     position: relative;
     display: block;
-    margin-right: 0px;
+    margin-left: 0px;
   }
-  .articlemaintitle,.videomaintitle {
+  .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
-    padding-bottom: 20px;
+    color: black;
+    padding-bottom: 10px;
     padding-top: 15px;
   }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto";
     color: #dfdfdf;
-    line-height: 1.2; text-transform:uppercase;
+    line-height: 1.2;
   }
   .main_img {
     width: 720px;
-	cursor:inherit;
   }
   .related_img {
-    width: 360px !important;
+    width: 360px;
   }
   .v-item {
     background: #fff;
@@ -865,12 +818,7 @@ border-radius: 2px;
     height: 270px;
     margin-top: 15px;
     margin-bottom: 6px;
-    margin-right: 20px !important;
-  }
-  .v-item h3 {
     margin-right: 0px !important;
-    margin-left: 10px !important;
-    padding: 10px !important;
   }
   .relatednews .related {
     height: 328px;
@@ -880,78 +828,13 @@ border-radius: 2px;
 }
 
 @media only screen and (max-width: 420px) {
-  .owl-carousel.clubslist {
-    height: 272px !important;
-  }
   h2.relatedmaintitle {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
-    margin-right: 0px;
-  }
-  .videomaintitle {
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 22px;
-    line-height: 26px;
-    color: white;
-    padding-bottom: 20px;
-    padding-top: 15px;
-  }
-  .club-title span {
-    font-size: 14px;
-    font-family: "Roboto";
-    color: #dfdfdf;
-    line-height: 1.2; text-transform:uppercase;
-  }
-  .v-item {
-    background: #fff;
-    box-shadow: 0 0px 0px transparent !important;
-    height: 250px;
-    margin-top: 15px;
-    margin-bottom: 6px;
-    margin-right: 0px !important;
-  }
-  .related_img {
-    width: 270px !important;
-  }
-  .relatednews .related {
-    padding-top: 0px;
-    height: 270px;
-  }
-  .most-mobile {
-    padding-right: 4px !important;
-    padding-left: 4px !important;
-  }
-  .v-item h3 {
-    margin-right: 0px !important;
-    margin-left: 10px !important;
-    padding: 15px !important;
-  }
-  .v-item h3 a {
-    font-size: 12px;
-    color: black;
-    font-weight: 600;
-    line-height: 18px;
-  }
-  .no-padding {
-    padding: 15px;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 619px) {
-  .owl-carousel.clubslist {
-    height: 272px !important;
-  }
-  h2.relatedmaintitle {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 34px;
-    color: #202020;
-    padding-bottom: 0px;
-    margin-right: 0px;
+    margin-left: 0px;
   }
   .videomaintitle {
     font-family: 'Roboto';
@@ -966,7 +849,63 @@ border-radius: 2px;
     font-size: 14px;
     font-family: "Roboto";
     color: #dfdfdf;
-    line-height: 1.2; text-transform:uppercase;
+    line-height: 1.2;
+  }
+  .v-item {
+    background: #fff;
+    box-shadow: 0 0px 0px transparent !important;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    margin-right: 0px !important;
+  }
+  .relatednews .related {
+    padding-top: 0px;
+    height: 270px;
+  }
+  .most-mobile {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+  .v-item h3 {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+    padding: 0px !important;
+  }
+  .v-item h3 a {
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    line-height: 10px;
+  }
+  .no-padding {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 619px) {
+  h2.relatedmaintitle {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 34px;
+    color: #202020;
+    padding-bottom: 0px;
+    margin-left: 0px;
+  }
+  .videomaintitle {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+  .club-title span {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #dfdfdf;
+    line-height: 1.2;
   }
   .v-item {
     background: #fff;
@@ -980,9 +919,6 @@ border-radius: 2px;
     padding-right: 4px !important;
     padding-left: 4px !important;
   }
-  .related_img {
-    width: 270px !important;
-  }
   .relatednews .related {
     padding-top: 0px;
     height: 270px;
@@ -990,13 +926,13 @@ border-radius: 2px;
   .v-item h3 {
     margin-right: 0px !important;
     margin-left: 10px !important;
-    padding: 15px !important;
+    padding: 0px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 10px;
   }
   .no-padding {
     padding: 15px;
@@ -1006,7 +942,7 @@ border-radius: 2px;
 .ob-widget-items-container {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-left: -10px !important;
+  margin-right: -10px !important;
   margin-right: -10px !important;
   box-sizing: inherit !important;
 }
@@ -1043,7 +979,7 @@ border-radius: 2px;
   text-align: right;
   margin: 5px 0 0 !important;
   margin-right: 10px !important;
-  margin-left: 10px !important;
+  margin-right: 10px !important;
   padding: 0px !important;
   color: #000 !important;
 }
@@ -1054,7 +990,7 @@ border-radius: 2px;
 
 .ob-rec-description {
   margin-right: 10px !important;
-  margin-left: 10px !important;
+  margin-right: 10px !important;
   padding: 0px !important;
-  color: #bbbbbb !important;
+  color: #727272 !important;
 }

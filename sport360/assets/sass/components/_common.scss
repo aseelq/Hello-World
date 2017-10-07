@@ -348,6 +348,13 @@ li .img-pic img {
     height: 285px;
     margin-top: 10px;
     margin-bottom: 10px;
+    @media only screen and (max-width: 619px) and (min-width: 320px) {
+    	height: auto!important;
+    }
+    .pic{
+        overflow: hidden;
+        height: 181px;
+    }
    /*margin-#{$default-float}: 5px;*/
     h3 {
         padding-top:7px;

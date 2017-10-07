@@ -14,27 +14,8 @@
   font-style: normal;
 }
 
-.video-content img{
-  width:auto !important;
-  height:auto !important;
-}
-
-.owl-carousel.clubslist .club a{ color:#252525}
-.owl-carousel.clubslist .club a:last-child,
-.owl-carousel.clubslist .club a.name{ display:block; max-width:80%; margin:0 auto}
-.owl-carousel.clubslist .club a.name{ height:48px; overflow:hidden;}
-.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}
-
-
-.owl-carousel.results .owl-item{ position:relative}
-.owl-carousel.results .owl-item img{ height:72px;}
-.owl-carousel.results a.name{ height:48px; overflow:hidden; display:block; margin:0 auto; color:#202020}
-.owl-carousel.results .matchdetils{ margin-top:0}
-.owl-carousel.results .alllivesection{ margin:75px auto 0}
-
-
 .fa {
-  display: inline-block; vertical-align:middle;
+  display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -3404,7 +3385,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #202020;
+  color: #292b2c;
   background-color: #fff;
 }
 
@@ -3467,7 +3448,7 @@ a {
 
 a:focus, a:hover {
   color: #014c8c;
-  text-decoration:none;
+  text-decoration: underline;
 }
 
 a:not([href]):not([tabindex]) {
@@ -11229,10 +11210,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   margin-top: 40px;
 }
 
-/* remove it, because it makes an issue and hide scroll on chrome browse !
 ::-webkit-scrollbar {
   display: none;
-}*/
+}
 
 a,
 a:hover {
@@ -11358,31 +11338,6 @@ h3.most {
   color: #202020;
 }
 
-a.video-link {
-  color: #ffffff;
-}
-
-a.video-link:hover {
-  color: #cc1f27;
-  text-decoration: none;
-}
-
-a.video-link.title {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 900;
-  line-height: 36px;
-  position: absolute;
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
-  margin: 0;
-  width: 100%;
-  bottom: 0;
-  text-shadow: 0px 0px 0px black, 0 0 100px black, 0px 0px 100px black;
-}
-
 h3.title {
   position: absolute;
   padding-top: 24px;
@@ -11427,9 +11382,9 @@ h3.title em {
 }
 
 h3 em {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
-  color: #bbbbbb;
+  color: #727272;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -11462,7 +11417,7 @@ h4.title a:hover {
 h4.title em {
   font-size: 14px;
   font-weight: 400;
-  color: #bbbbbb;
+  color: #727272;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -11471,9 +11426,9 @@ h4.title em {
 }
 
 h4 em {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
-  color: #bbbbbb;
+  color: #727272;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -11578,6 +11533,17 @@ li .img-pic img {
   /*margin-left: 5px;*/
 }
 
+@media only screen and (max-width: 619px) and (min-width: 320px) {
+  .v-item {
+    height: auto !important;
+  }
+}
+
+.v-item .pic {
+  overflow: hidden;
+  height: 181px;
+}
+
 .v-item h3 {
   padding-top: 7px;
   padding-left: 14px;
@@ -11591,7 +11557,6 @@ li .img-pic img {
   color: #202020;
   font-weight: 700;
   line-height: 20px;
-  display: inline-block;
 }
 
 .v-item h3 a:hover {
@@ -11907,17 +11872,13 @@ li.subscribe > div a:hover {
   color: #000;
 }
 
-a.subscribe-btn:hover {
-  background: #f74253 !important;
-}
-
 .subscribe-btn {
   background-color: #ec1a2e;
   color: #ffffff;
 }
 
 .subscribe-btn:hover {
-  color: #ffffff !important;
+  color: #f74253 !important;
 }
 
 .subscribe-btn > img > span {
@@ -12262,8 +12223,8 @@ a.subscribe-btn:hover {
 }
 
 .owl-carousel .owl-item .club img {
+  width: 50%;
   margin: 10px auto;
-  display:inline-block;
 }
 
 .owl-carousel.clubslist {
@@ -12313,10 +12274,6 @@ a.subscribe-btn:hover {
   top: -100px;
 }
 
-.owl-nav .disabled {
-  color: gray;
-}
-
 .results {
   width: 880px;
 }
@@ -12330,7 +12287,7 @@ a.subscribe-btn:hover {
   float: left;
   width: 33%;
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   color: #252525;
 }
@@ -12398,7 +12355,7 @@ a.subscribe-btn:hover {
   border: solid 1px #000;
   border-radius: 5px;
   padding: 5px 15px;
-  margin-left: 77px;
+  margin-left: 70px;
   font-size: 12px;
   font-weight: 700;
   color: #252525;
@@ -12418,7 +12375,7 @@ a.subscribe-btn:hover {
 
 .fa-caret-down {
   padding-right: 10px;
-  font-size:14px;
+  font-size: 0.5em;
 }
 
 .levelOne {
@@ -12548,74 +12505,33 @@ div.level > ul > li {
 }
 
 .loader .dot:first-child {
-  animation: loadingC .6s .1s linear infinite;
-  /*animation: move 1s ease-in-out infinite alternate;*/
+  animation: move 1s ease-in-out infinite alternate;
   background: #313131;
   margin-left: 0;
 }
 
 .loader .dot:nth-child(2) {
-  animation: loadingC .6s .2s linear infinite;
-  /* animation: move 1s ease-in-out -0.25s infinite alternate;*/
+  animation: move 1s ease-in-out -0.25s infinite alternate;
   margin-left: 35px;
   background: #313131;
 }
 
 .loader .dot:nth-child(3) {
-  animation: loadingC .6s .3s linear infinite;
-  /* animation: move 1s ease-in-out -0.5s infinite alternate;*/
+  animation: move 1s ease-in-out -0.5s infinite alternate;
   margin-left: 70px;
   background: #313131;
 }
 
 .loader .dot:nth-child(4) {
-  animation: loadingC .6s .4s linear infinite;
-  /*animation: move 1s ease-in-out -0.75s infinite alternate;*/
+  animation: move 1s ease-in-out -0.75s infinite alternate;
   margin-left: 105px;
   background: #313131;
 }
 
 .loader .dot:nth-child(5) {
-  animation: loadingC .6s .5s linear infinite;
-  /* animation: move 1s ease-in-out -0.75s infinite alternate;*/
+  animation: move 1s ease-in-out -0.75s infinite alternate;
   margin-left: 140px;
   background: #313131;
-}
-
-.video-content img{
-  width:auto !important;
-  height:auto !important;
-}
-
-
-/* New Added */
-/* Editor Changes, only used for article post block */
-.blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
-.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000}
-/* /Editor Changes, only used for article post block */
-
-/* Banner Side Column */
-.starter  .ads_side {
-    text-align: center;
-    margin: 0 auto 23px;
-    max-width: 100%;
-    overflow: hidden;
-}
-/* /Banner Side Column */
-/* /New Added */
-
-
-
-@keyframes loadingC {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, 15px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
 }
 
 @-moz-keyframes move {
@@ -12907,7 +12823,7 @@ div.level > ul > li {
     width: 33%;
     height: 40%;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     color: #252525;
   }
@@ -12976,7 +12892,7 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #8e8e8e;
+    color: #bcbcbc;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13199,7 +13115,7 @@ div.level > ul > li {
     float: left;
     width: 33%;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     color: #252525;
   }
@@ -13261,9 +13177,9 @@ div.level > ul > li {
     box-shadow: inset -12px 0 5px -4px transparent;
   }
   h4 em {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
-    color: #bbbbbb;
+    color: #727272;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13290,7 +13206,7 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #8e8e8e;
+    color: #bcbcbc;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13463,7 +13379,7 @@ div.level > ul > li {
   .v {
     font-size: 16px;
     font-weight: normal;
-    color: #8e8e8e;
+    color: #bcbcbc;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13500,9 +13416,9 @@ div.level > ul > li {
     height: 100%;
   }
   h4 em {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
-    color: #bbbbbb;
+    color: #727272;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13526,41 +13442,3 @@ div.level > ul > li {
     columns: 3;
   }
 }
-
-/* Smaller than standard 1050 (devices and browsers) */
-@media only screen and (max-width: 1050px){
-	
-}
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px){
-	.articlemaintitle{ font-size:28px !important}
-	.paragraph,
-	.firstparagraph,
-	.club,
-	.post_block,
-	.post_block *{ font-size:16px !important}
-	
-	.owl-carousel.results .alllivesection{ margin:42px auto !important}
-}
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px){
-	.articlemaintitle{ font-size:22px !important}
-	.paragraph,
-	.firstparagraph,
-	.club,
-	.post_block,
-	.post_block *{ font-size:14px !important}
-}
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-	.articlemaintitle{ font-size:22px !important}
-	.paragraph,
-	.firstparagraph,
-	.club,
-	.post_block,
-	.post_block *{ font-size:14px !important}
-}
-
-
-
-
