@@ -874,3 +874,32 @@ h2.relatedmaintitle {
 .owl-stage-outer{
     height: auto!important;
 }
+
+/* ahmadali changes */
+.ads{
+    margin-top: 33px;
+    margin-bottom: 42px;
+}
+.starter{
+    margin-top: 38px;
+}
+.owl-carousel{
+    .owl-item{
+        padding: 17px 9px;
+        .result{
+            padding: 0;
+        }
+        .club{
+            width: 33.33333333%;
+            img{
+                margin: 0 auto;
+                width: auto;
+                margin-bottom: 12px;
+                height: 72px;
+            }
+        }
+        .goals{
+            width: 33.33333333%;
+        }
+    }
+}
