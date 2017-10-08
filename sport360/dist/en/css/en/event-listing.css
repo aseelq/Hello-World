@@ -318,3 +318,9 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 	.filter_block .btn-select{ min-width: 146px;}
 }
 /* /new classes */
+
+@media only screen and (max-width: 660px) and (min-width: 320px) {
+.lst_block .v-item{
+    max-width: 100%;
+}
+}

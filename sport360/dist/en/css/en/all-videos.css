@@ -302,7 +302,6 @@ body {
   color: white;
   font-weight: 900;
   font-size: 38px;
-  line-height:42px;
 }
 
 .seperate {
@@ -528,7 +527,6 @@ border-radius: 2px;
     color: white;
     font-weight: 900;
     font-size: 30px;
-	line-height:42px;
   }
   .mobbanner {
     max-width: 90%;
@@ -570,16 +568,16 @@ border-radius: 2px;
     color: white;
     font-weight: 900;
     font-size: 22px;
-	line-height:42px;
   }
   hr {
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .mobbanner {
     margin-bottom: 10px;
   }
   .starter .form-group {
-    margin: 0 auto 14px;
+    margin: 0;
   }
   .col-form-label {
     max-width: 27%;
@@ -607,20 +605,28 @@ border-radius: 2px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .killermain {
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .pic-link {
+    margin-bottom: 5px;
+  }
   .video_title {
     color: white;
     font-weight: 900;
     font-size: 22px;
-	line-height:42px;
   }
   hr {
-    margin-top: 5px;
-  }
-  .mobbanner {
+    margin-top: 10px;
     margin-bottom: 10px;
   }
+  .mobbanner {
+    margin-bottom: 20px;
+  }
   .starter .form-group {
-    margin: 0 auto 14px;
+    margin: 0;
   }
   .col-form-label {
     max-width: 27%;
