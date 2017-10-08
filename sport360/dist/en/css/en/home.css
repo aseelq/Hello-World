@@ -423,12 +423,15 @@ a.seeall:hover {
 }
 
 .owl-carousel .owl-item .club img {
-  width: 50%;
+  /*width: 50%;*/
   margin: 10px auto;
+  display: block;
 }
 
 .owl-carousel.clubslist .owl-item .club img {
   height: 87px;
+  width: auto !important;
+  max-width: initial !important;
 }
 
 /* Sticky Article Popup */
@@ -633,7 +636,7 @@ h2.maintitlevideo{ font-size:34px;}
 
 /* Smaller than standard 1050 (devices and browsers) */
 @media only screen and (max-width: 1050px){
-	
+
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px){
@@ -645,19 +648,69 @@ h2.maintitlevideo{ font-size:34px;}
 	h4.title a{ line-height:22px}
 
 }
+
+
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px){
 	h3.title{ padding:14px}
 	h3.title em{ color:#bbbbbb}
 	div.stories .story h4 a{ font-size:15px;}
 	.videoPic h3.title{ line-height:25px}
-	
-	.v-item h3{ padding-top: 14px;}	
+
+	.v-item h3{ padding-top: 14px;}
 	ul.stories .story h4 a{ font-size:15px; line-height:18px}
 	.seeall{ font-size:16px;}
 	.club{ font-size:12px !important;}
 }
+
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	
+
 }
+
+
+/* ABDULLAH's CHANGES */
+.owl-carousel.clubslist .owl-item img {
+    max-width: initial;
+    width: initial;
+}
+.results.owl-carousel .owl-stage-outer {
+    height: 220px;
+}
+.club {
+    height: 166px;
+}
+.owl-nav [class^=owl-] {
+    top: -126px;
+}
+.alllive {
+    margin: 80px auto;
+}
+.goals {
+    margin-top: 34px;
+}
+.goals em {
+    display: block;
+margin: auto;
+}
+.datetime {
+    margin-right: 0px !important;
+}
+.detilslink {
+    float: right;
+}
+
+.v-item {
+    height: auto !important;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .results.owl-carousel .owl-stage-outer {
+        height: 200px;
+    }
+    .club {
+        height: 150px;
+    }
+}
+/* ABDULLAH's CHANGES _ END */
