@@ -11562,7 +11562,7 @@ ul.stories .story .img-pic {
 
 li .img-pic img {
   width: 134px !important;
-  height: 93px !important;
+  /*height: 93px !important;*/
 }
 
 .images {
@@ -12280,7 +12280,8 @@ a.subscribe-btn:hover {
 
 .owl-carousel .owl-item .club img {
   margin: 10px auto;
-  display:inline-block;
+  display: block !important;
+  width: auto !important;
 }
 
 .owl-carousel.clubslist {
@@ -12305,13 +12306,13 @@ a.subscribe-btn:hover {
 .owl-carousel.clubslist .owl-nav .owl-prev {
   position: absolute;
   left: 0;
-  top: -90px;
+  top: -132px;
 }
 
 .owl-carousel.clubslist .owl-nav .owl-next {
   position: absolute;
   right: 0;
-  top: -90px;
+  top: -132px;
 }
 
 .owl-nav {
@@ -12321,13 +12322,13 @@ a.subscribe-btn:hover {
 .owl-nav .owl-prev {
   position: absolute;
   left: -5%;
-  top: -100px;
+  top: -132px;
 }
 
 .owl-nav .owl-next {
   position: absolute;
   right: -5%;
-  top: -100px;
+  top: -132px;
 }
 
 .owl-nav .disabled {
@@ -12676,7 +12677,7 @@ div.level > ul > li {
     margin-left: 150px;
   }
   .results.owl-carousel .owl-stage-outer {
-    height: 195px;
+    height: 230px;
   }
 }
 
@@ -12778,7 +12779,7 @@ div.level > ul > li {
     padding-right: 25px;
   }
   .results.owl-carousel .owl-stage-outer {
-    height: 195px;
+    height: 230px;
   }
 }
 
@@ -12787,13 +12788,14 @@ div.level > ul > li {
     margin-top: 5px;
   }
   .results.owl-carousel .owl-stage-outer {
-    height: 195px;
+    height: 230px;
   }
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .detilslink {
-    margin-left: 0px;
+      margin-left: 0px !important;
+      float: right;
   }
   .all {
     margin-bottom: 10px;
@@ -12927,6 +12929,9 @@ div.level > ul > li {
     font-size: 16px;
     font-weight: 700;
     color: #252525;
+  }
+  .owl-carousel .club {
+      height: 170px;
   }
   .images {
     margin-top: 0px;
@@ -13101,7 +13106,7 @@ div.level > ul > li {
 
 @media only screen and (max-width: 420px) {
   ul.stories .story h4 {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     margin-left: 130px;
     max-width: 260px;
@@ -13294,7 +13299,7 @@ div.level > ul > li {
     overflow: hidden;
   }
   ul.stories .story h4 a {
-    font-size: 14px;
+    font-size: 15px;
     color: #202020;
     font-weight: 900;
     line-height: 22px;
@@ -13326,7 +13331,7 @@ div.level > ul > li {
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
   ul.stories .story h4 {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     margin-left: 130px;
     max-width: 260px;

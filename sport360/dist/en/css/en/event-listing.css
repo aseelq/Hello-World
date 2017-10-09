@@ -117,7 +117,7 @@ border-radius: 2px;
 
 .filter_block .form-group{ margin:0}
 .filter_block .form-control,
-.filter_block .btn-select.btn-default ul, 
+.filter_block .btn-select.btn-default ul,
 .filter_block .btn-select.btn-default .btn-select-value{ font-size:14px; border-color:#c2c2c2;
 -webkit-border-radius: 5px 0 0 5px !important;
 -moz-border-radius: 5px 0 0 5px !important;
@@ -135,7 +135,7 @@ margin:0 5px 10px 0;
 border-radius: 5px}
 
 
-.lst_block > div[class^="col-"], 
+.lst_block > div[class^="col-"],
 .lst_block > div[class*=" col-"]{ margin:0 0 20px}
 .lst_block .v-item{ height:auto; color:#202020; font-size:14px; padding:0 0 10px; min-height:430px; width:100%; max-width:310px; margin:0 auto}
 .lst_block .v-item h3{ font-size:18px; line-height:128%; padding:15px 15px 5px; margin:0 auto 12px; max-height:57px; overflow:hidden}
@@ -193,7 +193,7 @@ ul.stories .story{ margin-bottom:17px;}
 .post_block article{ padding:0 20px}
 .post_block .inner.pull-left{ margin:0 auto}
 
-.post_collapse .panel-title{ font-size:16px; color:#202020; min-height:50px; padding:15px 15px 0; border-bottom:1px solid #ebebeb; position:relative; display:block; 
+.post_collapse .panel-title{ font-size:16px; color:#202020; min-height:50px; padding:15px 15px 0; border-bottom:1px solid #ebebeb; position:relative; display:block;
 text-decoration:none;}
 .post_collapse .panel-title i{ display:inline-block; position:absolute; right:15px; left:auto; top:0; bottom:0; margin:auto 0; color:#858585; font-size:14px; height:15px;}
 .post_collapse .panel-title a{ color:#202020;}
@@ -238,50 +238,50 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 	.row,
 	[class^="col-"], [class*=" col-"]{ margin-left:0; margin-right:0; padding-left:0; padding-right:0}
 	.container{ margin:40px auto 0}
-	
+
 	.mobbanner{ margin:45px auto 12px}
 	.share_block .hidden-sm-down{ display:none !important}
 	.share_block .hidden-md-up{ display:block !important}
-	
+
 	.relatednews h2.relatedmaintitle{ font-size:26px;}
 	.relatednews .related{ margin:0 auto; width:100%; height:auto; padding:5px 0 0 15px}
 	.relatednews .related .owl-carousel{ box-shadow:none; padding:0; margin:0; background:none}
-	
+
 	.relatednews .related .pic{ margin:0 auto 8px;}
 	.relatednews .related img.related_img{ width:100%;}
-	
+
 	.relatednews .related .most-mobile,
 	.relatednews .related .owl-item,
 	.relatednews .related .v-item{ width:100%; max-width:300px; box-shadow:none; border:0; text-align:left; padding:0 !important; margin-top:0 !important; height:auto}
-	
+
 	.relatednews .related .most-mobile{ margin:10px auto 0 !important; padding:0 !important}
 	.relatednews .related .v-item h3{ padding:0; margin:0 !important}
 	.relatednews .related .v-item h3 a{ font-size:18px; line-height:120%; max-height:63px; overflow:hidden; display:block; margin:0 auto 7px}
-	
-	
+
+
 	.hdr_page{ margin:0 auto}
 	.filter_block{ margin: 0 auto 10px;}
 	.filter_block .col-xs-12{ flex:inherit; max-width:100%;}
-	
+
 	.filter_block ul.list-inline{ display:block; width:100%}
 	.filter_block ul.list-inline > li,
 	.filter_block ul.list-inline > li:last-child{ padding:0 2px 0 0; width:25%}
 	.filter_block ul.list-inline > li:last-child{ width:48%}
-	
+
 	.filter_block .input-group{ min-width:215px;}
 	.filter_block .btn-select{ min-width: 146px;}
 	.filter_block ul.list-inline > li,
 	.filter_block ul.list-inline > li:last-child{ padding:0 2px 0 0}
-	
-	
-	.lst_block > div[class^="col-"], 
+
+
+	.lst_block > div[class^="col-"],
 	.lst_block > div[class*=" col-"]{ margin:0 0 20px}
 	.lst_block .v-item{ max-width:300px}
 	.lst_block .col-sm-6{ flex: 0 0 50%; max-width: 50%;}
 	.lst_block .killermain{ margin:0 auto}
-	
+
 	.post_more{ margin: 70px auto 0;}
-	
+
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -289,15 +289,15 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 	.mobbanner{ margin:34px auto 20px}
 	.relatednews .related{ padding:0 0 0 10px}
 	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
-	
+
 	.post_collapse .panel-body{ padding:18px 12px}
-	
+
 	.comment_block .col-md-1{ max-width:18% !important}
 	.comment_block .col-md-11,
 	.comment_block .col-xs-11{ max-width:82% !important}
 	.comment_block .sub-row{ margin:15px auto}
 	.comment_block .row.verticalLine{ margin: 20px 0 0 17%;}
-	
+
 	.filter_block .btn-select{ min-width:128px;}
 	.filter_block ul.list-inline > li,
 	.filter_block ul.list-inline > li:last-child{ padding:0 2px 10px 0; width:49%}
@@ -310,11 +310,11 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 @media only screen and (max-width: 479px) {
 	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
 	.relatednews .related .most-mobile{ padding:0 10px 0 0 !important}
-	
+
 	.hdr_page{ margin:0 auto -5px}
 	.filter_block{ margin: 0 auto 10px;}
-	
-	.filter_block ul.list-inline > li{ padding:0 2px 8px 0; width:auto}
+
+	.filter_block ul.list-inline > li{ padding:0 2px 8px 0; width:auto; width: 50%; float: left; display: inline-block;}
 	.filter_block ul.list-inline > li:last-child{ display:block; width:100%; padding-bottom:0}
 	.filter_block .btn-select{ min-width: 146px;}
 }

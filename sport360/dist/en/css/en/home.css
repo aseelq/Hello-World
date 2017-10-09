@@ -424,8 +424,8 @@ a.seeall:hover {
 }
 
 .owl-carousel .owl-item .club img {
-  width: 50%;
   margin: 10px auto;
+  display: block;
 }
 
 .owl-carousel.clubslist .owl-item .club img {
@@ -569,7 +569,7 @@ h2.maintitlevideo{ font-size:34px;}
   }
   .borders {
     overflow: hidden;
-    padding: 20px 0 20px;
+    padding: 20px 10px 20px;
     border: solid 1px transparent;
     margin: 10px 0;
     border-width: 1px 0;
@@ -612,7 +612,7 @@ h2.maintitlevideo{ font-size:34px;}
   }
   .borders {
     overflow: hidden;
-    padding: 20px 0 20px;
+    padding: 20px 10px 20px;
     border: solid 1px transparent;
     margin: 10px 0;
     border-width: 1px 0;
