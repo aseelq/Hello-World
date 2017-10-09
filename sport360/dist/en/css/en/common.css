@@ -11542,6 +11542,7 @@ ul.stories .story h4 {
   margin-left: 130px;
   max-width: 260px;
   padding: 10px 10px;
+  cursor: pointer;
 }
 
 ul.stories .story h4 a {
@@ -11576,6 +11577,7 @@ li .img-pic img {
   margin-top: 10px;
   margin-bottom: 10px;
   /*margin-left: 5px;*/
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 619px) and (min-width: 320px) {
@@ -11586,7 +11588,7 @@ li .img-pic img {
 
 .v-item .pic {
   overflow: hidden;
-  height: 181px;
+  height: 176px;
 }
 
 .pic-link .pic img,.v-item .pic img{
@@ -11594,7 +11596,7 @@ li .img-pic img {
 }
 
 .v-item h3 {
-  padding-top: 7px;
+  padding-top: 14px;
   padding-left: 14px;
   padding-right: 14px;
   padding-bottom: 14px;
@@ -13044,11 +13046,11 @@ div.level > ul > li {
     overflow: hidden;
   }
   ul.stories .story h4 {
-    font-size: 19px;
+    font-size: 14px;
     line-height: 18px;
-    margin-left: 130px;
+    margin-left: 134px;
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 10px 10px;
   }
   ul.stories .story .img-pic {
     float: left;
@@ -13547,7 +13549,7 @@ div.level > ul > li {
 
 /* Smaller than standard 1050 (devices and browsers) */
 @media only screen and (max-width: 1050px){
-	
+
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px){
@@ -13557,7 +13559,7 @@ div.level > ul > li {
 	.club,
 	.post_block,
 	.post_block *{ font-size:16px !important}
-	
+
 	.owl-carousel.results .alllivesection{ margin:42px auto !important}
 }
 /* All Mobile Sizes (devices and browser) */
@@ -13580,5 +13582,27 @@ div.level > ul > li {
 }
 
 
+.pic-link h3.title{
+    background: linear-gradient(rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) !important;
+    text-shadow: none !important;
+}
 
+.fade-out h3 {
+    font-family: Graphik-Bold,arial,sans-serif;
+    font-weight: 400 !important;
+    margin: 10px 0px 10px 0px !important;
+    font-size: 1.17em !important;
+}
 
+.fade-out iframe {
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.fade-out twitterwidget {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

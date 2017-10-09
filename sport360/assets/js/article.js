@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $el = $('#paragraph-seemore-pointer');
-    var bottom = $el.position().top + $el.outerHeight(true);
-    $(".fade-out").css("max-height", bottom + 'px');
+    // var bottom = $el.position().top + $el.outerHeight(true);
+    // $(".fade-out").css("max-height", bottom + 'px');
     var url = window.location.href.includes("/en");
     $('#owl-carousel-3').owlCarousel({
         rtl: !url,
@@ -99,6 +99,12 @@ $(document).ready(function () {
         $(".matchdetils").toggle();
     });
 
+    $("#read-more").click(function () {
+        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}.fade-out>*{display:initial}</style>');
+        // $(".fade-out").css("max-height", "none");
+        $("#read-more").hide();
+        $(".aricle-cntent").css("padding-bottom", "10px");
+    });
 
     $(".more_icon").click(function () {
         $('.more_icon').css("display", "none");

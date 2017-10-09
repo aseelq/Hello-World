@@ -1,13 +1,4 @@
 $(document).ready(function () {
-    $("#read-more").click(function () {
-        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}</style>');
-        // $(".fade-out").css({"max-height": "none !important", "overflow": "visibile !important", "text-overflow": "initial !important", "display": "initial !important", "max-height" : "initial !important"});
-
-        $("head").append('<style>.fade-out{overflow: initial !important;text-overflow: initial !important;display: initial !important;-webkit-box-orient: initial !important;-webkit-line-clamp: initial !important;max-height: initial !important;}</style>');
-        $("#read-more").hide();
-        $(".aricle-cntent").css("padding-bottom", "10px");
-    });
-
     $(".toggle-menu .show_hide_menu").click(function () {
         $("body").toggleClass("noscroll");
         $("#menu").slideUp({
