@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    $("#read-more").click(function () {
+        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}</style>');
+        // $(".fade-out").css({"max-height": "none !important", "overflow": "visibile !important", "text-overflow": "initial !important", "display": "initial !important", "max-height" : "initial !important"});
+
+        $("head").append('<style>.fade-out{overflow: initial !important;text-overflow: initial !important;display: initial !important;-webkit-box-orient: initial !important;-webkit-line-clamp: initial !important;max-height: initial !important;}</style>');
+        $("#read-more").hide();
+        $(".aricle-cntent").css("padding-bottom", "10px");
+    });
+
     $(".toggle-menu .show_hide_menu").click(function () {
         $("body").toggleClass("noscroll");
         $("#menu").slideUp({
@@ -22,7 +31,7 @@ $(document).ready(function () {
         $('div.levelOne>ul>li.news').css('background', '#cc1f27');
     });
 
-    //for level one 
+    //for level one
     $(".news").click(function () {
         $("#news").css("display", "block");
         $("#videos, #livescore, #other, #subsc, #photos").css("display", "none");
@@ -41,7 +50,7 @@ $(document).ready(function () {
         $("#news, #videos, #livescore, #other, #photos").css("display", "none");
         $('div.levelOne>ul>li.news').css('background', '#404040');
     });
-    //for level two 
+    //for level two
     $("#football").click(function () {
         $(".levelOne,.levelTwo").css("display", "none");
         $(".levelThree").css("display", "block");
@@ -58,5 +67,5 @@ $(document).ready(function () {
             $(".levelThree").css("display", "none");
         });
     }
-    
+
 });
