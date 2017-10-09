@@ -228,7 +228,7 @@ fieldset[disabled] .datepicker table tr td.today.disabled:hover.active {
   border-color: #ffb733;
 }
 .datepicker table tr td.today:hover:hover {
-  color: #000;
+  color: #202020;
 }
 .datepicker table tr td.today.active:hover {
   color: #fff;

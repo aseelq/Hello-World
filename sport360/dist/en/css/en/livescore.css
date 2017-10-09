@@ -590,7 +590,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .v-item h3 a {
-  font-size: 14px;
+  font-size: 16px; line-height:20px;
   color: black;
   font-weight: 600;
 }
@@ -1077,10 +1077,10 @@ h2.relatedmaintitle {
     padding: 0px !important;
   }
   .v-item h3 a {
-    font-size: 12px;
+    font-size: 18px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 22px;
   }
   .no-padding {
     padding: 15px;
@@ -1125,10 +1125,10 @@ h2.relatedmaintitle {
     padding: 0px !important;
   }
   .v-item h3 a {
-    font-size: 12px;
+    font-size: 18px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 22px;
   }
   .most-mobile {
     padding-left: 4px !important;
@@ -1185,7 +1185,7 @@ h2.relatedmaintitle {
   margin-left: 10px !important;
   margin-right: 10px !important;
   padding: 0px !important;
-  color: #000 !important;
+  color: #202020 !important;
 }
 
 .ob-rec-text:hover {
@@ -1583,6 +1583,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-right:before{ content:""}
 
 .fixtures_block .filter_block{ margin:0 auto 15px; text-align:left; font-size:14px; width:100%}
+.fixtures_block .filter_block form{ display:block; width:100%}
 .fixtures_block .filter_block .form-group{ width:100%; border:none; margin:0; padding:0; vertical-align:middle}
 
 .fixtures_block .filter_block label{ padding:8px 10px 0 0;}
@@ -1987,7 +1988,7 @@ padding:10px 15px 0;}
 	.page_livescore .clubnews .col-sm-12 .v-item .pic img{ max-width:230px;}
 	.page_livescore .clubnews .col-sm-12 .v-item > *{ display:inline-block; float:left; }
 	.page_livescore .clubnews .col-sm-12 .v-item h3{ max-width:55%; font-size:16px; margin:12px 0; padding:0 5px !important}
-	.page_livescore .clubnews .col-sm-12 .v-item h3 a{ font-size:16px; line-height:normal}
+	.page_livescore .clubnews .col-sm-12 .v-item h3 a{ font-size:18px; line-height:normal}
 	.page_livescore .clubnews .col-sm-12 .v-item h3 em{ font-size:14px; color:#727272}
 	
 	.competitions_block ul > li{ width:100%; max-width:100%; float:none; margin:0 auto 10px; text-align:left}

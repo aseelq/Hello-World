@@ -3159,7 +3159,7 @@ dfn {
 
 mark {
   background-color: #ff0;
-  color: #000;
+  color: #202020;
 }
 
 small {
@@ -7829,13 +7829,13 @@ button.list-group-item-danger.active {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1;
-  color: #000;
+  color: #202020;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
 }
 
 .close:focus, .close:hover {
-  color: #000;
+  color: #202020;
   text-decoration: none;
   cursor: pointer;
   opacity: .75;
@@ -11348,7 +11348,7 @@ h2.maintitlevideo {
 h2.score {
   font-size: 35px;
   font-weight: 900;
-  color: #000;
+  color: #202020;
 }
 
 h3.most {
@@ -11674,7 +11674,7 @@ img {
 }
 
 .alllive:hover {
-  color: #000;
+  color: #202020;
 }
 
 .kill {
@@ -11915,11 +11915,11 @@ img {
 }
 
 li.subscribe > div i {
-  color: #000;
+  color: #202020;
 }
 
 li.subscribe > div a:hover {
-  color: #000;
+  color: #202020;
 }
 
 a.subscribe-btn:hover {
@@ -12122,7 +12122,7 @@ a.subscribe-btn:hover {
 }
 
 #menu div#navcontainer > ul.menunavcontainer > li a {
-  color: #000;
+  color: #202020;
   font-size: 16px;
   font-weight: 700;
 }
@@ -12186,7 +12186,7 @@ a.subscribe-btn:hover {
   border-bottom: 1px solid #ffffff;
   font-size: 14px;
   line-height: 18px;
-  color: #000;
+  color: #202020;
 }
 
 .dropdown-menu a:hover {
@@ -12724,7 +12724,7 @@ div.level > ul > li {
   }
   #menu li.follow {
     border-top: 1px solid #281e1e;
-    color: #000;
+    color: #202020;
   }
   .vr {
     width: 1px;
@@ -12844,7 +12844,7 @@ div.level > ul > li {
   h2.maintitlemost {
     font-size: 28px;
     font-weight: 900;
-    color: #000;
+    color: #202020;
     padding-bottom: 0px;
     margin-top: 34px;
   }
@@ -12852,7 +12852,7 @@ div.level > ul > li {
     margin-left: 20px;
     font-size: 26px;
     font-weight: 900;
-    color: #000;
+    color: #202020;
     margin-top: 34px;
     margin-bottom: 15px;
     /*padding-bottom: 14px;
@@ -12991,7 +12991,7 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #8e8e8e;
+    color: #bbbbbb;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13019,7 +13019,7 @@ div.level > ul > li {
   }
   div.stories .story h4 a {
     font-size: 16px;
-    color: #000;
+    color: #202020;
     font-weight: 700;
   }
   div.stories .story .img-pic {
@@ -13060,7 +13060,7 @@ div.level > ul > li {
   }
   :-moz-user-disabled.stories .story h4 a {
     font-size: 20px;
-    color: #000;
+    color: #202020;
     font-weight: 600;
   }
 }
@@ -13169,7 +13169,7 @@ div.level > ul > li {
   h2.score {
     font-size: 30px;
     font-weight: 600;
-    color: #000;
+    color: #202020;
     margin-left: 1px;
   }
   h2.maintitle {
@@ -13182,7 +13182,7 @@ div.level > ul > li {
   h2.maintitlemost {
     font-size: 28px;
     font-weight: 900;
-    color: #000;
+    color: #202020;
     padding-bottom: 0px;
     margin-bottom: 5px;
     padding-left: 0px;
@@ -13191,7 +13191,7 @@ div.level > ul > li {
     margin-left: 20px;
     font-size: 26px;
     font-weight: 900;
-    color: #000;
+    color: #202020;
     padding-bottom: 5px;
     padding-top: 0px;
     padding-left: 0px;
@@ -13293,9 +13293,12 @@ div.level > ul > li {
   }
   ul.stories .story h4 a {
     font-size: 14px;
-    color: #000;
+    color: #202020;
     font-weight: 900;
     line-height: 22px;
+	display:inline-block;
+	max-height: 55px;
+	overflow:hidden;
   }
   h3.title a {
     color: #ffffff;
@@ -13305,17 +13308,17 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #8e8e8e;
+    color: #bbbbbb;
     text-decoration: none;
     font-style: normal;
     display: block;
     margin: 5px 0 0;
   }
   .v-item h3 a {
-    font-size: 20px;
-    color: #000;
+    font-size: 18px;
+    color: #202020;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 22px;
   }
 }
 
@@ -13391,7 +13394,7 @@ div.level > ul > li {
   h2.score {
     font-size: 30px;
     font-weight: 600;
-    color: #000;
+    color: #202020;
     margin-left: 1px;
   }
   h2.maintitle {
@@ -13404,7 +13407,7 @@ div.level > ul > li {
   h2.maintitlemost {
     font-size: 28px;
     font-weight: 900;
-    color: #000;
+    color: #202020;
     padding-bottom: 0px;
     margin-bottom: 5px;
     padding-left: 0px;
@@ -13413,7 +13416,7 @@ div.level > ul > li {
     margin-left: 20px;
     font-size: 28px;
     font-weight: 900;
-    color: #000;
+    color: #202020;
     padding-bottom: 5px;
     padding-top: 0px;
     padding-left: 0px;
@@ -13508,7 +13511,7 @@ div.level > ul > li {
   }
   ul.stories .story h4 a {
     font-size: 14px;
-    color: #000;
+    color: #202020;
     font-weight: 700;
   }
   .img-pic > a > img {

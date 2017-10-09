@@ -325,7 +325,7 @@ body {
 .v-item {
   background: #252525;
   box-shadow: 0 0px 0px transparent;
-  height: 310px;
+  height: 297px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -338,10 +338,9 @@ body {
 }
 
 .v-item h3 a {
-  font-size: 18px;
+  font-size: 16px; line-height:20px;
   color: white;
   font-weight: 900;
-  line-height: 20px;
 }
 
 .vicon {

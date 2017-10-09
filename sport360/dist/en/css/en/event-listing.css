@@ -108,6 +108,7 @@ border-radius: 2px;
 .list-inline > li{ display: inline-block; vertical-align:middle}
 
 .filter_block{ clear:both; padding:0; margin:0 auto 27px;}
+.filter_block form{ display:block; width:100%}
 .filter_block > div{ padding:0}
 
 .filter_block ul.list-inline{ right:0; position:relative; margin:0 0 10px;}
@@ -138,7 +139,7 @@ border-radius: 5px}
 .lst_block > div[class*=" col-"]{ margin:0 0 20px}
 .lst_block .v-item{ height:auto; color:#202020; font-size:14px; padding:0 0 10px; min-height:430px; width:100%; max-width:310px; margin:0 auto}
 .lst_block .v-item h3{ font-size:18px; line-height:128%; padding:15px 15px 5px; margin:0 auto 12px; max-height:57px; overflow:hidden}
-.lst_block .v-item h3 a{ font-size:18px;}
+.lst_block .v-item h3 a{ font-size:16px; line-height:20px;}
 .lst_block .v-item .time_block{ list-style:none; padding:0 0 15px; margin:0 15px 15px; font-size:14px; border-bottom:1px solid #b7b7b7}
 .lst_block .v-item .time_block > li{ margin:0 0 2px; padding:0}
 .lst_block .v-item .time_block i{ display:inline-block; width:14px; text-align:center; color:#a8a8a8; margin:0 5px 0 0; padding:0; font-size:14px;}
@@ -287,7 +288,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 @media only screen and (max-width: 767px){
 	.mobbanner{ margin:34px auto 20px}
 	.relatednews .related{ padding:0 0 0 10px}
-	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
+	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
 	
 	.post_collapse .panel-body{ padding:18px 12px}
 	
@@ -307,7 +308,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
+	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
 	.relatednews .related .most-mobile{ padding:0 10px 0 0 !important}
 	
 	.hdr_page{ margin:0 auto -5px}

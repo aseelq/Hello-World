@@ -590,7 +590,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .v-item h3 a {
-  font-size: 14px;
+  font-size: 16px; line-height:20px;
   color: black;
   font-weight: 600;
 }
@@ -1011,10 +1011,10 @@ border-radius: 2px;
     padding: 0px !important;
   }
   .v-item h3 a {
-    font-size: 12px;
+    font-size: 18px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 22px;
   }
   .no-padding {
     padding: 15px;
@@ -1059,10 +1059,10 @@ border-radius: 2px;
     padding: 0px !important;
   }
   .v-item h3 a {
-    font-size: 12px;
+    font-size: 18px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 22px;
   }
   .most-mobile {
     padding-left: 4px !important;
@@ -1119,7 +1119,7 @@ border-radius: 2px;
   margin-left: 10px !important;
   margin-right: 10px !important;
   padding: 0px !important;
-  color: #000 !important;
+  color: #202020 !important;
 }
 
 .ob-rec-text:hover {
@@ -1338,7 +1338,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 @media only screen and (max-width: 767px){
 	.mobbanner{ margin:34px auto 20px}
 	.relatednews .related{ padding:0 0 0 10px}
-	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
+	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
 	
 	.post_collapse .panel-body{ padding:18px 12px}
 	
@@ -1351,7 +1351,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
+	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
 	.relatednews .related .most-mobile{ padding:0 10px 0 0 !important}
 	
 	.subscribe_block .headline,
