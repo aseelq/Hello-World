@@ -25,7 +25,7 @@
 .owl-carousel.clubslist .club a:last-child,
 .owl-carousel.clubslist .club a.name{ display:block; max-width:80%; margin:0 auto}
 .owl-carousel.clubslist .club a.name{ height:48px; overflow:hidden;}
-.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}
+/*.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}*/
 
 .owl-carousel.results .owl-item{ position:relative}
 .owl-carousel.results .owl-item img{ height:72px;}
@@ -12288,20 +12288,35 @@ a.subscribe-btn:hover {
   border: none;
 }
 
+/*? UPDATE ?*/
 .owl-carousel.clubslist .owl-nav .owl-prev {
-  position: absolute;
-  right: 0;
-  top: -132px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    margin: auto;
+    height: 32px;
 }
 
+/*? UPDATE ?*/
 .owl-carousel.clubslist .owl-nav .owl-next {
-  position: absolute;
-  left: 0;
-  top: -132px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0px;
+    margin: auto;
+    height: 32px;
 }
 
+
+/*? UPDATE ?*/
 .owl-nav {
-  position: relative;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
 }
 
 .owl-nav .owl-prev {
@@ -12598,7 +12613,8 @@ div.level > ul > li {
 /* New Added */
 /* Editor Changes, only used for article post block */
 .blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
-.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000}
+/*? UPDATE ?*/
+.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000, z-index: 9999}
 /* /Editor Changes, only used for article post block */
 
 /* Banner Side Column */
