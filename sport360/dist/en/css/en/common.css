@@ -12341,7 +12341,7 @@ a.subscribe-btn:hover {
 
 .results.owl-carousel .owl-stage-outer {
   box-shadow: inset -12px 0 5px -4px rgba(0, 0, 0, 0.25);
-  /*height: 195px;*/
+  height: auto !important;
 }
 
 .club {
@@ -12411,7 +12411,7 @@ a.subscribe-btn:hover {
 }
 
 .detilslink {
-  /*float: right;*/
+  float: right;
   display: inline-block;
   border: solid 1px #000;
   border-radius: 5px;
@@ -12676,9 +12676,6 @@ div.level > ul > li {
   .fafacebook {
     margin-left: 150px;
   }
-  .results.owl-carousel .owl-stage-outer {
-    height: 230px;
-  }
 }
 
 @media only screen and (min-width: 930px) {
@@ -12778,25 +12775,29 @@ div.level > ul > li {
     text-decoration: none;
     padding-right: 25px;
   }
-  .results.owl-carousel .owl-stage-outer {
-    height: 230px;
-  }
 }
+
+.club {
+  float: left;
+  width: 33%;
+  height: 40%;
+  text-align: center;
+  /*font-size: 16px;*/
+  font-weight: 700;
+  color: #252525;
+}
+.owl-carousel .club {
+    height: 170px;
+}
+
 
 @media only screen and (min-width: 930px) and (max-width: 991px) {
   .subscribe {
     margin-top: 5px;
   }
-  .results.owl-carousel .owl-stage-outer {
-    height: 230px;
-  }
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
-  .detilslink {
-      margin-left: 0px !important;
-      float: right;
-  }
   .all {
     margin-bottom: 10px;
   }
@@ -12920,18 +12921,6 @@ div.level > ul > li {
   }
   .fti {
     margin: 5px;
-  }
-  .club {
-    float: left;
-    width: 33%;
-    height: 40%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: #252525;
-  }
-  .owl-carousel .club {
-      height: 170px;
   }
   .images {
     margin-top: 0px;
@@ -13111,9 +13100,6 @@ div.level > ul > li {
     margin-left: 130px;
     max-width: 260px;
     padding: 5px 10px;
-  }
-  .detilslink {
-    margin-left: 0px;
   }
   .all {
     margin-top: 5px;
@@ -13336,9 +13322,6 @@ div.level > ul > li {
     margin-left: 130px;
     max-width: 260px;
     padding: 5px 10px;
-  }
-  .detilslink {
-    margin-left: 70px;
   }
   .all {
     margin-top: 5px;

@@ -11574,7 +11574,7 @@ li .img-pic img {
 .v-item {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  height: 285px;
+  /*height: 285px;*/
   margin-top: 10px;
   margin-bottom: 10px;
   /*margin-left: 5px;*/
@@ -12266,7 +12266,7 @@ a.subscribe-btn:hover {
 
 .owl-carousel .owl-item .club img {
   margin: 10px auto;
-  display:inline-block;
+  display: block;
 }
 
 .owl-carousel.clubslist {
@@ -12326,7 +12326,7 @@ a.subscribe-btn:hover {
 
 .results.owl-carousel .owl-stage-outer {
   box-shadow: inset 12px 0 5px -4px rgba(0, 0, 0, 0.25);
-  /*height: 195px;*/
+  height: auto !important;
 }
 
 .club {
@@ -12400,7 +12400,7 @@ a.subscribe-btn:hover {
 }
 
 .detilslink {
-  /*float: right;*/
+  float: left;
   display: inline-block;
   border: solid 1px #000;
   border-radius: 5px;
@@ -12665,9 +12665,6 @@ div.level > ul > li {
   .fafacebook {
     margin-right: 150px;
   }
-  .results.owl-carousel .owl-stage-outer {
-    height: 230px;
-  }
 }
 
 @media only screen and (min-width: 930px) {
@@ -12767,25 +12764,15 @@ div.level > ul > li {
     text-decoration: none;
     padding-left: 25px;
   }
-  .results.owl-carousel .owl-stage-outer {
-    height: 230px;
-  }
 }
 
 @media only screen and (min-width: 930px) and (max-width: 991px) {
   .subscribe {
     margin-top: 5px;
   }
-  .results.owl-carousel .owl-stage-outer {
-    height: 230px;
-  }
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
-  .detilslink {
-    margin-right: 0px !important;
-    float: left;
-  }
   .all {
     margin-bottom: 10px;
   }
@@ -13060,7 +13047,7 @@ div.level > ul > li {
 
 @media only screen and (width: 412px) {
   .v-item {
-    height: 330px;
+    /*height: 330px;*/
   }
   .container {
     padding-left: 10px;
@@ -13070,19 +13057,19 @@ div.level > ul > li {
 
 @media only screen and (width: 360px) {
   .v-item {
-    height: 306px;
+    /*height: 306px;*/
   }
 }
 
 @media only screen and (width: 375px) {
   .v-item {
-    height: 306px;
+    /*height: 306px;*/
   }
 }
 
 @media only screen and (width: 414px) {
   .v-item {
-    height: 330px;
+    /*height: 330px;*/
   }
   .container {
     padding-left: 10px;
@@ -13097,9 +13084,6 @@ div.level > ul > li {
     margin-right: 130px;
     max-width: 260px;
     padding: 5px 10px;
-  }
-  .detilslink {
-    margin-right: 0px;
   }
   .all {
     margin-top: 5px;
@@ -13322,9 +13306,6 @@ div.level > ul > li {
     margin-right: 130px;
     max-width: 260px;
     padding: 5px 10px;
-  }
-  .detilslink {
-    margin-right: 70px;
   }
   .all {
     margin-top: 5px;

@@ -56,7 +56,7 @@ $(document).ready(function () {
     }
     if ($(window).width() < 960) {
         $(".matchdetils").css("display", "none");
-        $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
+        // $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
         $(".alllive").css("margin", "35px auto");
     }
     var flag = false;
@@ -64,14 +64,14 @@ $(document).ready(function () {
         $(".alllive").css("margin", "70px auto");
         $(".up").slideDown('5000');
         $(".down").css("display", "none");
-        $(".results.owl-carousel .owl-stage-outer").css("height", "195px");
+        // $(".results.owl-carousel .owl-stage-outer").css("height", "195px");
         $(".matchdetils").slideDown('slow');
     });
     $("#toogle-details-up").click(function () {
         $(".alllive").css("margin", "35px auto");
         $(".down").slideDown('5000');
         $(".up").css("display", "none");
-        $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
+        // $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
         $(".matchdetils").slideUp('slow');
     });
 });
