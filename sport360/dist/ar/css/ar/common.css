@@ -12659,6 +12659,10 @@ font-weight: bold; font-size: 18px; line-height:80%}
 .club-title span:last-child:after,
 .club-title a:last-child:after{ display:none}
 /* /Breadcrumb */
+
+.img-circle {
+  border-radius: 50%;
+}
 /* /New Added */
 
 
