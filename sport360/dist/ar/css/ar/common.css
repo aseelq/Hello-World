@@ -12640,6 +12640,25 @@ div.level > ul > li {
     overflow: hidden;
 }
 /* /Banner Side Column */
+
+/* Breadcrumb */
+.club-title span,
+.club-title a {
+  font-size: 15px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #727272;
+  line-height: 1.2;
+  position:relative;
+  padding:0 0 0 20px;
+  margin:0 0 0 10px;
+  display:inline-block; text-transform:uppercase;
+}
+.club-title span:after, 
+.club-title a:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; right:auto; left:0; top:0; bottom:0; color:#090909; 
+font-weight: bold; font-size: 18px; line-height:80%}
+.club-title span:last-child:after,
+.club-title a:last-child:after{ display:none}
+/* /Breadcrumb */
 /* /New Added */
 
 
