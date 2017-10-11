@@ -1110,8 +1110,9 @@ border-radius: 2px;
     font-size: 22px;
     line-height: 26px;
     color: #202020;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     padding-top: 15px;
+    margin: 0px;
   }
   .club-title span {
     font-size: 14px;
