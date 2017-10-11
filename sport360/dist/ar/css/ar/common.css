@@ -12304,37 +12304,26 @@ a.subscribe-btn:hover {
 }
 
 /*? UPDATE ?*/
-.owl-carousel.clubslist .owl-nav .owl-prev {
+.owl-carousel .owl-nav .owl-prev {
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0px;
     margin: auto;
     height: 32px;
+    width: 60px;
+    text-align: center;
 }
 /*? UPDATE ?*/
-.owl-carousel.clubslist .owl-nav .owl-next {
+.owl-carousel .owl-nav .owl-next {
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0px;
     margin: auto;
     height: 32px;
-}
-
-
-/*? UPDATE ?*/
-.owl-nav {
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin: 0px;
-}
-
-.clubslist .owl-nav  {
-    position: absolute;
+    width: 60px;
+    text-align: center;
 }
 
 .owl-nav .owl-prev {
@@ -12349,8 +12338,40 @@ a.subscribe-btn:hover {
   top: -132px;
 }
 
+.owl-carousel.results .owl-nav .owl-prev {
+    right: -60px;
+}
+
+.owl-carousel.results .owl-nav .owl-next {
+    left: -60px;
+}
+
 .owl-nav .disabled {
   color: gray;
+}
+
+.owl-carousel.clubslist:not(.home-page-clubs)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid #CCC;
+    display: inline-block;
+    height: 100%;
+    width: 60px;
+}
+
+.owl-carousel.clubslist:not(.home-page-clubs)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid #CCC;
+    display: inline-block;
+    height: 100%;
+    width: 60px;
 }
 
 .results {
@@ -12653,8 +12674,8 @@ div.level > ul > li {
   margin:0 0 0 10px;
   display:inline-block; text-transform:uppercase;
 }
-.club-title span:after, 
-.club-title a:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; right:auto; left:0; top:0; bottom:0; color:#090909; 
+.club-title span:after,
+.club-title a:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; right:auto; left:0; top:0; bottom:0; color:#090909;
 font-weight: bold; font-size: 18px; line-height:80%}
 .club-title span:last-child:after,
 .club-title a:last-child:after{ display:none}
