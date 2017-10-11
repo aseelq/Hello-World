@@ -100,8 +100,8 @@ $(document).ready(function () {
     });
 
     $("#read-more").click(function () {
-        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}</style>');
-        $(".fade-out").css("max-height", "none");
+        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}.fade-out>*{display:initial}</style>');
+        // $(".fade-out").css("max-height", "none");
         $("#read-more").hide();
         $(".aricle-cntent").css("padding-bottom", "10px");
     });

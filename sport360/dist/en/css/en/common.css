@@ -12326,12 +12326,16 @@ a.subscribe-btn:hover {
 
 /*? UPDATE ?*/
 .owl-nav {
-    position: absolute;
+    position: relative;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin: 0px;
+}
+
+.clubslist .owl-nav  {
+    position: absolute;
 }
 
 .owl-nav .owl-prev {

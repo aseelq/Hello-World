@@ -94,7 +94,7 @@
 }
 
 .articlemaintitle {
-    line-height: 42px;
+    line-height: 24px;
 }
 
 .paragraph {
@@ -120,3 +120,39 @@ blockquote:after {
 .fade-out>p:nth-of-type(-n+3) {
     display: initial;
 }
+
+
+small.text-muted {
+    font-size: 13px;
+    line-height: 17px;
+    color: #8e8e8e !important;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .main-container>div>.pic {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .video-content {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .fade-out {
+        margin-bottom: 20px;
+    }
+
+    .articlemaintitle {
+        line-height: 26px;
+        font-size: 22px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        line-height: 20px !important;
+    }
+}
+
+
