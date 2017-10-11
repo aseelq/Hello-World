@@ -17,23 +17,22 @@
 .video-content img{
   width:auto !important;
   height:auto !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .owl-carousel.clubslist .club a{ color:#252525}
 .owl-carousel.clubslist .club a:last-child,
 .owl-carousel.clubslist .club a.name{ display:block; max-width:80%; margin:0 auto}
 .owl-carousel.clubslist .club a.name{ height:48px; overflow:hidden;}
-
 /*? UPDATE ?*/
 /*.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}*/
-
 
 .owl-carousel.results .owl-item{ position:relative}
 .owl-carousel.results .owl-item img{ height:72px;}
 .owl-carousel.results a.name{ height:48px; overflow:hidden; display:block; margin:0 auto; color:#202020}
 .owl-carousel.results .matchdetils{ margin-top:0}
 .owl-carousel.results .alllivesection{ margin:75px auto 0}
-
 
 .fa {
   display: inline-block; vertical-align:middle;
@@ -3818,38 +3817,38 @@ pre code {
 
 .container {
   position: relative;
-  margin-left: auto;
   margin-right: auto;
-  padding-right: 10px;
+  margin-left: auto;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media (min-width: 576px) {
-  .container {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 
 @media (min-width: 768px) {
-  .container {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 
 @media (min-width: 992px) {
-  .container {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 
 @media (min-width: 1200px) {
-  .container {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -3882,119 +3881,119 @@ pre code {
 
 .container-fluid {
   position: relative;
-  margin-left: auto;
   margin-right: auto;
-  padding-right: 10px;
+  margin-left: auto;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media (min-width: 576px) {
   .container-fluid {
-    padding-right: 10px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media (min-width: 768px) {
   .container-fluid {
-    padding-right: 10px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media (min-width: 992px) {
   .container-fluid {
-    padding-right: 10px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media (min-width: 1200px) {
   .container-fluid {
-    padding-right: 10px;
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -10px;
   margin-left: -10px;
+  margin-right: -10px;
 }
 
 @media (min-width: 576px) {
   .row {
-    margin-right: -10px;
     margin-left: -10px;
+    margin-right: -10px;
   }
 }
 
 @media (min-width: 768px) {
   .row {
-    margin-right: -10px;
     margin-left: -10px;
+    margin-right: -10px;
   }
 }
 
 @media (min-width: 992px) {
   .row {
-    margin-right: -10px;
     margin-left: -10px;
+    margin-right: -10px;
   }
 }
 
 @media (min-width: 1200px) {
   .row {
-    margin-right: -10px;
     margin-left: -10px;
+    margin-right: -10px;
   }
 }
 
 .no-gutters {
-  margin-right: 0;
   margin-left: 0;
+  margin-right: 0;
 }
 
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 10px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media (min-width: 576px) {
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-    padding-right: 10px;
-    padding-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
 @media (min-width: 768px) {
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-    padding-right: 10px;
-    padding-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
 @media (min-width: 992px) {
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-    padding-right: 10px;
-    padding-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
 @media (min-width: 1200px) {
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-    padding-right: 10px;
-    padding-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 }
 
@@ -6616,8 +6615,8 @@ tbody.collapse.show {
 }
 
 .navbar-nav .nav-link {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .navbar-text {
@@ -6666,8 +6665,8 @@ tbody.collapse.show {
     float: none;
   }
   .navbar-toggleable > .container {
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -6681,8 +6680,8 @@ tbody.collapse.show {
     flex-direction: row;
   }
   .navbar-toggleable .navbar-nav .nav-link {
-    padding-right: .5rem;
     padding-left: .5rem;
+    padding-right: .5rem;
   }
   .navbar-toggleable > .container {
     display: flex;
@@ -6704,8 +6703,8 @@ tbody.collapse.show {
     float: none;
   }
   .navbar-toggleable-sm > .container {
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -6719,8 +6718,8 @@ tbody.collapse.show {
     flex-direction: row;
   }
   .navbar-toggleable-sm .navbar-nav .nav-link {
-    padding-right: .5rem;
     padding-left: .5rem;
+    padding-right: .5rem;
   }
   .navbar-toggleable-sm > .container {
     display: flex;
@@ -6742,8 +6741,8 @@ tbody.collapse.show {
     float: none;
   }
   .navbar-toggleable-md > .container {
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -6757,8 +6756,8 @@ tbody.collapse.show {
     flex-direction: row;
   }
   .navbar-toggleable-md .navbar-nav .nav-link {
-    padding-right: .5rem;
     padding-left: .5rem;
+    padding-right: .5rem;
   }
   .navbar-toggleable-md > .container {
     display: flex;
@@ -6780,8 +6779,8 @@ tbody.collapse.show {
     float: none;
   }
   .navbar-toggleable-lg > .container {
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -6795,8 +6794,8 @@ tbody.collapse.show {
     flex-direction: row;
   }
   .navbar-toggleable-lg .navbar-nav .nav-link {
-    padding-right: .5rem;
     padding-left: .5rem;
+    padding-right: .5rem;
   }
   .navbar-toggleable-lg > .container {
     display: flex;
@@ -6824,8 +6823,8 @@ tbody.collapse.show {
 }
 
 .navbar-toggleable-xl > .container {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .navbar-toggleable-xl .navbar-nav {
@@ -6833,8 +6832,8 @@ tbody.collapse.show {
 }
 
 .navbar-toggleable-xl .navbar-nav .nav-link {
-  padding-right: .5rem;
   padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .navbar-toggleable-xl > .container {
@@ -6972,13 +6971,13 @@ tbody.collapse.show {
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
-  border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .card > .list-group:last-child .list-group-item:last-child {
-  border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .card-header {
@@ -7003,15 +7002,15 @@ tbody.collapse.show {
 }
 
 .card-header-tabs {
-  margin-right: -0.625rem;
-  margin-bottom: -0.75rem;
   margin-left: -0.625rem;
+  margin-bottom: -0.75rem;
+  margin-right: -0.625rem;
   border-bottom: 0;
 }
 
 .card-header-pills {
-  margin-right: -0.625rem;
   margin-left: -0.625rem;
+  margin-right: -0.625rem;
 }
 
 .card-primary {
@@ -7135,20 +7134,20 @@ tbody.collapse.show {
 .card-img-overlay {
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   padding: 1.25rem;
 }
 
 .card-img-top {
-  border-top-right-radius: calc(0.25rem - 1px);
   border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(0.25rem - 1px);
 }
 
 @media (min-width: 576px) {
@@ -7242,8 +7241,8 @@ tbody.collapse.show {
 
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
-  padding-right: 0.5rem;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   color: #636c72;
   content: "/";
 }
@@ -7370,8 +7369,8 @@ a.badge:focus, a.badge:hover {
 }
 
 .badge-pill {
-  padding-right: 0.6em;
   padding-left: 0.6em;
+  padding-right: 0.6em;
   border-radius: 10rem;
 }
 
@@ -7441,8 +7440,8 @@ a.badge:focus, a.badge:hover {
 }
 
 .jumbotron-fluid {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
   border-radius: 0;
 }
 
@@ -7608,14 +7607,14 @@ a.badge:focus, a.badge:hover {
 }
 
 .list-group-item:first-child {
-  border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .list-group-item:focus, .list-group-item:hover {
@@ -7654,8 +7653,8 @@ a.badge:focus, a.badge:hover {
 }
 
 .list-group-flush .list-group-item {
-  border-right: 0;
   border-left: 0;
+  border-right: 0;
   border-radius: 0;
 }
 
@@ -7858,9 +7857,9 @@ button.close {
 .modal {
   position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 1050;
   display: none;
   overflow: hidden;
@@ -7901,9 +7900,9 @@ button.close {
 .modal-backdrop {
   position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 1040;
   background-color: #000;
 }
@@ -8206,8 +8205,8 @@ button.close {
   font-size: 1rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-top-right-radius: calc(0.3rem - 1px);
   border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
 }
 
 .popover-title:empty {
@@ -8362,15 +8361,15 @@ button.close {
 
 .carousel-indicators {
   position: absolute;
-  right: 0;
-  bottom: 10px;
   left: 0;
+  bottom: 10px;
+  right: 0;
   z-index: 15;
   display: flex;
   justify-content: center;
   padding-left: 0;
-  margin-right: 15%;
   margin-left: 15%;
+  margin-right: 15%;
   list-style: none;
 }
 
@@ -8379,8 +8378,8 @@ button.close {
   flex: 1 0 auto;
   max-width: 30px;
   height: 3px;
-  margin-right: 3px;
   margin-left: 3px;
+  margin-right: 3px;
   text-indent: -999px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.5);
@@ -8412,9 +8411,9 @@ button.close {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 20px;
   left: 15%;
+  bottom: 20px;
+  right: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -8523,8 +8522,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .rounded-top {
-  border-top-right-radius: 0.25rem;
-  border-top-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
 }
 
 .rounded-right {
@@ -8533,8 +8532,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
 }
 
 .rounded-left {
@@ -9283,16 +9282,16 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 .fixed-top {
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
   z-index: 1030;
 }
 
 .fixed-bottom {
   position: fixed;
-  right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: 1030;
 }
 
@@ -9383,8 +9382,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-0 {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .my-0 {
@@ -9413,8 +9412,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-1 {
-  margin-right: 0.25rem !important;
-  margin-left: 0.25rem !important;
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
 }
 
 .my-1 {
@@ -9443,8 +9442,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-2 {
-  margin-right: 0.5rem !important;
-  margin-left: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
 }
 
 .my-2 {
@@ -9473,8 +9472,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-3 {
-  margin-right: 1rem !important;
-  margin-left: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
 }
 
 .my-3 {
@@ -9503,8 +9502,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-4 {
-  margin-right: 1.5rem !important;
-  margin-left: 1.5rem !important;
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
 }
 
 .my-4 {
@@ -9533,8 +9532,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-5 {
-  margin-right: 3rem !important;
-  margin-left: 3rem !important;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
 }
 
 .my-5 {
@@ -9563,8 +9562,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .px-0 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .py-0 {
@@ -9593,8 +9592,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .px-1 {
-  padding-right: 0.25rem !important;
-  padding-left: 0.25rem !important;
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
 }
 
 .py-1 {
@@ -9623,8 +9622,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .px-2 {
-  padding-right: 0.5rem !important;
-  padding-left: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
 }
 
 .py-2 {
@@ -9653,8 +9652,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .px-3 {
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
 .py-3 {
@@ -9683,8 +9682,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .px-4 {
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }
 
 .py-4 {
@@ -9713,8 +9712,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .px-5 {
-  padding-right: 3rem !important;
-  padding-left: 3rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
 }
 
 .py-5 {
@@ -9743,8 +9742,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .my-auto {
@@ -9769,8 +9768,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0 !important;
   }
   .mx-sm-0 {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
   }
   .my-sm-0 {
     margin-top: 0 !important;
@@ -9792,8 +9791,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.25rem !important;
   }
   .mx-sm-1 {
-    margin-right: 0.25rem !important;
-    margin-left: 0.25rem !important;
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
   }
   .my-sm-1 {
     margin-top: 0.25rem !important;
@@ -9815,8 +9814,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.5rem !important;
   }
   .mx-sm-2 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
   }
   .my-sm-2 {
     margin-top: 0.5rem !important;
@@ -9838,8 +9837,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1rem !important;
   }
   .mx-sm-3 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
   }
   .my-sm-3 {
     margin-top: 1rem !important;
@@ -9861,8 +9860,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1.5rem !important;
   }
   .mx-sm-4 {
-    margin-right: 1.5rem !important;
-    margin-left: 1.5rem !important;
+      margin-left: 1.5rem !important;
+      margin-right: 1.5rem !important;
   }
   .my-sm-4 {
     margin-top: 1.5rem !important;
@@ -9884,8 +9883,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 3rem !important;
   }
   .mx-sm-5 {
-    margin-right: 3rem !important;
-    margin-left: 3rem !important;
+      margin-left: 3rem !important;
+      margin-right: 3rem !important;
   }
   .my-sm-5 {
     margin-top: 3rem !important;
@@ -9907,8 +9906,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0 !important;
   }
   .px-sm-0 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
   }
   .py-sm-0 {
     padding-top: 0 !important;
@@ -9930,8 +9929,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.25rem !important;
   }
   .px-sm-1 {
-    padding-right: 0.25rem !important;
-    padding-left: 0.25rem !important;
+      padding-left: 0.25rem !important;
+      padding-right: 0.25rem !important;
   }
   .py-sm-1 {
     padding-top: 0.25rem !important;
@@ -9953,8 +9952,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.5rem !important;
   }
   .px-sm-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
   }
   .py-sm-2 {
     padding-top: 0.5rem !important;
@@ -9976,8 +9975,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1rem !important;
   }
   .px-sm-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
   }
   .py-sm-3 {
     padding-top: 1rem !important;
@@ -9999,8 +9998,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1.5rem !important;
   }
   .px-sm-4 {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
   }
   .py-sm-4 {
     padding-top: 1.5rem !important;
@@ -10022,8 +10021,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 3rem !important;
   }
   .px-sm-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
   }
   .py-sm-5 {
     padding-top: 3rem !important;
@@ -10045,8 +10044,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: auto !important;
   }
   .mx-sm-auto {
-    margin-right: auto !important;
-    margin-left: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
   }
   .my-sm-auto {
     margin-top: auto !important;
@@ -10071,8 +10070,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0 !important;
   }
   .mx-md-0 {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
   }
   .my-md-0 {
     margin-top: 0 !important;
@@ -10094,8 +10093,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.25rem !important;
   }
   .mx-md-1 {
-    margin-right: 0.25rem !important;
-    margin-left: 0.25rem !important;
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
   }
   .my-md-1 {
     margin-top: 0.25rem !important;
@@ -10117,8 +10116,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.5rem !important;
   }
   .mx-md-2 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
   }
   .my-md-2 {
     margin-top: 0.5rem !important;
@@ -10140,8 +10139,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1rem !important;
   }
   .mx-md-3 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
   }
   .my-md-3 {
     margin-top: 1rem !important;
@@ -10163,8 +10162,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1.5rem !important;
   }
   .mx-md-4 {
-    margin-right: 1.5rem !important;
-    margin-left: 1.5rem !important;
+      margin-left: 1.5rem !important;
+      margin-right: 1.5rem !important;
   }
   .my-md-4 {
     margin-top: 1.5rem !important;
@@ -10186,8 +10185,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 3rem !important;
   }
   .mx-md-5 {
-    margin-right: 3rem !important;
-    margin-left: 3rem !important;
+      margin-left: 3rem !important;
+      margin-right: 3rem !important;
   }
   .my-md-5 {
     margin-top: 3rem !important;
@@ -10209,8 +10208,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0 !important;
   }
   .px-md-0 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
   }
   .py-md-0 {
     padding-top: 0 !important;
@@ -10232,8 +10231,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.25rem !important;
   }
   .px-md-1 {
-    padding-right: 0.25rem !important;
-    padding-left: 0.25rem !important;
+      padding-left: 0.25rem !important;
+      padding-right: 0.25rem !important;
   }
   .py-md-1 {
     padding-top: 0.25rem !important;
@@ -10255,8 +10254,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.5rem !important;
   }
   .px-md-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
   }
   .py-md-2 {
     padding-top: 0.5rem !important;
@@ -10278,8 +10277,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1rem !important;
   }
   .px-md-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
   }
   .py-md-3 {
     padding-top: 1rem !important;
@@ -10301,8 +10300,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1.5rem !important;
   }
   .px-md-4 {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
   }
   .py-md-4 {
     padding-top: 1.5rem !important;
@@ -10324,8 +10323,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 3rem !important;
   }
   .px-md-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
   }
   .py-md-5 {
     padding-top: 3rem !important;
@@ -10347,8 +10346,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: auto !important;
   }
   .mx-md-auto {
-    margin-right: auto !important;
-    margin-left: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
   }
   .my-md-auto {
     margin-top: auto !important;
@@ -10373,8 +10372,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0 !important;
   }
   .mx-lg-0 {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
   }
   .my-lg-0 {
     margin-top: 0 !important;
@@ -10396,8 +10395,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.25rem !important;
   }
   .mx-lg-1 {
-    margin-right: 0.25rem !important;
-    margin-left: 0.25rem !important;
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
   }
   .my-lg-1 {
     margin-top: 0.25rem !important;
@@ -10419,8 +10418,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.5rem !important;
   }
   .mx-lg-2 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
   }
   .my-lg-2 {
     margin-top: 0.5rem !important;
@@ -10442,8 +10441,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1rem !important;
   }
   .mx-lg-3 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
   }
   .my-lg-3 {
     margin-top: 1rem !important;
@@ -10465,8 +10464,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1.5rem !important;
   }
   .mx-lg-4 {
-    margin-right: 1.5rem !important;
-    margin-left: 1.5rem !important;
+      margin-left: 1.5rem !important;
+      margin-right: 1.5rem !important;
   }
   .my-lg-4 {
     margin-top: 1.5rem !important;
@@ -10488,8 +10487,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 3rem !important;
   }
   .mx-lg-5 {
-    margin-right: 3rem !important;
     margin-left: 3rem !important;
+    margin-right: 3rem !important;
   }
   .my-lg-5 {
     margin-top: 3rem !important;
@@ -10511,8 +10510,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0 !important;
   }
   .px-lg-0 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
   }
   .py-lg-0 {
     padding-top: 0 !important;
@@ -10534,8 +10533,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.25rem !important;
   }
   .px-lg-1 {
-    padding-right: 0.25rem !important;
-    padding-left: 0.25rem !important;
+      padding-left: 0.25rem !important;
+      padding-right: 0.25rem !important;
   }
   .py-lg-1 {
     padding-top: 0.25rem !important;
@@ -10557,8 +10556,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.5rem !important;
   }
   .px-lg-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
   }
   .py-lg-2 {
     padding-top: 0.5rem !important;
@@ -10580,8 +10579,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1rem !important;
   }
   .px-lg-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
   }
   .py-lg-3 {
     padding-top: 1rem !important;
@@ -10603,8 +10602,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1.5rem !important;
   }
   .px-lg-4 {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
   }
   .py-lg-4 {
     padding-top: 1.5rem !important;
@@ -10626,8 +10625,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 3rem !important;
   }
   .px-lg-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
   }
   .py-lg-5 {
     padding-top: 3rem !important;
@@ -10649,8 +10648,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: auto !important;
   }
   .mx-lg-auto {
-    margin-right: auto !important;
-    margin-left: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
   }
   .my-lg-auto {
     margin-top: auto !important;
@@ -10675,8 +10674,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0 !important;
   }
   .mx-xl-0 {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
   }
   .my-xl-0 {
     margin-top: 0 !important;
@@ -10698,8 +10697,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.25rem !important;
   }
   .mx-xl-1 {
-    margin-right: 0.25rem !important;
-    margin-left: 0.25rem !important;
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
   }
   .my-xl-1 {
     margin-top: 0.25rem !important;
@@ -10721,8 +10720,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 0.5rem !important;
   }
   .mx-xl-2 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
   }
   .my-xl-2 {
     margin-top: 0.5rem !important;
@@ -10744,8 +10743,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1rem !important;
   }
   .mx-xl-3 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
   }
   .my-xl-3 {
     margin-top: 1rem !important;
@@ -10767,8 +10766,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 1.5rem !important;
   }
   .mx-xl-4 {
-    margin-right: 1.5rem !important;
-    margin-left: 1.5rem !important;
+      margin-left: 1.5rem !important;
+      margin-right: 1.5rem !important;
   }
   .my-xl-4 {
     margin-top: 1.5rem !important;
@@ -10790,8 +10789,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: 3rem !important;
   }
   .mx-xl-5 {
-    margin-right: 3rem !important;
-    margin-left: 3rem !important;
+      margin-left: 3rem !important;
+      margin-right: 3rem !important;
   }
   .my-xl-5 {
     margin-top: 3rem !important;
@@ -10813,8 +10812,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0 !important;
   }
   .px-xl-0 {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
   }
   .py-xl-0 {
     padding-top: 0 !important;
@@ -10836,8 +10835,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.25rem !important;
   }
   .px-xl-1 {
-    padding-right: 0.25rem !important;
-    padding-left: 0.25rem !important;
+      padding-left: 0.25rem !important;
+      padding-right: 0.25rem !important;
   }
   .py-xl-1 {
     padding-top: 0.25rem !important;
@@ -10859,8 +10858,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 0.5rem !important;
   }
   .px-xl-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
   }
   .py-xl-2 {
     padding-top: 0.5rem !important;
@@ -10882,8 +10881,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1rem !important;
   }
   .px-xl-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
   }
   .py-xl-3 {
     padding-top: 1rem !important;
@@ -10905,8 +10904,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 1.5rem !important;
   }
   .px-xl-4 {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
   }
   .py-xl-4 {
     padding-top: 1.5rem !important;
@@ -10928,8 +10927,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     padding-left: 3rem !important;
   }
   .px-xl-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
   }
   .py-xl-5 {
     padding-top: 3rem !important;
@@ -10951,8 +10950,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-left: auto !important;
   }
   .mx-xl-auto {
-    margin-right: auto !important;
-    margin-left: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
   }
   .my-xl-auto {
     margin-top: auto !important;
@@ -12634,7 +12633,7 @@ div.level > ul > li {
 /* /Editor Changes, only used for article post block */
 
 /* Banner Side Column */
-.starter  .ads_side {
+.starter .ads_side {
     text-align: center;
     margin: 0 auto 23px;
     max-width: 100%;
@@ -13590,7 +13589,6 @@ div.level > ul > li {
 	.post_block *{ font-size:14px !important}
 }
 
-
 .pic-link h3.title{
     background: linear-gradient(rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) !important;
     text-shadow: none !important;
@@ -13614,4 +13612,180 @@ div.level > ul > li {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+
+
+/* FACET BOX */
+.FactBox {
+    width: 460px;
+    height: 235px;
+    max-width: 100%;
+}
+
+.ArticleLayout .FactBox {
+    margin: 0 0 20px 20px;
+    float: right;
+}
+.ArticleLayout .FactBox.factBoxLeft {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.FactBox .imgWrap, .FactBox .txtWrap {
+    display: block;
+    float: left;
+}
+
+.FactBox .imgWrap {
+    width: 60%;
+    overflow: hidden;
+    height: 100%;
+    border: 3px solid #383838;
+    background: #373737;
+    position: relative;
+}
+.FactBox.factBoxLeft .imgWrap, .FactBox.factBoxLeft .txtWrap {
+    float: right;
+}
+
+.FactBox .txtWrap:after, .FactBox .txtWrap:before {
+    width: 0;
+    height: 0;
+    border-left: 15px solid #fff;
+    position: absolute;
+    left: 0;
+    content: '';
+}
+
+.FactBox .txtWrap:after {
+    border-top: 15px solid transparent;
+    border-bottom: 0 solid transparent;
+    bottom: 0;
+}
+
+.FactBox.factBoxLeft .txtWrap:after, .FactBox.factBoxLeft .txtWrap:before {
+    border-right: 15px solid #fff;
+    border-left: none;
+    left: auto;
+    right: 0;
+}
+
+.FactBox .txtWrap:after, .FactBox .txtWrap:before {
+    width: 0;
+    height: 0;
+    border-left: 15px solid #fff;
+    position: absolute;
+    left: 0;
+    content: '';
+}
+
+.FactBox .txtWrap:before {
+    border-top: 0 solid transparent;
+    border-bottom: 15px solid transparent;
+    top: 0;
+}
+
+.FactBox.factBoxLeft .txtWrap:after, .FactBox.factBoxLeft .txtWrap:before {
+    border-right: 15px solid #fff;
+    border-left: none;
+    left: auto;
+    right: 0;
+}
+.FactBox .imgWrap, .FactBox .txtWrap {
+    display: block;
+    float: left;
+}
+
+.FactBox .txtWrap {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    background: #373737;
+    padding-left: 15px;
+}
+.FactBox.factBoxLeft .txtWrap {
+    float: right;
+}
+.FactBox.factBoxLeft .txtWrap {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.FactBox .imgWrap img {
+    width: auto;
+    max-width: none;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: block;
+    max-height: 100%;
+}
+
+.FactBox .txtInnerWrap {
+    background: #1D1D1B;
+    color: #fff;
+    padding: 5px;
+    height: 100%;
+    overflow: auto;
+}
+
+.FactBox .txtInnerWrap {
+    background: #1D1D1B;
+    color: #fff;
+    padding: 5px;
+    height: 100%;
+    overflow: auto;
+}
+
+.FactBox .heading {
+    text-align: center;
+}
+
+.FactBox .heading {
+    margin: 8px 0 10px;
+}
+
+.FactBox .heading>* {
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    font-size: 13px !important;
+    line-height: 1em;
+    color: #fff;
+    font-weight: bold !important;
+}
+
+.FactBox .txtWrap ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.FactBox .txtWrap li {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 17px;
+    position: relative;
+}
+
+.FactBox .txtWrap li:before {
+    content: '';
+    background: #fff;
+    border-radius: 999px;
+    width: 5px;
+    height: 5px;
+    top: 4px;
+    left: 4px;
+    display: block;
+    position: absolute;
 }

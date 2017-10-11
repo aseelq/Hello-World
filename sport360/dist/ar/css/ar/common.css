@@ -25,6 +25,7 @@
 .owl-carousel.clubslist .club a:last-child,
 .owl-carousel.clubslist .club a.name{ display:block; max-width:80%; margin:0 auto}
 .owl-carousel.clubslist .club a.name{ height:48px; overflow:hidden;}
+/*? UPDATE ?*/
 /*.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}*/
 
 .owl-carousel.results .owl-item{ position:relative}
@@ -1914,7 +1915,6 @@
 
 .fa-soundcloud:before {
   content: "";
-
 }
 
 .fa-database:before {
@@ -11222,8 +11222,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .container {
-  padding-left: 0px;
-  padding-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .starter {
@@ -11375,9 +11375,9 @@ a.video-link.title {
   line-height: 36px;
   position: absolute;
   padding-top: 24px;
-  padding-left: 24px;
-  padding-bottom: 24px;
   padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   margin: 0;
   width: 100%;
   bottom: 0;
@@ -11387,9 +11387,9 @@ a.video-link.title {
 h3.title {
   position: absolute;
   padding-top: 24px;
-  padding-left: 24px;
-  padding-bottom: 24px;
   padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   margin: 0;
   width: 100%;
   bottom: 0;
@@ -11428,7 +11428,7 @@ h3.title em {
 }
 
 h3 em {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   color: #bbbbbb;
   text-decoration: none;
@@ -11472,12 +11472,12 @@ h4.title em {
 }
 
 h4 em {
-  font-size: 13px;
-  font-weight: 400;
-  color: #bbbbbb;
-  text-decoration: none;
-  font-style: normal;
-  display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-style: normal;
+    display: block;
 }
 
 h5.title {
@@ -11540,7 +11540,7 @@ ul.stories .story {
 ul.stories .story h4 {
   font-size: 14px;
   line-height: 18px;
-  margin-right: 134px;
+  margin-right: 130px;
   max-width: 260px;
   padding: 10px 10px;
   cursor: pointer;
@@ -11574,11 +11574,26 @@ li .img-pic img {
 .v-item {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  /*height: 285px;*/
+  height: 285px;
   margin-top: 10px;
   margin-bottom: 10px;
   /*margin-left: 5px;*/
     cursor: pointer;
+}
+
+@media only screen and (max-width: 619px) and (min-width: 320px) {
+  .v-item {
+    height: auto !important;
+  }
+}
+
+.v-item .pic {
+  overflow: hidden;
+  height: 176px;
+}
+
+.pic-link .pic img,.v-item .pic img{
+  width:100%;
 }
 
 .v-item h3 {
@@ -11888,8 +11903,8 @@ img {
   content: ' ';
   width: 0;
   height: 0;
-  border-right: 10px solid transparent;
   border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
   border-bottom: 10px solid #ec1a2e;
   position: absolute;
   top: -10px;
@@ -12111,7 +12126,6 @@ a.subscribe-btn:hover {
 #menu div#navcontainer > ul.menunavcontainer > li a {
   color: #202020;
   font-size: 16px;
-
   font-weight: 700;
 }
 
@@ -12145,8 +12159,8 @@ a.subscribe-btn:hover {
 .dropdown-menu:before {
   content: ' ';
   height: 0;
-  border-right: 10px solid transparent;
   border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
   position: absolute;
   right: 50%;
   margin-right: -10px;
@@ -12265,8 +12279,9 @@ a.subscribe-btn:hover {
 }
 
 .owl-carousel .owl-item .club img {
-  margin: 10px auto;
-  display: block;
+    margin: 10px auto;
+    display: block !important;
+    width: auto !important;
 }
 
 .owl-carousel.clubslist {
@@ -12297,7 +12312,6 @@ a.subscribe-btn:hover {
     margin: auto;
     height: 32px;
 }
-
 /*? UPDATE ?*/
 .owl-carousel.clubslist .owl-nav .owl-next {
     position: absolute;
@@ -12311,12 +12325,16 @@ a.subscribe-btn:hover {
 
 /*? UPDATE ?*/
 .owl-nav {
-    position: absolute;
+    position: relative;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin: 0px;
+}
+
+.clubslist .owl-nav  {
+    position: absolute;
 }
 
 .owl-nav .owl-prev {
@@ -12353,14 +12371,10 @@ a.subscribe-btn:hover {
   color: #252525;
 }
 
-.owl-carousel .club {
-    height: 170px;
-}
-
 .result {
   /*padding: 15px;*/
-  padding-right: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .matchdetils {
@@ -12613,6 +12627,7 @@ div.level > ul > li {
 /* New Added */
 /* Editor Changes, only used for article post block */
 .blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
+
 /*? UPDATE ?*/
 .blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000, z-index: 9999}
 /* /Editor Changes, only used for article post block */
@@ -12782,6 +12797,20 @@ div.level > ul > li {
   }
 }
 
+.club {
+  float: right;
+  width: 33%;
+  height: 40%;
+  text-align: center;
+  /*font-size: 16px;*/
+  font-weight: 700;
+  color: #252525;
+}
+.owl-carousel .club {
+    height: 170px;
+}
+
+
 @media only screen and (min-width: 930px) and (max-width: 991px) {
   .subscribe {
     margin-top: 5px;
@@ -12912,15 +12941,6 @@ div.level > ul > li {
   }
   .fti {
     margin: 5px;
-  }
-  .club {
-    float: right;
-    width: 33%;
-    /*height: 40%;*/
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: #252525;
   }
   .images {
     margin-top: 0px;
@@ -13301,7 +13321,7 @@ div.level > ul > li {
   h3.title em {
     font-size: 14px;
     font-weight: normal;
-    color: #8e8e8e;
+    color: #bbbbbb;
     text-decoration: none;
     font-style: normal;
     display: block;
@@ -13500,7 +13520,7 @@ div.level > ul > li {
     overflow: hidden;
   }
   ul.stories .story h4 a {
-    font-size: 15px;
+    font-size: 14px;
     color: #202020;
     font-weight: 700;
   }
@@ -13592,4 +13612,180 @@ div.level > ul > li {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+
+
+/* FACET BOX */
+.FactBox {
+    width: 460px;
+    height: 235px;
+    max-width: 100%;
+}
+
+.ArticleLayout .FactBox {
+    margin: 0 0 20px 20px;
+    float: right;
+}
+.ArticleLayout .FactBox.factBoxLeft {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.FactBox .imgWrap, .FactBox .txtWrap {
+    display: block;
+    float: left;
+}
+
+.FactBox .imgWrap {
+    width: 60%;
+    overflow: hidden;
+    height: 100%;
+    border: 3px solid #383838;
+    background: #373737;
+    position: relative;
+}
+.FactBox.factBoxLeft .imgWrap, .FactBox.factBoxLeft .txtWrap {
+    float: right;
+}
+
+.FactBox .txtWrap:after, .FactBox .txtWrap:before {
+    width: 0;
+    height: 0;
+    border-left: 15px solid #fff;
+    position: absolute;
+    left: 0;
+    content: '';
+}
+
+.FactBox .txtWrap:after {
+    border-top: 15px solid transparent;
+    border-bottom: 0 solid transparent;
+    bottom: 0;
+}
+
+.FactBox.factBoxLeft .txtWrap:after, .FactBox.factBoxLeft .txtWrap:before {
+    border-right: 15px solid #fff;
+    border-left: none;
+    left: auto;
+    right: 0;
+}
+
+.FactBox .txtWrap:after, .FactBox .txtWrap:before {
+    width: 0;
+    height: 0;
+    border-left: 15px solid #fff;
+    position: absolute;
+    left: 0;
+    content: '';
+}
+
+.FactBox .txtWrap:before {
+    border-top: 0 solid transparent;
+    border-bottom: 15px solid transparent;
+    top: 0;
+}
+
+.FactBox.factBoxLeft .txtWrap:after, .FactBox.factBoxLeft .txtWrap:before {
+    border-right: 15px solid #fff;
+    border-left: none;
+    left: auto;
+    right: 0;
+}
+.FactBox .imgWrap, .FactBox .txtWrap {
+    display: block;
+    float: left;
+}
+
+.FactBox .txtWrap {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    background: #373737;
+    padding-left: 15px;
+}
+.FactBox.factBoxLeft .txtWrap {
+    float: right;
+}
+.FactBox.factBoxLeft .txtWrap {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.FactBox .imgWrap img {
+    width: auto;
+    max-width: none;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    display: block;
+    max-height: 100%;
+}
+
+.FactBox .txtInnerWrap {
+    background: #1D1D1B;
+    color: #fff;
+    padding: 5px;
+    height: 100%;
+    overflow: auto;
+}
+
+.FactBox .txtInnerWrap {
+    background: #1D1D1B;
+    color: #fff;
+    padding: 5px;
+    height: 100%;
+    overflow: auto;
+}
+
+.FactBox .heading {
+    text-align: center;
+}
+
+.FactBox .heading {
+    margin: 8px 0 10px;
+}
+
+.FactBox .heading>* {
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    font-size: 13px !important;
+    line-height: 1em;
+    color: #fff;
+    font-weight: bold !important;
+}
+
+.FactBox .txtWrap ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.FactBox .txtWrap li {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 17px;
+    position: relative;
+}
+
+.FactBox .txtWrap li:before {
+    content: '';
+    background: #fff;
+    border-radius: 999px;
+    width: 5px;
+    height: 5px;
+    top: 4px;
+    left: 4px;
+    display: block;
+    position: absolute;
 }
