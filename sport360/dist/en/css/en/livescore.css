@@ -1577,7 +1577,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
 .fixtures_block .owl-carousel .owl-item{ border:0;}
 .fixtures_block .owl-carousel .owl-item img{ display:inline-block}
-.fixtures_block .owl-carousel .owl-nav{ top:22px; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
+.fixtures_block .owl-carousel .owl-nav{ top:16px; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
 .fixtures_block .owl-carousel .owl-nav > *{ top:12px;}
 .fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px; display:inline-block !important}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
@@ -1939,6 +1939,12 @@ padding:10px 15px 0;}
 .statable_block .state_row .sidbar02 .progress{ direction:ltr}
 /* /Match Stats */
 /* /Livescore Componenets Styles */
+
+
+/* Google Chrome Hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   .fixtures_block .owl-carousel .owl-nav{ top:22px;}
+}
 
 
 /* Smaller than standard 1050 (devices and browsers) */

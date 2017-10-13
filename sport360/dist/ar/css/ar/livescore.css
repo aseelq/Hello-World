@@ -1578,7 +1578,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
 .fixtures_block .owl-carousel .owl-item{ border:0;}
 .fixtures_block .owl-carousel .owl-item img{ display:inline-block}
-.fixtures_block .owl-carousel .owl-nav{ top:22px; right:0; left:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
+.fixtures_block .owl-carousel .owl-nav{ top:16px; right:0; left:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
 .fixtures_block .owl-carousel .owl-nav > *{ top:12px;}
 .fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px; display:inline-block !important}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
@@ -1911,8 +1911,40 @@ padding:10px 15px 0;}
 .commvent_block .dtail p{ margin:0; padding:0; text-align:right}
 .commvent_block .btn_shmore{ background:#ee1e27; color:#fcfcfc; margin:0 auto; padding:15px; min-width:180px}
 /* Comment Events Block */
+
+/* Match Stats */
+.statable_block{ margin:0 auto 30px; padding:0}
+.statable_block .alltabel_block{ margin:0 auto;}
+.statable_block .hdr{ background:#363636; color:#fcfcfc; font-weight:bold; font-size:18px; padding:10px 15px; margin:0 auto; text-align:center}
+.statable_block .dtail{ padding:0;}
+.statable_block .dtail li{ padding:0; text-align:center; clear:both; overflow:hidden; width:100%;}
+.statable_block .dtail > li{ border-bottom:1px solid #c2c2c2}
+.statable_block .dtail > li:last-child{ border-bottom:none}
+
+.statable_block .dtail > li.name_block{ background:url(../../images/grd_matchevents.png) center 0 repeat-y; padding:15px 0; display:table; width:100%}
+.statable_block .name_block > *{ display:table-cell; width:50%; vertical-align:middle; overflow:hidden}
+.statable_block .name_block img{ max-width: 57px;}
+.statable_block .name_block cite{ font-style:normal; display:inline-block; padding:0; margin:0 40px; font-size:14px; font-weight:bold}
+
+.statable_block .dtail .state_row{ clear:both; overflow:hidden; padding:0; margin:0}
+.statable_block .dtail .state_row > li{ height:34px}
+.statable_block .state_row .nmber,
+.statable_block .state_row .hdline{ display:block; font-style:normal; height:100%; vertical-align:middle; padding:7px 0 0; font-size:14px;}
+
+.statable_block .state_row .hdline{ background:#ebebeb; color:#727272; text-transform:uppercase}
+.statable_block .state_row .progress{ background:none; height:100%; border-radius:0}
+.statable_block .state_row .progress .progress-bar{ height:100%; background:#ee1e27}
+
+.statable_block .state_row .sidbar01 .progress{ direction:ltr}
+.statable_block .state_row .sidbar02 .progress{ direction:rtl}
+/* /Match Stats */
 /* /Livescore Componenets Styles */
 
+
+/* Google Chrome Hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   .fixtures_block .owl-carousel .owl-nav{ top:22px;}
+}
 
 /* Smaller than standard 1050 (devices and browsers) */
 @media only screen and (max-width: 1050px){
@@ -2091,6 +2123,20 @@ padding:10px 15px 0;}
 	.mmatch_block .matchdetils li:not(:first-child) > *{ padding:5px 7px}
 	.mmatch_block .matchdetils li:not(:first-child) .label{ width:57%}
 	.mmatch_block .matchdetils li .fa{ width:15px}
+	
+	.statable_block .name_block img{ display:block; margin:0 auto; text-align:center}
+	.statable_block .name_block cite{ display:block; clear:both; width:100%; text-align:center; margin:0 auto}
+	.statable_block .state_row .nmber, 
+	.statable_block .state_row .hdline{ font-size:12px !important}
+	.statable_block .dtail .state_row > li{ float:right; }
+	.statable_block .dtail .state_row > li.col-xs-1,
+	.statable_block .dtail .state_row > li.col-sm-1{  width: 8.33333333%;}
+	
+	.statable_block .dtail .state_row > li.col-xs-3,
+	.statable_block .dtail .state_row > li.col-sm-3{ width: 25%;}
+	
+	.statable_block .dtail .state_row > li.col-xs-4, 
+	.statable_block .dtail .state_row > li.col-sm-4{width: 33.33333333%;}
 	/* /Livescore Componenets Styles */
 }
 
