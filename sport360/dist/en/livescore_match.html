@@ -871,7 +871,21 @@
                                 </p>
                             </li>
                             
-                            <li>
+                            <li class="visibList">
+                            	<p>
+                                	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
+                                    consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </li>
+                            
+                            <li class="hide">
+                            	<p>
+                                	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
+                                    consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </li>
+                            
+                            <li class="hide">
                             	<p>
                                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, 
                                     consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -879,7 +893,7 @@
                             </li>
                         </ul>
                         
-                        <a href="#" class="btn btn_shmore">Show more <i class="fa fa-caret-down"></i></a>
+                        <a href="javascript:void(0);" class="btn btn_shmore">Show more <i class="fa fa-caret-down"></i></a>
                     </div>
                 </div>
                 <!-- /Comments Block -->
@@ -1573,6 +1587,7 @@
                             <th scope="col">+/-</th>
                             <th colspan="2" scope="col">Pts</th>
                           </tr>
+                          
                           <tr>
                             <td>1</td>
                             <td>Real Madrid</td>
@@ -1600,6 +1615,19 @@
                             <td class="nobrd nogrd">&nbsp;</td>
                           </tr>
                           <tr>
+                            <td>3</td>
+                            <td>Aseel</td>
+                            <td>24</td>
+                            <td>3</td>
+                            <td>88</td>
+                            <td>123</td>
+                            <td>106</td>
+                            <td>41</td>
+                            <td>65</td>
+                            <td class="nobrd">50</td>
+                            <td class="nobrd nogrd">&nbsp;</td>
+                          </tr>
+                          <tr>
                             <td>4</td>
                             <td>Barcelona</td>
                             <td>38</td>
@@ -1612,7 +1640,6 @@
                             <td class="nobrd">65</td>
                             <td class="nobrd nogrd">&nbsp;</td>
                           </tr>
-                          
                           <tr>
                             <td>5</td>
                             <td>Real Madrid</td>
@@ -1626,21 +1653,48 @@
                             <td class="nobrd">65</td>
                             <td class="nobrd nogrd">&nbsp;</td>
                           </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>Aseel</td>
-                            <td>24</td>
-                            <td>1</td>
-                            <td>88</td>
-                            <td>123</td>
+                          
+                          <tr class="visibList">
+                            <td>6</td>
+                            <td>Barcelona</td>
+                            <td>38</td>
+                            <td>29</td>
+                            <td>6</td>
+                            <td>3</td>
                             <td>106</td>
                             <td>41</td>
                             <td>65</td>
-                            <td class="nobrd">50</td>
+                            <td class="nobrd">65</td>
                             <td class="nobrd nogrd">&nbsp;</td>
                           </tr>
-                          <tr>
+                          <tr class="hide">
+                            <td>7</td>
+                            <td>Barcelona</td>
+                            <td>38</td>
+                            <td>29</td>
                             <td>6</td>
+                            <td>3</td>
+                            <td>106</td>
+                            <td>41</td>
+                            <td>65</td>
+                            <td class="nobrd">65</td>
+                            <td class="nobrd nogrd">&nbsp;</td>
+                          </tr>
+                          <tr class="hide">
+                            <td>8</td>
+                            <td>Barcelona</td>
+                            <td>38</td>
+                            <td>29</td>
+                            <td>6</td>
+                            <td>3</td>
+                            <td>106</td>
+                            <td>41</td>
+                            <td>65</td>
+                            <td class="nobrd">65</td>
+                            <td class="nobrd nogrd">&nbsp;</td>
+                          </tr>
+                          <tr class="hide">
+                            <td>9</td>
                             <td>Barcelona</td>
                             <td>38</td>
                             <td>29</td>
@@ -2097,6 +2151,15 @@ $('.panel-collapse').on('hidden.bs.collapse', function () {
     $(this).prev().find(".fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
 });
 /* /Collapse Change Arrow Direction */
+
+/* Visible Hidden Item */
+$('.commvent_block .btn_shmore').on('click', function(){
+	$('.commvent_block li.visibList').nextAll().removeClass('hide');
+});
+$('.databel_block .toggle-container.down').on('click', function(){
+	$('.databel_block tr.visibList').nextAll().removeClass('hide');
+});
+/* /Visible Hidden Item */
 </script>
 <!-- /Script Lines -->
 </body>
