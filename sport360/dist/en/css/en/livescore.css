@@ -1493,6 +1493,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 
 .page_livescore .main-container .lst_block{ margin:0 auto 30px}
 .page_livescore .main-container .v-item{ margin:0 0 15px}
+.page_livescore .main-container .v-item .pic{ height:auto}
 .page_livescore .main-container .v-item h3{ margin:7px auto 0}
 .page_livescore .main-container .v-item h3 em{ font-size:12px;}
 .page_livescore .main-container .relatednews{ margin:0 auto 30px}
@@ -1576,7 +1577,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
 .fixtures_block .owl-carousel .owl-item{ border:0;}
 .fixtures_block .owl-carousel .owl-item img{ display:inline-block}
-.fixtures_block .owl-carousel .owl-nav{ top:0; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
+.fixtures_block .owl-carousel .owl-nav{ top:22px; left:0; right:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
 .fixtures_block .owl-carousel .owl-nav > *{ top:12px;}
 .fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px; display:inline-block !important}
 .fixtures_block .owl-carousel .owl-nav .fa-chevron-left:before{ content:""}
