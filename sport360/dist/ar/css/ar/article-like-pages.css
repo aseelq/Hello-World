@@ -9,6 +9,7 @@
 
 .firstparagraph {
     margin-top: 16px !important;
+    line-height:24px;
 }
 .post_block {
     padding: 10px 0 30px !important;
@@ -47,6 +48,11 @@
     .relatednews h2.relatedmaintitle {
         font-size: 26px;
     }
+	
+	.articlemaintitle{
+		font-size: 28px;
+		line-height: 34px;
+	}
 }
 
 @media only screen and (max-width: 479px) {
@@ -98,7 +104,7 @@
 }
 
 .paragraph {
-    line-height: 22px !important;
+    line-height: 24px !important;
 }
 blockquote {
     font-size: 24;
@@ -151,7 +157,7 @@ small.text-muted {
 
     .paragraph {
         font-size: 14px;
-        line-height: 20px !important;
+        line-height: 24px !important;
     }
 
     .owl-carousel .club a.name, .owl-carousel .ellipsis4line {

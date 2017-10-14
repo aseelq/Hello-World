@@ -413,6 +413,7 @@ ul.stories .story {
 
 .firstparagraph {
   margin-top: 16px;
+  line-height:24px;
 }
 
 .secondparagraph {
@@ -458,6 +459,7 @@ ul.stories .story {
 
 .paragraph {
   margin-top: 30px;
+  line-height:24px;
 }
 
 .listread {
@@ -848,7 +850,7 @@ border-radius: 2px;
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     padding-top: 15px;
   }
   .club-title span {

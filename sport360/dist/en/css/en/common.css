@@ -12667,7 +12667,7 @@ div.level > ul > li {
 /* Breadcrumb */
 .club-title span,
 .club-title a {
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #727272;
   line-height: 1.2;
@@ -13612,7 +13612,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 	.firstparagraph,
 	.club,
 	.post_block,
-	.post_block *{ font-size:16px !important}
+	.post_block *{ font-size:16px !important; line-height:24px !important;}
 
 	.owl-carousel.results .alllivesection{ margin:42px auto !important}
 	.owl-carousel.clubslist:not(.home-page-clubs):after,
@@ -13625,7 +13625,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 	.firstparagraph,
 	.club,
 	.post_block,
-	.post_block *{ font-size:14px !important}
+	.post_block *{ font-size:14px !important; line-height:24px !important;}
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
@@ -13634,7 +13634,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 	.firstparagraph,
 	.club,
 	.post_block,
-	.post_block *{ font-size:14px !important}
+	.post_block *{ font-size:14px !important; line-height:20px !important;}
 }
 
 .pic-link h3.title{

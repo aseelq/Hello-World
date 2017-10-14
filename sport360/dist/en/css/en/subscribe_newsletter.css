@@ -344,11 +344,11 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .articlemaintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 38px;
   color: #202020;
-  padding-bottom:20px;
+  padding-bottom:25px;
   margin-bottom:0;
   padding-top: 15px;
 }
@@ -622,7 +622,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
   border: 1px solid;
   border-color: #c2c2c2;
   font-size: 18px;
-  font: bold 18px "Roboto", Arial, Helvetica, sans-serif;;
+  font: bold 18px "Roboto", Arial, Helvetica, sans-serif;
   border-radius: 4px;
 }
 
@@ -724,6 +724,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 .paragraph {
   margin-bottom: 20px;
   font-size: 16px;
+  line-height:24px;
 }
 
 /*.content {
@@ -736,6 +737,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 
 .firstparagraph {
   margin-top:16px;
+  line-height:24px;
 }
 
 .aricle-cntent {
@@ -761,7 +763,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 h2.maintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 26px;
   color: #202020;
@@ -828,7 +830,7 @@ h2.maintitle {
 }
 
 h2.relatedmaintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 34px;
   color: #202020;
@@ -837,7 +839,7 @@ h2.relatedmaintitle {
 }
 
 .main-button {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-align: center !important;
@@ -912,7 +914,7 @@ h2.relatedmaintitle {
     font-size: 28px;
     line-height: 34px;
     color: #202020;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     padding-top: 15px;
   }
   .club-title span {
@@ -953,7 +955,7 @@ h2.relatedmaintitle {
     color: #252525;
   }
   h2.relatedmaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 34px;
     color: #202020;
@@ -961,12 +963,12 @@ h2.relatedmaintitle {
     margin-left: 0px;
   }
   .articlemaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
     color: #202020;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     padding-top: 15px;
   }
   .club-title span {
@@ -1009,7 +1011,7 @@ h2.relatedmaintitle {
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
   h2.relatedmaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 34px;
     color: #202020;
@@ -1017,12 +1019,12 @@ h2.relatedmaintitle {
     margin-left: 0px;
   }
   .articlemaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
     color: #202020;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     padding-top: 15px;
   }
   .club-title span {
@@ -1342,7 +1344,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 	
 	.subscribe_block{ margin:15px auto 0}
 	.subscribe_block dl{ margin:0 auto}
-	.articlemaintitle{ padding-bottom:20px; font-size:20px;}
+	.articlemaintitle{ padding-bottom:25px; font-size:20px;}
 	.pic{ margin:5px auto 0; padding:0 0 5px}
 }
 
