@@ -12586,6 +12586,7 @@ div.level > ul > li {
   height: 40px;
   background: #e1e1e1;
   text-align: center;
+  position: relative;
 }
 
 .loader {

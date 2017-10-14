@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var url = window.location.href.includes("/en");
+    url = true;
     $('.results.owl-carousel').owlCarousel({
         rtl: !url,
         loop: true,

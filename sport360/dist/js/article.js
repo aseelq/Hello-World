@@ -2,7 +2,7 @@ $(document).ready(function () {
     $el = $('#paragraph-seemore-pointer');
     var bottom = $el.position().top + $el.outerHeight(true);
     $(".fade-out").css("max-height", bottom + 'px');
-    var url = window.location.href.includes("/en");
+    var url = true;
     $('#owl-carousel-3').owlCarousel({
         rtl: !url,
         loop: true,
@@ -47,25 +47,23 @@ $(document).ready(function () {
             }
         }
     });
-
-
-	/* You have remove the general class and use only ID for any new carousel at page */
-    $('.owl-carousel').owlCarousel({
+    $('#owl-carousel-2').owlCarousel({
         rtl: !url,
         loop: true,
         autoplay: true,
-
+        nav: true,
+        responsiveClass: true,
 		responsive: {
             0: {
-                items: 3,
+                items: 1,
                 nav: true
             },
             600: {
-                items: 4,
+                items: 2,
                 nav: false
             },
             1000: {
-                items: 1,
+                items: 3,
                 nav: true,
                 loop: false
             }
@@ -120,8 +118,8 @@ $(document).ready(function () {
     });
 
     $("#read-more").click(function () {
-        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}.fade-out>*{display:initial}</style>');
-        // $(".fade-out").css("max-height", "none");
+        $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}</style>');
+        $(".fade-out").css("max-height", "none");
         $("#read-more").hide();
         $(".aricle-cntent").css("padding-bottom", "10px");
     });
@@ -145,5 +143,15 @@ $(document).ready(function () {
         $(".section").css('background-color', 'white');
         $(".tags-area").css('display', 'none');
         $(".tag").css('background-color', '#f1f1f1');
-    })
 });
+});
+
+$(document).scroll(function() {
+	var y = $(this).scrollTop();
+	if (y > 800) {
+		$('.article_sticky').fadeIn();
+	} else {
+		$('.article_sticky').fadeOut();
+	}
+});
+

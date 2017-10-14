@@ -2,7 +2,9 @@ $(document).ready(function () {
     $("#sidebar").stick_in_parent({
         offset_top: $("#masthead").height()
     });
-    var url = window.location.href.includes("/en");
+    //alert(window.location.href);
+    //var url = window.location.href.includes("mzahra");
+    url = true;
     $('.results.owl-carousel').owlCarousel({
         rtl: !url,
         loop: true,

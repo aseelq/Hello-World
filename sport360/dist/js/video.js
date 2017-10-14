@@ -1,30 +1,17 @@
 $(document).ready(function () {
     $el = $('#paragraph-seemore-pointer');
     var bottom = $el.position().top + $el.outerHeight(true);
-    $(".fade-out").css("max-height", bottom + 'px');
-    var url = window.location.href.includes("/en");
-    $('.owl-carousel').owlCarousel({
-        rtl: !url,
-        loop: true,
-        autoplay: true,
-        nav: true,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 3,
-                nav: true
-            },
-            600: {
-                items: 4,
-                nav: false
-            },
-            1000: {
-                items: 1,
-                nav: true,
-                loop: false
+	if($(".fade-out > p").length > 2 ){
+		$(".fade-out").css("max-height",bottom+'px');
+	}else{
+		$("#read-more").hide();
+		$(".fade-out").append('<style>.fade-out:before{content:none}</style>');
+		$(".fade-out").css("max-height","none");
+		$("#read-more").hide();
+		$(".aricle-cntent").css("padding-bottom","10px");
             }
-        }
-    })
+    var url = true;
+   
     if (url) {
         $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
         $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
@@ -34,13 +21,12 @@ $(document).ready(function () {
     }
 
     $("#read-more").click(function () {
-        $(".fade-out").append('<style>.fade-out:before{content:none}.fade-out>*{display:initial}</style>');
-        // $(".fade-out").css("max-height", "none");
+        $(".fade-out").append('<style>.fade-out:before{content:none}</style>');
+        $(".fade-out").css("max-height", "none");
         $(".content").css("height", "100%");
         $("#read-more").hide();
         $('.text-center').css('margin-bottom', '20px');
     });
-
     $(".more_icon").click(function () {
         $('.more_icon').css("display", "none");
         $('.show_icon').css("display", "inline-block");
@@ -61,5 +47,20 @@ $(document).ready(function () {
         $(".section").css('background-color', 'white');
         $(".tags-area").css('display', 'none');
         $(".tag").css('background-color', '#f1f1f1');
-    })
+});
+
+	jwplayer("mainVideo").setup({
+		"file": vFile,
+		"image": vImage
+	});
+
+});
+
+$(document).scroll(function() {
+	var y = $(this).scrollTop();
+	if (y > 800) {
+		$('.article_sticky').fadeIn();
+	} else {
+		$('.article_sticky').fadeOut();
+	}
 });

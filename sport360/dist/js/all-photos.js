@@ -14,8 +14,21 @@ $(document).ready(function () {
                 var target = $(e.target);
                 target.addClass("selected").siblings().removeClass("selected");
                 var value = target.html();
-                $(this).find(".btn-select-input").val(value);
+				$(this).find(".btn-select-input").val(target.attr('value'));
                 $(this).find(".btn-select-value").html(value);
+
+				var targetPanelseArea = $(this).closest(".filter_block").parent().children(".panel-group");
+				targetPanelseArea.children(".panel").filter(function( el ) {
+					if (value=="Show All") {
+						$(this).show();
+						return;
+					}
+					if ($(this).data("id") != value) {
+						$(this).hide();
+					} else {
+						$(this).show();
+					}
+				});
             }
             ul.hide();
             $(this).removeClass("active");

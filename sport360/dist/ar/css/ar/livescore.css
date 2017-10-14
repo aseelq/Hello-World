@@ -295,7 +295,7 @@
   margin:0 0 0 10px;
   display:inline-block; text-transform:uppercase;
 }
-.club-title span:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; left:0; right:auto; top:0; bottom:0; color:#090909; 
+.club-title span:after{ content:'›'; display:inline-block; float:left; padding:0; margin:auto 0; position:absolute; left:0; right:auto; top:0; bottom:0; color:#090909;
 font-weight: bold; font-size: 18px; line-height:80%}
 .club-title span:last-child:after{ display:none}
 
@@ -641,14 +641,14 @@ font-weight: bold; font-size: 18px; line-height:80%}
   width: 100%;
   resize: none;
   font-size: 13px;
-  padding:8px 12px; 
+  padding:8px 12px;
   border:1px solid #e1e1e1;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
 
-.img-profile { display:block; width:100%; margin:0; 
+.img-profile { display:block; width:100%; margin:0;
   max-width: 37px;
   height: 37px;
 }
@@ -1210,7 +1210,7 @@ h2.relatedmaintitle {
 }
 
 /* new classes */
-/* Nav Tabs 
+/* Nav Tabs
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
@@ -1336,7 +1336,7 @@ border-radius: 2px;
 box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.2);}
 
 .gallery_inlbox .pic.img_gallery .label{ background:#111111; min-width:80px; padding:12px; text-align:center; bottom:auto; top:0; font-size:16px; line-height:100%}
-.gallery_inlbox .pic.img_gallery .picon-s{ position:static; padding:0; margin:-5px 5px 0 0; width:19px; height:16px; background-size:100%; display:inline-block; 
+.gallery_inlbox .pic.img_gallery .picon-s{ position:static; padding:0; margin:-5px 5px 0 0; width:19px; height:16px; background-size:100%; display:inline-block;
 vertical-align:middle}
 .gallery_inlbox .pic.img_gallery > cite{ font-size:14px; color:#939393; font-style:normal; display:block; padding:0 20px; margin:15px auto 5px; text-align:right}
 
@@ -1352,7 +1352,7 @@ vertical-align:middle}
 .gallery_modal .modal-header{ border-radius:0; box-shadow:none; border:0; padding:0; display:block}
 .gallery_modal .modal-header .share_block{ margin:0; display:inline-block}
 .gallery_modal .modal-header .close{opacity:1; filter: alpha(opacity=100);}
-.gallery_modal .modal-header .icn_close{ background:url(../../images/icn_close.png) 0 0 no-repeat; width:29px; height:29px; display:inline-block; vertical-align:middle; 
+.gallery_modal .modal-header .icn_close{ background:url(../../images/icn_close.png) 0 0 no-repeat; width:29px; height:29px; display:inline-block; vertical-align:middle;
 text-align:center; }
 
 .gallery_modal .modal-dialog, .gallery_modal .modal-content{ max-width:100%; background:#252525; border-radius:0; box-shadow:none; border:0;}
@@ -1372,7 +1372,7 @@ text-align:center; }
 
 
 .gallery_modal .gallery_outbox{ padding:40px 0 0}
-.gallery_modal .gallery_outbox > .owl-thumbs{ margin:0 auto; padding:0 0 10px; text-align:center; width:100%; max-width:900px; overflow:hidden; overflow-x:auto; white-space:nowrap; 
+.gallery_modal .gallery_outbox > .owl-thumbs{ margin:0 auto; padding:0 0 10px; text-align:center; width:100%; max-width:900px; overflow:hidden; overflow-x:auto; white-space:nowrap;
 position: relative;}
 .gallery_modal .modal-body .owl-thumb-item{ padding:0; background:#ffffff; margin:0 7px; border:1px solid #ffffff; }
 .gallery_modal .modal-body .owl-thumb-item:hover > img,
@@ -1382,7 +1382,7 @@ position: relative;}
 .gallery_modal .gallery_outbox .pic.img_gallery{ position:relative; background:}
 .gallery_modal .gallery_outbox .pic.img_gallery .label{ background:#111111; min-width:80px; padding:12px; text-align:center; bottom:auto; top:0; font-size:16px; line-height:100%}
 .gallery_modal .gallery_outbox .pic.img_gallery .label > i{ color:#ff1f1f; display:inline-block; font-style:normal;}
-.gallery_modal .gallery_outbox .pic.img_gallery .picon-s{ position:static; padding:0; margin:-5px 5px 0 0; width:19px; height:16px; background-size:100%; display:inline-block; 
+.gallery_modal .gallery_outbox .pic.img_gallery .picon-s{ position:static; padding:0; margin:-5px 5px 0 0; width:19px; height:16px; background-size:100%; display:inline-block;
 vertical-align:middle}
 .gallery_modal .gallery_outbox .pic.img_gallery > p{ font-size:16px; color:#fcfcfc; font-style:normal; display:block; padding:17px 20px 0; margin:0 auto; text-align:right;
 background:rgba(0, 0, 0, 0.5); position:absolute; bottom:0; left:0; right:0; min-height:55px;}
@@ -1396,7 +1396,7 @@ background:rgba(0, 0, 0, 0.5); position:absolute; bottom:0; left:0; right:0; min
 .gallery_modal .gallery_repeated li{ float:right; padding:0 10px 0; margin:0 auto; text-align:center; max-width:330px}
 .gallery_modal .gallery_repeated li:nth-child(3n){ padding:0}
 
-.gallery_modal .gallery_repeated .v-item{ background:none; border-radius:0; box-shadow:none; border:0; margin:0 auto; height:auto; color:#fcfcfc; text-align:right; 
+.gallery_modal .gallery_repeated .v-item{ background:none; border-radius:0; box-shadow:none; border:0; margin:0 auto; height:auto; color:#fcfcfc; text-align:right;
 display:inline-block; width:100%; max-width:310px; height:308px; overflow:hidden}
 .gallery_modal .gallery_repeated .v-item .pic{ margin:0 auto 14px;}
 .gallery_modal .gallery_repeated .v-item a{ color:#fcfcfc}
@@ -1445,7 +1445,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);}
 .post_block article{ padding:0 20px}
 .post_block .inner.pull-left{ margin:0 auto}
 
-.post_collapse .panel-title{ font-size:16px; color:#202020; min-height:50px; padding:15px 15px 0; border-bottom:1px solid #ebebeb; position:relative; display:block; 
+.post_collapse .panel-title{ font-size:16px; color:#202020; min-height:50px; padding:15px 15px 0; border-bottom:1px solid #ebebeb; position:relative; display:block;
 text-decoration:none;}
 .post_collapse .panel-title i{ display:inline-block; position:absolute; left:15px; right:auto; top:0; bottom:0; margin:auto 0; color:#858585; font-size:14px; height:15px;}
 .post_collapse .panel-title a{ color:#202020;}
@@ -1538,7 +1538,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 .result_block .club cite{ line-height:normal; font-style:normal; max-width:55%; vertical-align:middle}
 
 .result_block .matchdetils{ padding:12px 0 0; margin:20px auto 0; overflow:hidden; clear:both; height:100%; border-color:#d7d7d7}
-.result_block .datetime i, 
+.result_block .datetime i,
 .result_block .schedule i{ font-style:normal; font-size:12px; color:#252525; display:block; text-align:right;}
 .result_block .datetime .fa,
 .result_block .schedule .fa{ color:#a8a8a8; display:inline-block; min-width:12px; text-align:center;}
@@ -1549,7 +1549,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 .result_block .schedule .detilslink{ border-color:#b7b7b7; padding: 4px 10px;}
 .result_block .schedule .detilslink .fa{ color:#252525; font-size:15px; line-height:normal; vertical-align:middle}
 .result_block .toggle-container{ cursor:pointer}
-.result_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0}
+.result_block .toggle-container .fa{ color:#282828; font-size:20px; margin:8px auto 0; position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
 /* /Matches Result Block */
 
 /* Fixtures Block */
@@ -1558,7 +1558,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 .fixtures_block .hdr_item a{ text-decoration:none}
 .fixtures_block .hdr_item h3{ font-size:16px; margin:0 auto; max-width:220px}
 .fixtures_block .hdr_item cite{ font-style:normal;}
-.fixtures_block .hdr_item .fa{ vertical-align:middle; width:20px; height:20px; color:#fcfcfc; font-size:11px; background:#d7d7d7; text-align:center; padding:5px 0 0; 
+.fixtures_block .hdr_item .fa{ vertical-align:middle; width:20px; height:20px; color:#fcfcfc; font-size:11px; background:#d7d7d7; text-align:center; padding:5px 0 0;
 display:inline-block; margin:-4px 5px 0;
 -webkit-border-radius:50%;
 -moz-border-radius: 50%;
@@ -1567,7 +1567,7 @@ border-radius:50%;}
 .fixtures_block .post_collapse .panel-default{ margin:0 auto 12px; }
 .fixtures_block .post_collapse .panel-body{ padding:0}
 .fixtures_block .panel-collapse{ border:1px solid #cccccc; border-width:0 1px 1px; background:#ffffff}
-.fixtures_block .post_collapse .panel-title{ font-weight:bold; text-align:right; background:#ebebeb; border:1px solid #cccccc; color:#424242; 
+.fixtures_block .post_collapse .panel-title{ font-weight:bold; text-align:right; background:#ebebeb; border:1px solid #cccccc; color:#424242;
 min-height:40px; padding:8px 15px 0}
 .fixtures_block .post_collapse .panel-title i{ color:#282828}
 
@@ -1599,7 +1599,7 @@ min-height:40px; padding:8px 15px 0}
 .club_block .pic{ margin:0 auto; position:relative; padding:0;}
 .club_block .pic > img{ width:100%}
 .club_block .pic .logo_player{ position:absolute; right:0; left:0; margin:0 auto; padding:15px; bottom:-88px; display:inline-block; text-align:center; background:#ffffff;
-max-width:170px; 
+max-width:170px;
 -webkit-border-radius:20px;
 -moz-border-radius:20px;
 border-radius:20px;}
@@ -1640,7 +1640,7 @@ border-radius:20px;}
 .clubteam_block .list-group dd .name{ padding-right:20px;}
 .clubteam_block .list-group dd .position{ text-align:left; color:#919191; padding-left:20px}
 
-.clubteam_block .list-group .badge{ display:inline-block; width:25px; height:25px; padding:6px 0 0; font-size:14px; font-weight:700; line-height:1; color:#fff; text-align:center; 
+.clubteam_block .list-group .badge{ display:inline-block; width:25px; height:25px; padding:6px 0 0; font-size:14px; font-weight:700; line-height:1; color:#fff; text-align:center;
 white-space: nowrap; vertical-align: middle; background-color:#252525; font-style:normal;
 
 -webkit-border-radius:50%;
@@ -1664,7 +1664,7 @@ border-radius:50%;}
 .scorers_block .hdr_block .dtail{ float:right; padding:0; margin:0; width:75.7%}
 .scorers_block .hdr_block .dtail ul{ padding:0; margin:0 0}
 .scorers_block .hdr_block .dtail ul > li{ display:table; clear:both; font-style:normal; width:100%; margin:0; border-bottom:1px solid #cccccc}
-.scorers_block .hdr_block .dtail ul > li > *{ display:table-cell; overflow:hidden; vertical-align:top; padding:5px 0; margin:0} 
+.scorers_block .hdr_block .dtail ul > li > *{ display:table-cell; overflow:hidden; vertical-align:top; padding:5px 0; margin:0}
 
 .scorers_block .hdr_block .dtail ul > li > h4,
 .scorers_block .hdr_block .dtail ul > li > h4 a{ color:#202020; font-size:22px; font-weight:bold; line-height:100%}
@@ -1749,7 +1749,7 @@ background:#ffffff;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 .player_block .hdr_block .dtail ul{ padding:0; margin:0 0}
 .player_block .hdr_block .dtail ul > li{ display:table; clear:both; font-style:normal; width:100%; margin:0; padding:0 10px; border-bottom:1px solid #cccccc}
-.player_block .hdr_block .dtail ul > li > *{ display:table-cell; overflow:hidden; vertical-align:top; padding:7px 0; margin:0} 
+.player_block .hdr_block .dtail ul > li > *{ display:table-cell; overflow:hidden; vertical-align:top; padding:7px 0; margin:0}
 .player_block .hdr_block .dtail ul > li:last-child{ padding:5px 10px}
 
 .player_block .hdr_block .dtail ul > li > h4,
@@ -1825,7 +1825,7 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)}
 
 .goals_block ul{ display:table; width:100%; table-layout:fixed; font-size:16px;}
-.goals_block ul > li{ display:table-cell; padding:10px 15px; margin:0; vertical-align:top; overflow:hidden; width:20%; text-align:right; border-left:1px solid #cccccc; 
+.goals_block ul > li{ display:table-cell; padding:10px 15px; margin:0; vertical-align:top; overflow:hidden; width:20%; text-align:right; border-left:1px solid #cccccc;
 word-break:break-word}
 
 .goals_block ul.hdr{ background:#363636; color:#fcfcfc; font-weight:bold; font-size:18px;}
@@ -1859,7 +1859,7 @@ word-break:break-word}
 .eventable_block .alltabel_block .filter_block{ background:#ffffff; border-bottom:1px solid #e1e1e1; padding:10px 15px !important;}
 .eventable_block .alltabel_block .filter_block .btn-select{ width:100%; display:block; font-size:inherit; z-index:10}
 
-.eventable_block .alltabel_block .dtail .badge{ width:30px; height:30px; padding:10px 0 0; font-size: 14px; font-weight: 700; line-height: 1; color: #424242; 
+.eventable_block .alltabel_block .dtail .badge{ width:30px; height:30px; padding:10px 0 0; font-size: 14px; font-weight: 700; line-height: 1; color: #424242;
 text-align: center; white-space: nowrap; vertical-align: middle; background-color: #ffffff; font-style: normal;
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
@@ -1957,29 +1957,29 @@ padding:10px 15px 0;}
 	.row,
 	[class^="col-"], [class*=" col-"]{ margin-right:0; margin-left:0; padding-right:0; padding-left:0}
 	.container{ margin:40px auto 0}
-	
+
 	.mobbanner{ margin:45px auto 12px}
 	.share_block .hidden-sm-down{ display:none !important}
 	.share_block .hidden-md-up{ display:block !important}
-	
+
 	.relatednews h2.relatedmaintitle{ font-size:26px;}
 	.relatednews .related{ margin:0 auto; width:100%; height:auto; padding:5px 15px 0 0}
 	.relatednews .related .owl-carousel{ box-shadow:none; padding:0; margin:0; background:none}
-	
+
 	.relatednews .related .pic{ margin:0 auto 8px;}
 	.relatednews .related img.related_img{ width:100%;}
-	
+
 	.relatednews .related .most-mobile,
 	.relatednews .related .owl-item,
 	.relatednews .related .v-item{ width:100%; max-width:300px; box-shadow:none; border:0; text-align:right; padding:0 !important; margin-top:0 !important; height:auto}
-	
+
 	.relatednews .related .most-mobile{ margin:10px auto 0 !important; padding:0 !important}
 	.relatednews .related .v-item h3{ padding:0; margin:0 !important}
 	.relatednews .related .v-item h3 a{ font-size:18px; line-height:120%; max-height:63px; overflow:hidden; display:block; margin:0 auto 7px}
-	
+
 	.gallery_modal .modal-header,
 	.gallery_modal .modal-body h4{ padding:0 20px}
-	
+
 	.gallery_modal .modal-header p{ text-align:center; margin:30px auto 0}
 	.gallery_modal .modal-body .gallery_repeated h4{ display:block; padding:0; font-size:26px; margin:0 auto 30px}
 	.gallery_modal .gallery_repeated{ margin:35px auto 0}
@@ -1990,31 +1990,31 @@ padding:10px 15px 0;}
 	.gallery_modal .gallery_repeated .v-item .pic{ float:right; max-width:230px; margin:0 0 0 10px; display:inline-block}
 	.gallery_modal .gallery_repeated .v-item h5{ max-height:55px; overflow:hidden; font-size:16px;}
 	.gallery_modal .gallery_repeated .v-item .dtail{ float:right; display:inline-block; max-width:65%}
-	
+
 	/* Livescore Componenets Styles */
 	.page_livescore .clubnews .v-item .pic figure{ margin:0 !important}
 	.page_livescore .clubnews .v-item:before,
 	.page_livescore .clubnews .v-item:after{ display:table; content: " ";}
 	.page_livescore .clubnews .v-item:after{ clear:both}
-	
+
 	.page_livescore .clubnews .col-sm-6{ max-width:50%; flex: 0 0 50%; padding:0 8px 0 0}
 	.page_livescore .clubnews .col-sm-6:first-child{ padding:0 0 0 8px}
 	.page_livescore .clubnews .col-sm-12{ max-width:100%; flex: 0 0 100%;}
-	
+
 	.page_livescore .clubnews .col-sm-6 .v-item{ position:relative; height:auto; margin:0 auto 15px; padding:0; padding:0; background:none;}
 	.page_livescore .clubnews .col-sm-6 .v-item .pic img{ width:100%;}
 	.page_livescore .clubnews .col-sm-6 .v-item .pic{ position:relative}
-	.page_livescore .clubnews .col-sm-6 .v-item .pic:after{ content:''; display:block; padding:0; margin:auto; position:absolute; top:0; bottom:0; right:0; left:0; 
+	.page_livescore .clubnews .col-sm-6 .v-item .pic:after{ content:''; display:block; padding:0; margin:auto; position:absolute; top:0; bottom:0; right:0; left:0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 100%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 100%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 100%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */}
-	
+
 	.page_livescore .clubnews .col-sm-6 .v-item h3{ position:absolute; right:0; left:0; bottom:0; color:#fcfcfc; margin:15px auto}
 	.page_livescore .clubnews .col-sm-6 .v-item h3 a{  font-size:18px; color:#fcfcfc; line-height:normal}
 	.page_livescore .clubnews .col-sm-6 .v-item h3 em{ font-size:14px; color:#727272}
-	
+
 	.page_livescore .clubnews .col-sm-12 .v-item{ height:auto; margin:0 auto 15px;
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
@@ -2024,11 +2024,11 @@ padding:10px 15px 0;}
 	.page_livescore .clubnews .col-sm-12 .v-item h3{ max-width:55%; font-size:16px; margin:12px 0; padding:0 5px !important}
 	.page_livescore .clubnews .col-sm-12 .v-item h3 a{ font-size:18px; line-height:normal}
 	.page_livescore .clubnews .col-sm-12 .v-item h3 em{ font-size:14px; color:#727272}
-	
+
 	.competitions_block ul > li{ width:100%; max-width:100%; float:none; margin:0 auto 10px; text-align:right}
 	.competitions_block cite{ font-size:16px;}
 	/* /Livescore Componenets Styles */
-	
+
 	.post_more{ margin: 70px auto 0;}
 }
 
@@ -2037,30 +2037,30 @@ padding:10px 15px 0;}
 	.mobbanner{ margin:34px auto 20px}
 	.relatednews .related{ padding:0 10px 0 0}
 	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
-	
+
 	.post_collapse .panel-body{ padding:18px 12px}
-	
+
 	.comment_block .col-md-1{ max-width:18% !important}
 	.comment_block .col-md-11,
 	.comment_block .col-xs-11{ max-width:82% !important}
 	.comment_block .sub-row{ margin:15px auto}
 	.comment_block .row.verticalLine{ margin: 20px 17% 0 0;}
-	
+
 	.hdr_page{ margin:0 auto 10px}
 	.articlemaintitle{ padding-bottom:0}
 	.publisher-name{ margin:0 0 0 7px}
 	.share_block{ margin:10px auto 0}
-	
-	
+
+
 	.gallery_modal .modal-header{ padding:0 5px}
 	.gallery_modal .modal-header .icn_close{ width:24px; height:24px; background-size:cover}
-	
+
 	.gallery_modal .modal-body h4{ display:none}
 	.gallery_modal .modal-body .owl-thumb-item > img{ max-width:85px; max-height:85px}
-	
+
 	.gallery_modal .gallery_outbox .pic.img_gallery .label{ min-width: 60px; font-size: 14px; padding:8px}
 	.gallery_modal .gallery_outbox .pic.img_gallery > p{ font-size:14px; padding:10px}
-	
+
 	.gallery_modal .modal-header p{ text-align:center; margin:30px auto 0}
 	.gallery_modal .modal-body .gallery_repeated h4{ display:block; padding:0; font-size:26px;}
 	.gallery_modal .gallery_repeated{ margin:35px auto 0}
@@ -2070,54 +2070,54 @@ padding:10px 15px 0;}
 	.gallery_modal .gallery_repeated .v-item .pic{ float:right; max-width:134px; margin:0 0 0 10px}
 	.gallery_modal .gallery_repeated .v-item h5{ max-height:55px; overflow:hidden; font-size:15px; margin-bottom: 2px;}
 	.gallery_modal .gallery_repeated .v-item .dtail{ max-width:50%}
-	
+
 	/* Livescore Componenets Styles */
 	.result_block .club{ margin:0 auto; text-align:center}
 	.result_block .club cite{ display:block; max-width:100%; font-size:14px;}
 	.result_block .club img{ display:block; margin:0 auto; text-align:center; max-width:100%}
-	
+
 	.page_livescore .clubnews .col-xs-12{ max-width:100%; flex: 0 0 100%; padding:0 !important}
 	.page_livescore .clubnews .col-xs-12 .v-item{ height:auto; margin:0 auto 15px; background:#ffffff;
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.15) !important;}
-	
+
 	.page_livescore .clubnews .col-xs-12 .v-item .pic:after{ display:none}
 	.page_livescore .clubnews .col-xs-12 .v-item .pic img{ max-width:134px;}
 	.page_livescore .clubnews .col-xs-12 .v-item > *{ display:inline-block; float:right; }
-	
+
 	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#202020}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:18px; line-height:22px; color:#202020; overflow:hidden; max-height:50px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
-	
-	.scorers_block .hdr_block .dtail ul > li > h4, 
+
+	.scorers_block .hdr_block .dtail ul > li > h4,
 	.scorers_block .hdr_block .dtail ul > li > h4 a{ font-size:18px;}
 	.scorers_block .hdr_block .dtail{ width: 54%;}
 	.scorers_block .hdr_block .pic_player{ min-width: 128px;}
 	.scorers_block .hdr_block .dtail .label{ width: 70px;}
 	.scorers_block .list-inline .item_block{ padding:0 5px;}
-	
+
 	.clubteam_block .hdr_block .logo_player,
 	.clubteam_block .hdr_block .dtail{ display:block; float:none; width:100%}
 	.clubteam_block .hdr_block .logo_player{ padding:18px 10px}
-	
+
 	.clublogos .clubslist .owl-item .club{ height:170px; display:inline-block; overflow:hidden}
-	
+
 	.player_block .articlemaintitle{ margin:0 auto; padding:0 0 15px; text-align:center}
 	.player_block .hdr_block .pic_player,
 	.player_block .hdr_block .dtail{ float:none; margin:0 auto; clear:both; display:block; width:100%}
 	.player_block .hdr_block .pic_player{ margin:0 auto 15px;}
-	
+
 	.fixtures_block .filter_block{ border-bottom:1px solid #cccccc; padding-bottom:15px;}
 	.fixtures_block .filter_block label{ margin:0 0 5px; padding:0; width:100%; display:block}
-	
+
 	.goals_block ul > li{ padding:10px}
 	.goals_block ul.dtail cite{ font-size:12px; padding:0; margin:0;}
 	.goals_block ul.dtail .name{ padding:0}
 	.goals_block ul.dtail .score{ min-width:17px}
 	.goals_block ul.dtail .fa{ margin:0; padding:0}
 	.goals_block ul.dtail.no_goals li{ font-size:18px;}
-	
+
 	.mmatch_block .matchdetils li > *{ font-size:12px;}
 	.mmatch_block .matchdetils li:first-child{ padding:5px 7px 5px 10px}
 	.mmatch_block .matchdetils li:not(:first-child) > *{ padding:5px 7px}
@@ -2144,9 +2144,9 @@ padding:10px 15px 0;}
 @media only screen and (max-width: 479px) {
 	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
 	.relatednews .related .most-mobile{ padding:0 0 0 10px !important}
-	
+
 	.gallery_modal .modal-header{ padding:0}
-	
+
 	.page_livescore .nav-tabs > li > a{ font-size:14px; margin:0 auto; padding:0 8px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:50%;}
 	.clubscores_block ul{ font-size:12px;}
