@@ -13607,7 +13607,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px){
-	.articlemaintitle{ font-size:28px !important}
+	.articlemaintitle{ font-size:28px !important; line-height:34px !important;}
 	.paragraph,
 	.firstparagraph,
 	.club,
@@ -13620,7 +13620,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px){
-	.articlemaintitle{ font-size:22px !important}
+	.articlemaintitle{ font-size:28px !important; line-height:34px !important;}
 	.paragraph,
 	.firstparagraph,
 	.club,
@@ -13629,7 +13629,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	.articlemaintitle{ font-size:22px !important}
+	.articlemaintitle{ font-size:22px !important; line-height:26px !important;}
 	.paragraph,
 	.firstparagraph,
 	.club,
