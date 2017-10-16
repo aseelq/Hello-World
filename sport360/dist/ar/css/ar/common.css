@@ -12653,7 +12653,7 @@ div.level > ul > li {
 .blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
 
 /*? UPDATE ?*/
-.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000, z-index: 9999}
+.blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000; z-index: 9999}
 /* /Editor Changes, only used for article post block */
 
 /* Banner Side Column */
