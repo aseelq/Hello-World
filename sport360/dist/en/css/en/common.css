@@ -13637,6 +13637,9 @@ font-weight: bold; font-size: 18px; line-height:80%}
 	.club,
 	.post_block,
 	.post_block *{ font-size:14px !important; line-height:24px !important;}
+	
+	.killsmall{ margin:0 auto 35px}
+	ul.stories{ margin:0 auto !important}
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
