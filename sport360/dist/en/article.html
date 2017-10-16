@@ -697,8 +697,8 @@
                         </p>
 
 
-                        <!-- Carousel Wrap Block Inline -->
-                        <div class="incarousel_wrap">
+                        <!-- Carousel Wrap Block Inline, Logos -->
+                        <div class="incarousel_wrap incarousel_logos" style="display:none">
                         	<div class="row">
                                 <div class="col-md-12">
                                     <h2 class="clubs">Clubs</h2>
@@ -753,7 +753,81 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /Carousel Wrap Block Inline -->
+                        <!-- /Carousel Wrap Block Inline, Logos -->
+						
+						
+						<!-- Carousel Wrap Block Inline, Items -->
+                        <div class="incarousel_wrap incarousel_items">
+                        	<div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="clubs">Related Article</h2>
+                                </div>
+                            </div>
+
+                            <div class="owl-carousel itemslist" id="inlineCarousel">
+                                <div class="v-item">
+									<span class="pic">  
+										<figure class="no-margin">
+											<a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+										</figure>
+										<span class="picon-s"></span>
+									</span>
+									<h3><a href="#e" class="ellipsis4line">With Conor McGregor gone, new UFC featherweight champion Max Holloway deserves all the attention... 
+									after Jose...</a><em>3 hours ago</em></h3>
+								</div>
+                                <div class="v-item">
+									<span class="pic">  
+										<figure class="no-margin">
+											<a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+										</figure>
+										<span class="picon-s"></span>
+									</span>
+									<h3><a href="#e" class="ellipsis4line">With Conor McGregor gone, new UFC featherweight champion Max Holloway deserves all the attention... 
+									after Jose...</a><em>3 hours ago</em></h3>
+								</div>
+                                <div class="v-item">
+									<span class="pic">  
+										<figure class="no-margin">
+											<a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+										</figure>
+										<span class="picon-s"></span>
+									</span>
+									<h3><a href="#e" class="ellipsis4line">With Conor McGregor gone, new UFC featherweight champion Max Holloway deserves all the attention... 
+									after Jose...</a><em>3 hours ago</em></h3>
+								</div>
+                                <div class="v-item">
+									<span class="pic">  
+										<figure class="no-margin">
+											<a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+										</figure>
+										<span class="picon-s"></span>
+									</span>
+									<h3><a href="#e" class="ellipsis4line">With Conor McGregor gone, new UFC featherweight champion Max Holloway deserves all the attention... 
+									after Jose...</a><em>3 hours ago</em></h3>
+								</div>
+                                <div class="v-item">
+									<span class="pic">  
+										<figure class="no-margin">
+											<a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+										</figure>
+										<span class="picon-s"></span>
+									</span>
+									<h3><a href="#e" class="ellipsis4line">With Conor McGregor gone, new UFC featherweight champion Max Holloway deserves all the attention... 
+									after Jose...</a><em>3 hours ago</em></h3>
+								</div>
+                                <div class="v-item">
+									<span class="pic">  
+										<figure class="no-margin">
+											<a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+										</figure>
+										<span class="picon-s"></span>
+									</span>
+									<h3><a href="#e" class="ellipsis4line">With Conor McGregor gone, new UFC featherweight champion Max Holloway deserves all the attention... 
+									after Jose...</a><em>3 hours ago</em></h3>
+								</div>                              
+                            </div>
+                        </div>
+                        <!-- /Carousel Wrap Block Inline, Items -->
 
 
                         <div class="row continue">
@@ -1315,6 +1389,30 @@ $('.facebook-comment').click(function(event) {
 //                                       ---- distance from the top
 })
 /* /Scroll Page To Facebook Comment Block When user Click on Btn*/
+
+
+/* Inline Carousel OWL */
+$('.incarousel_wrap.incarousel_items .owl-carousel').owlCarousel({
+    loop:false,
+    margin:15,
+    nav:false,
+	stagePadding:40,
+	
+    responsive:{
+        0:{
+            items:1,
+			stagePadding:0,
+        },
+		479:{
+			items:1,
+			stagePadding:40,
+		},
+        767:{
+            items:2
+        }
+    }
+});
+/* /Inline Carousel OWL */
 </script>
 </body>
 </html>

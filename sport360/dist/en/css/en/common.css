@@ -12651,7 +12651,16 @@ div.level > ul > li {
 
 /* New Added */
 /* Editor Changes, only used for article post block */
-.blockEditor .incarousel_wrap .owl-carousel.clubslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
+.blockEditor .incarousel_wrap .owl-carousel.clubslist,
+.blockEditor .incarousel_wrap .owl-carousel.itemslist{ border:0 !important; box-shadow:none !important; height:auto; padding:20px 0}
+
+.blockEditor .incarousel_wrap .owl-carousel.itemslist{ width:100%}
+.blockEditor .incarousel_wrap .owl-carousel.itemslist .owl-stage{ padding:0 40px 0 0 !important}
+.blockEditor .incarousel_wrap .owl-carousel.itemslist .owl-item{ border:none}
+.blockEditor .incarousel_wrap .owl-carousel.itemslist .related_img{ width:100% !important}
+.blockEditor .incarousel_wrap .owl-carousel.itemslist .v-item{ margin:0 auto !important; border:none; box-shadow:none}
+.blockEditor .incarousel_wrap .owl-carousel.itemslist .v-item .pic{ height:auto}
+.blockEditor .incarousel_wrap .owl-carousel.itemslist .v-item h3{ padding:10px 0 0 !important; margin:0 !important}
 
 /*? UPDATE ?*/
 .blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000; z-index: 9999}
@@ -13637,6 +13646,8 @@ font-weight: bold; font-size: 18px; line-height:80%}
 	.club,
 	.post_block,
 	.post_block *{ font-size:14px !important; line-height:20px !important;}
+	
+	.blockEditor .incarousel_wrap .owl-carousel.itemslist .owl-stage{ padding: 0 !important}
 }
 
 .pic-link h3.title{
