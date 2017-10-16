@@ -107,8 +107,7 @@
     line-height: 24px !important;
 }
 blockquote {
-    font-size: 24;
-    font-style: italic;
+    font-style:normal;
     font-weight: bold;
 }
 blockquote:before {

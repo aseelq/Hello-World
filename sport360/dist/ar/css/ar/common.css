@@ -12661,6 +12661,10 @@ div.level > ul > li {
 .blockEditor .incarousel_wrap .owl-carousel.itemslist .v-item .pic{ height:auto}
 .blockEditor .incarousel_wrap .owl-carousel.itemslist .v-item h3{ padding:10px 0 0!important; margin:0 !important}
 
+.blockEditor a, 
+.blockEditor a:hover{ color:#202020; text-decoration:underline}
+.blockEditor blockquote{font-style:normal; font-weight: bold;}
+
 /*? UPDATE ?*/
 .blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000; z-index: 9999}
 /* /Editor Changes, only used for article post block */
