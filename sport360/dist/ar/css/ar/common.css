@@ -29,10 +29,12 @@
 /*.owl-carousel.clubslist .owl-item img{ max-width:27%; width:100%}*/
 
 .owl-carousel.results .owl-item{ position:relative}
+.owl-carousel.results .owl-item .club{ height:auto}
 .owl-carousel.results .owl-item img{ height:72px;}
 .owl-carousel.results a.name{ height:48px; overflow:hidden; display:block; margin:0 auto; color:#202020}
-.owl-carousel.results .matchdetils{ margin-top:0}
+.owl-carousel.results .matchdetils{ margin:0 auto; padding:10px 0 14px; overflow:hidden; clear:both}
 .owl-carousel.results .alllivesection{ margin:75px auto 0}
+
 
 .fa {
   display: inline-block; vertical-align:middle;
