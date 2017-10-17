@@ -13833,6 +13833,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
     color: #fff;
     font-weight: bold !important;
 }
+.FactBox .heading h3{ line-height:150%}
 
 .FactBox .txtWrap ul {
     display: block;
