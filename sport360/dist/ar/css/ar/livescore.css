@@ -2030,7 +2030,10 @@ padding:10px 15px 0;}
 
 	.competitions_block ul > li{ width:100%; max-width:100%; float:none; margin:0 auto 10px; text-align:right}
 	.competitions_block cite{ font-size:16px;}
+	
 	.eventable_block .alltabel_block .dtail .badge{ padding:5px 0 0}
+	.eventable_block .btn-select.btn-default ul, 
+	.eventable_block .btn-select.btn-default .btn-select-value{ padding: 8px 12px 3px;}
 	/* /Livescore Componenets Styles */
 
 	.post_more{ margin: 70px auto 0;}
@@ -2142,6 +2145,7 @@ padding:10px 15px 0;}
 	.statable_block .dtail .state_row > li.col-xs-4, 
 	.statable_block .dtail .state_row > li.col-sm-4{width: 33.33333333%;}
 	
+		
 	.eventable_block .alltabel_block .dtail li{ padding:0 5px}
 	.eventable_block .alltabel_block .dtail li > *{ width: 44%;}
 	.eventable_block .alltabel_block .dtail .badge{ padding:5px 0 0}
