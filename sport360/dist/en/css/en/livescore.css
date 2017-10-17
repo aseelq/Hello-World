@@ -1875,7 +1875,7 @@ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.27)}
 .eventable_block .alltabel_block .dtail .team01{ text-align:right;}
 .eventable_block .alltabel_block .dtail .team02{ text-align:left;}
 .eventable_block .alltabel_block .dtail .team01 > cite,
-.eventable_block .alltabel_block .dtail .team02 > cite{ font-style:normal; max-width:225px; display:inline-block; clear:none}
+.eventable_block .alltabel_block .dtail .team02 > cite{ font-style:normal; max-width:225px; display:inline-block; clear:none; vertical-align:middle}
 
 .eventable_block .alltabel_block .dtail .icon_01{ background-position:0 0;}
 .eventable_block .alltabel_block .dtail .icon_02{ background-position:0 -32px}
