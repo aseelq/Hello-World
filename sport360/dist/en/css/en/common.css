@@ -13043,11 +13043,11 @@ font-weight: bold; font-size: 18px; line-height:80%}
   .fa-chevron-right {
     display: none;
   }
-  .mobbanner {
+  .centerdiv.mobbanner {
     max-width: 90%;
     margin-left: 120px;
     margin-right: 183px;
-    margin-top: 50px;
+    margin: 50px auto 0;
   }
   .mobimgban {
     width: 300px;
@@ -13336,10 +13336,10 @@ font-weight: bold; font-size: 18px; line-height:80%}
   .fa-chevron-right {
     display: none;
   }
-  .mobbanner {
+  .centerdiv.mobbanner {
     margin-right: 15px;
     margin-left: 15px;
-    margin-top: 30px;
+    margin: 30px auto 0;
   }
   .owl-carousel {
     background: #ffffff;
@@ -13560,9 +13560,10 @@ font-weight: bold; font-size: 18px; line-height:80%}
     display: block;
     margin: 5px 0 0;
   }
-  .mobbanner {
+  .centerdiv.mobbanner {
     margin-right: 15px;
     margin-left: 15px;
+	margin:30px auto 0;
   }
   .owl-carousel {
     background: #ffffff;
