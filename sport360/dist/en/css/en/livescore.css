@@ -1962,7 +1962,7 @@ padding:10px 15px 0;}
 	[class^="col-"], [class*=" col-"]{ margin-left:0; margin-right:0; padding-left:0; padding-right:0}
 	.container{ margin:40px auto 0}
 
-	.mobbanner{ margin:45px auto 12px}
+	.page_livescore .mobbanner{ margin:45px auto 12px}
 	.share_block .hidden-sm-down{ display:none !important}
 	.share_block .hidden-md-up{ display:block !important}
 
@@ -2038,7 +2038,7 @@ padding:10px 15px 0;}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px){
-	.mobbanner{ margin:34px auto 20px}
+	.page_livescore .mobbanner{ margin:34px auto 20px}
 	.relatednews .related{ padding:0 0 0 10px}
 	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
 
