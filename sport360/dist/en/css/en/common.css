@@ -12666,7 +12666,7 @@ div.level > ul > li {
 
 .blockEditor a, 
 .blockEditor a:hover{ color:#202020; text-decoration:underline}
-.blockEditor blockquote{font-style:normal; font-weight: bold;}
+.blockEditor blockquote{font-style:normal; font-weight: bold; text-transform:uppercase; margin:0 auto; max-width: 75%;}
 
 /*? UPDATE ?*/
 .blockEditor .incarousel_wrap .owl-carousel.clubslist a{ color:#000000; z-index: 9999}
