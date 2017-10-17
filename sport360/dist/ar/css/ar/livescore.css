@@ -2140,6 +2140,12 @@ padding:10px 15px 0;}
 	
 	.statable_block .dtail .state_row > li.col-xs-4, 
 	.statable_block .dtail .state_row > li.col-sm-4{width: 33.33333333%;}
+	
+	.eventable_block .alltabel_block .dtail li{ padding:0 5px}
+	.eventable_block .alltabel_block .dtail .badge{ padding:5px 0 0}
+	.eventable_block .alltabel_block .dtail .icn{ margin: 0 5px;}
+	.eventable_block .alltabel_block .dtail .team01 > cite, 
+	.eventable_block .alltabel_block .dtail .team02 > cite{ max-width: 160px;}
 	/* /Livescore Componenets Styles */
 }
 
@@ -2153,5 +2159,8 @@ padding:10px 15px 0;}
 	.page_livescore .nav-tabs > li > a{ font-size:14px; margin:0 auto; padding:0 8px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:50%;}
 	.clubscores_block ul{ font-size:12px;}
+	
+	.eventable_block .alltabel_block .dtail .team01 > cite, 
+	.eventable_block .alltabel_block .dtail .team02 > cite{ max-width: 82px;}
 }
 /* /new classes */
