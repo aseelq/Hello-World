@@ -12702,6 +12702,12 @@ font-weight: bold; font-size: 18px; line-height:80%}
 .img-circle {
   border-radius: 50%;
 }
+
+/* Social Plugin */
+.sshare{ margin: 0; padding: 0; clear: both}
+.sshare li{ display: inline-block; padding: 0 1px;}
+.sshare .extra_share{ padding: 0 5px 0 0}
+/* /Social Plugin */
 /* /New Added */
 
 
