@@ -1577,6 +1577,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .result_block .results > .result{ border:0; padding:10px 0 20px}
 
 .fixtures_block .owl-carousel{ background:none; border:0; box-shadow:none; width:100%; position:relative}
+.fixtures_block .owl-carousel .owl-stage-outer{ min-height:200px}
 .fixtures_block .owl-carousel .owl-item{ border:0; height:0}
 .fixtures_block .owl-carousel .owl-item.active{ height:auto}
 .fixtures_block .owl-carousel .owl-item img{ display:inline-block}
@@ -1591,6 +1592,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .filter_block .form-group{ width:100%; border:none; margin:0; padding:0; vertical-align:middle}
 
 .fixtures_block .filter_block label{ padding:8px 10px 0 0;}
+.fixtures_block .btn-select.btn-default ul{ max-height:88px}
 .fixtures_block .filter_block .btn-select{ float:left; font-size:14px; min-width:225px}
 .fixtures_block .filter_block .btn-select .btn-select-value{ padding:9px 12px 8px}
 /* /Fixtures Block */
