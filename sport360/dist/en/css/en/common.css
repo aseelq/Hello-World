@@ -12613,7 +12613,7 @@ div.level > ul > li {
 .loader .dot:first-child {
   animation: loadingC .6s .1s linear infinite;
   /*animation: move 1s ease-in-out infinite alternate;*/
-  background: #313131;
+  background: #4b9cdb;
   margin-left: 0;
 }
 
@@ -12628,7 +12628,7 @@ div.level > ul > li {
   animation: loadingC .6s .3s linear infinite;
   /* animation: move 1s ease-in-out -0.5s infinite alternate;*/
   margin-left: 70px;
-  background: #313131;
+  background: #FA0000;
 }
 
 .loader .dot:nth-child(4) {
