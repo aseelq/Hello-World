@@ -11752,7 +11752,7 @@ img {
 
 #masthead .logo {
   float: left;
-  background-image: url(../../images/logo_desktop.png);
+  background-image: url(../../images/logo-desktop-new.jpg);
   background-position: 30px 14px;
   background-size: auto auto;
   width: 61px;
@@ -13302,11 +13302,11 @@ font-weight: bold; font-size: 18px; line-height:80%}
   }
   #masthead .logo {
     float: left;
-    background-image: url(../../images/rsz_logo.jpg);
+    background-image: url(../../images/logo-mobile-new.jpg);
     top: 2px;
     left: 5px;
     background-position: 0px 0px;
-    background-size: auto auto;
+    background-size: contain;
     width: 61px;
     background-color: #ffffff;
     background-repeat: no-repeat;
@@ -13524,11 +13524,11 @@ font-weight: bold; font-size: 18px; line-height:80%}
   }
   #masthead .logo {
     float: left;
-    background-image: url(../../images/rsz_logo.jpg);
+    background-image: url(../../images/logo-mobile-new.jpg);
     top: 2px;
     left: 5px;
     background-position: 0px 0px;
-    background-size: auto auto;
+    background-size: contain;
     width: 61px;
     background-color: #ffffff;
     background-repeat: no-repeat;

@@ -288,7 +288,7 @@
 .club-title span {
   font-size: 15px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #bbbbbb;
+  color: #727272;
   line-height: 1.2;
   position:relative;
   padding:0 0 0 20px;
@@ -997,6 +997,9 @@ h2.relatedmaintitle {
     padding-bottom: 10px;
     padding-top: 15px;
   }
+  .page_livescore .main-container h2.relatedmaintitle {
+    font-size: 22px !important;
+  }
   .club-title span {
     font-size: 14px;
     font-family: "Roboto",  Arial, Helvetica, sans-serif;
@@ -1381,7 +1384,7 @@ position: relative;}
 .gallery_modal .modal-body .owl-thumb-item:active > img{ opacity:0.7; filter: alpha(opacity=70);}
 
 .gallery_modal .gallery_outbox{ position: relative;}
-.gallery_modal .gallery_outbox .pic.img_gallery{ position:relative; background:}
+.gallery_modal .gallery_outbox .pic.img_gallery{ position:relative;}
 .gallery_modal .gallery_outbox .pic.img_gallery .label{ background:#111111; min-width:80px; padding:12px; text-align:center; bottom:auto; top:0; font-size:16px; line-height:100%}
 .gallery_modal .gallery_outbox .pic.img_gallery .label > i{ color:#ff1f1f; display:inline-block; font-style:normal;}
 .gallery_modal .gallery_outbox .pic.img_gallery .picon-s{ position:static; padding:0; margin:-5px 5px 0 0; width:19px; height:16px; background-size:100%; display:inline-block;
@@ -1498,7 +1501,12 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 .page_livescore .main-container .v-item{ margin:0 0 15px}
 .page_livescore .main-container .v-item .pic{ height:auto}
 .page_livescore .main-container .v-item h3{ margin:7px auto 0}
-.page_livescore .main-container .v-item h3 em{ font-size:12px;}
+.page_livescore .main-container .v-item h3 em{ 
+  font-size: 12px;
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  left: 20px; right:auto}
 .page_livescore .main-container .relatednews{ margin:0 auto 30px}
 
 .page_livescore .alltabel_block{ margin:0 auto 30px}
@@ -1512,7 +1520,7 @@ display: block; margin: 0 auto; text-align: center; color: #202020; line-height:
 /* /Clubs Responsive View */
 
 /* Tabs Block */
-.page_livescore .alltabs_block{ margin:35px auto 30px; padding:0}
+.page_livescore .alltabs_block{ margin:20px auto 25px; padding:0}
 .page_livescore .nav-tabs{ display:table; width:100%; height:44px; padding:0; margin:0 auto; border:1px solid #b7b7b7; border-width:1px 0; background:#ffffff; color:#202020;
 -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
 -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
@@ -1522,6 +1530,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);}
 
 .page_livescore .nav-tabs > li > a{ margin-left: 2px; line-height:44px; display:block; width:100%; height:100%; color:#202020; text-decoration:none;}
 .page_livescore .nav-tabs > li > a:hover{ color:#fcfcfc; background-color:#ee1d25}
+.page_livescore .nav-tabs > li > a.active{ color:#fcfcfc; background-color:#ee1d25}
 .page_livescore .nav-tabs > li.active > a,
 .page_livescore .nav-tabs > li.active > a:hover,
 .page_livescore .nav-tabs > li.active > a:focus{ cursor: default; color:#fcfcfc; background-color:#ee1d25}
@@ -1581,7 +1590,7 @@ min-height:40px; padding:8px 15px 0}
 .fixtures_block .owl-carousel .owl-stage-outer{ min-height:200px}
 .fixtures_block .owl-carousel .owl-item{ border:0; height:0}
 .fixtures_block .owl-carousel .owl-item.active{ height:auto}
-.fixtures_block .owl-carousel .owl-item img{ display:inline-block}
+.fixtures_block .owl-carousel .owl-item img{ display:inline-block !important;}
 .fixtures_block .owl-carousel .owl-nav{ top:16px; right:0; left:0; margin:0 auto; position:absolute; max-width:240px; color:#a3a3a3}
 .fixtures_block .owl-carousel .owl-nav > *{ top:12px;}
 .fixtures_block .owl-carousel .owl-nav .fa{ font-size:35px; display:inline-block !important}
@@ -1617,6 +1626,7 @@ border-radius:20px;}
 .club_block .dtail .label{ color:#202020; font-style:normal; font-size:14px; font-weight:bold; width:140px;}
 .club_block .dtail p{ text-align:right; color:#727272; font-size:14px}
 .club_block .dtail p a{ color:#727272;}
+.owl-carousel .club { height: 100px;}
 /* /Club Information Block */
 
 /* Club Team Block */
@@ -1945,6 +1955,8 @@ padding:10px 15px 0;}
 /* /Match Stats */
 /* /Livescore Componenets Styles */
 
+/*Added by Tony*/
+.collapse2 {max-height: 420px; overflow: hidden; transition: max-height 0.25s ease-out;}
 
 /* Google Chrome Hack */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -2082,7 +2094,16 @@ padding:10px 15px 0;}
 
 	/* Livescore Componenets Styles */
 	.result_block .club{ margin:0 auto; text-align:center}
-	.result_block .club cite{ display:block; max-width:100%; font-size:14px;}
+	.result_block .club cite{ 
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		height: 40px;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		max-width: 100%;
+		font-size:14px;
+	}
 	.result_block .club img{ display:block; margin:0 auto; text-align:center; max-width:100%}
 
 	.page_livescore .clubnews .col-xs-12{ max-width:100%; flex: 0 0 100%; padding:0 !important}
@@ -2096,7 +2117,7 @@ padding:10px 15px 0;}
 	.page_livescore .clubnews .col-xs-12 .v-item > *{ display:inline-block; float:right; }
 
 	.page_livescore .clubnews .col-xs-12 .v-item h3{ max-width:65%; font-size:15px; margin:5px 0 0!important; padding:0 10px !important; position:static; color:#202020}
-	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:18px; line-height:22px; color:#202020; overflow:hidden; max-height:50px}
+	.page_livescore .clubnews .col-xs-12 .v-item h3 a{ font-size:15px; line-height:110%; color:#202020; overflow:hidden; max-height:50px}
 	.page_livescore .clubnews .col-xs-12 .v-item h3 em{ font-size:14px; color:#727272; margin:0}
 
 	.scorers_block .hdr_block .dtail ul > li > h4,
@@ -2155,11 +2176,16 @@ padding:10px 15px 0;}
 	.eventable_block .alltabel_block .dtail .team01 > cite, 
 	.eventable_block .alltabel_block .dtail .team02 > cite{ max-width: 160px;}
 	/* /Livescore Componenets Styles */
+	
+	.detilslink {margin-left: 0px;}
+	.result_block .datetime{max-width: 50%;}
+	.result_block .datetime i {overflow: hidden; max-width: 100%; white-space: nowrap; word-wrap: break-word; text-overflow: ellipsis;}
+	.result_block .schedule{max-width: 50%;}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	.relatednews .related .v-item h3 a{ font-size:18px; max-height:58px}
+	.relatednews .related .v-item h3 a{ font-size:16px; max-height:58px}
 	.relatednews .related .most-mobile{ padding:0 0 0 10px !important}
 
 	.gallery_modal .modal-header{ padding:0}
@@ -2172,3 +2198,5 @@ padding:10px 15px 0;}
 	.eventable_block .alltabel_block .dtail .team02 > cite{ max-width: 82px;}
 }
 /* /new classes */
+
+/* Don't add any new classes after Media Queries to avoid the override Media classes */
