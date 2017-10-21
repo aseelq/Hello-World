@@ -12586,6 +12586,7 @@ div.level > ul > li {
   padding-left: 10px;
   font-size: 15px;
 }
+div.level > ul > li a{ color:#202020}
 
 .arr {
   margin-left: 10px;
