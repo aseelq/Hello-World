@@ -14,6 +14,30 @@
   font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'noto_kufi_arabicbold';
+    src: url('../fonts/notokufiarabic/notokufiarabic-bold-webfont.woff2') format('woff2'),
+         url('../fonts/notokufiarabic/notokufiarabic-bold-webfont.woff') format('woff'),
+         url('../fonts/notokufiarabic/notokufiarabic-bold-webfont.ttf') format('truetype'),
+         url('../fonts/notokufiarabic/notokufiarabic-bold-webfont.svg#noto_kufi_arabicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'noto_kufi_arabicregular';
+    src: url('../fonts/notokufiarabic/notokufiarabic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/notokufiarabic/notokufiarabic-regular-webfont.woff') format('woff'),
+         url('../fonts/notokufiarabic/notokufiarabic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/notokufiarabic/notokufiarabic-regular-webfont.svg#noto_kufi_arabicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* -------------------------- */
+
 .video-content img{
   width:auto !important;
   height:auto !important;
@@ -3078,7 +3102,7 @@
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -3119,7 +3143,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
 
@@ -3152,7 +3176,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
 
@@ -3208,7 +3232,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -3403,7 +3427,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -3765,7 +3789,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 code {
@@ -7980,7 +8004,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8084,7 +8108,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -11263,13 +11287,13 @@ a:hover {
 body {
   direction: rtl;
   background: #f9f9f9;
-  font-family: Roboto, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: Roboto, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 .centerdiv {
@@ -11310,7 +11334,7 @@ figure:hover img {
 }
 
 h2.maintitle {
-  font-family: 'Roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 34px;
   color: #202020;
@@ -11319,7 +11343,7 @@ h2.maintitle {
 }
 
 h2.clubs {
-  font-family: 'Roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 34px;
   color: #202020;
@@ -11328,7 +11352,7 @@ h2.clubs {
 }
 
 h2.more {
-  font-family: 'Roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 34px;
   color: #202020;
@@ -11940,7 +11964,7 @@ a.subscribe-btn:hover {
 }
 
 .subscribe-btn > img > span {
-  font-family: Roboto;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: medium;
   font-size: 15px;
   color: #ffffff;
@@ -12014,7 +12038,7 @@ a.subscribe-btn:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 0;
+  margin-top:0;
 }
 
 /* Menu Changes */
@@ -12072,7 +12096,7 @@ a.subscribe-btn:hover {
   color: #ffffff;
   font-size: 15px;
   font-weight: 900;
-  font-family: arial;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 #menu ul.topics > div > div > li > ul a {
@@ -12691,7 +12715,7 @@ div.level > ul > li a{ color:#202020}
 .club-title span,
 .club-title a {
   font-size: 14px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   color: #727272;
   line-height: 1.2;
   position:relative;
@@ -13283,7 +13307,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
     padding-left: 12px;
   }
   h2.more {
-    font-family: Roboto;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #252525;
@@ -13505,7 +13529,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
     padding-left: 12px;
   }
   h2.more {
-    font-family: Roboto;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 28px;
     color: #252525;
@@ -13715,7 +13739,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .fade-out h3 {
-    font-family: Graphik-Bold,arial,sans-serif;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 400 !important;
     margin: 10px 0px 10px 0px !important;
     font-size: 1.17em !important;

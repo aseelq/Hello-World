@@ -287,7 +287,7 @@
 
 .club-title span {
   font-size: 15px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   color: #bbbbbb;
   line-height: 1.2;
   position:relative;
@@ -301,7 +301,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 
 .club-title .separator {
   font-size: 15px;
-  font-family: "Roboto",  Arial, Helvetica, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   color: black;
   line-height: 1.2;
 }
@@ -309,7 +309,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 .publisher-name {
   color: #ee1e27;
   font-size: 14px;
-  font-family: "Roboto",  Arial, Helvetica, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   margin: auto 7px;
 }
 
@@ -317,7 +317,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
   color: #727272;
   font-size: 13px;
   font-weight: normal;
-  font-family: "Roboto",  Arial, Helvetica, sans-serif;
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 .main-container {
@@ -332,7 +332,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 .facebook-time {
   color: #767676;
   font-size: 13px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 .article-container {
@@ -344,7 +344,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 .articlemaintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 38px;
   color: #202020;
@@ -621,7 +621,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
   border: 1px solid;
   border-color: #c2c2c2;
   font-size: 18px;
-  font: bold 18px "Roboto", Arial, Helvetica, sans-serif;
+  font: bold 18px 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   border-radius: 4px;
 }
 
@@ -672,7 +672,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 .verticalLine {
   border-right: solid;
   font-size: 15px;
-  font-family: "Roboto",  Arial, Helvetica, sans-serif;
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   border-color: #e1e1e1;
 }
 
@@ -762,7 +762,7 @@ font-weight: bold; font-size: 18px; line-height:80%}
 }
 
 h2.maintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 26px;
   color: #202020;
@@ -829,7 +829,7 @@ h2.maintitle {
 }
 
 h2.relatedmaintitle {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 34px;
   color: #202020;
@@ -838,7 +838,7 @@ h2.relatedmaintitle {
 }
 
 .main-button {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-align: center !important;
@@ -908,7 +908,7 @@ h2.relatedmaintitle {
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .articlemaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
@@ -918,7 +918,7 @@ h2.relatedmaintitle {
   }
   .club-title span {
     font-size: 14px;
-    font-family: "Roboto",  Arial, Helvetica, sans-serif;
+    font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     color: #bbbbbb;
     line-height: 1.2; text-transform:uppercase;
   }
@@ -954,7 +954,7 @@ h2.relatedmaintitle {
     color: #252525;
   }
   h2.relatedmaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 34px;
     color: #202020;
@@ -962,7 +962,7 @@ h2.relatedmaintitle {
     margin-right: 0px;
   }
   .articlemaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
@@ -972,7 +972,7 @@ h2.relatedmaintitle {
   }
   .club-title span {
     font-size: 14px;
-    font-family: "Roboto",  Arial, Helvetica, sans-serif;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     color: #bbbbbb;
     line-height: 1.2; text-transform:uppercase;
   }
@@ -1010,7 +1010,7 @@ h2.relatedmaintitle {
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
   h2.relatedmaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 34px;
     color: #202020;
@@ -1018,7 +1018,7 @@ h2.relatedmaintitle {
     margin-right: 0px;
   }
   .articlemaintitle {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
@@ -1028,7 +1028,7 @@ h2.relatedmaintitle {
   }
   .club-title span {
     font-size: 14px;
-    font-family: "Roboto",  Arial, Helvetica, sans-serif;
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     color: #bbbbbb;
     line-height: 1.2; text-transform:uppercase;
   }
@@ -1204,7 +1204,7 @@ box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.07);}
 .rate_block > li > cite{ font-style:normal; border-right:1px solid #e1e1e1; text-transform:uppercase; white-space:nowrap}
 
 .post_block .share_block{ margin:40px 0 0}
-.btn_gneral{ width: 100%; height: 50px; background: white; border: 1px solid #c2c2c2; font:bold 18px "Roboto", Arial, Helvetica, sans-serif; cursor:pointer;
+.btn_gneral{ width: 100%; height: 50px; background: white; border: 1px solid #c2c2c2; font:bold 18px 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif; cursor:pointer;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
 border-radius: 4px;

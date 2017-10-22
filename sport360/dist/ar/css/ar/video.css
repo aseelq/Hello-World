@@ -316,7 +316,7 @@
 
 .club-title span {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   color: #dfdfdf;
   line-height: 1.2;
   margin-left: 12px; text-transform:uppercase;
@@ -339,7 +339,7 @@
 
 .club-title .separator {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   color: #727272;
   line-height: 1.2;
 }
@@ -347,7 +347,7 @@
 .publisher-name {
   color: #ee1e27 !important;
   font-size: 14px !important;
-  font-family: "Roboto";
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   margin: auto 7px;
   margin-right: 12px;
   margin-left: 20px;
@@ -357,7 +357,7 @@
   color: #727272;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Roboto";
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 .main-container {
@@ -375,7 +375,7 @@
 }
 
 .videomaintitle {
-  font-family: 'Roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 38px;
   color: white;
@@ -385,7 +385,7 @@
 }
 
 h2.maintitle {
-  font-family: 'Roboto';
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 26px;
   color: #202020;
@@ -429,7 +429,7 @@ ul.stories .story {
 
 .continue-reading {
   font-size: 12px;
-  font-family: 'roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   text-align: center;
   color: #8e8e8e;
   padding: 0px;
@@ -472,7 +472,7 @@ ul.stories .story {
   padding-top: 0px;
   margin-right: 18px;
   margin-bottom: 30px;
-  font-family: 'roboto';
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   color: #8e8e8e;
 }
 
@@ -523,7 +523,7 @@ ul.stories .story {
 }
 
 h2.relatedmaintitle {
-  font-family: 'Roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 34px;
   color: #202020;
@@ -602,14 +602,14 @@ h2.relatedmaintitle {
   border-color: #c2c2c2;
   font-size: 18px;
   font-weight: 700er;
-  font-family: 'Roboto';
+  font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   border-radius: 4px;
 }
 
 .comments-header {
   size: 14px;
   font-weight: 700er;
-  font-family: 'Roboto';
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
 }
 
 .img-profile {
@@ -636,7 +636,7 @@ h2.relatedmaintitle {
 .verticalLine {
   border-right: solid;
   font-size: 15px;
-  font-family: "Roboto";
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   border-color: #e1e1e1;
   margin-top: 20px;
 }
@@ -673,7 +673,7 @@ h2.relatedmaintitle {
 }
 
 .main-button {
-  font-family: 'roboto';
+  font-family:'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-align: center !important;
@@ -846,7 +846,7 @@ border-radius: 2px;
     margin-right: 0px;
   }
   .articlemaintitle,.videomaintitle {
-    font-family: 'Roboto';
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 28px;
     line-height: 34px;
@@ -855,7 +855,7 @@ border-radius: 2px;
   }
   .club-title span {
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     color: #dfdfdf;
     line-height: 1.2; text-transform:uppercase;
   }
@@ -891,7 +891,7 @@ border-radius: 2px;
     height: 272px !important;
   }
   h2.relatedmaintitle {
-    font-family: 'Roboto';
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 34px;
     color: #202020;
@@ -899,7 +899,7 @@ border-radius: 2px;
     margin-right: 0px;
   }
   .videomaintitle {
-    font-family: 'Roboto';
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
@@ -909,7 +909,7 @@ border-radius: 2px;
   }
   .club-title span {
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     color: #dfdfdf;
     line-height: 1.2; text-transform:uppercase;
   }
@@ -953,7 +953,7 @@ border-radius: 2px;
     height: 272px !important;
   }
   h2.relatedmaintitle {
-    font-family: 'Roboto';
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 34px;
     color: #202020;
@@ -961,7 +961,7 @@ border-radius: 2px;
     margin-right: 0px;
   }
   .videomaintitle {
-    font-family: 'Roboto';
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
@@ -971,7 +971,7 @@ border-radius: 2px;
   }
   .club-title span {
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: 'noto_kufi_arabicregular', Arial, Helvetica, sans-serif;
     color: #dfdfdf;
     line-height: 1.2; text-transform:uppercase;
   }
