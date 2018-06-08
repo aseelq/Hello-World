@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8" />
+<title>ITECJ Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes">
+
+<!-- Bootstrap and Styles -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/slide_menu.css" rel="stylesheet" type="text/css" />
+<link href="css/select.min.css" rel="stylesheet">
+<link href="css/fontawesome-all.min.css" rel="stylesheet">
+<link href="css/itecj_style.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<!-- Header Website/RWD -->
+<header>
+    <div class="header_wrap header">
+    	<div class="container">
+            <div class="search_block">
+				<form class="form-inline">
+					<div class="input-group">
+					  <div class="input-group-prepend">
+						<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workflow</button>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						  <a class="dropdown-item" href="#">Separated link</a>
+						</div>
+					  </div>
+					  
+					  <input type="text" class="form-control" aria-label="Search in website">
+					  <button type="button" class="btn btn_search"><i class="fas fa-search"></i></button>
+					</div>
+				</form>
+			</div>
+			
+			<div class="user_block">
+				<ul class="d-flex justify-content-end align-items-center">
+					<li><a href="#"><i class="txt_big">Jihad</i> General Manager</a></li>
+					<li><a href="#"><img src="images/img_userDemo.jpg" alt="" class="img_user img-responsive rounded-circle" /></a></li>
+				</ul>
+			</div>
+        </div>
+    </div>
+</header>
+<!-- /Header Website/RWD -->
+
+
+<!-- Body Website/RWD -->
+<section>
+    <div class="content_wrap section">
+		<div class="container">
+			<div class="hdr_block">
+				<h1>Consult:</h1>
+				
+				<ul class="d-flex align-items-center lst_data">
+					<li><i class="fas fa-paperclip"></i><cite class="sr-only">Attachment</cite></li>
+					<li><i class="icon icn_chart"></i><cite class="sr-only">Chart</cite></li>
+					<li>Category 1</li>
+					<li>General Workflow</li>
+					<li>Case No. 3421</li>
+					<li>28 Jan 2016, 2:06 pm</li>
+					
+					<li class="ml-auto"><button type="button" class="btn btn_consult"><i class="fas fa-user-friends"></i> consult</button></li>
+				</ul>
+			</div>
+		</div>    	                          
+    </div>
+</section>
+<!-- Body Website/RWD -->
+
+
+<!-- Footer Website/RWD -->
+<footer class="d-none">
+	<div class="footer_wrap footer">
+    	<div class="container">
+            <p>Contact us <cite><a href="#">info@qudwa.com</a></cite></p>
+            <ul class="list-inline">
+            	<li><a href="#" class="btn btn_twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="btn btn_instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="btn btn_fcbook"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+            <p>&copy; 2016 Qudwa</p>
+        </div>
+    </div>
+</footer>
+<!-- /Footer Website/RWD -->
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+/* Active Button Box */
+$('.btn').click(function(){
+	if($(this).hasClass('active')){
+		$(this).removeClass('active');
+		
+	} else
+	if(!$(this).hasClass("active")){
+		$(this).addClass('active');
+	}
+});
+/* /Active Button Box */
+});
+</script>
+</body>
+</html>

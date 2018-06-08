@@ -1,0 +1,229 @@
+/*first child of #page-content so it doesn't shift around*/
+.no-margin-top {
+	margin-top: 0px !important
+}
+/*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+#page-content {
+	position: relative;
+	padding-top: 0;
+	right: 0;
+}
+#page-content.slide-active {
+	padding-top: 0
+}
+/* put toggle bars on the left :: not using button */
+#slide-nav .navbar-toggle, #smlheader_sticky .navbar-toggle {
+	cursor: pointer;
+	line-height: 0;
+	float: left;
+	margin: 0 auto;
+	border: 0;
+	padding: 0;
+	display: block;
+	height: 40px;
+	-webkit-transition: transform 0.5s;
+	-moz-transition: transform 0.5s;
+	-ms-transition: transform 0.5s;
+	-o-transition: transform 0.5s;
+	transition: transform 0.5s;
+}
+/* icon bar prettyup - optional */
+#slide-nav .navbar-toggle > .icon-bar, #smlheader_sticky .navbar-toggle > .icon-bar {
+	width: 100%;
+	display: block;
+	height: 5px;
+	margin: 5px 0 0 0;
+}
+#slide-nav .navbar-toggle.slide-active .icon-bar, #smlheader_sticky .navbar-toggle.slide-active .icon-bar {
+}
+.navbar-header {
+	position: relative
+}
+/* un fix the navbar when active so that all the menu items are accessible */
+.navbar.navbar-fixed-top.slide-active {
+	position: relative
+}
+/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
+.menu_open, body {
+	overflow-x: hidden;
+}
+[role="banner"].sticky {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+.menu_open [role="banner"].sticky {
+	left: 315px !important;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
+}
+.menu_open [data-slideable], .menu_open #slidemenu {
+	-webkit-transform: translateX(315px);
+	-moz-transform: translateX(315px);
+	-ms-transform: translateX(315px);
+	-o-transform: translateX(315px);
+	transform: translateX(315px);
+}
+ [data-slideable], #slidemenu {
+ -webkit-transition: -webkit-transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+ -webkit-backface-visibility: hidden;
+ -moz-transition: -moz-transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+ -moz-backface-visibility: hidden;
+ -ms-transition: -ms-transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+ -ms-backface-visibility: hidden;
+ -o-transition: -o-transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+ -o-backface-visibility: hidden;
+ transition: transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+ backface-visibility: hidden;
+}
+ [data-slideable] {
+ -moz-backface-visibility: visible;
+}
+#slide-nav .navbar-header, #smlheader_sticky .navbar-header {
+	margin: 0 auto;
+	padding: 0 0 0 5px;
+}
+#slide-nav .navbar.slide-active, #smlheader_sticky .navbar.slide-active {
+	position: absolute;
+	width: 50%;
+	top: -1px;
+	z-index: 1000;
+}
+#slidemenu {
+	position: fixed;
+	left: -315px;
+	width: 315px;
+	min-width: 0;
+	padding-left: 0;
+	z-index: 1050;
+	top: 0;
+	margin: 0;
+	bottom: 0;
+	display: block;
+	text-align: left;
+	overflow-y: scroll;
+	font-size:22px;
+	background:#e9e8e8;
+}
+#slidemenu a{ color:#201b4f}
+#slidemenu::-webkit-scrollbar {
+width: 0 !important;
+}
+#slidemenu .navbar-nav {
+	min-width: 0;
+	width: 100%;
+	max-width: 315px;
+	margin: 0;
+}
+#slidemenu .navbar-nav .dropdown-menu li a {
+	min-width: 0;
+	width: 50%;
+	white-space: normal;
+}
+#slide-nav, #smlheader_sticky {
+	border-top: 0
+}
+#slide-nav.navbar-inverse #slidemenu, #smlheader_sticky.navbar-inverse #slidemenu {
+}
+/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+#navbar-height-col {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 315px;
+	left: -315px;
+	display: none
+}
+#slide-nav.navbar-inverse #navbar-height-col, #smlheader_sticky.navbar-inverse #navbar-height-col {
+	z-index: 1;
+	border: 0;
+}
+#slide-nav .navbar-form, #smlheader_sticky .navbar-form {
+	width: 100%;
+	margin: 8px 0;
+	text-align: center;
+	overflow: hidden;
+}
+#slide-nav .navbar-form .form-control, #smlheader_sticky .navbar-form .form-control {
+	text-align: center
+}
+#slide-nav .navbar-form .btn, #smlheader_sticky .navbar-form .btn {
+	width: 100%
+}
+#slidemenu .navbar-nav > li {
+	display: block;
+	float: none;
+	clear: both;
+	padding: 0;
+	margin: 0
+}
+#slidemenu .navbar-nav > li.trendy,  #slidemenu ul > li.trendy > a,  #slidemenu ul > li.trendy > h2 {}
+
+
+/* Menu Theme Classes */
+#slidemenu .navbar-nav > li, 
+#slidemenu .navbar-nav > li:last-child{ padding: 0;}
+#slidemenu .navbar-nav > li > a{ padding:10px; background:none; color:#201b4f}
+#slidemenu .navbar-nav > li.search_slidemenu{ padding:10px}
+#slidemenu .navbar-nav > li.active a{ background-color:#201b4f; color:#fcfcfc}
+
+.lastnews_slidemenu{ background:#62accc; clear:both; overflow:hidden; color:#fcfcfc; vertical-align:middle; margin:0 auto 20px !important}
+.lastnews_slidemenu .thumbnail{ float:left; clear:none; background:none !important;}
+.lastnews_slidemenu .thumbnail > img{ max-width:70px}
+.lastnews_slidemenu .dtail_block{ float:left; clear:none; padding:10px 2px 0; width:65%}
+.lastnews_slidemenu .dtail_block strong{ font-size:18px; color:#211b4f; display:block}
+.lastnews_slidemenu .dtail_block cite{ display:block; color:#fcfcfc}
+
+
+#slidemenu .icon{ width:25px; height:27px; background-size:100%}
+.icon.icn_agenda{ background-position:0 0}
+.icon.icn_favorites{ background-position:0 -45px}
+.icon.icn_speakers{ background-position:0 -82px}
+.icon.icn_ask{ background-position:0 -120px}
+.icon.icn_attendees{ background-position:0 -162px}
+.icon.icn_networking{ background-position:0 -198px}
+.icon.icn_news{ background-position:0 -232px}
+.icon.icn_twitter{ background-position:0 -277px}
+.icon.icn_about{ background-position:0 -312px}
+
+
+#slidemenu .links_slidemenu{ padding:10px !important; margin:0 auto 5px !important}
+#slidemenu .links_slidemenu li:nth-last-child(2){ border:2px solid #d1d3d4; border-width:0 0 0 2px; padding:0 0 0 10px; margin:0 0 0 8px}
+/* /Menu Theme Classes */
+
+
+@media (max-width: 767px) {
+.menu_open [role="banner"].sticky {
+	left: 280px !important;
+}
+.menu_open [data-slideable], .menu_open #slidemenu {
+	-webkit-transform: translateX(280px);
+	-moz-transform: translateX(280px);
+	-ms-transform: translateX(280px);
+	-o-transform: translateX(280px);
+	transform: translateX(280px);
+}
+#slidemenu {
+	left: -280px;
+	width: 280px;
+}
+#slidemenu .navbar-nav {
+	max-width: 280px;
+}
+#navbar-height-col {
+	width: 280px;
+	left: -280px;
+}
+
+/* /Menu Theme Classes */
+#slide-nav .navbar-toggle, 
+#smlheader_sticky .navbar-toggle{ height:inherit}
+
+#slide-nav .navbar-toggle, #smlheader_sticky .navbar-toggle{ font-size:25px; margin:10px auto}
+/* /Menu Theme Classes */
+}
