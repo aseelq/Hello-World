@@ -96,7 +96,7 @@
 			<div class="gnral_box allblock_wraper">
 				<!-- Editor Text Block -->
 				<div class="editor_block">
-					<div id="summernote">Hello Summernote</div>
+					<div id="summernote"></div>
 				</div>
 				<!-- /Editor Text Block -->
 				
@@ -178,10 +178,12 @@ $('.btn').click(function(){
 
 /* Summernote Text Editor */
 $('#summernote').summernote({
-  height: 200,                 // set editor height
-  minHeight: null,             // set minimum height of editor
-  maxHeight: null,             // set maximum height of editor
-  focus: true                  // set focus to editable area after initializing summernote
+  placeholder: 'Your consultation text here.',
+  height: 200,                // set editor height
+  minHeight: null,            // set minimum height of editor
+  maxHeight: null,            // set maximum height of editor
+  focus: true                 // set focus to editable area after initializing summernote
+  
 });
 /* /Summernote Text Editor */
 });
