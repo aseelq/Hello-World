@@ -142,6 +142,12 @@ a:hover, a:visited{ color:#61accc}
 .content_wrap .attachment_block .btn-secondary:not(:disabled):not(.disabled):active, 
 .content_wrap .attachment_block .show>.btn-secondary.dropdown-toggle { color:#fcfcfc; background:#a7a7a7; border: 1px solid #e1e0e0; }
 /* /s.Attchment Block */
+
+
+/* Notifications Block */
+.content_wrap .alert_block{ padding:0 55px; color:#92a6ad; font-size:20px;}
+.content_wrap .alert_block p{ margin:0 0 15px; font-style:italic}
+/* /Notifications Block */
 /* /Content Block */
 
 
