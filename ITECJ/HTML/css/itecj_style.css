@@ -34,12 +34,7 @@ a:hover, a:visited{ color:#61accc}
 .icon, .icn{ background: 0 0 no-repeat; display:inline-block; padding:0; margin:0; vertical-align:middle}
 .text-danger, .text-danger:hover{ color:#55b733; font-family: Arial, Helvetica, sans-serif;}
 
-.btn.btn-default{ padding:10px; margin:0; text-align:center; min-width:100px; color:#fcfcfc; text-shadow:none; background:#62accc; border:none; text-transform: uppercase;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;}
-.form-control{ border:1px solid #999999;}
-
+.form-control{ border:1px solid #f0f0f0;}
 .thumbnail,
 .thumbnail:hover{ box-shadow:none; border:0; padding:0; margin:0; background:none}
 
@@ -107,8 +102,9 @@ border-radius: 5px;}
 .content_wrap .recipient_block .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
 /* /s.Recipient Block */
 
+
 /* /s.Editor, s.List Item, All Blocks */
-.content_wrap .editor_block{ padding:0 40px; margin-bottom:25px;}
+.content_wrap .editor_block{ padding:0 40px; margin-bottom:35px;}
 
 .content_wrap .list-group{ padding:0 40px; color:#90a3ae}
 .content_wrap .list-group h2,
@@ -128,6 +124,24 @@ border-radius: 5px;}
 .content_wrap .list-group .list-group-item blockquote p:before{ content: open-quote; margin-right:15px;}
 .content_wrap .list-group .list-group-item blockquote p:after{ content: close-quote; margin-left:15px;}
 /* /s.Editor, s.List Item, All Blocks */
+
+
+/* s.Attchment Block */
+.content_wrap .attachment_block .uploader_wrap{ padding:0 40px}
+
+.content_wrap .attachment_block label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
+.content_wrap .attachment_block .small{ color:#a3b5c0; display:inline-block; margin-right:10px; font-style:normal; font-size:17px;}
+
+.content_wrap .attachment_block .btn-file, 
+.content_wrap .attachment_block .btn-file:not(:disabled):not(.disabled).active, 
+.content_wrap .attachment_block .btn-file:not(:disabled):not(.disabled):active, 
+.content_wrap .attachment_block .show>.btn-file.dropdown-toggle{ background:#80c1ca; border: 1px solid #e1e0e0;}
+
+.content_wrap .attachment_block .btn-secondary, 
+.content_wrap .attachment_block .btn-secondary:not(:disabled):not(.disabled).active, 
+.content_wrap .attachment_block .btn-secondary:not(:disabled):not(.disabled):active, 
+.content_wrap .attachment_block .show>.btn-secondary.dropdown-toggle { color:#fcfcfc; background:#a7a7a7; border: 1px solid #e1e0e0; }
+/* /s.Attchment Block */
 /* /Content Block */
 
 

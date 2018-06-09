@@ -15,3 +15,8 @@ http://www.jqueryscript.net/gallery/Responsive-Auto-Swapping-Photo-Wall-Plugin-j
 
 Summernote text editor based on Bootstrap:
 https://summernote.org/getting-started/#run-summernote
+
+
+Uplaoder Attachment Files:
+http://plugins.krajee.com/file-input#usage
+http://plugins.krajee.com/file-basic-usage-demo#basic-example-8
