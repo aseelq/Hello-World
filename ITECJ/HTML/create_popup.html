@@ -77,14 +77,13 @@
     <div class="content_wrap section">
 		<div class="container">
 			<!-- Header title page -->
-			<div class="hdr_block">
-				<button type="button" class="btn btn_consult">Signing</button>
-				
-				<ul>
+			<div class="hdr_block">								
+				<ul class="d-flex align-items-end lst_user">
 					<li>
-						<img src="images/img_userDemo.jpg" alt="" class="img_user img-responsive rounded-circle" />
+						<i class="img_user"><img src="images/img_userDemo02.jpg" alt="" class="img_user img-responsive rounded-circle" /></i>
 					</li>
-					<li>
+					<li class="flex-fill">
+						<button type="button" class="btn btn_signing">Signing</button>	
 						<h1>Mohammad Thaher</h1>
 						
 						<ul class="d-flex align-items-center lst_data">
@@ -95,32 +94,25 @@
 							<li>Case No. 3421</li>
 							<li>28 Jan 2016, 2:06 pm</li>
 							
-							<li class="ml-auto"><button type="button" class="btn btn_consult"><i class="far fa-edit"></i> Action</button></li>
+							<li class="ml-auto btn-group">
+								<button type="button" class="btn btn_consult dropdown-toggle" data-toggle="dropdown">
+									<i class="far fa-edit"></i> Action
+								</button>
+								
+								<div class="dropdown-menu">
+									<button class="dropdown-item" type="button">Action</button>
+									<button class="dropdown-item" type="button">Another action</button>
+									<button class="dropdown-item" type="button">Something else here</button>
+								</div>
+							</li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 			<!-- /Header title page -->
-			
-			<!-- Recipient Block -->
-			<div class="gnral_box recipient_block">
-				<div class="input-group">
-				  <div class="input-group-prepend">
-					<label class="input-group-text"><i class="small">***</i> Recipients:</label>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Search names, committies or departments">
-				</div>
-			</div>
-			<!-- /Recipient Block -->
-			
+						
 			<!-- Editor Text Block -->
-			<div class="gnral_box allblock_wraper">
-				<!-- Editor Text Block -->
-				<div class="editor_block">
-					<div id="summernote"></div>
-				</div>
-				<!-- /Editor Text Block -->
-				
+			<div class="allblock_wraper">			
 				<!-- List Item Block -->
 				<div class="list-group">
 				  <h3>System Experiencing  Exorbitian Hard Disk Usage</h3>
@@ -230,7 +222,7 @@ $('#summernote').summernote({
   height: 200,                // set editor height
   minHeight: null,            // set minimum height of editor
   maxHeight: null,            // set maximum height of editor
-  focus: true                 // set focus to editable area after initializing summernote
+  focus: false                 // set focus to editable area after initializing summernote
   
 });
 /* /Summernote Text Editor */
