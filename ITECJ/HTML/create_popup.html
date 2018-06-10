@@ -110,7 +110,8 @@
 				</ul>
 			</div>
 			<!-- /Header title page -->
-						
+			
+			
 			<!-- Editor Text Block -->
 			<div class="allblock_wraper">			
 				<!-- List Item Block -->
@@ -139,25 +140,46 @@
 				 <!-- /List Item Block -->
 			</div>
 			<!-- /Editor Text Block -->	
-
-			<!-- Uploader Attachment Block -->
-			<div class="gnral_box attachment_block">
-				<form class="uploader_wrap" enctype="multipart/form-data">
-					<label>Attachments<i class="small">, attach more files</i>:</label>
+			
+			
+			<!-- Additional Fields Block -->
+			<div class="gnral_wrap additional_block">
+				<h3 class="ghdr_line">Additional fields :</h3>
+				
+				<div class="gnral_content">
+					<div class="form-group row">
+						<label for="imputName" class="col-sm-1 col-form-label">Name:</label>
+						<div class="col-sm-11">
+						  <input type="text" class="form-control" id="imputName">
+						</div>
+					</div>
 					
+					<div class="form-group row">
+						<label for="imputNumber" class="col-sm-1 col-form-label">Number:</label>
+						<div class="col-sm-11">
+						  <input type="text" class="form-control" id="imputNumber">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Additional Fields Block -->
+			
+			
+			<!-- Download Attachment Block -->
+			<div class="gnral_wrap dwn_attachment_block">
+				<h3 class="ghdr_line">4 Attachmenets</h3>
+				
+				<form class="download_wrap" enctype="multipart/form-data">
 					<!-- <div class="file-loading" dir=rtl>, Call it when using Arabic -->
 					<div class="file-loading">
-						<input id="uploaderFile" name="file-ar[]" type="file" multiple>
-					</div>        
+						<label>Preview File Icon</label>
+						<input id="downloadFile" name="input-pd[]" type="file" multiple>
+					</div>
 				</form>
 			</div>
 			<!-- / Uploader Attachment Block -->
 			
-			<!-- Notifications Block -->
-			<div class="alert alert-light alert_block" role="alert">
-			  <p>Fields need to be filled brfore you can consult ***</p>
-			</div>
-			<!-- /Notifications Block -->
+			
 		</div>    	                          
     </div>
 </section>
@@ -237,7 +259,79 @@ $('#uploaderFile').fileinput({
 	allowedFileExtensions: ['jpg', 'png', 'gif']
 });  
 /* /Attachment Files, initialize with defaults */
+
+
+/* Download Attachment Files */
+$("#downloadFile").fileinput({
+		theme: 'fa',  
+        fileType: "any",
+		
+		showUpload: false,
+        showCaption: false,
+		showBrowse:false,
+		showClose:false,
+		
+        overwriteInitial: false,
+        initialPreviewAsData: true,
+		
+        initialPreview: [
+            "images/img_demo01.jpg",
+            "images/img_demo02.jpg",
+            "images/img_demo03.jpg"
+        ],
+        initialPreviewConfig: [
+            {caption: "Error issues 3465.xls", size: 329892, width: "120px", url: "{$url}", key: 1,showRemove:false, downloadUrl: true},
+            {caption: "Windows updates.doc", size: 872378, width: "120px", url: "{$url}", key: 2, showRemove:false, downloadUrl: true},
+            {caption: "Catalyst Control Center.pdf", size: 632762, width: "120px", url: "{$url}", key: 3, showRemove:false, downloadUrl: true}
+        ],
+		
+		
+		preferIconicPreview: true, // this will force thumbnails to display icons for following file extensions
+		previewFileIconSettings: { // configure your icon file extensions
+			'doc': '<i class="far fa-file-word text-primary"></i>',
+			'xls': '<i class="far fa-file-excel text-success"></i>',
+			'ppt': '<i class="far fa-file-powerpoint text-danger"></i>',
+			'pdf': '<i class="far fa-file-pdf text-danger"></i>',
+			'zip': '<i class="far fa-file-archive text-muted"></i>',
+			'htm': '<i class="far fa-file-code text-info"></i>',
+			'txt': '<i class="far fa-file-alt text-info"></i>',
+			'mov': '<i class="far fa-file-video text-warning"></i>',
+			'mp3': '<i class="far fa-file-audio text-warning"></i>',
+			// note for these file types below no extension determination logic 
+			// has been configured (the keys itself will be used as extensions)
+			'jpg': '<i class="far fa-file-image text-danger"></i>', 
+			'gif': '<i class="far fa-file-image text-muted"></i>', 
+			'png': '<i class="far fa-file-image text-primary"></i>'    
+		},
+		previewFileExtSettings: { // configure the logic for determining icon file extensions
+			'doc': function(ext) {
+				return ext.match(/(doc|docx)$/i);
+			},
+			'xls': function(ext) {
+				return ext.match(/(xls|xlsx)$/i);
+			},
+			'ppt': function(ext) {
+				return ext.match(/(ppt|pptx)$/i);
+			},
+			'zip': function(ext) {
+				return ext.match(/(zip|rar|tar|gzip|gz|7z)$/i);
+			},
+			'htm': function(ext) {
+				return ext.match(/(htm|html)$/i);
+			},
+			'txt': function(ext) {
+				return ext.match(/(txt|ini|csv|java|php|js|css)$/i);
+			},
+			'mov': function(ext) {
+				return ext.match(/(avi|mpg|mkv|mov|mp4|3gp|webm|wmv)$/i);
+			},
+			'mp3': function(ext) {
+				return ext.match(/(mp3|wav)$/i);
+			}
+		}
+    });
 });
+/* /Download Attachment Files */
 </script>
 </body>
 </html>

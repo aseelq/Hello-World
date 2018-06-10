@@ -19,4 +19,4 @@ https://summernote.org/getting-started/#run-summernote
 
 Uplaoder Attachment Files:
 http://plugins.krajee.com/file-input#usage
-http://plugins.krajee.com/file-basic-usage-demo#basic-example-8
+http://plugins.krajee.com/file-input/demo#preview-management

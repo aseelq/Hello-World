@@ -32,7 +32,6 @@ a:hover, a:visited{ color:#61accc}
 
 .btn:focus, a:focus{ outline:none}
 .icon, .icn{ background: 0 0 no-repeat; display:inline-block; padding:0; margin:0; vertical-align:middle}
-.text-danger, .text-danger:hover{ color:#55b733; font-family: Arial, Helvetica, sans-serif;}
 
 .form-control{ border:1px solid #f0f0f0;}
 .thumbnail,
@@ -75,6 +74,8 @@ a:hover, a:visited{ color:#61accc}
 .content_wrap{ margin:0 auto; padding:0 20px}
 .content_wrap .container{ background:#ffffff; border-radius:10px; padding:70px 40px 40px; margin:0 auto 20px; max-width:1400px}
 .content_wrap .gnral_box{ border:2px solid #f0f0f0; padding:15px; margin-bottom:30px;}
+.content_wrap .gnral_wrap{ padding:0 40px; margin:0 auto 30px;}
+.content_wrap .gnral_wrap .ghdr_line{ border-bottom:2px solid #f0f0f0; padding-bottom:12px; margin-bottom:25px;}
 
 
 /* s.Header Title Page */
@@ -155,10 +156,30 @@ text-transform:uppercase}
 /* /s.Attchment Block */
 
 
-/* Notifications Block */
+/* /s.Download Attchment Block */
+.content_wrap .dwn_attachment_block h3,
+.content_wrap .dwn_attachment_block h4{ color:#a3b5c0; display:block; margin-bottom:10px; font-style:italic; font-weight:bold; font-size:14px;}
+
+.content_wrap .dwn_attachment_block .file-preview,
+.content_wrap .dwn_attachment_block .file-drop-zone{ border:0; padding:0; margin:0}
+.content_wrap .dwn_attachment_block .kv-file-zoom{ display:none}
+/* /s.Download Attchment Block */
+
+
+/* s.Notifications Block */
 .content_wrap .alert_block{ padding:0 55px; color:#92a6ad; font-size:20px;}
 .content_wrap .alert_block p{ margin:0 0 15px; font-style:italic}
-/* /Notifications Block */
+/* /s.Notifications Block */
+
+
+/* s.Additional Fields Block */
+.content_wrap .additional_block h3,
+.content_wrap .additional_block h4{ color:#a3b5c0; display:block; margin-bottom:10px; font-style:italic; font-weight:bold; font-size:14px;}
+
+.content_wrap .additional_block .gnral_content .form-group{ margin-bottom:10px}
+.content_wrap .additional_block .gnral_content .form-control{ width:auto}
+.content_wrap .additional_block .gnral_content label{ color:#516b74; font-size:18px;}
+/* /s.Additional Fields Block */
 /* /Content Block */
 
 
