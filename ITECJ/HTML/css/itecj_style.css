@@ -157,12 +157,14 @@ text-transform:uppercase}
 
 
 /* /s.Download Attchment Block */
+.content_wrap .dwn_attachment_block{ margin-bottom:35px;}
 .content_wrap .dwn_attachment_block h3,
 .content_wrap .dwn_attachment_block h4{ color:#a3b5c0; display:block; margin-bottom:10px; font-style:italic; font-weight:bold; font-size:14px;}
 
 .content_wrap .dwn_attachment_block .file-preview,
 .content_wrap .dwn_attachment_block .file-drop-zone{ border:0; padding:0; margin:0}
-.content_wrap .dwn_attachment_block .kv-file-zoom{ display:none}
+.content_wrap .dwn_attachment_block .kv-file-zoom,
+.content_wrap .dwn_attachment_block .fileinput-remove{ display:none}
 /* /s.Download Attchment Block */
 
 
@@ -180,6 +182,29 @@ text-transform:uppercase}
 .content_wrap .additional_block .gnral_content .form-control{ width:auto}
 .content_wrap .additional_block .gnral_content label{ color:#516b74; font-size:18px;}
 /* /s.Additional Fields Block */
+
+
+/* /s.Case History Block */
+.content_wrap .history_block{ color:#94a0a4}
+.content_wrap .history_block .ghdr_line{ padding-bottom:0; color:#a6d3da; position:relative;}
+.content_wrap .history_block .ghdr_line:after{ display:block; content:''; width:100%; height:1px; background:#f0f0f0; margin:0 auto 4px}
+.content_wrap .history_block .ghdr_line h3, 
+.content_wrap .history_block .ghdr_line h4{ padding:0 0 10px 100px; font-size:22px; font-weight:bold;}
+.content_wrap .history_block .ghdr_line .badge{ border-radius:50%; background:#ffffff; color:#90a3ae; width:58px; height:58px; position:absolute; top:10px; left:15px; 
+padding:22px 0 0; border:1px solid #f0f0f0; font-size:14px;}
+
+.content_wrap .history_block .gnral_content{ padding:15px}
+.content_wrap .history_block .img_user{ width:50px; height: 50px; margin-right:12px}
+.content_wrap .history_block .media{ margin-bottom:40px}
+
+.content_wrap .history_block .hdr_item{  font-style:normal; font-size:17px; margin-bottom:10px;}
+.content_wrap .history_block .hdr_item > li{ margin-right:12px;}
+.content_wrap .history_block .hdr_item > li:after { display: inline-block; content: '\2022'; position: relative; padding: 0; margin: 0 0 0 8px; color: #dce5e8; right: 0; }
+.content_wrap .history_block .hdr_item > li:last-child:after{ display:none}
+
+.content_wrap .history_block .name_user{ color: #90a3ae; font-weight:bold; }
+.content_wrap .history_block .small{ color:#96a7ad; font-style:normal; font-size:17px;}
+/* /s.Case History Block */
 /* /Content Block */
 
 
