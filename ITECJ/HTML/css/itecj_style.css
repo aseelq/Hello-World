@@ -36,7 +36,8 @@ a:hover, a:visited{ color:#61accc}
 .form-control{ border:1px solid #f0f0f0;}
 .thumbnail,
 .thumbnail:hover{ box-shadow:none; border:0; padding:0; margin:0; background:none}
-.modal-backdrop{ background-color:rgba(255, 255, 255, 0.88)}
+.modal-backdrop{ background-color:#dddede;}
+.modal-backdrop.show{ opacity:0.88}
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#92a6ad !important; padding-top:4px; opacity:1; filter:alpha(opacity=100);}
 ::-moz-placeholder { /* Firefox 19+ */ color:#92a6ad !important; padding-top:4px; opacity:1; filter:alpha(opacity=100);}
@@ -54,10 +55,11 @@ a:hover, a:visited{ color:#61accc}
 .header_wrap .search_block .btn,
 .header_wrap .search_block .form-control{ color:#708690; background:#49585f; border:0; box-shadow:none !important}
 .header_wrap .search_block .form-control{ min-width:200px}
+.header_wrap .search_block .btn > i{ max-width:70px; display:inline-block; text-overflow: ellipsis; overflow:hidden; font-style:normal; vertical-align:middle}
 
 .header_wrap .search_block .input-group-prepend{ margin-right:5px; min-width:155px;}
 .header_wrap .search_block .input-group-prepend .btn{ width:100%}
-.header_wrap .search_block .input-group-prepend .dropdown-toggle:after{ border-width:0.4em; margin-left: 2em;}
+.header_wrap .search_block .input-group-prepend .dropdown-toggle:after{ border-width:0.4em; margin-left: 15px; position:relative; top:4px;}
 .header_wrap .search_block .btn_search{ border-radius:0 .25rem .25rem 0; font-size:20px}
 
 .header_wrap .user_block{ font-size:17px; text-align:right}
@@ -130,7 +132,7 @@ text-transform:uppercase}
 
 /* s.Pophover modal box */
 .gnral_modal{ padding:0 20px}
-.gnral_modal .modal-dialog{ max-width:1300px; width:100%;}
+.gnral_modal .modal-dialog{ max-width:1300px; width:100%; margin-left:auto; margin-right:auto}
 .gnral_modal .modal-content{ border:1px solid #f0f0f0}
 .gnral_modal .modal-header{ border:none}
 
@@ -151,11 +153,11 @@ text-transform:uppercase}
 /* /--Header Title Page-- */
 
 /* s.Modal Input Block */
-.gnral_modal .recipient_block{ padding:40px 15px}
-.gnral_modal .recipient_block label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
-.gnral_modal .recipient_block .small{ color:#a3b5c0; display:inline-block; margin-right:10px; vertical-align:baseline}
+.gnral_modal .gnral_box{ padding:40px 15px}
+.gnral_modal .gnral_box label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
+.gnral_modal .gnral_box .small{ color:#a3b5c0; display:inline-block; margin-right:10px; vertical-align:baseline}
 
-.gnral_modal .recipient_block .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
+.gnral_modal .gnral_box .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
 /* /s.Modal Input Block */
 /* /s.Pophover modal box */
 
@@ -261,8 +263,10 @@ padding:22px 0 0; border:1px solid #f0f0f0; font-size:14px;}
 /* --- Media Queries --- */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
-	.content_wrap .hdr_block .lst_data > li{ text-align:center; padding: 0 12px 0 0; font-size:17px}
-	.content_wrap .hdr_block .lst_data > li:after{ display:none}
+	.content_wrap .hdr_block .lst_data > li,
+	.gnral_modal .hdr_block .lst_data > li{ text-align:center; padding: 0 12px 0 0; font-size:17px}
+	.content_wrap .hdr_block .lst_data > li:after,
+	.gnral_modal .hdr_block .lst_data > li:after{ display:none}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -288,22 +292,29 @@ padding:22px 0 0; border:1px solid #f0f0f0; font-size:14px;}
 	.content_wrap{ padding:0}
 	.content_wrap .container{ padding:20px 10px 10px; margin:0 10px 10px}
 	
-	.content_wrap .hdr_block h1, .content_wrap .hdr_block h2{ font-size:22px;}
-	.content_wrap .hdr_block .lst_data{ display:block!important;}
-	.content_wrap .hdr_block .lst_data > li{ margin-bottom:5px; font-size:17px; text-align:left}
-	.content_wrap .hdr_block .lst_data > li:after{ display:none}
+	.content_wrap .hdr_block h1, .content_wrap .hdr_block h2,
+	.gnral_modal .hdr_block h2, .gnral_modal .hdr_block h3{ font-size:22px;}
+	.content_wrap .hdr_block .lst_data,
+	.gnral_modal .hdr_block .lst_data{ display:block!important;}	
+	.content_wrap .hdr_block .lst_data > li,
+	.gnral_modal .hdr_block .lst_data > li{ margin-bottom:5px; font-size:17px; text-align:left}
+	.content_wrap .hdr_block .lst_data > li:after,
+	.gnral_modal .hdr_block .lst_data > li:after{ display:none}
 	
 	.content_wrap .hdr_block .lst_user{ align-items:flex-start !important;}
 	.content_wrap .hdr_block .lst_user .img_user{ margin: 58px 10px 5px 0;}
 	.content_wrap .hdr_block .btn{ width:100%}
 	
-	.content_wrap .gnral_box{ padding: 20px 10px 5px}
+	.content_wrap .gnral_box{ padding: 20px 10px 20px}
 	.content_wrap .gnral_wrap{ padding: 20px 0 5px}
 		
-	.content_wrap .recipient_block .input-group{ display:block}
+	.content_wrap .recipient_block .input-group,
+	.gnral_modal .gnral_box .input-group{ display:block}
 	.content_wrap .gnral_box label,
-	.content_wrap .recipient_block label{ margin:0; padding:0; font-size:22px;}
-	.content_wrap .recipient_block .form-control{ width:100%; font-size:17px}
+	.content_wrap .recipient_block label,
+	.gnral_modal .gnral_box label{ margin:0; padding:0; font-size:22px;}
+	.content_wrap .recipient_block .form-control,
+	.gnral_modal .gnral_box .form-control{ width:100%; font-size:17px}
 	
 	.content_wrap .editor_block,
 	.content_wrap .list-group,
