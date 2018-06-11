@@ -36,6 +36,7 @@ a:hover, a:visited{ color:#61accc}
 .form-control{ border:1px solid #f0f0f0;}
 .thumbnail,
 .thumbnail:hover{ box-shadow:none; border:0; padding:0; margin:0; background:none}
+.modal-backdrop{ background-color:rgba(255, 255, 255, 0.88)}
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#92a6ad !important; padding-top:4px; opacity:1; filter:alpha(opacity=100);}
 ::-moz-placeholder { /* Firefox 19+ */ color:#92a6ad !important; padding-top:4px; opacity:1; filter:alpha(opacity=100);}
@@ -99,7 +100,7 @@ text-transform:uppercase}
 /* /s.Header Title Page */
 
 
-/* s.Header Title Page */
+/* s.Header user data list */
 .content_wrap .hdr_block .lst_user .img_user{ margin:0 10px 5px 0}
 .content_wrap .hdr_block .lst_user h1,
 .content_wrap .hdr_block .lst_user h2{ margin-bottom:0; font-size:18px}
@@ -115,7 +116,8 @@ text-transform:uppercase}
 
 .content_wrap .hdr_block .lsbtn_action .lsbtn_create{ display:block}
 /* --/Action Btn Menu-- */
-/* /s.Header Title Page */
+/* /s.Header user data list */
+
 
 /* s.Recipient Block */
 .content_wrap .recipient_block{ padding:40px 15px}
@@ -124,6 +126,38 @@ text-transform:uppercase}
 
 .content_wrap .recipient_block .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
 /* /s.Recipient Block */
+
+
+/* s.Pophover modal box */
+.gnral_modal{ padding:0 20px}
+.gnral_modal .modal-dialog{ max-width:1300px; width:100%;}
+.gnral_modal .modal-content{ border:1px solid #f0f0f0}
+.gnral_modal .modal-header{ border:none}
+
+
+/* --Header Title Page-- */
+.gnral_modal .hdr_block{ border-bottom:2px solid #f0f0f0; padding-bottom:15px; margin-bottom:30px;}
+.gnral_modal .hdr_block h2,
+.gnral_modal .hdr_block h3{ font-weight:bold; font-size:26px; color:#37464f; margin-bottom:20px;}
+
+.gnral_modal .hdr_block .lst_data > li{ padding:0 8px 0 0; vertical-align:middle; font-size:20px; color:#92a6ad}
+.gnral_modal .hdr_block .lst_data > li:after{ display:inline-block; content:'\2022'; position:relative; padding:0; margin:0 0 0 8px; color:#dce5e8; right:0}
+.gnral_modal .hdr_block .lst_data > li:last-child{ padding:0}
+.gnral_modal .hdr_block .lst_data > li:last-child:after{ display:none}
+
+.gnral_modal .hdr_block .btn{ background:#80c1ca; color:#fcfcfc; border:1px solid #e1e0e0; min-height:35px; padding:2px 12px; font-weight:bold; font-size:15px; 
+text-transform:uppercase}
+.gnral_modal .hdr_block .btn i{ display:inline-block; padding:0 10px 0 0;}
+/* /--Header Title Page-- */
+
+/* s.Modal Input Block */
+.gnral_modal .recipient_block{ padding:40px 15px}
+.gnral_modal .recipient_block label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
+.gnral_modal .recipient_block .small{ color:#a3b5c0; display:inline-block; margin-right:10px; vertical-align:baseline}
+
+.gnral_modal .recipient_block .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
+/* /s.Modal Input Block */
+/* /s.Pophover modal box */
 
 
 /* /s.Editor, s.List Item, All Blocks */
