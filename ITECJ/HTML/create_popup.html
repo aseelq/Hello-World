@@ -94,16 +94,35 @@
 							<li>Case No. 3421</li>
 							<li>28 Jan 2016, 2:06 pm</li>
 							
-							<li class="ml-auto btn-group lst_btnaction">
+							<li class="ml-auto btn-group lsbtn_action">
 								<button type="button" class="btn btn_action dropdown-toggle" data-toggle="dropdown">
 									<i class="far fa-edit"></i> Action
 								</button>
 								
-								<div class="dropdown-menu">
-									<button class="dropdown-item" type="button">Action</button>
-									<button class="dropdown-item" type="button">Another action</button>
-									<button class="dropdown-item" type="button">Something else here</button>
-								</div>
+								<ul class="dropdown-menu">
+									<li><button class="dropdown-item" type="button"><i class="fas fa-file-alt"></i> Generate report</button></li>
+									<li><button class="dropdown-item" type="button"><i class="fas fa-user-friends"></i> Consult</button></li>
+									<li><button class="dropdown-item" type="button"><i class="fas fa-sign-in-alt"></i> Re-assign</button></li>
+									
+									
+									<li class="btn-group dropleft lsbtn_create">
+										<button class="dropdown-item" data-toggle="dropdown" type="button">
+											<i class="fas fa-plus-circle"></i> Create as
+										</button>
+										
+										<ul class="dropdown-menu">
+											<li><button class="dropdown-item" type="button"><i class="fas fa-plus-circle"></i> Workflow</button></li>
+											<li><button class="dropdown-item" type="button"><i class="fas fa-plus-circle"></i> Record</button></li>
+										</ul>
+									</li>
+									
+									
+									<li><button class="dropdown-item" type="button"><i class="fas fa-reply"></i> Replay</button></li>
+									<li><button class="dropdown-item" type="button"><i class="fas fa-reply-all"></i> Replay All</button></li>
+									<li><button class="dropdown-item" type="button"><i class="far fa-arrow-alt-circle-up"></i> Forward</button></li>
+									<li><button class="dropdown-item" type="button"><i class="fas fa-thumbs-up"></i> Acknowledge</button></li>
+									<li><button class="dropdown-item" type="button"><i class="far fa-check-circle"></i> Acknowledge</button></li>
+								</ul>
 							</li>
 						</ul>
 					</li>
@@ -300,6 +319,16 @@ $('.btn').click(function(){
 });
 /* /Active Button Box */
 
+/* /Action droplist button */
+$('.lsbtn_create').mouseover(function(){
+    $(this).addClass('show');
+	$(this).children(".dropdown-menu").addClass('show');
+});
+$('.lsbtn_create').mouseleave(function(){
+    $(this).removeClass('show');
+	$(this).children(".dropdown-menu").removeClass('show');
+});
+/* /Action droplist button */
 
 /* Summernote Text Editor */
 $('#summernote').summernote({

@@ -104,6 +104,15 @@ text-transform:uppercase}
 .content_wrap .hdr_block .lst_user h1,
 .content_wrap .hdr_block .lst_user h2{ margin-bottom:0; font-size:18px}
 .content_wrap .hdr_block .lst_user .btn_signing{ margin-bottom:25px}
+
+/* --Action Btn Menu-- */
+.content_wrap .hdr_block .lsbtn_action .dropdown-item{ margin-bottom:10px; color:#92a6ad}
+.content_wrap .hdr_block .lsbtn_action .dropdown-item.active, 
+.content_wrap .hdr_block .lsbtn_action .dropdown-item:active{ color:#fcfcfc}
+.content_wrap .hdr_block .lsbtn_action .dropdown-item i{ display:inline-block; margin-right:10px}
+
+.content_wrap .hdr_block .lsbtn_action .lsbtn_create{ display:block}
+/* --/Action Btn Menu-- */
 /* /s.Header Title Page */
 
 /* s.Recipient Block */
