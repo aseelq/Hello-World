@@ -153,40 +153,25 @@
 			</div>
 			<!-- /Recipient Block -->
 			
-			<!-- Editor Text Block -->
+			<!-- All Wrapper Blocks -->
 			<div class="gnral_box allblock_wraper">
 				<!-- Editor Text Block -->
 				<div class="editor_block">
+					<div class="form-group">
+						<input type="text" class="form-control" id="inputSubject" aria-describedby="subjectHelp" placeholder="*** Add Subject">
+						<small id="inputSubject" class="form-text">subject is required</small>
+					</div>
+					
 					<div id="summernote"></div>
+					
+					<div class="form-group blockquote">
+						<label for="inputComment">Restricted comment ...</label>
+						<textarea class="form-control" id="inputComment" rows="2"></textarea>
+					</div>
 				</div>
 				<!-- /Editor Text Block -->
-				
-				<!-- List Item Block -->
-				<div class="list-group">
-				  <h3>System Experiencing  Exorbitian Hard Disk Usage</h3>
-				  
-				  <ul>
-					  <li href="#" class="list-group-item flex-column align-items-start">
-						<p class="grph_primary">
-						Hello ... <br />
-						
-						In our last coversation, you suggested me to run windows update to solve the graphic card you suggested me 
-						to run windows update to solve the graphic card.
-						</p>
-						
-						<blockquote>
-							<i class="small">Restricted comment ...</i>
-							<p>
-								In our last coversation, you suggested me to run windows update to solve the graphic 
-								card you suggested me to run windows update to solve the graphic card.
-							</p>
-						</blockquote>
-					  </li>
-				  </ul>
-				 </div>
-				 <!-- /List Item Block -->
 			</div>
-			<!-- /Editor Text Block -->	
+			<!-- /All Wrapper Blocks -->
 			
 			<!-- Extra Fields Block -->
 			<div class="gnral_box xtneed_block">
@@ -217,12 +202,14 @@
 									<i class="icon icn_chart high"></i> High
 								  </label>
 								</div>
+								
 								<div class="form-check form-check-inline">
 								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
 								  <label class="form-check-label" for="gridRadios2">
 									<i class="icon icn_chart meduim"></i> Meduim
 								  </label>
 								</div>
+								
 								<div class="form-check form-check-inline">
 								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
 								  <label class="form-check-label" for="gridRadios3">
@@ -350,7 +337,7 @@ $(".lst_option .form-check").on("click",function() {
 
 /* Summernote Text Editor */
 $('#summernote').summernote({
-  placeholder: 'Your consultation text here.',
+  placeholder: '*** Add body text',
   height: 200,                // set editor height
   minHeight: null,            // set minimum height of editor
   maxHeight: null,            // set maximum height of editor
