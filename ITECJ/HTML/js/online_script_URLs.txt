@@ -20,3 +20,7 @@ https://summernote.org/getting-started/#run-summernote
 Uplaoder Attachment Files:
 http://plugins.krajee.com/file-input#usage
 http://plugins.krajee.com/file-input/demo#preview-management
+
+
+Bootstrap Tags Input:
+https://github.com/Nodws/bootstrap4-tagsinput
