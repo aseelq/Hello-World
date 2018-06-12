@@ -9,10 +9,10 @@
   border-width: 0 0 2px;
   box-shadow:none;
   display: inline-block;
-  padding: 0 6px;
+  padding: 0 5px 5px 0;
   color: #64818b;
   vertical-align: middle;
-  border-radius: none;
+  border-radius: 0;
   width: auto;
   min-width:450px;
   cursor: text;
