@@ -186,6 +186,19 @@
 									</span>
 								</a>
 							  </li>
+							  
+							  <li class="list-group-item">
+								<div class="btn-group" role="group">
+									<button type="button" class="btn btn_grid active" data-toggle="tooltip" data-placement="bottom" title="OS Tree">
+									<i class="icn icn_grid"></i></button>
+									
+									<button type="button" class="btn btn_sitemap"><i class="icn icn_sitemap"></i></button>
+									<button type="button" class="btn btn_diagram"><i class="icn icn_diagram"></i></button>
+									<button type="button" class="btn btn_pen"><i class="icn icn_pen"></i></button>
+									<button type="button" class="btn btn_community"><i class="icn icn_community"></i></button>
+									<button type="button" class="btn btn_list"><i class="icn icn_list"></i></button>
+								</div>
+							  </li>
 							</ul>
 						</div>
 					</div>
@@ -365,19 +378,6 @@
 
 <script>
 $(document).ready(function() {
-/* Active Button Box */
-$('.btn').click(function(){
-	if($(this).hasClass('active')){
-		$(this).removeClass('active');
-		
-	} else
-	if(!$(this).hasClass("active")){
-		$(this).addClass('active');
-	}
-});
-/* /Active Button Box */
-
-
 /* Changed background for option selected box */
 $(".lst_option .form-check").on("click",function() {
 	if($(this).find('input[type="radio"]').is(':checked')) { 
@@ -409,6 +409,10 @@ $('#uploaderFile').fileinput({
 	allowedFileExtensions: ['jpg', 'png', 'gif']
 });  
 /* /Attachment Files, initialize with defaults */
+
+/* show Tooltip */
+$('[data-toggle="tooltip"]').tooltip();
+/* /show Tooltip */
 });
 </script>
 </body>
