@@ -111,7 +111,7 @@ text-transform:uppercase}
 /* --Action Btn Menu-- */
 .content_wrap .hdr_block .lsbtn_action .dropdown-menu{ list-style:none !important}
 
-.content_wrap .hdr_block .lsbtn_action .dropdown-item{ margin-bottom:10px; color:#92a6ad}
+.content_wrap .hdr_block .lsbtn_action .dropdown-item{ margin-bottom:10px; color:#92a6ad; cursor:pointer;}
 .content_wrap .hdr_block .lsbtn_action .dropdown-item.active, 
 .content_wrap .hdr_block .lsbtn_action .dropdown-item:active{ color:#fcfcfc}
 .content_wrap .hdr_block .lsbtn_action .dropdown-item i{ display:inline-block; margin-right:10px}
@@ -121,13 +121,30 @@ text-transform:uppercase}
 /* /s.Header user data list */
 
 
-/* s.Recipient Block */
+/* s.Recipient Input Block */
 .content_wrap .recipient_block{ padding:40px 15px}
 .content_wrap .recipient_block label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
 .content_wrap .recipient_block .small{ color:#a3b5c0; display:inline-block; margin-right:10px; vertical-align:baseline}
 
 .content_wrap .recipient_block .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
-/* /s.Recipient Block */
+/* /s.Recipient Input Block */
+
+
+/* s.Workflow details Block */
+.content_wrap .workflowdtail_block{ padding:40px 15px}
+.content_wrap .workflowdtail_block .input-group{ align-items: flex-start;}
+.content_wrap .workflowdtail_block label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
+.content_wrap .workflowdtail_block .small{ color:#a3b5c0; display:inline-block; margin-right:10px; vertical-align:baseline}
+
+.content_wrap .workflowdtail_block .form-control{ border-width:2px; border-color:#d8eff2; padding:10px; resize: none; box-shadow:none; border-radius:0; color:#64818b;
+max-width:300px; height:100% !important; border-radius:5px; font-size:17px;}
+
+.content_wrap .workflowdtail_block .lst_option .form-check{ max-width:200px; height:70px; overflow:hidden; padding:12px 10px 10px; background:#ffffff; border:1px solid #d3d3d3; 
+border-radius:5px; align-items: flex-start; cursor:pointer}
+.content_wrap .workflowdtail_block .lst_option label{ color:#37464f; margin:-5px 0 0; cursor:pointer; font-weight:bold; font-size:14px;}
+.content_wrap .workflowdtail_block .lst_option .small{ display:block; color:#899ca7; cursor:pointer; font-style:normal}
+.content_wrap .workflowdtail_block .lst_option .form-check.checked{ background:#d8eff2; border:1px solid #80c1ca;}
+/* /s.Workflow details Block */
 
 
 /* s.Pophover modal box */
@@ -135,7 +152,6 @@ text-transform:uppercase}
 .gnral_modal .modal-dialog{ max-width:1300px; width:100%; margin-left:auto; margin-right:auto}
 .gnral_modal .modal-content{ border:1px solid #f0f0f0}
 .gnral_modal .modal-header{ border:none}
-
 
 /* --Header Title Page-- */
 .gnral_modal .hdr_block{ border-bottom:2px solid #f0f0f0; padding-bottom:15px; margin-bottom:30px;}
@@ -152,13 +168,13 @@ text-transform:uppercase}
 .gnral_modal .hdr_block .btn i{ display:inline-block; padding:0 10px 0 0;}
 /* /--Header Title Page-- */
 
-/* s.Modal Input Block */
+/* --Modal Input/Workflow, Record/ Block-- */
 .gnral_modal .gnral_box{ padding:40px 15px}
 .gnral_modal .gnral_box label{ background:none; border:none; font-weight:bold; font-size:26px; margin-right:25px;}
 .gnral_modal .gnral_box .small{ color:#a3b5c0; display:inline-block; margin-right:10px; vertical-align:baseline}
 
 .gnral_modal .gnral_box .form-control{ border-width:0 0 2px; border-color:#d8eff2; padding:0; resize: none; box-shadow:none; border-radius:0; max-width:450px; font-size:20px;}
-/* /s.Modal Input Block */
+/* /--Modal Input/Workflow, Record/ Block-- */
 /* /s.Pophover modal box */
 
 
