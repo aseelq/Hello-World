@@ -16,6 +16,7 @@
   width: auto;
   min-width:450px;
   cursor: text;
+  position:relative;
 }
 .bootstrap-tagsinput input {
   border: none;

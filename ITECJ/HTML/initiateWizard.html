@@ -153,9 +153,11 @@
 				<form class="gnral_content">
 					<div class="form-group">
 						<label for="inputSearchName" class="sr-only">Search names, committies or departments</label>
-						<input type="text" value="Amsterdam,Mohammad thaher" data-role="tagsinput" />
+						<input type="text" class="other_input" value="Amsterdam,Mohammad thaher" data-role="tagsinput" />
 						
-						<div class="lst_suggestion">
+						<div class="lst_suggestion" style="display:none">
+							<span class="badge badge_nmbersult">12 Results</span>
+							
 							<ul class="list-group">
 							  <li class="list-group-item">
 								<a href="#" class="d-flex align-items-center">
@@ -186,20 +188,18 @@
 									</span>
 								</a>
 							  </li>
-							  
-							  <li class="list-group-item">
-								<div class="btn-group" role="group">
-									<button type="button" class="btn btn_grid active" data-toggle="tooltip" data-placement="bottom" title="OS Tree">
-									<i class="icn icn_grid"></i></button>
-									
-									<button type="button" class="btn btn_sitemap"><i class="icn icn_sitemap"></i></button>
-									<button type="button" class="btn btn_diagram"><i class="icn icn_diagram"></i></button>
-									<button type="button" class="btn btn_pen"><i class="icn icn_pen"></i></button>
-									<button type="button" class="btn btn_community"><i class="icn icn_community"></i></button>
-									<button type="button" class="btn btn_list"><i class="icn icn_list"></i></button>
-								</div>
-							  </li>
 							</ul>
+							<div class="btn-group" role="group">	
+								<button type="button" class="btn btn_grid active" title="OS Tree">
+									<i class="icn icn_grid"></i>
+								</button>
+								
+								<button type="button" class="btn btn_sitemap"><i class="icn icn_sitemap"></i></button>
+								<button type="button" class="btn btn_diagram"><i class="icn icn_diagram"></i></button>
+								<button type="button" class="btn btn_pen"><i class="icn icn_pen"></i></button>
+								<button type="button" class="btn btn_community"><i class="icn icn_community"></i></button>
+								<button type="button" class="btn btn_list"><i class="icn icn_list"></i></button>
+							</div>
 						</div>
 					</div>
 					
@@ -410,9 +410,22 @@ $('#uploaderFile').fileinput({
 });  
 /* /Attachment Files, initialize with defaults */
 
-/* show Tooltip */
-$('[data-toggle="tooltip"]').tooltip();
-/* /show Tooltip */
+
+/* Show suggetion list */
+$('.bootstrap-tagsinput').click(function(){
+	var $listHTML = $('.lst_suggestion').wrapAll("<div class='d-none'>").parent().html();
+		
+	if($(this).hasClass('focus')){
+		$(this).append($listHTML);
+		$('.lst_suggestion').show('normal');
+		$('.gnral_content .d-none').remove();
+	}	
+});
+
+$('.bootstrap-tagsinput').mouseleave(function(){
+	$(this).children('.lst_suggestion').hide();
+})
+/* /Show suggetion list */
 });
 </script>
 </body>
