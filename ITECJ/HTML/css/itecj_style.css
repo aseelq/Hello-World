@@ -322,7 +322,7 @@ color:#90a3ae; }
 .content_wrap .history_block .ghdr_line h3, 
 .content_wrap .history_block .ghdr_line h4{ color:#a6d3da; padding:0 10px 10px 100px; font-size:22px; font-weight:bold; display: inline-block}
 .content_wrap .history_block .arrow_wrap{ margin-left:20px; float:right}
-.content_wrap .history_block .arrow_wrap .icn{ color:#a6d3da; display:block; font-size:17px; line-height:100%; position:relative; bottom:-2px}
+.content_wrap .history_block .arrow_wrap .icn{ color:#a6d3da; display:block; font-size:17px; line-height:100%; position:relative; bottom:-2px; background:none}
 .content_wrap .history_block .arrow_wrap .icn.icn_arwup{ margin-bottom:-7px}
 
 .content_wrap .history_block .ghdr_line .badge{ border-radius:50%; background:#ffffff; color:#90a3ae; width:58px; height:58px; position:absolute; top:10px; left:15px; 
