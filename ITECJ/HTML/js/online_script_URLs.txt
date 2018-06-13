@@ -24,3 +24,10 @@ http://plugins.krajee.com/file-input/demo#preview-management
 
 Bootstrap Tags Input:
 https://github.com/Nodws/bootstrap4-tagsinput
+
+
+Select Data Calender Bootstrap:
+http://bootstrap-datepicker.readthedocs.io/en/latest/index.html
+
+Example DataCalender Bootstrap:
+https://formden.com/blog/date-picker
