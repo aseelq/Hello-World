@@ -380,14 +380,13 @@ width:2px; height:28px; background:#f0f0f0; vertical-align:middle}
 .content_wrap .accordion_block .lst_data > li:last-child{ padding:0}
 .content_wrap .accordion_block .lst_data > li:last-child:after{ display:none}
 
-.content_wrap .accordion_block .card-body{ padding:0;}
-
 /* --Tabs, Buttons Block-- */
 .content_wrap .accordion_block .lst_button{ border-bottom:2px solid #f0f0f0; padding:15px 35px 0;}
 .content_wrap .accordion_block .lst_button > li{ padding:0 25px 0 0; vertical-align:middle; font-size:17px; color:#707378}
 .content_wrap .accordion_block .lst_button .btn{ min-height:35px; padding:8px 12px; font-weight:bold; font-size:15px;}
 .content_wrap .accordion_block .lst_button .btn i{ display:inline-block; padding:0 10px 0 0;}
 .content_wrap .accordion_block .lst_button .btn_wizard{ margin-top:-10px; background:#80c1ca; color:#fcfcfc; border:1px solid #e1e0e0;}
+.content_wrap .accordion_block .lst_button .pagination_block{ color:#928d8d; font-weight:bold}
 
 .content_wrap .accordion_block .lst_button .nav-tabs{ border:0;}
 .content_wrap .accordion_block .lst_button .nav-item{ color:#707378; border:1px solid #f0f0f0; background:#ffffff; margin-right:5px; font-size:15px;}
@@ -397,6 +396,9 @@ width:2px; height:28px; background:#f0f0f0; vertical-align:middle}
 .content_wrap .accordion_block .lst_button .nav-item .far,
 .content_wrap .accordion_block .lst_button .nav-item .fas{ color:#a1b0b5}
 /* --/Tabs, Buttons Block-- */
+
+.content_wrap .accordion_block .card-body{ padding:0;}
+
 /* /s.Accordion Block */
 /* /Content Block */
 
