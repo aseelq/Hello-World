@@ -114,6 +114,9 @@
 												<a class="nav-item nav-link" id="nav-completed-tab" data-toggle="tab" href="#nav-completed" role="tab" aria-controls="nav-completed" aria-selected="false">
 													<i class="fas fa-check-circle"></i> Completed
 												</a>
+												<a class="nav-item nav-link" id="nav-add-tab" data-toggle="tab" href="#nav-add" role="tab" aria-controls="nav-add" aria-selected="false">
+													<i class="fas fa-plus"></i> <i class="sr-only">Add</i>
+												</a>
 											</div>
 										</nav>
 									</li>
@@ -130,14 +133,78 @@
 								<!-- Tabs Body Block -->
 								<div class="tab-content" id="nav-tabContent">
 									<div class="tab-pane fade show active" id="nav-subordinates" role="tabpanel" aria-labelledby="nav-home-tab">
-										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
-										non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
-										bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-										cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
-										synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+										<!-- Table Block -->
+										<div class="table-responsive">
+											<table class="table table-hover">
+											  <thead>
+												<tr>
+												  <th scope="col"><i class="sr-only">Unread</i></th>
+												  <th scope="col">Case No.</th>
+												  <th scope="col">priority</th>
+												  <th scope="col">Attachment</th>
+												  <th scope="col">From</th>
+												  <th scope="col">Subject</th>
+												  
+												  <th scope="col">Workflow Type</th>
+												  <th scope="col">Due Date</th>
+												  <th scope="col">Date</th>
+												  <th scope="col">Type</th>
+												  <th scope="col"><i class="sr-only">Other</i></th>
+												</tr>
+											  </thead>
+											  
+											  <tbody>
+												<tr>
+												  <th><i class="fas fa-circle active"></i></th>
+												  <td>500</td>
+												  <td><i class="icon icn_chart high"></i></td>
+												  <td></td>
+												  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
+												  <td>ITEC_OrgStructure Jan 2016</td>
+												  
+												  <td>General Workflow</td>
+												  <td>02/11/2017<br />2:00 pm</td>
+												  <td>02/11/2017<br />2:00 pm</td>
+												  <td><span class="badge badge-primary">Signing</span></td>
+												  <td><i class="fas fa-ellipsis-h"></i></td>
+												</tr>
+												
+												<tr>
+												  <th><i class="fas fa-circle"></i></th>
+												  <td>234</td>
+												  <td><i class="icon icn_chart meduim"></i></td>
+												  <td><i class="fas fa-paperclip"></i></td>
+												  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
+												  <td>ITEC_OrgStructure Jan 2016</td>
+												  
+												  <td>Record to Workflow - signiture</td>
+												  <td>02/11/2017<br />2:00 pm</td>
+												  <td>02/11/2017<br />2:00 pm</td>
+												  <td><span class="badge badge-dark">CCC</span></td>
+												  <td><i class="fas fa-ellipsis-h"></i></td>
+												</tr>
+												
+												<tr>
+												  <th><i class="fas fa-circle active"></i></th>
+												  <td>724</td>
+												  <td><i class="icon icn_chart low"></i></td>
+												  <td></td>
+												  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
+												  <td>ITEC_OrgStructure Jan 2016</td>
+												  
+												  <td>Fronted Developer</td>
+												  <td>02/11/2017<br />2:00 pm</td>
+												  <td>02/11/2017<br />2:00 pm</td>
+												  <td><span class="badge badge-success">I-approval</span></td>
+												  <td><i class="fas fa-ellipsis-h"></i></td>
+												</tr>
+											  </tbody>
+											</table>
+										</div>
+										<!-- /Table Block -->
 									</div>
-									<div class="tab-pane fade" id="nav-assigned" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-									<div class="tab-pane fade" id="nav-completed" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+									<div class="tab-pane fade" id="nav-assigned" role="tabpanel" aria-labelledby="nav-profile-tab"><p>No search results</p></div>
+									<div class="tab-pane fade" id="nav-completed" role="tabpanel" aria-labelledby="nav-contact-tab"><p>No search results</p></div>
 								</div>
 								<!-- /Tabs Body Block -->
 							</div>
@@ -164,11 +231,7 @@
 						<!-- Body Accordion Block -->
 						<div id="collapseBroadcasts" class="collapse" aria-labelledby="headingBroadcasts" data-parent="#accordion">
 						  <div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
-							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
-							bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-							cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
-							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<p>No search results</p>
 						  </div>
 						</div>
 						<!-- /Body Accordion Block -->
@@ -193,11 +256,7 @@
 						<!-- Body Accordion Block -->
 						<div id="collapseRecords" class="collapse" aria-labelledby="headingRecords" data-parent="#accordion">
 						  <div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
-							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
-							bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-							cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
-							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<p>No search results</p>
 						  </div>
 						</div>
 						<!-- /Body Accordion Block -->
