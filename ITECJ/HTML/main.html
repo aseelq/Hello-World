@@ -29,7 +29,7 @@
 <![endif]-->
 </head>
 
-<body class="pg_inner">
+<body class="pg_home">
 <!-- Header Website/RWD -->
 <header>
     <div class="header_wrap header">
@@ -75,89 +75,88 @@
 <!-- Body Website/RWD -->
 <section>
     <div class="content_wrap section">
-		<div class="container">
-			<!-- Header title page -->
-			<div class="hdr_block">
-				<h1>Consult:</h1>
-				
-				<ul class="d-flex align-items-center lst_data">
-					<li><i class="fas fa-paperclip"></i><cite class="sr-only">Attachment</cite></li>
-					<li><i class="icon icn_chart high"></i><cite class="sr-only">Priority</cite></li>
-					<li>Category 1</li>
-					<li>General Workflow</li>
-					<li>Case No. 3421</li>
-					<li>28 Jan 2016, 2:06 pm</li>
-					
-					<li class="ml-auto"><button type="button" class="btn btn_consult"><i class="fas fa-user-friends"></i> consult</button></li>
-				</ul>
-			</div>
-			<!-- /Header title page -->
-			
-			<!-- Recipient Block -->
-			<div class="gnral_box recipient_block">
-				<div class="input-group">
-				  <div class="input-group-prepend">
-					<label class="input-group-text"><i class="small">***</i> Recipients:</label>
-				  </div>
-				  <input type="text" class="form-control" placeholder="Search names, committies or departments">
-				</div>
-			</div>
-			<!-- /Recipient Block -->
-			
-			<!-- All Wrapper Blocks -->
-			<div class="gnral_box allblock_wraper">
-				<!-- Editor Text Block -->
-				<div class="editor_block">
-					<div id="summernote"></div>
-				</div>
-				<!-- /Editor Text Block -->
-				
-				<!-- List Consult Block -->
-				<div class="list-group">
-				  <h3>System Experiencing  Exorbitian Hard Disk Usage</h3>
-				  
-				  <ul>
-					  <li href="#" class="list-group-item flex-column align-items-start">
-						<p class="grph_primary">
-						Hello ... <br />
-						
-						In our last coversation, you suggested me to run windows update to solve the graphic card you suggested me 
-						to run windows update to solve the graphic card.
-						</p>
-						
-						<blockquote>
-							<i class="small">Restricted comment ...</i>
-							<p>
-								In our last coversation, you suggested me to run windows update to solve the graphic 
-								card you suggested me to run windows update to solve the graphic card.
-							</p>
-						</blockquote>
-					  </li>
-				  </ul>
-				 </div>
-				 <!-- /List Consult Block -->
-			</div>
-			<!-- /All Wrapper Blocks -->	
+		<div class="accordion_block">
+			<div class="container">
+				<ul id="accordion">
+					<li class="card">
+						<div class="card-header" id="headingWorkflow">
+							<h3>
+								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseWorkflow" aria-expanded="true" aria-controls="collapseWorkflow">
+									<i class="fas fa-chevron-down"></i> Workflow 
+								</button>
+							</h3>
+							<ul class="d-flex align-items-center lst_data">
+								<li><i class="fas fa-exclamation-circle"></i> Priority <cite>: 13</cite></li>
+								<li><i class="far fa-envelope"></i> Unread Cases <cite>: 13</cite></li>
+								<li><i class="fas fa-exclamation-circle"></i> CC Acknowledge <cite>: 13</cite></li>
+								<li><i class="fas fa-exclamation-circle"></i> CCC Acknowledge <cite>: 13</cite></li>
+								<li><i class="fas fa-exclamation-circle"></i> Consult <cite>: 13</cite></li>
+							</ul>
+						</div>
 
-			<!-- Uploader Attachment Block -->
-			<div class="gnral_box attachment_block">
-				<form class="uploader_wrap" enctype="multipart/form-data">
-					<label>Attachments<i class="small">, attach more files</i>:</label>
+						<div id="collapseWorkflow" class="collapse show" aria-labelledby="headingWorkflow" data-parent="#accordion">
+							<div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
+							bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+							cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
+							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						  </div>
+						</div>
+					</li>
 					
-					<!-- <div class="file-loading" dir=rtl>, Call it when using Arabic -->
-					<div class="file-loading">
-						<input id="uploaderFile" name="file-ar[]" type="file" multiple>
-					</div>        
-				</form>
-			</div>
-			<!-- / Uploader Attachment Block -->
-			
-			<!-- Notifications Block -->
-			<div class="alert alert-light alert_block" role="alert">
-			  <p>Fields need to be filled brfore you can consult ***</p>
-			</div>
-			<!-- /Notifications Block -->
-		</div>    	                          
+					<li class="card">
+						<div class="card-header" id="headingBroadcasts">
+							<h3>
+								Dashboard
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseBroadcasts" aria-expanded="false" aria-controls="collapseBroadcasts">
+									<i class="fas fa-chevron-right"></i> Broadcasts
+								</button>
+							</h3>
+							<ul class="d-flex align-items-center lst_data">
+								<li><i class="fas fa-exclamation-circle"></i> Regulations <cite>: 13</cite></li>
+								<li><i class="far fa-envelope"></i> Informatives <cite>: 13</cite></li>
+							</ul>
+						</div>
+
+						<div id="collapseBroadcasts" class="collapse" aria-labelledby="headingBroadcasts" data-parent="#accordion">
+						  <div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
+							bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+							cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
+							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						  </div>
+						</div>
+					</li>
+					
+					<li class="card">
+						<div class="card-header" id="headingRecords">
+						  <h3>
+							Dashboard
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseRecords" aria-expanded="false" aria-controls="collapseRecords">
+								<i class="fas fa-chevron-right"></i> Records
+							</button>
+						  </h3>
+						  <ul class="d-flex align-items-center lst_data">
+								<li><i class="fas fa-exclamation-circle"></i> In-progress <cite>: 13</cite></li>
+								<li><i class="far fa-envelope"></i> Un-assigned <cite>: 13</cite></li>
+							</ul>
+						</div>
+						
+						<div id="collapseRecords" class="collapse" aria-labelledby="headingRecords" data-parent="#accordion">
+						  <div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
+							bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+							cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
+							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						  </div>
+						</div>
+					</li>
+				</ul>
+			</div> 
+		</div>		
     </div>
 </section>
 <!-- Body Website/RWD -->
