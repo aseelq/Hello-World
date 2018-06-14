@@ -121,90 +121,109 @@
 										</nav>
 									</li>
 									<li><button type="button" class="btn btn_wizard"><i class="far fa-edit"></i> Initiate wizard</button></li>
-									<li>
-										<span class="pagination_block">
-											<cite class="nm_range">1-50</cite> of <cite class="nm_total">75</cite>
-										</span>
-									</li>
-									<li></li>
 								</ul>
 								<!-- /Tabs, Buttons Block -->
 								
 								<!-- Tabs Body Block -->
 								<div class="tab-content" id="nav-tabContent">
-									<div class="tab-pane fade show active" id="nav-subordinates" role="tabpanel" aria-labelledby="nav-home-tab">
-										<!-- Table Block -->
-										<div class="table-responsive">
-											<table class="table table-hover">
-											  <thead>
-												<tr>
-												  <th scope="col"><i class="sr-only">Unread</i></th>
-												  <th scope="col">Case No.</th>
-												  <th scope="col">priority</th>
-												  <th scope="col">Attachment</th>
-												  <th scope="col" style="min-width:250px">From</th>
-												  <th scope="col">Subject</th>
-												  
-												  <th scope="col">Workflow Type</th>
-												  <th scope="col">Due Date</th>
-												  <th scope="col">Date</th>
-												  <th scope="col">Type</th>
-												  <th scope="col"><i class="sr-only">Other</i></th>
-												</tr>
-											  </thead>
-											  
-											  <tbody>
-												<tr>
-												  <th><i class="fas fa-circle active"></i></th>
-												  <td>500</td>
-												  <td><i class="icon icn_chart high"></i></td>
-												  <td><i class="sr-only">no attachment</i></td>
-												  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
-												  <td>ITEC_OrgStructure Jan 2016</td>
-												  
-												  <td>General Workflow</td>
-												  <td>02/11/2017<br />2:00 pm</td>
-												  <td>02/11/2017<br />2:00 pm</td>
-												  <td><span class="badge badge-primary">Signing</span></td>
-												  <td><i class="fas fa-ellipsis-h"></i></td>
-												</tr>
-												
-												<tr>
-												  <th><i class="fas fa-circle"></i></th>
-												  <td>234</td>
-												  <td><i class="icon icn_chart meduim"></i></td>
-												  <td><i class="fas fa-paperclip"></i></td>
-												  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
-												  <td>ITEC_OrgStructure Jan 2016</td>
-												  
-												  <td>Record to Workflow - signiture</td>
-												  <td>02/11/2017<br />2:00 pm</td>
-												  <td>02/11/2017<br />2:00 pm</td>
-												  <td><span class="badge badge-dark">CCC</span></td>
-												  <td><i class="fas fa-ellipsis-h"></i></td>
-												</tr>
-												
-												<tr>
-												  <th><i class="fas fa-circle active"></i></th>
-												  <td>724</td>
-												  <td><i class="icon icn_chart low"></i></td>
-												  <td><i class="sr-only">no attachment</i></td>
-												  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
-												  <td>ITEC_OrgStructure Jan 2016</td>
-												  
-												  <td>Fronted Developer</td>
-												  <td>02/11/2017<br />2:00 pm</td>
-												  <td>02/11/2017<br />2:00 pm</td>
-												  <td><span class="badge badge-success">I-approval</span></td>
-												  <td><i class="fas fa-ellipsis-h"></i></td>
-												</tr>
-											  </tbody>
-											</table>
+									<div class="tab-pane fade show active" id="nav-subordinates" role="tabpanel" aria-labelledby="nav-subordinates-tab">
+										<div id="carouselWorkflow" class="carousel slide" data-ride="carousel" data-interval="false">
+											<!-- Controls Carousel -->
+											<div class="carousel-control">
+												<span class="pagination_block">
+													<cite class="nm_range">1-50</cite> of <cite class="nm_total">75</cite>
+												</span>
+												<a class="btn btn_control carousel-control-prev" href="#carouselWorkflow" role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="btn btn_control carousel-control-next" href="#carouselWorkflow" role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>
+											<!-- /Controls Carousel -->
+											
+											<!-- Inner Carousel -->
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<!-- Table Block -->
+													<div class="table-responsive">
+														<table class="table table-hover">
+														  <thead>
+															<tr>
+															  <th scope="col"><i class="sr-only">Unread</i></th>
+															  <th scope="col">Case No.</th>
+															  <th scope="col">priority</th>
+															  <th scope="col">Attachment</th>
+															  <th scope="col" style="min-width:250px">From</th>
+															  <th scope="col">Subject</th>
+															  
+															  <th scope="col" style="min-width:200px">Workflow Type</th>
+															  <th scope="col">Due Date</th>
+															  <th scope="col">Date</th>
+															  <th scope="col">Type</th>
+															  <th scope="col"><i class="sr-only">Other</i></th>
+															</tr>
+														  </thead>
+														  
+														  <tbody>
+															<tr>
+															  <th><i class="fas fa-circle active"></i></th>
+															  <td>500</td>
+															  <td><i class="icon icn_chart high"></i></td>
+															  <td><i class="sr-only">no attachment</i></td>
+															  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
+															  <td>ITEC_OrgStructure Jan 2016</td>
+															  
+															  <td>General Workflow</td>
+															  <td>02/11/2017<br />2:00 pm</td>
+															  <td>02/11/2017<br />2:00 pm</td>
+															  <td><span class="badge badge-primary">Signing</span></td>
+															  <td><i class="fas fa-ellipsis-h"></i></td>
+															</tr>
+															
+															<tr>
+															  <th><i class="fas fa-circle"></i></th>
+															  <td>234</td>
+															  <td><i class="icon icn_chart meduim"></i></td>
+															  <td><i class="fas fa-paperclip"></i></td>
+															  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
+															  <td>ITEC_OrgStructure Jan 2016</td>
+															  
+															  <td>Record to Workflow - signiture</td>
+															  <td>02/11/2017<br />2:00 pm</td>
+															  <td>02/11/2017<br />2:00 pm</td>
+															  <td><span class="badge badge-dark">CCC</span></td>
+															  <td><i class="fas fa-ellipsis-h"></i></td>
+															</tr>
+															
+															<tr>
+															  <th><i class="fas fa-circle active"></i></th>
+															  <td>724</td>
+															  <td><i class="icon icn_chart low"></i></td>
+															  <td><i class="sr-only">no attachment</i></td>
+															  <td>Minster office Manager  | Head of PS & Analysis | Ehab</td>
+															  <td>ITEC_OrgStructure Jan 2016</td>
+															  
+															  <td>Fronted Developer</td>
+															  <td>02/11/2017<br />2:00 pm</td>
+															  <td>02/11/2017<br />2:00 pm</td>
+															  <td><span class="badge badge-success">I-approval</span></td>
+															  <td><i class="fas fa-ellipsis-h"></i></td>
+															</tr>
+														  </tbody>
+														</table>
+													</div>
+													<!-- /Table Block -->
+												</div>
+												<div class="carousel-item"><p>No search results</p></div>
+											</div>
+											<!-- /Inner Carousel -->
 										</div>
-										<!-- /Table Block -->
 									</div>
-									<div class="tab-pane fade" id="nav-assigned" role="tabpanel" aria-labelledby="nav-profile-tab"><p>No search results</p></div>
-									<div class="tab-pane fade" id="nav-completed" role="tabpanel" aria-labelledby="nav-contact-tab"><p>No search results</p></div>
+									<div class="tab-pane fade" id="nav-assigned" role="tabpanel" aria-labelledby="nav-assigned-tab"><p>No search results</p></div>
+									<div class="tab-pane fade" id="nav-completed" role="tabpanel" aria-labelledby="nav-completed-tab"><p>No search results</p></div>
 								</div>
 								<!-- /Tabs Body Block -->
 							</div>
@@ -306,6 +325,10 @@
 <script src="js/theme.min.js" type="text/javascript"></script>
 
 
+<!-- Swipe carousel -->
+<script src="js/jquery.mobile.custom.min.js"></script>
+
+
 <script>
 $(document).ready(function() {
 /* Active Button Box */
@@ -342,6 +365,18 @@ $('#uploaderFile').fileinput({
 	allowedFileExtensions: ['jpg', 'png', 'gif']
 });  
 /* /Attachment Files, initialize with defaults */
+
+
+/* Swipe carousel */
+$(document).ready(function() {  
+   $(".carousel").swipeleft(function() {  
+      $(".carousel").carousel('next');  
+   });
+   $(".carousel").swiperight(function() {  
+      $(".carousel").carousel('prev');  
+    });  
+});
+/* Swipe carousel */
 });
 </script>
 </body>
