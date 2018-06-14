@@ -79,6 +79,7 @@
 			<div class="container">
 				<ul id="accordion">
 					<li class="card">
+						<!-- Header Accordion Block -->
 						<div class="card-header" id="headingWorkflow">
 							<h3>
 								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseWorkflow" aria-expanded="true" aria-controls="collapseWorkflow">
@@ -93,19 +94,58 @@
 								<li><i class="fas fa-exclamation-circle"></i> Consult <cite>: 13</cite></li>
 							</ul>
 						</div>
-
+						<!-- /Header Accordion Block -->
+						
+						<!-- Body Accordion Block -->
 						<div id="collapseWorkflow" class="collapse show" aria-labelledby="headingWorkflow" data-parent="#accordion">
 							<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
-							non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
-							bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
-							cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
-							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-						  </div>
+								<!-- Tabs, Buttons Block -->
+								<ul class="d-flex align-items-center lst_button">
+									<li class="mr-auto">
+										<nav>
+											<div class="nav nav-tabs" id="nav-tab" role="tablist">
+												<a class="nav-item nav-link active" id="nav-subordinates-tab" data-toggle="tab" href="#nav-subordinates" role="tab" aria-controls="nav-subordinates" aria-selected="true">
+													<i class="fas fa-sitemap"></i> Subordinates
+												</a>
+													
+												<a class="nav-item nav-link" id="nav-assigned-tab" data-toggle="tab" href="#nav-assigned" role="tab" aria-controls="nav-assigned" aria-selected="false">
+													<i class="fas fa-user-check"></i> Assigned
+												</a>
+												<a class="nav-item nav-link" id="nav-completed-tab" data-toggle="tab" href="#nav-completed" role="tab" aria-controls="nav-completed" aria-selected="false">
+													<i class="fas fa-check-circle"></i> Completed
+												</a>
+											</div>
+										</nav>
+									</li>
+									<li><button type="button" class="btn btn_wizard"><i class="far fa-edit"></i> Initiate wizard</button></li>
+									<li>
+										<cite class="nm_range">1-50</cite> 
+										of <cite class="nm_total">75</cite>
+									</li>
+									<li></li>
+								</ul>
+								<!-- /Tabs, Buttons Block -->
+								
+								<!-- Tabs Body Block -->
+								<div class="tab-content" id="nav-tabContent">
+									<div class="tab-pane fade show active" id="nav-subordinates" role="tabpanel" aria-labelledby="nav-home-tab">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
+										non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a 
+										bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+										cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic 
+										synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+									<div class="tab-pane fade" id="nav-assigned" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+									<div class="tab-pane fade" id="nav-completed" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+								</div>
+								<!-- /Tabs Body Block -->
+							</div>
 						</div>
+						<!-- /Body Accordion Block -->
 					</li>
 					
 					<li class="card">
+						<!-- Header Accordion Block -->
 						<div class="card-header" id="headingBroadcasts">
 							<h3>
 								Dashboard
@@ -118,7 +158,9 @@
 								<li><i class="far fa-envelope"></i> Informatives <cite>: 13</cite></li>
 							</ul>
 						</div>
-
+						<!-- /Header Accordion Block -->
+						
+						<!-- Body Accordion Block -->
 						<div id="collapseBroadcasts" class="collapse" aria-labelledby="headingBroadcasts" data-parent="#accordion">
 						  <div class="card-body">
 							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
@@ -128,9 +170,11 @@
 							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 						  </div>
 						</div>
+						<!-- /Body Accordion Block -->
 					</li>
 					
 					<li class="card">
+						<!-- /Header Accordion Block -->
 						<div class="card-header" id="headingRecords">
 						  <h3>
 							Dashboard
@@ -143,7 +187,9 @@
 								<li><i class="far fa-envelope"></i> Un-assigned <cite>: 13</cite></li>
 							</ul>
 						</div>
+						<!-- /Header Accordion Block -->
 						
+						<!-- Body Accordion Block -->
 						<div id="collapseRecords" class="collapse" aria-labelledby="headingRecords" data-parent="#accordion">
 						  <div class="card-body">
 							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, 
@@ -153,6 +199,7 @@
 							synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 						  </div>
 						</div>
+						<!-- /Body Accordion Block -->
 					</li>
 				</ul>
 			</div> 
