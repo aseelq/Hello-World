@@ -85,7 +85,17 @@
 					</li>
 					<li class="flex-fill">
 						<button type="button" class="btn btn_signing">Signing</button>	
-						<h1>Mohammad Thaher</h1>
+						<div class="dropdown lnk_usrname">
+							<a href="#" data-toggle="dropdown">
+								Mohammad Thaher
+								<i class="fas fa-angle-down"></i>
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#"><span class="label">TO:</span> ISTD Manager | Software Developer | Adnan</a>
+								<a class="dropdown-item" href="#"><span class="label">CC:</span> ISTD Manager | Software Developer | Adnan</a>
+								<span class="dropdown-item"><span class="label"><span class="label">CCC:</span> ISTD Manager | Software Developer | Adnan</span>
+							</div>
+						</div>
 						
 						<ul class="d-flex align-items-center lst_data">
 							<li><i class="fas fa-paperclip"></i><cite class="sr-only">Attachment</cite></li>
@@ -101,28 +111,36 @@
 								</button>
 								
 								<ul class="dropdown-menu">
-									<li><button class="dropdown-item" type="button"><i class="fas fa-file-alt"></i> Generate report</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-user-friends"></i> Consult</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-sign-in-alt"></i> Re-assign</button></li>
+									<li>
+										<a href="#" class="dropdown-item" data-toggle="modal" data-target="#reportModal">
+										<i class="fas fa-file-alt"></i> Generate report</a>
+									</li>
+									<li><a href="consult.html" class="dropdown-item"><i class="fas fa-user-friends"></i> Consult</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-sign-in-alt"></i> Re-assign</a></li>
 									
 									
 									<li class="btn-group dropleft lsbtn_create">
-										<button class="dropdown-item" data-toggle="dropdown" type="button">
+										<a href="#" class="dropdown-item" data-toggle="dropdown">
 											<i class="fas fa-plus-circle"></i> Create as
-										</button>
+										</a>
 										
 										<ul class="dropdown-menu">
-											<li><button class="dropdown-item" type="button"><i class="fas fa-plus-circle"></i> Workflow</button></li>
-											<li><button class="dropdown-item" type="button"><i class="fas fa-plus-circle"></i> Record</button></li>
+											<li>
+												<a href="#" class="dropdown-item" data-toggle="modal" data-target="#workflowModal">
+												<i class="fas fa-plus-circle"></i> Workflow</a>
+											</li>
+											<li>
+												<a href="#" class="dropdown-item"><i class="fas fa-plus-circle"></i> Record</a>
+											</li>
 										</ul>
 									</li>
 									
 									
-									<li><button class="dropdown-item" type="button"><i class="fas fa-reply"></i> Replay</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-reply-all"></i> Replay All</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-chevron-circle-up"></i> Forward</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-thumbs-up"></i> Acknowledge</button></li>
-									<li><button class="dropdown-item" type="button"><i class="far fa-check-circle"></i> Acknowledge</button></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-reply"></i> Replay</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-reply-all"></i> Replay All</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-chevron-circle-up"></i> Forward</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-thumbs-up"></i> Acknowledge</a></li>
+									<li><a href="#" class="dropdown-item"><i class="far fa-check-circle"></i> Acknowledge</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -188,6 +206,21 @@
 			<!-- Download Attachment Block -->
 			<div class="gnral_wrap dwn_attachment_block">
 				<h3 class="ghdr_line">4 Attachmenets</h3>
+				<div class="type_box" id="selecTypeBox">
+					<button type="button" class="close" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					
+					<label for="typeSelect" class="label">File type:</label>
+					<select class="form-control" id="typeSelect">
+					  <option>Case</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+					<button type="button" class="btn btn_ok">Ok</button>
+				</div>
 				
 				<form class="download_wrap" enctype="multipart/form-data">
 					<!-- <div class="file-loading" dir=rtl>, Call it when using Arabic -->
@@ -258,6 +291,11 @@
 								Ut fermentum massa justo sit amet risus, donec id elit non mi porta gravida at eget metus. 
 								Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
 							</p>
+							<dl class="d-flex align-items-center attach_item">
+								<dt>Attachments</dt>
+								<dd><a href="#"><img src="images/img_demo05.png" alt="" /></a></dd>
+								<dd><a href="#"><img src="images/img_demo06.png" alt="" /></a></dd>
+							</dl>
 						</blockquote>
 					</div>
 				</div>
@@ -268,14 +306,144 @@
 </section>
 <!-- Body Website/RWD -->
 
+<!-- Create Workflow/Record Modal -->
+<div class="modal fade gnral_modal workflow_block" id="workflowModal" tabindex="-1" role="dialog" aria-labelledby="workflowModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		
+		<div class="modal-body">
+			<!-- Header title page -->
+			<div class="hdr_block">
+				<h3>Create As:</h3>
+				
+				<ul class="d-flex align-items-center lst_data">
+					<li><i class="fas fa-paperclip"></i><cite class="sr-only">Attachment</cite></li>
+					<li><i class="icon icn_chart"></i><cite class="sr-only">Insights</cite></li>
+					<li>Category 1</li>
+					<li>General Workflow</li>
+					<li>Case No. 3421</li>
+					<li>28 Jan 2016, 2:06 pm</li>
+					
+					<li class="ml-auto"><button type="button" class="btn btn_create"><i class="fas fa-plus-circle"></i> create as</button></li>
+				</ul>
+			</div>
+			<!-- /Header title page -->
 
+			<!-- Workflow Block -->
+			<div class="gnral_box workflow_block">
+				<div class="input-group justify-content-center">
+				  <div class="input-group-prepend">
+					<label class="input-group-text"><i class="small">***</i> Workflow Name:</label>
+				  </div>
+				  <input type="text" class="form-control" placeholder="This field is required.">
+				</div>
+			</div>
+			<!-- /Workflow Block -->
+		</div>
+    </div>
+  </div>
+</div>
+<!-- /Create Workflow/Record Modal -->
+
+<!-- Create Report Modal -->
+<div class="modal fade gnral_modal report_block" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		
+		<div class="modal-body">
+			<!-- Header title page -->
+			<div class="hdr_block">
+				<h3>Generate Report:</h3>
+				
+				<ul class="d-flex align-items-center lst_data">
+					<li><i class="fas fa-paperclip"></i><cite class="sr-only">Attachment</cite></li>
+					<li><i class="icon icn_chart"></i><cite class="sr-only">Insights</cite></li>
+					<li>Category 1</li>
+					<li>General Workflow</li>
+					<li>Case No. 3421</li>
+					<li>28 Jan 2016, 2:06 pm</li>
+					
+					<li class="ml-auto"><button type="button" class="btn btn_create"><i class="fas fa-file-alt"></i> Generate Report</button></li>
+				</ul>
+			</div>
+			<!-- /Header title page -->
+
+			<!-- Report Block -->
+			<div class="gnral_box report_block">
+				<div class="input-group">
+				  <div class="input-group-prepend">
+					<label class="input-group-text">Report Title:</label>
+				  </div>
+				  <div class="form-group">
+					<input type="text" class="form-control" placeholder="my first report">
+				  </div>
+				  
+				  <div class="allblock_wraper">
+				    <h4>Include:</h4>
+					<ul class="d-flex lst_option">
+						<li>
+							<div class="form-check form-check-inline checked">
+								<input class="form-check-input" type="radio" name="inputOption" id="inlineRadio1" value="option1"  checked="true">
+								<label class="form-check-label" for="inlineRadio1">
+									Initiate
+									<i class="small">number of cases created</i>
+								</label>
+							</div>
+						</li>
+						<li>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inputOption" id="inlineRadio2" value="option2">
+								<label class="form-check-label" for="inlineRadio2">
+									First View
+									<i class="small">date of first seen</i>
+								</label>
+							</div>
+						</li>
+						<li>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inputOption" id="inlineRadio3" value="option3">
+								<label class="form-check-label" for="inlineRadio3">
+									Initiate consult
+									<i class="small">number of consulting-cases were intiated</i>
+								</label>
+							</div>
+						</li>
+						<li>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="inputOption" id="inlineRadio4" value="option4">
+								<label class="form-check-label" for="inlineRadio4">
+									Reply consult
+									<i class="small">number of consulting-cases had replied</i>
+								</label>
+							</div>
+						</li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<!-- /Report Block -->
+		</div>
+    </div>
+  </div>
+</div>
+<!-- /Create Report Modal -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.bundle.min.js"></script>
+<!--<script src="js/bootstrap.bundle.min.js"></script>-->
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Summernote Text Editor -->
@@ -406,8 +574,16 @@ $("#downloadFile").fileinput({
 			}
 		}
     });
-});
 /* /Download Attachment Files */
+
+	
+/* Close Modal Select Type Attachment Box */
+$('#selecTypeBox .close').click(function () {
+    $('#selecTypeBox').toggle('close');
+    return false;
+});
+/* /Close Modal Select Type Attachment Box */
+});
 </script>
 </body>
 </html>

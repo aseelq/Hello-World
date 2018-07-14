@@ -1,16 +1,5 @@
-Thumbnail Slider / Carousel:
-http://www.bootply.com/79859#
-
 Swipe Carousel Mobile:
 http://lazcreative.com/blog/how-to/how-to-adding-swipe-support-to-bootstraps-carousel/
-
-
-Slide Menu:
-http://jsbin.com/OjOTIGaP/1/edit
-
-
-Speakers Profile Grid:
-http://www.jqueryscript.net/gallery/Responsive-Auto-Swapping-Photo-Wall-Plugin-jQuery-SwappingWall.html
 
 
 Summernote text editor based on Bootstrap:

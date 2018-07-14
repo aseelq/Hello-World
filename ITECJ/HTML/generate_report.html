@@ -86,7 +86,17 @@
 					</li>
 					<li class="flex-fill">
 						<button type="button" class="btn btn_signing">Signing</button>	
-						<h1>Mohammad Thaher</h1>
+						<div class="dropdown lnk_usrname">
+							<a href="#" data-toggle="dropdown">
+								Mohammad Thaher
+								<i class="fas fa-angle-down"></i>
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#"><span class="label">TO:</span> ISTD Manager | Software Developer | Adnan</a>
+								<a class="dropdown-item" href="#"><span class="label">CC:</span> ISTD Manager | Software Developer | Adnan</a>
+								<span class="dropdown-item"><span class="label"><span class="label">CCC:</span> ISTD Manager | Software Developer | Adnan</span>
+							</div>
+						</div>
 						
 						<ul class="d-flex align-items-center lst_data">
 							<li><i class="fas fa-paperclip"></i><cite class="sr-only">Attachment</cite></li>
@@ -103,35 +113,35 @@
 								
 								<ul class="dropdown-menu">
 									<li>
-										<button class="dropdown-item" type="button" data-toggle="modal" data-target="#reportModal">
-										<i class="fas fa-file-alt"></i> Generate report</button>
+										<a href="#" class="dropdown-item" data-toggle="modal" data-target="#reportModal">
+										<i class="fas fa-file-alt"></i> Generate report</a>
 									</li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-user-friends"></i> Consult</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-sign-in-alt"></i> Re-assign</button></li>
+									<li><a href="consult.html" class="dropdown-item"><i class="fas fa-user-friends"></i> Consult</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-sign-in-alt"></i> Re-assign</a></li>
 									
 									
 									<li class="btn-group dropleft lsbtn_create">
-										<button class="dropdown-item" data-toggle="dropdown" type="button">
+										<a href="#" class="dropdown-item" data-toggle="dropdown">
 											<i class="fas fa-plus-circle"></i> Create as
-										</button>
+										</a>
 										
 										<ul class="dropdown-menu">
 											<li>
-												<button class="dropdown-item" type="button" data-toggle="modal" data-target="#workflowModal">
-												<i class="fas fa-plus-circle"></i> Workflow</button>
+												<a href="#" class="dropdown-item" data-toggle="modal" data-target="#workflowModal">
+												<i class="fas fa-plus-circle"></i> Workflow</a>
 											</li>
 											<li>
-												<button class="dropdown-item" type="button"><i class="fas fa-plus-circle"></i> Record</button>
+												<a href="#" class="dropdown-item"><i class="fas fa-plus-circle"></i> Record</a>
 											</li>
 										</ul>
 									</li>
 									
 									
-									<li><button class="dropdown-item" type="button"><i class="fas fa-reply"></i> Replay</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-reply-all"></i> Replay All</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-chevron-circle-up"></i> Forward</button></li>
-									<li><button class="dropdown-item" type="button"><i class="fas fa-thumbs-up"></i> Acknowledge</button></li>
-									<li><button class="dropdown-item" type="button"><i class="far fa-check-circle"></i> Acknowledge</button></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-reply"></i> Replay</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-reply-all"></i> Replay All</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-chevron-circle-up"></i> Forward</a></li>
+									<li><a href="#" class="dropdown-item"><i class="fas fa-thumbs-up"></i> Acknowledge</a></li>
+									<li><a href="#" class="dropdown-item"><i class="far fa-check-circle"></i> Acknowledge</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -197,6 +207,22 @@
 			<!-- Download Attachment Block -->
 			<div class="gnral_wrap dwn_attachment_block">
 				<h3 class="ghdr_line">4 Attachmenets</h3>
+				<div class="type_box" id="selecTypeBox">
+					<button type="button" class="close" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+					
+					<label for="typeSelect" class="label">File type:</label>
+					<select class="form-control" id="typeSelect">
+					  <option>Case</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+					<button type="button" class="btn btn_ok">Ok</button>
+				</div>
+				
 				
 				<form class="download_wrap" enctype="multipart/form-data">
 					<!-- <div class="file-loading" dir=rtl>, Call it when using Arabic -->
@@ -267,6 +293,11 @@
 								Ut fermentum massa justo sit amet risus, donec id elit non mi porta gravida at eget metus. 
 								Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
 							</p>
+							<dl class="d-flex align-items-center attach_item">
+								<dt>Attachments</dt>
+								<dd><a href="#"><img src="images/img_demo05.png" alt="" /></a></dd>
+								<dd><a href="#"><img src="images/img_demo06.png" alt="" /></a></dd>
+							</dl>
 						</blockquote>
 					</div>
 				</div>
@@ -416,7 +447,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.bundle.min.js"></script>
+<!--<script src="js/bootstrap.bundle.min.js"></script>-->
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Summernote Text Editor -->
@@ -544,8 +575,14 @@ $("#downloadFile").fileinput({
 			}
 		}
     });
+	
+/* Close Modal Select Type Attachment Box */
+$('#selecTypeBox .close').click(function () {
+    $('#selecTypeBox').toggle('close');
+    return false;
 });
-/* /Download Attachment Files */
+/* /Close Modal Select Type Attachment Box */
+});
 </script>
 </body>
 </html>

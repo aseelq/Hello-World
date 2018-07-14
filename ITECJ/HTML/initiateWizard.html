@@ -199,11 +199,11 @@
 									<i class="icn icn_grid"></i>
 								</button>
 								
-								<button type="button" class="btn btn_sitemap"><i class="icn icn_sitemap"></i></button>
-								<button type="button" class="btn btn_diagram"><i class="icn icn_diagram"></i></button>
-								<button type="button" class="btn btn_pen"><i class="icn icn_pen"></i></button>
-								<button type="button" class="btn btn_community"><i class="icn icn_community"></i></button>
-								<button type="button" class="btn btn_list"><i class="icn icn_list"></i></button>
+								<button type="button" class="btn btn_sitemap" title="OS"><i class="icn icn_sitemap"></i></button>
+								<button type="button" class="btn btn_diagram" title="Departments"><i class="icn icn_diagram"></i></button>
+								<button type="button" class="btn btn_pen" title="General Recipient"><i class="icn icn_pen"></i></button>
+								<button type="button" class="btn btn_community" title="Committees"><i class="icn icn_community"></i></button>
+								<button type="button" class="btn btn_list" title="Favorite List"><i class="icn icn_list"></i></button>
 							</div>
 						</div>
 					</div>
@@ -230,6 +230,11 @@
 						<small id="inputSubject" class="form-text">subject is required</small>
 					</div>
 					
+					<div id="popoverWrapper">
+						<a href="javascript:void(0)" role="button" class="btn btn_predefined" data-toggle="popover" data-placement="left" data-container="#popoverWrapper" data-html="true" id="predefined">
+							<i class="fas fa-paste" title="Predefined Versions"></i>
+						</a>	
+					</div>
 					<div id="summernote"></div>
 					
 					<div class="form-group blockquote">
@@ -313,6 +318,22 @@
 			<div class="gnral_box attachment_block">
 				<form class="uploader_wrap" enctype="multipart/form-data">
 					<label>Attachments<i class="small">, attach more files</i>:</label>
+					<div class="type_box" id="selecTypeBox">
+						<button type="button" class="close" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+						
+						<label for="typeSelect" class="label">File type:</label>
+						<select class="form-control" id="typeSelect">
+						  <option>Case</option>
+						  <option>2</option>
+						  <option>3</option>
+						  <option>4</option>
+						  <option>5</option>
+						</select>
+						<button type="button" class="btn btn_ok">Ok</button>
+					</div>
+					
 					
 					<!-- <div class="file-loading" dir=rtl>, Call it when using Arabic -->
 					<div class="file-loading">
@@ -332,14 +353,72 @@
 </section>
 <!-- Body Website/RWD -->
 
-
+<!-- Popover Predefined Box -->
+<div id="popover-content-predefined" style="display:none">
+	<!-- Add/Remove class name="d-none" to Hide/Show the step box -->
+	<div class="step_box step_one d-none">
+		<dl>
+			<dt>Predefined text versions:</dt>
+			<dd>
+				<div class="form-check">
+				  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+				  <label class="form-check-label" for="exampleRadios1">
+					Regarding the last case, i need  you to provide me with ...
+				  </label>
+				</div>
+			</dd>
+			<dd>
+				<div class="form-check">
+				  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+				  <label class="form-check-label" for="exampleRadios2">
+					It would be great if we share what needed before 20th of may
+				  </label>
+				</div>
+			</dd>
+			<dd>
+				<div class="form-check">
+				  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+				  <label class="form-check-label" for="exampleRadios3">
+					For whom be interested
+				  </label>
+				</div>
+			</dd>
+		</dl>
+	</div>
+	
+	<!-- Add/Remove class name="d-none" to Hide/Show the step box -->
+	<div class="step_box step_two">
+		<ul class="d-flex lst_option">
+			<li class="flex-fill">
+				<div class="form-check form-check-inline checked">
+					<input class="form-check-input" type="radio" name="inputOption" id="inlineRadio1" value="option1" checked>
+					<label class="form-check-label" for="inlineRadio1">
+						predefined text versions
+						<i class="small">replace the current text with previous version.</i>
+					</label>
+				</div>
+			</li>
+			<li class="flex-fill">
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="inputOption" id="inlineRadio2" value="option2">
+					<label class="form-check-label" for="inlineRadio2">
+						Create predefined text
+						<i class="small">make the current text as template.</i>
+					</label>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<button type="button" class="btn btn_done">Done</button>
+</div>
+<!-- /Popover Predefined Box -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.bundle.min.js"></script>
+<!--<script src="js/bootstrap.bundle.min.js"></script>-->
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Summernote Text Editor -->
@@ -420,6 +499,38 @@ var options={
 };
 date_input.datepicker(options);
 /* /Select Date Calendar */ 
+
+
+/* Close Modal Select Type Attachment Box */
+$('#selecTypeBox .close').click(function () {
+    $('#selecTypeBox').toggle('close');
+    return false;
+});
+/* /Close Modal Select Type Attachment Box */
+
+/* Activate Popover Predefined Box */
+$("[data-toggle=popover]").each(function(i, obj) {
+	$(this).popover({
+	  html: true,
+	  content: function() {
+		var id = $(this).attr('id')
+		return $('#popover-content-' + id).html();
+	  }
+	}).on('shown.bs.popover', function () {
+		var id = $(this).attr('id');
+		$('.popover').addClass(id + "_box");
+		
+		/* Changed background for option selected box */
+		$(".lst_option .form-check").on("click",function() {
+			if($(this).find('input[type="radio"]').is(':checked')) { 
+			  $('.lst_option .form-check').removeClass('checked');
+			  $(this).addClass('checked');
+			}
+		});
+		/* /Changed background for option selected box */
+	});
+});
+/* /Activate Popover Predefined Box */
 });
 </script>
 </body>

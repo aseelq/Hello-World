@@ -111,6 +111,11 @@ text-transform:uppercase}
 .content_wrap .hdr_block .lst_user h1,
 .content_wrap .hdr_block .lst_user h2{ margin-bottom:0; font-size:18px}
 .content_wrap .hdr_block .lst_user .btn_signing{ margin-bottom:25px}
+.content_wrap .hdr_block .lst_user .lnk_usrname{ color:#000000; font-weight:bold; font-size:18px}
+.content_wrap .hdr_block .lst_user .lnk_usrname a{ color:#000000;}
+
+.content_wrap .hdr_block .lst_user .lnk_usrname .dropdown-item{ color:#92a6ad;  padding:10px 15px}
+.content_wrap .hdr_block .lst_user .lnk_usrname .dropdown-item .lebel{ color:#000000; font-weight:bold; display:inline-block; min-width:40px; margin-right:20px;}
 
 /* --Action Btn Menu-- */
 .content_wrap .hdr_block .lsbtn_action .dropdown-menu{ list-style:none !important}
@@ -216,11 +221,18 @@ text-transform:uppercase}
 /* /--Modal Input/Workflow, Record/ Block-- */
 
 /* --Modal Report Block-- */
-.gnral_modal .gnral_box .lst_option .form-check{ max-width:200px; height:70px; overflow:hidden; padding:12px 10px 10px; background:#ffffff; border:1px solid #d3d3d3; 
+.gnral_modal .gnral_box .lst_option .form-check,
+.predefined_box .lst_option .form-check{ max-width:200px; height:70px; overflow:hidden; padding:12px 10px 10px; background:#ffffff; border:1px solid #d3d3d3; 
 border-radius:5px; align-items: flex-start; cursor:pointer; margin:0 5px 0 0}
-.gnral_modal .gnral_box .lst_option label{ color:#37464f; margin:-5px 0 0; cursor:pointer; font-weight:bold; font-size:14px;}
-.gnral_modal .gnral_box .lst_option .small{ display:block; color:#899ca7; cursor:pointer; font-style:normal}
-.gnral_modal .gnral_box .lst_option .form-check.checked{ background:#d8eff2; border:1px solid #80c1ca;}
+
+.gnral_modal .gnral_box .lst_option label,
+.predefined_box .lst_option label{ color:#37464f; margin:-5px 0 0; cursor:pointer; font-weight:bold; font-size:14px;}
+
+.gnral_modal .gnral_box .lst_option .small,
+.predefined_box .lst_option .small{ display:block; color:#899ca7; cursor:pointer; font-style:normal}
+
+.gnral_modal .gnral_box .lst_option .form-check.checked,
+.predefined_box .lst_option .form-check.checked{ background:#d8eff2; border:1px solid #80c1ca;}
 
 .gnral_modal .gnral_box .allblock_wraper{ display:block; margin:0 auto; padding:0 10px; width:100%;}
 .gnral_modal .gnral_box .allblock_wraper h3, 
@@ -230,7 +242,7 @@ border-radius:5px; align-items: flex-start; cursor:pointer; margin:0 5px 0 0}
 
 
 /* /s.Editor, s.List Item, All Blocks */
-.content_wrap .editor_block{ padding:0 40px; margin-bottom:35px;}
+.content_wrap .editor_block{ padding:0 40px; margin-bottom:35px; position:relative}
 
 .content_wrap .editor_block .form-control{ padding:10px; font-weight:bold; font-size:25px;}
 .content_wrap .editor_block .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#90a3ae !important; padding-top:4px; opacity:1; filter:alpha(opacity=100);}
@@ -263,10 +275,32 @@ color:#90a3ae; }
 
 .content_wrap .list-group .list-group-item blockquote p:before{ content: open-quote; margin-right:15px;}
 .content_wrap .list-group .list-group-item blockquote p:after{ content: close-quote; margin-left:15px;}
+
+.content_wrap .editor_block .btn_predefined{ position:absolute; top:100px; right:20px; z-index:1000; background:#b2b2b3; border:none; color:#fcfcfc; border-radius:50%; 
+width:30px; height:30px; text-align:center; padding:5px 0 0 0; }
+.content_wrap .editor_block .btn_predefined .fas{ font-size:18px}
+
+/* --Popover Predefined Box-- */
+.content_wrap #popoverWrapper{ position:relative; height:40px; width:100%}
+.content_wrap #popoverWrapper .popover{ font-size:17px; background:#fcfcfc; color:#64818b; border: 2px solid #d8eff2; padding:15px; width:100%; max-width:550px; text-align:center; 
+transform: translate3d(0, 0, 0) !important; left:auto !important; right:50px}
+
+.content_wrap #popoverWrapper .popover dl{ text-align:left}
+.content_wrap #popoverWrapper .popover dl > *{ margin-bottom:10px}
+.content_wrap #popoverWrapper .popover .arrow{ display:none;}
+.content_wrap #popoverWrapper .popover .arrow:before{ border-left-color: #d8eff2;}
+.content_wrap #popoverWrapper .popover .arrow:after{ border-left-color: #fcfcfc;}
+.content_wrap #popoverWrapper .popover .btn_done{ background:#80c1ca; border:1px solid #e1e0e0; color:#fcfcfc; min-width:100px; margin:0 auto}
+
+.content_wrap #popoverWrapper .popover .step_box{ margin-bottom:15px}
+.content_wrap #popoverWrapper .popover .step_box .lst_option{ max-width:450px; margin:0 auto; text-align:left}
+.content_wrap #popoverWrapper .popover .lst_option .form-check{ max-width:220px}
+/* /--Popover Predefined Box-- */
 /* /s.Editor, s.List Item, All Blocks */
 
 
 /* s.Attchment Block */
+.content_wrap .attachment_block{ position:relative}
 .content_wrap .attachment_block .uploader_wrap{ padding:0 40px}
 
 .content_wrap .attachment_block label,
@@ -276,17 +310,33 @@ color:#90a3ae; }
 .content_wrap .attachment_block .btn-file, 
 .content_wrap .attachment_block .btn-file:not(:disabled):not(.disabled).active, 
 .content_wrap .attachment_block .btn-file:not(:disabled):not(.disabled):active, 
-.content_wrap .attachment_block .show>.btn-file.dropdown-toggle{ background:#80c1ca; border: 1px solid #e1e0e0;}
+.content_wrap .attachment_block .show > .btn-file.dropdown-toggle{ background:#80c1ca; border: 1px solid #e1e0e0;}
 
 .content_wrap .attachment_block .btn-secondary, 
 .content_wrap .attachment_block .btn-secondary:not(:disabled):not(.disabled).active, 
 .content_wrap .attachment_block .btn-secondary:not(:disabled):not(.disabled):active, 
-.content_wrap .attachment_block .show>.btn-secondary.dropdown-toggle { color:#fcfcfc; background:#a7a7a7; border: 1px solid #e1e0e0; }
+.content_wrap .attachment_block .show > .btn-secondary.dropdown-toggle { color:#fcfcfc; background:#a7a7a7; border: 1px solid #e1e0e0; }
+
+.content_wrap .attachment_block .type_box,
+.content_wrap .dwn_attachment_block .type_box{ width:100%; max-width:400px; position:absolute; z-index:10; top:0; right:0; background:#fcfcfc; border:2px solid #d8eff2;
+border-radius:5px; padding:28px 28px 18px; text-align:center;}
+
+.content_wrap .attachment_block .type_box > *,
+.content_wrap .dwn_attachment_block .type_box > *{ margin: 0 0 10px}
+
+.content_wrap .attachment_block .type_box .close,
+.content_wrap .dwn_attachment_block .type_box .close{ font-weight:bold; color:#80c1ca; opacity:1; position:absolute; top:10px; right:10px}
+
+.content_wrap .attachment_block .type_box .label,
+.content_wrap .dwn_attachment_block .type_box .label{ font-weight:normal; font-size:18px; text-align:left; display:block}
+
+.content_wrap .attachment_block .type_box .btn_ok,
+.content_wrap .dwn_attachment_block .type_box .btn_ok{ background:#80c1ca; border:1px solid #e1e0e0; color:#fcfcfc; min-width:100px; margin:0 auto}
 /* /s.Attchment Block */
 
 
 /* /s.Download Attchment Block */
-.content_wrap .dwn_attachment_block{ margin-bottom:35px;}
+.content_wrap .dwn_attachment_block{ margin-bottom:35px; position:relative}
 .content_wrap .dwn_attachment_block h3,
 .content_wrap .dwn_attachment_block h4{ color:#a3b5c0; display:block; margin-bottom:10px; font-style:italic; font-weight:bold; font-size:14px;}
 
@@ -339,6 +389,9 @@ padding:22px 0 0; border:1px solid #f0f0f0; font-size:14px;}
 
 .content_wrap .history_block .name_user{ color: #90a3ae; font-weight:bold; }
 .content_wrap .history_block .small{ color:#96a7ad; font-style:normal; font-size:17px;}
+
+.content_wrap .history_block .attach_item{ margin:25px 0 0}
+.content_wrap .history_block .attach_item > *{ margin-right:20px;}
 /* /s.Case History Block */
 
 
@@ -402,7 +455,7 @@ width:2px; height:28px; background:#f0f0f0; vertical-align:middle}
 /* --Table Block --*/
 .content_wrap .accordion_block .table{ font-size:15px; margin-bottom:0}
 .content_wrap .accordion_block .table .fas,
-.content_wrap .accordion_block .table .far{ font-size:18px;}
+.content_wrap .accordion_block .table .far{ font-size:18px; color:#495057}
 .content_wrap .accordion_block .table .fa-circle{ color:#fcfcfc; font-size:14px;}
 .content_wrap .accordion_block .table .fa-circle.active{ color:#80c1ca;}
 
@@ -414,6 +467,11 @@ width:2px; height:28px; background:#f0f0f0; vertical-align:middle}
 .content_wrap .accordion_block .table .badge-primary{ background:#80c1ca}
 .content_wrap .accordion_block .table .badge-dark{ background:#6e7f86}
 .content_wrap .accordion_block .table .badge-success{ background:#5fd298}
+
+.content_wrap .accordion_block .table .max_menu{ max-height:150px; overflow-y:auto}
+.content_wrap .accordion_block .table .max_menu .far,
+.content_wrap .accordion_block .table .max_menu .fas,
+.content_wrap .accordion_block .table .max_menu a{ color:#92a6ad}
 /* --/Table Block --*/
 
 /* Carousel Block */
