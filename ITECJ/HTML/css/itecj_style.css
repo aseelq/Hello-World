@@ -363,7 +363,16 @@ font-size: 22px; color:#90a3ae; max-height:135px; overflow:hidden; overflow-y:au
 
 .content_wrap .allsearch_block .gnral_table .custom-checkbox{ display:flex}
 .content_wrap .allsearch_block .btn_attach{ margin:0 auto; }
+.content_wrap .allsearch_block .btn_edit{ float:right !important}
 /* /s.Search Attachment Block */
+
+
+/* /s.Attachment Preview Block */
+.content_wrap .preview_block{ margin:30px auto 0; padding:0; width:100%; min-height:350px; display:flex; text-align:center}
+.content_wrap .preview_block .container{ display:flex; align-items:center; justify-content:center; flex-direction:column; width:100%; padding:5px; 
+background:#fcfcfc; border:2px solid #d8eff2; border-radius:5px; padding:5px}
+.content_wrap .preview_block .preview_info{ font-size:20px; color:#64818b; text-align:center; display:block; margin:0 auto; padding:0}
+/* /s.Attachment Preview Block */
 
 
 /* s.Notifications Block */
