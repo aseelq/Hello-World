@@ -355,10 +355,13 @@ border-radius:5px; padding:28px 28px 18px; text-align:center;}
 .content_wrap .allsearch_block .allblock_wraper .container{ padding:5px; background:#fcfcfc; border:2px solid #d8eff2; border-radius:5px;}
 
 .content_wrap .allsearch_block .xtneed_block .gnral_content label{ font-size:17px}
+.content_wrap .allsearch_block .xtneed_block textarea{ max-width:100% !important}
 .content_wrap .allsearch_block .xtneed_block h2,
 .content_wrap .allsearch_block .xtneed_block h3{ font-size:20px; color:#64818b}
-.content_wrap .allsearch_block .gnral_table .custom-checkbox{ display:flex}
+.content_wrap .allsearch_block .xtneed_block .ditable_box{ padding:15px; background:#ffffff; border:2px solid #d8eff2; border-radius:5px; 
+font-size: 22px; color:#90a3ae; max-height:135px; overflow:hidden; overflow-y:auto}
 
+.content_wrap .allsearch_block .gnral_table .custom-checkbox{ display:flex}
 .content_wrap .allsearch_block .btn_attach{ margin:0 auto; }
 /* /s.Search Attachment Block */
 
