@@ -100,7 +100,7 @@
 	width: 315px;
 	min-width: 0;
 	padding-left: 0;
-	z-index: 9000/*1050*/;
+	z-index: 9999/*1050*/;
 	top: 0;
 	margin: 0; padding:0;
 	bottom: 0;
@@ -190,6 +190,12 @@ width: 0 !important;
 -webkit-transform: rotate(90deg);
 -ms-transform: rotate(90deg);
 transform: rotate(90deg);}
+
+
+#slidemenu .lstmain_links{margin: 0 auto 15px;padding: 0 0 15px;border-bottom: 1px solid rgb(203, 153, 196, 0.3);box-shadow: 0 1px rgba(83, 51, 89,0.7);}
+#slidemenu .lstmain_links a{padding: 10px 10px 10px 17px;display: block;}
+#slidemenu .lstmain_links a i{ display:inline-block; margin:-2px 5px 0 0; }
+#slidemenu .lstmain_links .journal-search{overflow: hidden;padding: 10px 0 10px 0;max-width: 88%;margin: 0 auto;}
 /* /Menu Theme Classes */
 
 
