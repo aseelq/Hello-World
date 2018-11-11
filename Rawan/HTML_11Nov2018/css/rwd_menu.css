@@ -1,18 +1,19 @@
 .pg_revamp .rwd_menu{margin: 10px auto 0 !important;}
 
 .pg_revamp .rwd_menu .nav_other{display:flex;align-items: baseline;padding: 5px 10px 10px;border: 1px solid #cccccc;border-width: 1px 0 0;box-shadow: 0 1px 1px #cccccc;position: relative;z-index: 100;}
-.pg_revamp .rwd_menu .nav_other > li > a{ color:#303030; text-shadow:none; padding:15px 15px 0 0; text-decoration:none}
+.pg_revamp .rwd_menu .nav_other > li > a{ color:#303030; text-shadow:none; padding:15px 5px 0 0; text-decoration:none}
 .pg_revamp .rwd_menu .nav_other > li:last-child > a{ padding:10px 0;}
 .pg_revamp .rwd_menu .nav_other > li{ padding:0; vertical-align:middle}
 
 .pg_revamp .rwd_menu .nav_other{ margin:-15px 0 0}
 .pg_revamp .rwd_menu .nav_other > li > a{font-weight:normal;font-size: 15px;line-height:100%;color:#303030;}
 .pg_revamp .rwd_menu .nav_other > li > a .fa{font-size: 18px;}
+.pg_revamp .rwd_menu .nav_other .journal-cart{background:none}
 
 .pg_revamp .rwd_menu #language, 
 .pg_revamp .rwd_menu #currency{ position:relative}
-.pg_revamp .rwd_menu #language{ padding:15px 15px 0 0; border:none; line-height:100%}
-.pg_revamp .rwd_menu #language .btn-group div{ font-size:17px; line-height:100%}
+.pg_revamp .rwd_menu #language{ padding:15px 5px 0 0; border:none; line-height:100%}
+.pg_revamp .rwd_menu #language .btn-group div{ font-size:15px; line-height:100%}
 
 
 .pg_revamp .rwd_menu #searchBlock{ padding:0; margin:0; position:relative}
