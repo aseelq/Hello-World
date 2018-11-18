@@ -1,0 +1,673 @@
+/* Other Class */
+.pg_revamp{ background:#533359; margin:10px auto 0}
+.pg_revamp a{ display:inline-block}
+.pg_revamp ul, 
+.pg_revamp li{ list-style:none; padding:0; margin:0}
+.pg_revamp .rwan_color{ color:#ba8fc2}
+.pg_revamp .icn{ display:inline-block; padding:0; margin:0; vertical-align:middle; background:url(../images/sprite_images.png) 0 0 no-repeat;}
+.pg_revamp .hide{ display:none !important}
+
+.pg_revamp #logo,
+.pg_revamp .journal-logo{ width:100%}
+.pg_revamp #logo,
+.pg_revamp #logo img{ margin:0 auto; text-align:center; position:static; transform:none}
+.pg_revamp #logo a{ display:inline-block; width:auto}
+
+.pg_revamp .container,
+.pg_revamp #container{ width:100%; padding:0; margin:0 auto; position:relative;}
+.pg_revamp > .container{ z-index:100; overflow:visible}
+.pg_revamp > .container > *{ background:#ffffff; padding:0; max-width:1250px; margin:0 auto !important}
+
+
+.pg_revamp > .container > *.header-notice{ margin:0 auto 25px !important; max-width:inherit}
+.pg_revamp > .container > *.header-notice > div{ padding:0 20px}
+.pg_revamp > .container > *.wrap_footer{ padding:0; max-width:inherit}
+
+.pg_revamp #container{ max-width:1250px;}
+
+.pg_revamp #header,
+.pg_revamp .header{ background:transparent; padding:0; max-width:1250px; margin:0 auto !important; box-shadow: none; right:0; left:0;}
+
+.pg_revamp .wrap_header{ background:none; border:none; padding:0; margin:0 auto; color:#303030; position:relative; max-width:100%}
+/*.pg_revamp .wrap_header:before{ 
+	content:''; display:block; background: url(../images/grd_header.png) center 0 no-repeat; background-size:cover; padding:0; margin:0 auto; width:100%; max-width:1577px; height:265px; position:absolute; z-index:10; left:0; right:0; top:0
+}*/
+
+.pg_revamp .wrap_header:before{
+	content:''; 
+	display:block; 
+	background-size:cover; 
+	padding:0; 
+	margin:0 auto; 
+	width:100%; 
+	
+	
+	position:absolute; 
+	z-index:10; 
+	right:0; 
+	left:0; 
+
+
+	background: url(../images/newHeader-v2.png) center 0 no-repeat;
+    max-width: 1250px;
+    height: 58px;
+    top: 10px;
+}
+/*.pg_revamp .wrap_header .container{ padding:270px 5px 0; position:relative; z-index:5; max-width:1250px; margin:0 auto;*/
+.pg_revamp .wrap_header .container{
+	padding: 70px 5px 0;
+	position:relative; z-index:5; max-width:1250px; margin:0 auto;
+    
+    background: rgb(210,210,210);
+    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 92%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 92%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 92%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    filter: -webkit-linear-gradient(top, rgba(210,210,210,0) 8%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+}	
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2d2d2+0,ffffff+80,ffffff+80,ffffff+100 */
+background: rgb(210,210,210); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(210,210,210,1) 100%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(210,210,210,1) 100%,rgba(255,255,255,1) 80%,rgba(255,255,255,1) 80%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(210,210,210,1) 100%,rgba(255,255,255,1) 80%,rgba(255,255,255,1) 80%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */}
+.pg_revamp .wrap_header a{ color:#303030}
+
+.pg_revamp .journal-header-center #language, 
+.pg_revamp .journal-header-center #currency{ position:relative}
+.pg_revamp .journal-header-center #language{ padding:15px 0 0 15px; border:none; line-height:100%}
+.pg_revamp .journal-header-center #language .btn-group div{ font-size:17px; line-height:100%}
+
+.pg_revamp #header .no-link,
+.pg_revamp .header .no-link,
+.pg_revamp header .no-link{ display:none}
+
+.pg_revamp.is-sticky .journal-logo,
+.pg_revamp.is-sticky .wrap_header:before{ display:none}
+.pg_revamp.is-sticky .journal-menu{ background:#ffffff;}
+.pg_revamp.is-sticky .journal-header-center .mobile-trigger, 
+.pg_revamp.is-sticky .journal-header-center .super-menu > li > a{ line-height:100% !important}
+.pg_revamp.is-sticky .wrap_header .container{ padding:0 5px}
+
+
+.pg_revamp .journal-menu{ background:#ffffff; color:#303030; border:none; border-radius:0; font-weight:bold; font-size:20px; height:100%!important; border-bottom:1px solid #e5e5e5; 
+margin:0 0 25px; padding:0 20px;}
+.pg_revamp .journal-menu > ul{ width:100%; display:inline-block; position:relative}
+.pg_revamp .journal-menu > ul > li{ float:right}
+.pg_revamp .journal-menu > ul > li.pull-right{ float:left}
+
+.pg_revamp .journal-menu .super-menu{ display:block; background:none; position:static}
+.pg_revamp .journal-menu .super-menu > li{ background:none!important}
+.pg_revamp .journal-menu .super-menu > li > a{ color:#303030; font:bold 18px/100% "Helvetica Neue",Helvetica,Arial,sans-serif; padding:0 0 0 15px;} 
+.pg_revamp .journal-menu .super-menu a.button{ color:#fcfcfc}
+
+.pg_revamp .journal-menu .nav_other{ display:flex}
+.pg_revamp .journal-menu .nav_other > li > a{ color:#303030; text-shadow:none; padding:15px 0 0 15px; text-decoration:none}
+.pg_revamp .journal-menu .nav_other > li:last-child > a{ padding:10px 0;}
+.pg_revamp .journal-menu .nav_other > li{ padding:0; vertical-align:middle}
+
+.pg_revamp .journal-menu .nav_other{ margin:-15px 0 0}
+.pg_revamp .journal-menu .nav_other > li > a{ font-weight:normal; font-size:17px; line-height:100%; color:#303030}
+.pg_revamp .journal-menu .nav_other > li > a .fa{ font-size:22px;}
+
+.pg_revamp .journal-menu .dropdown{ position:relative}
+.pg_revamp .journal-menu .dropdown:hover .dropdown-menu { display: block; }
+
+.pg_revamp .journal-menu #searchBlock, .pg_revamp .journal-menu #searchBlock2{ padding:0; margin:0; position:relative}
+.pg_revamp .journal-menu #searchBlock .btn_search, .pg_revamp .journal-menu #searchBlock2 .btn_search{ padding:5px; margin:0; background:none; border:1px solid #e5e5e5; box-shadow:none; border-radius:0; width:52px; height:52px; 
+position:relative; vertical-align:middle; text-align:center}
+.pg_revamp .journal-menu #searchBlock .button-search, .pg_revamp .journal-menu #searchBlock2 .button-search{ background:none; color:#303030; border-radius:0; padding:0; margin:0}
+
+.pg_revamp .journal-menu #searchBlock .btn_search .fa,
+.pg_revamp .journal-menu #searchBlock .button-search .fa,
+.pg_revamp .journal-menu #searchBlock2 .btn_search .fa,
+.pg_revamp .journal-menu #searchBlock2 .button-search .fa
+{font-size:22px; color:#303030!important}
+.pg_revamp .journal-menu #searchBlock .button-search i::before, .pg_revamp .journal-menu #searchBlock2 .button-search i::before{ color:#303030!important}
+.pg_revamp .journal-menu #searchBlock .journal-search, .pg_revamp .journal-menu #searchBlock2 .journal-search{ background:#ffffff; border:1px solid #e5e5e5; width:100%; padding:0}
+
+.pg_revamp .journal-menu #searchBlock #collapseSearch, .pg_revamp .journal-menu #searchBlock2 #collapseSearch{ position:absolute; top:50px; left:0; border-radius:0;}
+.pg_revamp .journal-menu #searchBlock #collapseSearch .form-control, .pg_revamp .journal-menu #searchBlock2 #collapseSearch .form-control{  border-radius:0; min-width:220px!important;}
+
+
+
+.pg_revamp .wrap_footer{ background:none; border:none; padding:0; margin:0 auto; color:#fcfcfc !important; position:relative}
+.pg_revamp .wrap_footer:after{ content:''; display:block; background: url(../images/grd_footer02.png) center 0 no-repeat; background-size:cover; padding:0; margin:0 auto; width:100%; 
+max-width:1335px; height:187px; position:absolute; z-index:10; right:0; left:0; bottom:0/*80px*/}
+
+.pg_revamp .wrap_footer a{ color:#fcfcfc}
+.pg_revamp .wrap_footer h3, 
+.pg_revamp .wrap_footer h5{ text-transform:uppercase; font-size:14px; color:#fcfcfc; border:none}
+
+.pg_revamp .wrap_footer .container,
+.pg_revamp .wrap_footer #footer{ background:#b189b8; padding:50px 50px 200px; position:relative; z-index:5; max-width:1250px;}
+.pg_revamp .wrap_footer .bottom-footer > div{ max-width:1250px;}
+
+.pg_revamp .wrap_footer .column-menu-wrap > ul li,
+.pg_revamp .wrap_footer .columns,
+.pg_revamp .wrap_footer .column-menu-wrap > ul li i,
+.pg_revamp .wrap_footer .column-text-wrap,
+.pg_revamp .wrap_footer .journal-newsletter.text-top .newsletter-text{ color:#fcfcfc !important}
+
+.pg_revamp .wrap_footer .contacts{ padding:10px 0; background:none}
+.pg_revamp .wrap_footer .contacts-left{ display:block}
+
+.pg_revamp .wrap_footer .btn{ padding:0; margin:0; border:0; border-radius:0; box-shadow:none}
+.pg_revamp .wrap_footer .icn{ width:50px; height:48px; background-size:cover}
+
+.pg_revamp .icn.icn_facebook{ background-position:0 0}
+.pg_revamp .icn.icn_twitter{ background-position:-62px 0}
+.pg_revamp .icn.icn_snapchat{ background-position:-126px 0}
+.pg_revamp .icn.icn_instagram{ background-position:-188px 0}
+
+
+/* List Item Box */
+.pg_revamp .lst_box .container{ display:flex; margin:0 auto; padding:25px 0}
+.pg_revamp .lst_box .list-inline{ display:flex; justify-content: center; align-items: center; flex-direction:row; flex-wrap: wrap; margin:0 auto;}
+.pg_revamp .lst_box .list-inline > li{ padding:0 10px; text-align:center; font-size:15px; flex:25%}
+.pg_revamp .lst_box .list-inline .item_wrap{ margin-bottom:25px;}
+
+.pg_revamp .lst_box .list-inline .img_item{ margin-bottom:10px; position:relative; overflow:hidden}
+.pg_revamp .lst_box .list-inline .img_item img{ display:block; width:100%; max-width:397px; height:auto}
+
+.pg_revamp .lst_box .list-inline .img_item cite{ display:flex; justify-content: center; align-items: center; position:absolute; right:0; left:0; top:0; bottom:0; margin:auto; 
+background:rgba(83, 51, 89, 0); opacity:0;
+
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+}
+
+.pg_revamp .lst_box .list-inline .item_wrap.active .img_item cite, 
+.pg_revamp .lst_box .list-inline .img_item:hover cite{ background:rgba(83, 51, 89, 0.85); opacity:1;}
+.pg_revamp .lst_box .list-inline .img_item cite i{ display:inline-block; color:#fcfcfc; background:rgba(0, 0, 0, 0.45); border:1px solid #fcfcfc; padding:12px 15px; border-radius:15px;
+text-transform:uppercase;}
+
+
+.pg_revamp .lst_box .list-inline h3,
+.pg_revamp .lst_box .list-inline h4{ color:#ba8fc2; margin-bottom:5px; text-transform:uppercase; height: 50px; overflow: hidden;}
+
+.pg_revamp .lst_box .list-inline h3 a,
+.pg_revamp .lst_box .list-inline h4 a{ color:#ba8fc2;}
+
+.pg_revamp .lst_box .list-inline .item_wrap.active h3 a, 
+.pg_revamp .lst_box .list-inline .item_wrap.active h4 a, 
+.pg_revamp .lst_box .list-inline h3 a:hover,
+.pg_revamp .lst_box .list-inline h4 a:hover{ color:#533359;}
+/* /List Item Box */
+
+
+/* --- Media Queries --- */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+	.pg_revamp .wrap_header,
+	.pg_revamp .wrap_footer{ padding:0}
+	
+	.pg_revamp .wrap_header:before{ background-size:100%; top:5px;}
+	.pg_revamp .wrap_footer:after{ background-size:100%; max-height:225px}
+	
+	.pg_revamp .wrap_header .container{ padding: 50px 10px 0;}
+	.pg_revamp .wrap_footer .container{ position:relative; padding:10px 10px 170px}
+	
+	.pg_revamp .wrap_footer .lst_social > li{ display:inline-block; margin:0 0 0 15px; padding:0}
+	.pg_revamp .wrap_footer .lst_social > li:last-child{ margin:0}
+	.pg_revamp .wrap_footer .lst_social .list-inline > li{ padding:0}
+	
+	.pg_revamp .journal-menu{ font-size:18px;}
+	.pg_revamp .lst_box .list-inline{}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+	.pg_revamp .lst_box .list-inline > li{ width:47%; flex:auto}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	.mobile-menu-on-tablet .pg_revamp .mobile-trigger:before { float:none!important}
+	.navbar-collapse.collapse{ padding:0}
+	
+	.pg_revamp #logo, 
+	.pg_revamp #logo img{ max-width:100px;}
+		
+	.pg_revamp .wrap_header:before{ height: 40px;}
+	
+	.pg_revamp .journal-menu,
+	.pg_revamp .mobile-menu-on-tablet .journal-header-center .journal-menu{ padding:0 5px; margin:0 auto; height:52px!important; border:none; background:none}
+	.pg_revamp .journal-menu .mobile-trigger{ background:none; color:#000000}
+	
+	.pg_revamp .mobile-trigger,
+	.pg_revamp .mobile-trigger:before{ color:#303030; font-size:20px!important; line-height:100%; vertical-align:middle}
+	.mobile-menu-on-tablet .pg_revamp header .journal-menu .mobile-menu{ display:none!important}
+	
+	.pg_revamp .journal-menu .nav_other{ margin:0; position:relative; top:-55px;}
+	.pg_revamp .journal-menu #searchBlock .btn_search, .pg_revamp .journal-menu #searchBlock2 .btn_search{ border:none}
+	.pg_revamp .journal-menu #searchBlock .btn_search .fa, 
+	.pg_revamp .journal-menu #searchBlock .button-search .fa, 
+	.pg_revamp .journal-menu #searchBlock2 .btn_search .fa, 
+	.pg_revamp .journal-menu #searchBlock2 .button-search .fa, 
+	.pg_revamp .journal-menu .nav_other > li > a{  color:#303030!important}
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+	.pg_revamp > .container > *{ padding:0}
+	.pg_revamp .wrap_header .container,
+	.mobile-menu-on-tablet #header,
+	.mobile-menu-on-tablet header .container .header{ padding:50px 10px 0; display:flex; align-items: center;}
+	
+	.mobile-menu-on-tablet #header,
+	.mobile-menu-on-tablet header .container .header{ padding:0}
+	
+	.pg_revamp .wrap_header .container > *,
+	.mobile-menu-on-tablet #header > *,
+	.mobile-menu-on-tablet header .container .header > *{ display:block; flex: 1 1 auto!important; width:auto!important; margin:0; text-align:left}
+	
+	.pg_revamp #logo, 
+	.pg_revamp .journal-logo, 
+	.pg_revamp #logo img{ float:none; margin:0;}
+	
+	.pg_revamp .journal-menu{ border:none; padding:0; margin:0}
+	.pg_revamp .journal-menu .list-inline{ display:none}
+	
+	.pg_revamp .wrap_footer .container, 
+	.pg_revamp .wrap_footer #footer{ padding:15px 15px 125px}
+	.pg_revamp .wrap_footer::after{ height: 44px; bottom: 0px;}
+	
+	.pg_revamp .lst_box .list-inline > li{ width:100%}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+.pg_revamp .rwd_menu{margin: 10px auto 0 !important;}
+
+.pg_revamp .rwd_menu .nav_other{display:flex;align-items: baseline;padding: 5px 10px 10px;border: 1px solid #cccccc;border-width: 1px 0 0;box-shadow: 0 1px 1px #cccccc;position: relative;z-index: 100;}
+.pg_revamp .rwd_menu .nav_other > li > a{ color:#303030; text-shadow:none; padding:15px 0 0 5px; text-decoration:none}
+.pg_revamp .rwd_menu .nav_other > li:last-child > a{ padding:10px 0;}
+.pg_revamp .rwd_menu .nav_other > li{ padding:0; vertical-align:middle}
+
+.pg_revamp .rwd_menu .nav_other{ margin:-15px 0 0}
+.pg_revamp .rwd_menu .nav_other > li > a{font-weight:normal;font-size: 15px;line-height:100%;color:#303030;}
+.pg_revamp .rwd_menu .nav_other > li > a .fa{font-size: 18px;}
+.pg_revamp .rwd_menu .nav_other .journal-cart{background:none}
+
+.pg_revamp .rwd_menu #language, 
+.pg_revamp .rwd_menu #currency{ position:relative}
+.pg_revamp .rwd_menu #language{ padding:15px 0 0 5px; border:none; line-height:100%}
+.pg_revamp .rwd_menu #language .btn-group div{ font-size:15px; line-height:100%}
+
+
+.pg_revamp .rwd_menu #searchBlock,  .pg_revamp .rwd_menu #searchBlock2{ padding:0; margin:0; position:relative}
+.pg_revamp .rwd_menu #searchBlock .btn_search, .pg_revamp .rwd_menu #searchBlock2 .btn_search{padding:5px;margin:0;background:none;border:1px solid #e5e5e5;box-shadow:none;border-radius:0;width: 35px;height: 35px;position:relative;vertical-align:middle;text-align:center;}
+.pg_revamp .rwd_menu #searchBlock .button-search, .pg_revamp .rwd_menu #searchBlock2 .button-search{ background:none; color:#303030; border-radius:0; padding:0; margin:0}
+
+.pg_revamp .rwd_menu #searchBlock .btn_search .fa,
+.pg_revamp .rwd_menu #searchBlock .button-search .fa,
+.pg_revamp .rwd_menu #searchBlock2 .btn_search .fa,
+.pg_revamp .rwd_menu #searchBlock2 .button-search .fa{font-size: 18px;color:#303030!important;}
+.pg_revamp .rwd_menu #searchBlock .button-search i::before, .pg_revamp .rwd_menu #searchBlock2 .button-search i::before{ color:#303030!important}
+.pg_revamp .rwd_menu #searchBlock .journal-search, .pg_revamp .rwd_menu #searchBlock2 .journal-search{ background:#ffffff; border:1px solid #e5e5e5; width:100%; padding:0}
+
+.pg_revamp .rwd_menu #searchBlock #collapseSearch, .pg_revamp .rwd_menu #searchBlock2 #collapseSearch{ position:absolute; top:50px; left:0; border-radius:0;}
+.pg_revamp .rwd_menu #searchBlock #collapseSearch .form-control, .pg_revamp .rwd_menu #searchBlock2 #collapseSearch .form-control{  border-radius:0; min-width:220px!important;}
+
+.pg_revamp .rwd_menu .nav_other > li:last-child { margin: 0 auto 0 0;}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.pg_revamp .rwd_menu{ display:none}
+}
+
+
+/* Base */
+* {
+	-webkit-user-select: initial;
+	-khtml-user-select: initial;
+	-moz-user-select: initial;
+	-o-user-select: initial;
+}
+
+.clear {
+	clear: both;
+}
+
+.plugin {
+	margin: 0;
+	padding: 0 0 20px 0;
+	background-color: transparent;
+	font-size: 12px;
+	color: #333;
+	font-family: Tahoma, Kalimati, Verdana, "Bitstream Vera Sans", "DejaVu Sans", Geneva, Arial, Helvetica, Sans-serif;
+}
+
+.plugin #content {
+	overflow: hidden;
+}
+
+.plugin #providers {
+	float: right;
+	position: relative;
+}
+
+.plugin #providers .providers_group {
+	float: right;
+}
+
+.plugin #providers .providers_group.hidden {
+	display: none;
+}
+
+.plugin #providers .providers_group .providers_block {
+	overflow: hidden;
+	clear: both;
+	padding: 0 20px;
+}
+
+.plugin #providers.providers_unpaginated .providers_group .providers_block {
+	padding: 0 !important;
+}
+
+.plugin #providers .providers_group .providers_block .providers_row {
+	clear: both;
+}
+
+.plugin #providers .providers_group .scroll {
+	height: 100%;
+	min-height: 100%;
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	bottom: 0;
+	top: 0;
+}
+
+.plugin #ie #providers .providers_group .scroll {
+	top: 30% !important;
+}
+
+.plugin #providers .providers_group .scroll.scroll_left {
+	right: 0;
+}
+
+.plugin #providers .providers_group .scroll.scroll_right {
+	left: 0;
+}
+
+.plugin #providers .providers_group .scroll div {
+	position: relative;
+	background: url("/img/api/themes/assets/arrows_lr.png") no-repeat scroll 0 50% transparent;
+	height: 100%;
+	margin: 0 auto !important;
+}
+
+.plugin #ie #providers .providers_group .scroll div {
+	margin-top: 0 !important;
+}
+
+.plugin #providers .providers_group .scroll.scroll_right div {
+	background-position: -50px 50%;
+}
+
+.plugin #providers .providers_group .scroll.scroll_right:hover div {
+	background-position: -10px 50%;
+}
+
+.plugin #providers .providers_group .scroll.scroll_left div {
+	background-position: -130px 50%;
+}
+
+.plugin #providers .providers_group .scroll.scroll_left:hover div {
+	background-position: -90px 50%;
+}
+
+.plugin #providers .provider {
+	float: right;
+	outline: 0 none;
+}
+
+.plugin #providers .provider .button {
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 9998;
+	outline: 0 none;
+}
+
+.plugin #providers .provider .button .tick {
+	display: inline-block;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	z-index: 9999;
+}
+
+.plugin #providers .provider .name {
+	color: #555;
+	text-align: center;
+	font-size: 11px;
+	line-height: 14px;
+	margin: 1px 0 2px;
+}
+
+.plugin #providers .provider_linked .button .tick {
+	background: url("/img/api/themes/assets/tick.png") no-repeat 0 0 transparent;
+}
+
+.plugin #providers .provider_linked .name {
+	font-weight: bold;
+}
+
+.plugin .footer {
+	margin-top: 5px;
+	font-size: 10px;
+	position: fixed;
+	right: 5px;
+	left: 0;
+	bottom: 0;
+	line-height: 16px;
+}
+
+.plugin .footer #message {
+	display: none;
+	cursor: pointer;
+}
+
+.plugin .footer #message.notice {
+	color: #000;
+}
+
+.plugin .footer #message.error {
+	color: #ff0000;
+}
+
+.plugin .footer #branding {
+	color: #666;
+}
+
+.plugin .footer #branding a {
+	color: #555;
+	text-decoration: none;
+}
+
+.plugin .footer #branding a span.plugin_title {
+	color: #3366CC;
+}
+
+/* Custom */
+.plugin #providers .provider {
+	width: 208px !important;
+	padding: 2px 0px 8px 10px;
+}
+
+.plugin #providers .provider .button .tick {
+	left: -3px;
+	top: -1px;
+}
+
+.plugin #providers .provider .button {
+	height: 30px !important;
+	width: 208px !important;
+	background-image: url("/img/api/themes/iconsets/beveled_connect_w208_h30_c_v1.png");
+	background-repeat: no-repeat;
+}
+
+.plugin #providers .provider .name {
+	display: none !important;
+}
+
+/* Buttons */
+.plugin #providers .provider #button_facebook {
+  background-position: 50% -3px !important;
+}
+
+.plugin #providers .provider #button_google {
+  background-position: 50% -35px !important;
+}
+
+.plugin #providers .provider #button_twitter {
+  background-position: 50% -67px !important;
+}
+
+.plugin #providers .provider #button_yahoo {
+  background-position: 50% -99px !important;
+}
+
+.plugin #providers .provider #button_linkedin {
+  background-position: 50% -131px !important;
+}
+
+.plugin #providers .provider #button_openid {
+  background-position: 50% -163px !important;
+}
+
+.plugin #providers .provider #button_wordpress {
+  background-position: 50% -195px !important;
+}
+
+.plugin #providers .provider #button_hyves {
+  background-position: 50% -227px !important;
+}
+
+.plugin #providers .provider #button_vkontakte {
+  background-position: 50% -259px !important;
+}
+
+.plugin #providers .provider #button_paypal {
+  background-position: 50% -291px !important;
+}
+
+.plugin #providers .provider #button_stackexchange {
+  background-position: 50% -323px !important;
+}
+
+.plugin #providers .provider #button_livejournal {
+  background-position: 50% -355px !important;
+}
+
+.plugin #providers .provider #button_steam {
+  background-position: 50% -387px !important;
+}
+
+.plugin #providers .provider #button_windowslive {
+  background-position: 50% -419px !important;
+}
+
+.plugin #providers .provider #button_youtube {
+  background-position: 50% -451px !important;
+}
+
+.plugin #providers .provider #button_xing {
+  background-position: 50% -483px !important;
+}
+
+.plugin #providers .provider #button_instagram {
+  background-position: 50% -516px !important;
+}
+
+.plugin #providers .provider #button_battlenet {
+  background-position: 50% -549px !important;
+}
+
+.plugin #providers .provider #button_amazon {
+  background-position: 50% -581px !important;
+}
+
+.plugin #providers .provider #button_github {
+  background-position: 50% -613px !important;
+}
+
+.plugin #providers .provider #button_mailru {
+  background-position: 50% -645px !important;
+}
+
+.plugin #providers .provider #button_twitch {
+  background-position: 50% -677px !important;
+}
+
+.plugin #providers .provider #button_reddit {
+  background-position: 50% -709px !important;
+}
+
+.plugin #providers .provider #button_skyrock {
+  background-position: 50% -741px !important;
+}
+
+.plugin #providers .provider #button_foursquare {
+  background-position: 50% -773px !important;
+}
+
+.plugin #providers .provider #button_vimeo {
+  background-position: 50% -805px !important;
+}
+
+.plugin #providers .provider #button_odnoklassniki {
+  background-position: 50% -837px !important;
+}
+
+.plugin #providers .provider #button_blogger {
+  background-position: 50% -869px !important;
+}
+
+.plugin #providers .provider #button_disqus {
+  background-position: 50% -901px !important;
+}
+
+.plugin #providers .provider #button_draugiem {
+  background-position: 50% -933px !important;
+}
+
+.plugin #providers .provider #button_dribbble {
+  background-position: 50% -965px !important;
+}
+
+.plugin #providers .provider #button_pinterest {
+	background-position: 50% -997px !important;
+}
+
+.plugin #providers .provider #button_pixelpin {
+  background-position: 50% -1029px !important;
+}
+
+.plugin #providers .provider #button_storage {
+  background-position: 50% -1061px !important;
+}
+.plugin #providers .provider #button_meetup {
+  background-position: 50% -1093px !important;
+}
+.plugin #providers .provider #button_line {
+  background-position: 50% -1125px !important;
+}
+.plugin #providers .provider #button_soundcloud {
+  background-position: 50% -1157px !important;
+}
+.plugin #providers .provider #button_discord {
+  background-position: 50% -1189px !important;
+}
+.plugin #providers .provider #button_weibo {
+  background-position: 50% -1221px !important;
+}
+.plugin #providers .provider #button_tumblr {
+  background-position: 50% -1253px !important;
+}
