@@ -59,11 +59,11 @@
 	position:relative; z-index:5; max-width:1250px; margin:0 auto;
     
     background: rgb(210,210,210);
-    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 92%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 92%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 92%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 8%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 8%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(210,210,210,0) 8%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
     filter: -webkit-linear-gradient(top, rgba(210,210,210,0) 8%,rgba(255,255,255,1) 16%,rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
-}	
+}
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2d2d2+0,ffffff+80,ffffff+80,ffffff+100 */
 background: rgb(210,210,210); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(210,210,210,1) 100%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
