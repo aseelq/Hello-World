@@ -1,0 +1,36 @@
+1- First of all, you have to read all stylesheet _rtl.css when page show Arabic langauge.
+
+Please make a new folder RTL and get RTL path for whole page which mean:
+RTL/ Folder includes ->
+      images/
+      javascript/ 
+      CSS/
+      fonts/
+
+
+The 1rst step will solve many UI issues regarding Arabic langauge.
+
+
+2- Check attached image how the mobile menu will appear
+ÇáÚÑÈíÉ ->
+   ÇáÚÑÈíÉ
+   ÇáÇäÌáíÒíÉ
+
+ÊÓÌíá ->
+   ÇáÏÎæá ááãæŞÚ
+   ãÓÊÎÏã ÌÏíÏ
+
+ÚÑÈÉ ÇáÊÓæŞ
+
+ÇáÈÍË ->
+ÇáÈÍË Úä ßáãÉ
+
+
+3- Styelsheet changes:
+Arabic:
+j-strap_rtl.css
+rawan_cake_rtl.css
+
+English:
+j-strap.css
+rawan_cake.css
