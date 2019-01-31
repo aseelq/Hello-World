@@ -1,0 +1,10 @@
+Scripts, and Stylesheet online sources:
+
+1- Animation:
+https://daneden.github.io/animate.css/
+
+2- Fontawesome:
+https://fontawesome.com/?from=io
+
+3- Lato web fonts (Google):
+https://google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin
