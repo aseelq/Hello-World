@@ -1,0 +1,131 @@
+/* Font Styles */
+/* lato-regular - latin Regular */
+@font-face {
+  font-family: 'Lato Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lato/lato-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato/lato-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato/lato-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato/lato-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lato/lato-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato/lato-v14-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-700 - latin Middle */
+@font-face {
+  font-family: 'Lato Middle';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lato/lato-v14-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url('../fonts/lato/lato-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato/lato-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato/lato-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lato/lato-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato/lato-v14-latin-700.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-900 - latin Bold */
+@font-face {
+  font-family: 'Lato Bold';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/lato/lato-v14-latin-900.eot'); /* IE9 Compat Modes */
+  src: local('Lato Black'), local('Lato-Black'),
+       url('../fonts/lato/lato-v14-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lato/lato-v14-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lato/lato-v14-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lato/lato-v14-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lato/lato-v14-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* /Font Styles */
+
+/* Style Reset */
+html{ color:#000000; background:#f9faff; background-size:cover; height: 100%;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin:0; padding:0; font-family: 'Lato Regular', Arial, Helvetica, sans-serif}
+body{ direction:ltr; text-align:left; background:#ffffff; color:#000000; height: 100%; overflow-x: hidden;}
+
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before{ content:open-quote;}
+q:after{ content: close-quote;}
+abbr,acronym{border:0; font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#37464f;}
+input,button,textarea,select,optgroup,option{ font-family: 'Lato Regular', Arial, Helvetica, sans-serif; font-size:inherit; font-style:inherit; 
+font-weight:inherit;}
+input,button,textarea,select{font-size:100%;} 
+a, a:link, a:hover{ text-decoration:none !important; color:#61accc; transition:all .7s cubic-bezier(.165,.84,.44,1);}
+a:hover, a:visited{ color:#61accc; transition:all .7s cubic-bezier(.165,.84,.44,1);}
+/* /Style Reset */
+
+/* Coming Soon Styles */
+.pg_initial, .pg_initial section{ height:100%; color:#555555}
+.pg_initial .all_wrapper{ background:0 0 no-repeat; background-size:cover; height:100%; overflow:hidden}
+.pg_initial .container_wrapper{ width:100%; max-width:100%; margin:0; padding:0; height:100%; background:rgba(0, 0, 0, 0.63)}
+
+/* --Main Content */
+.pg_initial .main_content{ height:100%; max-width:570px; background:#ffffff; padding:40px 0 40px 40px; position:relative;}
+.pg_initial .main_content:after{ content:''; display:block; background:#ffffff; width:350px; height:100%; position:absolute; top:0; bottom:0; 
+right:-175px; left:auto; margin:auto 0; z-index:0;
+-webkit-transform: skew(0deg,-78deg);
+transform: skew(0deg,-78deg);
+}
+/* Wide Screen include 1920px Query */
+@media (min-width: 1680px) { 
+	.pg_initial .main_content:after{
+		-webkit-transform: skew(0deg,-82deg);
+		transform: skew(0deg,-82deg);
+	}
+}
+
+.pg_initial .main_content > *{ position:relative; z-index:7}
+.pg_initial .main_content .logo_wrapper{ margin:0 0 100px}
+.pg_initial .main_content h2{ font:normal 72px 'Lato Middle', Arial, Helvetica, sans-serif; text-transform: uppercase;}
+.pg_initial .main_content p{ font-size:31px;}
+
+.pg_initial .main_content .btn{ display:inline-block; width:55px; height:55px; margin:0 15px 0 0; font-size:28px; color:#fcfcfc;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+
+-moz-transform:scale(1,1);
+-webkit-transform:scale(1,1);
+-o-transform:scale(1,1);
+-ms-transform:scale(1,1);
+transform:scale(1,1);
+
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;}
+.pg_initial .main_content .btn:hover{ transform:scale(1.1,1.1);}
+
+.pg_initial .main_content .btn_facebook{ background:#4e71a8}
+.pg_initial .main_content .btn_twitter{ background:#1cb7eb}
+.pg_initial .main_content .btn_linkedin{ background:#1686b0}
+/* --/Main Content */
+
+/* --Border Content */
+.pg_initial .border_content{ position:relative; padding:45px 45px 45px 0;}
+.pg_initial .slogan_wrapper{ color:#fcfcfc; text-align:right; display:flex; justify-content: flex-end; padding:0 50px 40px; position:relative;}
+.pg_initial .slogan_wrapper p{ display:inline-block; max-width:320px; text-align:left; font:normal 66px 'Lato Bold', Arial, Helvetica, sans-serif;
+align-self: flex-end; text-transform: uppercase;}
+
+.pg_initial .slogan_wrapper .bder{ position: absolute; background-color: #ffffff; display: block;}
+
+.pg_initial .slogan_wrapper .bder01{ width: 40%; height: 32px; left: 0; right:auto; top: 0;}
+.pg_initial .slogan_wrapper .bder02{ width: 20%; height: 32px; left:auto; right:0; top: 0;}
+.pg_initial .slogan_wrapper .bder03{ width: 32px; height: 100%; left:auto; right:0; top: 0;}
+.pg_initial .slogan_wrapper .bder04{ width: 15%; height: 32px; left:auto; right:0; bottom: 0;}
+.pg_initial .slogan_wrapper .bder05{ width: 30%; height: 32px; left: 0; right:auto; bottom: 0;}
+/* --/Border Content */
+/* /Coming Soon Styles */
