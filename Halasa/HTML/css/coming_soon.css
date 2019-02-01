@@ -68,13 +68,27 @@ a:hover, a:visited{ color:#61accc; transition:all .7s cubic-bezier(.165,.84,.44,
 
 /* Coming Soon Styles */
 .pg_initial, .pg_initial section{ height:100%; color:#555555}
-.pg_initial .all_wrapper{ background:0 0 no-repeat; background-size:cover; height:100%;}
+.pg_initial .all_wrapper{ background:0 0 no-repeat; background-size:cover; height:100%; overflow:hidden}
 .pg_initial .container_wrapper{ width:100%; max-width:100%; margin:0; padding:0; height:100%; background:rgba(0, 0, 0, 0.63)}
 
 /* --Main Content */
-.pg_initial .main_content{ height:100%; max-width:775px; background:#ffffff; padding:40px;}
+.pg_initial .main_content{ height:100%; max-width:570px; background:#ffffff; padding:40px 0 40px 40px; position:relative;}
+.pg_initial .main_content:after{ content:''; display:block; background:#ffffff; width:350px; height:100%; position:absolute; top:0; bottom:0; 
+right:-175px; left:auto; margin:auto 0; z-index:0;
+-webkit-transform: skew(0deg,-78deg);
+transform: skew(0deg,-78deg);
+}
+/* Wide Screen include 1920px Query */
+@media (min-width: 1680px) { 
+	.pg_initial .main_content:after{
+		-webkit-transform: skew(0deg,-82deg);
+		transform: skew(0deg,-82deg);
+	}
+}
+
+.pg_initial .main_content > *{ position:relative; z-index:7}
 .pg_initial .main_content .logo_wrapper{ margin:0 0 100px}
-.pg_initial .main_content h2{ font:normal 72px 'Lato Middle', Arial, Helvetica, sans-serif;}
+.pg_initial .main_content h2{ font:normal 72px 'Lato Middle', Arial, Helvetica, sans-serif; text-transform: uppercase;}
 .pg_initial .main_content p{ font-size:31px;}
 
 .pg_initial .main_content .btn{ display:inline-block; width:55px; height:55px; margin:0 15px 0 0; font-size:28px; color:#fcfcfc;
@@ -88,11 +102,11 @@ border-radius: 50%;
 -ms-transform:scale(1,1);
 transform:scale(1,1);
 
--moz-transition: all 0.2s ease-in;
--webkit-transition: all 0.2s ease-in;
--o-transition: all 0.2s ease-in;
--ms-transition: all 0.2s ease-in;
-transition: all 0.2s ease-in;}
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;}
 .pg_initial .main_content .btn:hover{ transform:scale(1.1,1.1);}
 
 .pg_initial .main_content .btn_facebook{ background:#4e71a8}
@@ -104,7 +118,7 @@ transition: all 0.2s ease-in;}
 .pg_initial .border_content{ position:relative; padding:45px 45px 45px 0;}
 .pg_initial .slogan_wrapper{ color:#fcfcfc; text-align:right; display:flex; justify-content: flex-end; padding:0 50px 40px; position:relative;}
 .pg_initial .slogan_wrapper p{ display:inline-block; max-width:320px; text-align:left; font:normal 66px 'Lato Bold', Arial, Helvetica, sans-serif;
-align-self: flex-end;}
+align-self: flex-end; text-transform: uppercase;}
 
 .pg_initial .slogan_wrapper .bder{ position: absolute; background-color: #ffffff; display: block;}
 

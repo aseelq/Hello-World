@@ -1,7 +1,9 @@
-/* --- Media Queries --- */
-/* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
+/* -- Media Queries -- */
+/* Extra large devices (normal desktops, 1200px and down) */
+@media (max-width: 1200px){
+	.pg_initial .all_wrapper{ overflow:visible}
 	.pg_initial .main_content{ max-width:55%}
+	.pg_initial .main_content:after{ display:none}
 	
 	.pg_initial .main_content p{ font-size:25px}
 	.pg_initial .main_content h2, 
@@ -9,18 +11,16 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
-	
-}
+@media (max-width: 992px){}
 
 /* Medium devices (tablets, 768px and down) */
-@media (max-width: 768px) {
+@media (max-width: 768px){
 	.pg_initial .main_content{ max-width:100%; height:auto}
 	.pg_initial .container_wrapper > ul.d-flex{ flex-direction: column;}
 }
 
 /* Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) { 
+@media (max-width: 576px){ 
 	.pg_initial .main_content,
 	.pg_initial .slogan_wrapper{ padding:15px}
 	.pg_initial .border_content{ padding: 15px 15px 15px 0}
@@ -28,10 +28,9 @@
 	.pg_initial .main_content .logo_wrapper{ margin:0 auto 25px}	
 	.pg_initial .main_content p{ font-size:18px}
 	.pg_initial .main_content h2, 
-	.pg_initial .slogan_wrapper p{ font-size:35px}
+	.pg_initial .slogan_wrapper p{ font-size:32px}
 	
 	.pg_initial .main_content .btn{ width:45px; height:45px; font-size:20px}
-	
 	.pg_initial .slogan_wrapper .bder01,
 	.pg_initial .slogan_wrapper .bder02, 
 	.pg_initial .slogan_wrapper .bder04,
@@ -40,6 +39,26 @@
 }
 
 /* Small devices (portrait phones, less than 360px) */
-@media (max-width: 359px) {
+@media (max-width: 359px){}
+
+/* Height screen limit query */
+@media (max-height: 480px){
+	.pg_initial .all_wrapper{ height:auto}
+	.pg_initial .main_content,
+	.pg_initial .slogan_wrapper{ padding:15px}
+	.pg_initial .border_content{ padding: 15px 15px 15px 0}
 	
+	.pg_initial .main_content .logo_wrapper{ margin:0 auto 25px}	
+	.pg_initial .main_content p{ font-size:18px}
+	.pg_initial .main_content h2, 
+	.pg_initial .slogan_wrapper p{ font-size:32px}
+	
+	.pg_initial .main_content .social_wrapper{ margin:15px 0 0}
+	.pg_initial .main_content .btn{ width:45px; height:45px; font-size:20px}
+	.pg_initial .slogan_wrapper .bder01,
+	.pg_initial .slogan_wrapper .bder02, 
+	.pg_initial .slogan_wrapper .bder04,
+	.pg_initial .slogan_wrapper .bder05{ height: 12px;}	
+	.pg_initial .slogan_wrapper .bder03{ width: 12px;}
 }
+/* -- /Media Queries -- */
