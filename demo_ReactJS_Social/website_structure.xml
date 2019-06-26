@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<index>
+	<header></header>
+	<pages>
+		<homepage>
+			<carousel></carousel>
+			<introduction></introduction>
+			<newsList></newsList>
+			<contact></contact>
+		</homepage>
+		
+		<about>
+			<headerInner></headerInner>
+			<h1></h1>
+			<breadcrumb></breadcrumb>
+			<post></post>
+		</about>
+		
+		<newsList>
+			<h1></h1>
+			<breadcrumb></breadcrumb>
+			<list></list>
+		</newsList>
+		
+		<newsNode>
+			<h1></h1>
+			<breadcrumb></breadcrumb>
+			<post></post>
+			<list></list>
+		</newsNode>
+		
+		<contact>
+			<h1></h1>
+			<breadcrumb></breadcrumb>
+			<form></form>
+		</contact>
+	</pages>
+	<footer></footer>
+</index>
