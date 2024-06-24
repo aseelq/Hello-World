@@ -1,0 +1,124 @@
+<!doctype html>
+<html dir="ltr" lang="en" xml:lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Code challenge - Create Tasks list - JavaScript</title>
+	
+	
+	<!-- Our project just needs Font Awesome Solid + Brands -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css" />
+  
+	<style>
+		// Styles for Tasks list
+		body{ font-family:Tahoma}
+		
+		.section{ border:1px solid #cccccc; margin:0 auto; max-width:350px; padding:25px; text-align:center;}
+		.section .title{ margin:25px 0}
+		
+		#txtTask{ border:1px solid #c3c3c3; border-radius:0; padding:10px 15px; min-width:calc(100% - 25px); font-size:16px;}
+		#txtTask:focus{outline:none; box-shadow:none;}
+		
+		#lstTasks{ padding:25px 5px 25px 25px; margin:0; text-align:left; border-top:1px Solid #cccccc}
+		#lstTasks .itemTask{  margin-bottom:5px; width:100%}
+		#lstTasks .itemTask span{ padding:0 5px; display:inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width:225px; vertical-align: bottom;}
+		#lstTasks .itemTask span:focus{ outline-style:dotted; outline-color:#cccccc}
+		
+		.icon_delete,
+		.icon_edit{ margin:0 0 0 auto; padding:0 0 0 5px; color: red; display:inline-block; float:right}
+		.icon_edit{ color:blue}
+		.btn_clearList{ display:inline-block; border:none; background:blue; color:white; width:calc(100% - 25px); padding:10px 15px; 
+		font-size:16px; font-weight:bold; text-decoration:none}
+	</style>
+</head>
+<body>
+	<section class="section">
+		<input type="text" id="txtTask" title="Task Item" />
+		<p>Add new Task line by press 'ENTER' or <a id="btnClick" href="javaScript: void(0)">Click here</a></p>
+		
+		<h1 class="title">Tasks List</h1>
+		<ol id="lstTasks"></ol>
+		
+		<a href="javascript:void(0)" class="btn_clearList">Clear All</a>
+	</section>
+	
+	
+	<script>
+		(function (){
+			// Initial variables
+			const btnClick = document.getElementById('btnClick');
+			const lstTasks = document.getElementById('lstTasks');
+			const txtTask = document.getElementById('txtTask');
+			const btnClearAll = document.querySelector('.btn_clearList');
+			
+			
+			// Try, Catch Error
+			try{
+				// Create (ul>li) includes the entered client text field
+				function createItem(){
+					// Create Li with text item
+					const newItem_li = document.createElement('li');
+					newItem_li.setAttribute('class', 'itemTask');
+					if(txtTask.value != '') {
+						newItem_li.innerHTML = '<span class="txt" contenteditable="true">' + txtTask.value + '</span>';
+					} 
+					else{ 
+						newItem_li.innerHTML = '<span class="txt" contenteditable="true">No Task</span>';
+					}
+					lstTasks.appendChild(newItem_li)
+					
+					// Creaet delete icon
+					const iconDelete = document.createElement('a');
+					iconDelete.setAttribute('href', 'javascript: void(0)');
+					iconDelete.setAttribute('class', 'icon_delete');
+					iconDelete.innerHTML = '<i class="fa fa-trash" aria-hidden="true"></i>';
+					newItem_li.appendChild(iconDelete); 
+					
+					// Remove item (ul>li) when click on delete icon
+					iconDelete.addEventListener('click', (e) =>{
+						e.target.parentNode.parentElement.remove();
+					})
+					
+					// Create edit icon
+					const iconEdit = document.createElement('a');
+					iconEdit.setAttribute('href', 'javascript: void(0)');
+					iconEdit.setAttribute('class', 'icon_edit');
+					iconEdit.innerHTML = '<i class="fa fa-pencil" aria-hidden="true"></i>';
+					newItem_li.appendChild(iconEdit);
+					
+					// Edit item (ul>li) when user click on edit icon
+					iconEdit.addEventListener('click', (e) => {
+						let spanTxt = e.target.parentNode.parentElement.querySelector('span');
+						spanTxt.focus();
+					})
+				}
+				
+				// Call createItem function when user click on link 'click here'
+				btnClick.addEventListener('click', e => {
+					e.stopImmediatePropagation();
+					createItem()
+				})
+				// Call createItem function when user press enter the text field
+				txtTask.addEventListener('keyup', (e) => {
+					e.stopImmediatePropagation();
+					if(e.keyCode == 13){
+						createItem()
+						e.target.value = ""
+					}
+				})
+				
+				// Function to clear Task list when user click on BTN clear all
+				btnClearAll.addEventListener('click', (e)=>{
+					if(lstTasks.childNodes.length != 0){
+						lstTasks.innerHTML = ''
+					}
+				})
+				
+			} catch (error) {
+				// Error will appears on DevTool console
+				console.log(error.message);
+			}
+		})()
+	</script>
+</body>
+</html>

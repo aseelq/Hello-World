@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript challenge code</h2>
+<p>The for of statement loops through the values of any iterable object:</p>
+
+<h3>Q1: "Hello World" becames "olleH dlroW"</h3>
+<p id="q01"></p>
+
+<h3>Q2: Store all the repeated elements in an empty array</h3>
+<p id="q02"></p>
+
+<script>
+// Q1. How do you implement a function to reverse words in a sentence in JavaScript? So "Hello World" becames "olleH dlroW"
+// A1. Solution
+
+function reverseWord(txtValue){
+  // It will reverse every word in its place
+  const newTxtValue = txtValue.split(' ').map(word=>word.split('').reverse().join('')).join(' ');
+  document.getElementById("q01").innerHTML = newTxtValue;
+}
+
+reverseWord('Hello World') // Output: "olleH dlroW"
+
+
+// Q2. The For loop is used to store all the repeated elements in an empty array.
+// A2. Solution
+let arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
+let newArr = [];
+
+for(let item = 0; item < arr.length; item++){
+	for(let nextItem = item + 1; nextItem < arr.length; nextItem++){
+		if(arr[item] === arr[nextItem]){
+			newArr.push(arr[item])
+		}
+	}
+}
+if(newArr.length === 0){
+	newArr.push(-1)  // If no duplicates found, add a placeholder value
+}
+
+
+/* Store no duplicates item in an empty array
+arr.forEach((item) =>{
+	if(!newArr.includes(item)){
+		newArr.push(item)
+	}
+})
+*/
+
+document.getElementById('q02').innerHTML = newArr
+</script>
+
+</body>
+</html>
